@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<kmehrmessage>
+ <header>
+  <standard>
+   <cd S="CD-STANDARD" SV="1.0">20021205</cd>
+  </standard>
+  <id S="ID-KMEHR" SV="1.0">16198802004.20070928123603588</id>
+  <date>2007-09-28</date>
+  <time>12:36:03</time>
+  <sender>
+   <hcparty>
+    <id S="ID-HCPARTY" SV="1.0"></id>
+    <cd S="CD-HCPARTY" SV="1.0">orghospital</cd>
+    <name>CHU de Liège</name>
+   </hcparty>
+  </sender>
+  <recipient>
+   <hcparty>
+    <id S="ID-HCPARTY" SV="1.0">16198802004</id>
+    <id S="LOCAL" SL="ST" SV="1.0">161988</id>
+    <cd S="CD-HCPARTY" SV="1.0">persphysician</cd>
+    <firstname>MARIE-GHISLAINE</firstname>
+    <familyname>D&apos;OR</familyname>
+   </hcparty>
+  </recipient>
+ </header>
+ <folder>
+  <id S="ID-KMEHR" SV="1.0">1</id>
+  <patient>
+   <id S="ID-PATIENT" SV="1.0">49451601870</id>
+   <id S="LOCAL" SL="ST" SV="1.0">0921094Z</id>
+   <firstname>Iryna</firstname>
+   <familyname>PAWLUK</familyname>
+   <birthdate>
+    <date>1949-05-16</date>
+   </birthdate>
+   <sex>
+    <cd S="CD-SEX" SV="1.0">female</cd>
+   </sex>
+   <address>
+    <cd S="CD-ADDRESS" SV="1.0">home</cd>
+    <country>
+     <cd S="CD-COUNTRY" SV="1.0">be</cd>
+    </country>
+    <zip>4000</zip>
+    <city>ROCOURT</city>
+    <street>RUE VICTOR CROISIERS 8</street>
+   </address>
+  </patient>
+  <transaction>
+   <id S="ID-KMEHR" SV="1.0">1</id>
+   <cd S="CD-TRANSACTION" SV="1.0">labresult</cd>
+   <date>2007-09-28</date>
+   <time>12:36:03</time>
+   <author>
+    <hcparty>
+     <id S="ID-HCPARTY" SV="1.0"></id>
+     <cd S="CD-HCPARTY" SV="1.0">persphysician</cd>
+     <firstname>Pascale</firstname>
+     <familyname>HUYNEN</familyname>
+    </hcparty>
+    <hcparty>
+     <id S="ID-HCPARTY" SV="1.0"></id>
+     <id S="LOCAL" SL="D_ST" SV="1.0">ST</id>
+     <id S="LOCAL" SL="ST" SV="1.0">ST</id>
+     <cd S="CD-HCPARTY" SV="1.0">deptlaboratory</cd>
+     <name>CHU de Liège</name>
+    </hcparty>
+    <hcparty>
+     <id S="ID-HCPARTY" SV="1.0">86270018383</id>
+     <id S="LOCAL" SL="ST" SV="1.0">862700</id>
+     <cd S="CD-HCPARTY" SV="1.0">orglaboratory</cd>
+     <name>Département de Biologie Clinique</name>
+    </hcparty>
+   </author>
+   <iscomplete>true</iscomplete>
+   <isvalidated>true</isvalidated>
+   <item>
+    <id S="ID-KMEHR" SV="1.0">1</id>
+    <cd S="CD-ITEM" SV="1.0">requestnumber</cd>
+    <content>
+     <id S="LOCAL" SL="local" SV="1.0">13-070926-0230</id>
+     <cd S="" SV="1.0">G0099474</cd>
+    </content>
+   </item>
+   <item>
+    <id S="ID-KMEHR" SV="1.0">2</id>
+    <cd S="CD-ITEM" SV="1.0">requestdatetime</cd>
+    <content>
+     <date>2007-09-26</date>
+     <time>12:18:00</time>
+    </content>
+   </item>
+   <item>
+    <id S="ID-KMEHR" SV="1.0">3</id>
+    <cd S="CD-ITEM" SV="1.0">requestor</cd>
+    <content>
+     <hcparty>
+      <id S="ID-HCPARTY" SV="1.0">16198802004</id>
+      <id S="LOCAL" SL="ST" SV="1.0">161988</id>
+      <cd S="CD-HCPARTY" SV="1.0">persphysician</cd>
+      <firstname>MARIE-GHISLAINE</firstname>
+      <familyname>D&apos;OR</familyname>
+     </hcparty>
+    </content>
+   </item>
+   <heading>
+    <id S="ID-KMEHR" SV="1.0">4</id>
+    <cd S="CD-HEADING-LAB" SV="1.0">-</cd>
+   </heading>
+   <heading>
+    <id S="ID-KMEHR" SV="1.0">5</id>
+    <cd S="CD-HEADING-LAB" SV="1.0">-</cd>
+   </heading>
+   <heading>
+    <id S="ID-KMEHR" SV="1.0">6</id>
+    <cd S="CD-HEADING-LAB" SV="1.0">-</cd>
+   </heading>
+   <heading>
+    <id S="ID-KMEHR" SV="1.0">7</id>
+    <cd S="CD-HEADING-LAB" SV="1.0">-</cd>
+   </heading>
+   <heading>
+    <id S="ID-KMEHR" SV="1.0">8</id>
+    <cd S="CD-HEADING-LAB" SV="1.0">MICROBIOLOGIE</cd>
+    <heading>
+     <id S="ID-KMEHR" SV="1.0">1</id>
+     <cd S="CD-HEADING-LAB" SV="1.0">URINE MI-JET</cd>
+     <heading>
+      <id S="ID-KMEHR" SV="1.0">1</id>
+      <cd S="CD-HEADING-LAB" SV="1.0">EXAMEN MICROSCOPIQUE DIRECT (Gram)</cd>
+      <item>
+       <id S="ID-KMEHR" SV="1.0">1</id>
+       <cd S="CD-ITEM" SV="1.0">lab</cd>
+       <cd S="LOCAL" SL="local" DN="." L="F" SV="1.0">B_GRAMNEG</cd>
+       <content>
+        <text xml:space="preserve" L="F">NEGATIF, pas de bactéries ni de leucocytes observés.</text>
+        <unit>
+         <cd S="LOCAL" SL="local" DN="" L="F" SV="1.0"></cd>
+        </unit>
+        <minref>
+         <text xml:space="preserve" L="F"></text>
+        </minref>
+       </content>
+       <author>
+        <hcparty>
+         <id S="ID-HCPARTY" SV="1.0"></id>
+         <cd S="CD-HCPARTY" SV="1.0">persphysician</cd>
+         <firstname>Pascale</firstname>
+         <familyname>HUYNEN</familyname>
+        </hcparty>
+       </author>
+       <beginmoment>
+        <date>2007-09-26</date>
+        <time>12:18:00</time>
+       </beginmoment>
+       <iscomplete>true</iscomplete>
+       <isvalidated>true</isvalidated>
+       <confirmationmoment>
+        <date>2007-09-28</date>
+        <time>10:17:09</time>
+       </confirmationmoment>
+       <validationmoment>
+        <date>2007-09-28</date>
+        <time>12:33:25</time>
+       </validationmoment>
+      </item>
+     </heading>
+     <item>
+      <id S="ID-KMEHR" SV="1.0">2</id>
+      <cd S="CD-ITEM" SV="1.0">lab</cd>
+      <cd S="LOCAL" SL="local" DN="CULTURE AEROBIE" L="F" SV="1.0">AER</cd>
+      <content>
+       <text xml:space="preserve" L="F">NEGATIVE, pas de croissance ou moins de 1.000 CFU/ml.
+
+
+</text>
+       <unit>
+        <cd S="LOCAL" SL="local" DN="" L="F" SV="1.0"></cd>
+       </unit>
+       <minref>
+        <text xml:space="preserve" L="F"></text>
+       </minref>
+      </content>
+      <author>
+       <hcparty>
+        <id S="ID-HCPARTY" SV="1.0"></id>
+        <cd S="CD-HCPARTY" SV="1.0">persphysician</cd>
+        <firstname>Pascale</firstname>
+        <familyname>HUYNEN</familyname>
+       </hcparty>
+      </author>
+      <beginmoment>
+       <date>2007-09-26</date>
+       <time>12:18:00</time>
+      </beginmoment>
+      <iscomplete>true</iscomplete>
+      <isvalidated>true</isvalidated>
+      <confirmationmoment>
+       <date>2007-09-28</date>
+       <time>10:17:09</time>
+      </confirmationmoment>
+      <validationmoment>
+       <date>2007-09-28</date>
+       <time>12:33:25</time>
+      </validationmoment>
+     </item>
+    </heading>
+   </heading>
+   <heading>
+    <id S="ID-KMEHR" SV="1.0">9</id>
+    <cd S="CD-HEADING-LAB" SV="1.0">DONNEES CLINIQUES:
+</cd>
+   </heading>
+   <heading>
+    <id S="ID-KMEHR" SV="1.0">10</id>
+    <cd S="CD-HEADING-LAB" SV="1.0">Confraternellement</cd>
+   </heading>
+  </transaction>
+ </folder>
+</kmehrmessage>

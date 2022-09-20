@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<ClinicalDocument xsi:schemaLocation="urn:hl7-org:v3 CDA.xsd" xmlns="urn:hl7-org:v3"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns="urn:hl7-org:v3">
+    <typeId extension="POCD_HD000040" root="2.16.840.1.113883.1.3"/>
+    <!-- OID del doc -->
+    <id root="2.16.840.1.113883.2.9.2.90907.4.4" extension="IEHR.FTGM10.0.00"
+        assigningAuthorityName="Fondazione Monasterio"/>
+    <code code="34133-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"
+        displayName="Summarization of episode note"/>
+    <title>Fondazione Gabriele Monasterio Encounter list</title>
+    <effectiveTime value="20220403160000+0200"/>
+    <!-- Data ed ora del documento -->
+    <confidentialityCode code="N" codeSystem="2.16.840.1.113883.5.25"/>
+    <languageCode code="it_IT"/>
+    <setId root="2.16.840.1.113883.2.9.2.90907.4.4" extension="IEHR.FTGM10.0.00"
+        assigningAuthorityName="Fondazione Monasterio"/>
+    <versionNumber value="1"/>
+
+    <recordTarget>
+        <patientRole>
+            <id assigningAuthorityName="C7_IEHR" extension="IEHR.FTGM10"
+                root="2.16.840.1.113883.2.9.2.90907.4.1"/>
+            <!-- codint 218986|31 -->
+        </patientRole>
+    </recordTarget>
+
+    <author>
+        <!--Mandatory in CDA R2-->
+        <time value="20220403160000+0200"/>
+        <assignedAuthor>
+            <id extension="FTGM EHR" root="2.16.840.1.113883.2.9.2.90907.4.5.1"/>
+        </assignedAuthor>
+    </author>
+
+    <custodian>
+        <!--Mandatory in CDA R2-->
+        <assignedCustodian>
+            <representedCustodianOrganization>
+                <!--OID FTGM -->
+                <id root="2.16.840.1.113883.2.9.2.90907"/>
+                <name>Fondazione Gabriele Monasterio</name>
+            </representedCustodianOrganization>
+        </assignedCustodian>
+    </custodian>
+
+    <component>
+        <structuredBody>
+
+            <component>
+                <section>
+                    <entry>
+                        <encounter classCode="ACCM" moodCode="EVN">
+                            <id assigningAuthorityName="Fondazione Monasterio" extension="6601652"
+                                root="2.16.840.1.113883.2.9.2.90907.4.6"/>
+                            <code codeSystem="2.16.840.1.113883.1.11.13955"
+                                codeSystemName="ActEncounterCode" displayName="ambulatory"
+                                code="AMB"/>
+                            <effectiveTime value="20210520"/>
+                            <performer>
+                                <assignedEntity>
+                                    <id root="2.16.840.1.113883.2.9.2.90907"/>
+                                    <representedOrganization>
+                                        <id root="2.16.840.1.113883.2.9.2.90907"/>
+                                        <name>Fondazione Gabriele Monasterio</name>
+                                    </representedOrganization>
+                                </assignedEntity>
+                            </performer>
+                        </encounter>
+                    </entry>
+                </section>
+            </component>
+
+
+
+        </structuredBody>
+    </component>
+</ClinicalDocument>

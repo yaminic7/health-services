@@ -1,0 +1,49 @@
+INFO [2021-06-16 17:15:48,376] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/Conversion/automatic-process/test.ttl
+INFO [2021-06-16 17:15:50,980] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/Conversion/automatic-process/test.ttl
+ERROR [2021-12-16 15:09:02,928] (CommandLineArgumentParser->parse->34): Error occured while parsing arguments!
+org.apache.commons.cli.UnrecognizedOptionException: Unrecognized option: --outpDDDutfile
+	at org.apache.commons.cli.Parser.processOption(Parser.java:363)
+	at org.apache.commons.cli.Parser.parse(Parser.java:199)
+	at org.apache.commons.cli.Parser.parse(Parser.java:85)
+	at edu.isi.karma.rdf.CommandLineArgumentParser.parse(CommandLineArgumentParser.java:26)
+	at edu.isi.karma.rdf.GenerateContextFromModel.main(GenerateContextFromModel.java:25)
+INFO [2022-01-18 15:00:41,061] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/Conversion/automatic-process/../../resources/models/Encounter.ttl
+INFO [2022-01-18 15:00:43,009] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/Conversion/automatic-process/../../resources/models/Encounter.ttl
+INFO [2022-01-18 15:03:30,571] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/Conversion/automatic-process/encTestModel.ttl
+INFO [2022-01-18 15:03:32,339] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/Conversion/automatic-process/encTestModel.ttl
+INFO [2022-01-18 15:06:38,541] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/Conversion/automatic-process/Encounter.xml-model.ttl
+INFO [2022-01-18 15:06:40,504] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/Conversion/automatic-process/Encounter.xml-model.ttl
+INFO [2022-01-18 15:09:15,062] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/Conversion/automatic-process/Encounter.xml-model.ttl
+INFO [2022-01-18 15:09:17,339] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/Conversion/automatic-process/Encounter.xml-model.ttl
+INFO [2022-01-18 15:10:34,852] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/Conversion/automatic-process/Encounter.xml-model.ttl
+INFO [2022-01-18 15:10:38,304] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/Conversion/automatic-process/Encounter.xml-model.ttl
+INFO [2022-01-18 15:11:52,914] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/Conversion/automatic-process/Encounter.xml-model.ttl
+INFO [2022-01-18 15:11:56,274] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/Conversion/automatic-process/Encounter.xml-model.ttl
+INFO [2022-01-18 15:12:33,992] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/Conversion/automatic-process/Encounter.xml-model.ttl
+INFO [2022-01-18 15:12:37,200] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/Conversion/automatic-process/Encounter.xml-model.ttl
+INFO [2022-01-18 15:12:59,222] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/Conversion/automatic-process/Encounter.xml-model.ttl
+INFO [2022-01-18 15:13:00,922] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/Conversion/automatic-process/Encounter.xml-model.ttl
+INFO [2022-01-18 15:13:08,688] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/Conversion/automatic-process/Encounter.xml-model.ttl
+INFO [2022-01-18 15:13:10,491] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/Conversion/automatic-process/Encounter.xml-model.ttl
+INFO [2022-01-18 15:13:17,020] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/Conversion/automatic-process/Encounter.xml-model.ttl
+INFO [2022-01-18 15:13:18,704] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/Conversion/automatic-process/Encounter.xml-model.ttl
+INFO [2022-01-18 15:13:52,786] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/Conversion/automatic-process/Encounter.xml-model.ttl
+INFO [2022-01-18 15:13:54,614] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/Conversion/automatic-process/Encounter.xml-model.ttl
+INFO [2022-01-18 15:19:03,201] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/Conversion/automatic-process/Encounter.xml-model.ttl
+INFO [2022-01-18 15:19:04,944] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/Conversion/automatic-process/Encounter.xml-model.ttl
+INFO [2022-01-18 15:20:37,091] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/Conversion/automatic-process/Encounter.xml-model.ttl
+INFO [2022-01-18 15:20:38,983] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/Conversion/automatic-process/Encounter.xml-model.ttl
+INFO [2022-01-18 15:31:44,490] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/Conversion/automatic-process/Encounter.xml-model.ttl
+INFO [2022-01-18 15:31:46,372] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/Conversion/automatic-process/Encounter.xml-model.ttl
+INFO [2022-01-18 15:32:39,747] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/Conversion/automatic-process/Encounter.xml-model.ttl
+INFO [2022-01-18 15:32:41,686] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/Conversion/automatic-process/Encounter.xml-model.ttl
+INFO [2022-01-18 15:41:26,986] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/Conversion/automatic-process/Encounter.xml-model.ttl
+INFO [2022-01-18 15:41:28,763] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/Conversion/automatic-process/Encounter.xml-model.ttl
+INFO [2022-01-18 15:49:54,965] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/Conversion/automatic-process/Encounter.xml-model.ttl
+INFO [2022-01-18 15:49:56,701] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/Conversion/automatic-process/Encounter.xml-model.ttl
+INFO [2022-01-18 16:06:37,202] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/Conversion/automatic-process/../../resources/models/Patient.ttl
+INFO [2022-01-18 16:06:38,845] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/Conversion/automatic-process/../../resources/models/Patient.ttl
+INFO [2022-01-18 17:00:07,630] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/Conversion/automatic-process/../../resources/models/Patient.ttl
+INFO [2022-01-18 17:00:10,743] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/Conversion/automatic-process/../../resources/models/Patient.ttl
+INFO [2022-02-01 15:44:37,125] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/Conversion/automatic-process/../../resources/models/Encounter.ttl
+INFO [2022-02-01 15:44:39,783] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/Conversion/automatic-process/../../resources/models/Encounter.ttl

@@ -1,0 +1,43 @@
+{
+   "parent": null,
+   "properties": {
+      "DTEDEB": "04/10/2021",
+      "FEVGR": "65",
+      "VFEVG1": "65",
+      "VSIVD1": "12"
+   },
+   "date": "04/10/2021",
+   "description": "Echo repos",
+   "objet": {
+      "objectType": 3,
+      "description": "Echo repos",
+      "numDescription": 33314,
+      "numNat": "0099144Q",
+      "startDate": "04/10/2021",
+      "numArbObj": "5ASN95ASN85A71T",
+      "service": "Cardiologie",
+      "numPat": 216446,
+      "report": null,
+      "numArbParent": "5ASN95ASN8",
+      "endDate": null,
+      "eventNumDescription": 7,
+      "eventStartDate": "04/10/2021",
+      "niss": "45100218591",
+      "deleted": false,
+      "numObj": 51592399,
+      "defFen": 30237,
+      "closure": "C",
+      "creationDate": "04/10/2021",
+      "updateDate": "12/05/2022",
+      "noAdmission": null,
+      "numServ": 0,
+      "hcpInami": "16808516734",
+      "hcpNiss": null,
+      "hcpFirstName": "ARNAUD",
+      "hcpFamilyName": "ANCION",
+      "eventEndDate": null
+   },
+   "children": [],
+   "sectionType": "O",
+   "idNum": 51592399
+}

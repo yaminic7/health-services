@@ -1,0 +1,24 @@
+[
+{
+    "etype:has_identifier_GID-39085_Type-1": "6129269",
+    "etype:has_fhir_encounter.status_GID-641712_Type-641751": "{\"id\":\"79577\",\"kind\":\"CONCEPT\",\"probability\":0.28327643871307373,\"name\":{\"strings\":{\"eng\":[\"finished\"]}},\"description\":{\"strings\":{\"eng\":[\"(of materials or goods) brought to the desired final state\"]}},\"metadata\":{\"summary\":\"\",\"lemma\":\"finished\"}}",
+    "etype:has_fhir_encounter.subject.reference_GID-641788_Type-641751": {
+        "etype:has_identifier_GID-39085_Type-1": "FTGM01",
+        "@type": ["etype:Patient_GID-55936"]
+    },
+    "etype:has_fhir_encounter.period.start_GID-641714_Type-641751": "2019-11-04T00:00:00",
+    "@type": ["etype:Fhir_encounter_GID-641751"],
+    "etype:has_fhir_encounter.class_GID-641713_Type-641751": "{\"id\":\"588301\",\"kind\":\"CONCEPT\",\"probability\":1.0,\"name\":{\"strings\":{\"eng\":[\"actcode_amb\"]}},\"description\":{\"strings\":{\"eng\":[\"A comprehensive term for health care provided in a healthcare facility (e.g. a practitioneraTMs office, clinic setting, or hospital) on a nonresident basis. The term ambulatory usually implies that the patient has come to the location and is not assigned to a bed. Sometimes referred to as an outpatient encounter.\"]}},\"metadata\":{\"summary\":\"\",\"lemma\":\"actcode_amb\"}}"
+},
+{
+    "etype:has_identifier_GID-39085_Type-1": "123456",
+    "etype:has_fhir_encounter.status_GID-641712_Type-641751": "{\"id\":\"79577\",\"kind\":\"CONCEPT\",\"probability\":0.28327643871307373,\"name\":{\"strings\":{\"eng\":[\"finished\"]}},\"description\":{\"strings\":{\"eng\":[\"(of materials or goods) brought to the desired final state\"]}},\"metadata\":{\"summary\":\"\",\"lemma\":\"finished\"}}",
+    "etype:has_fhir_encounter.subject.reference_GID-641788_Type-641751": {
+        "etype:has_identifier_GID-39085_Type-1": "FTGM01",
+        "@type": ["etype:Patient_GID-55936"]
+    },
+    "etype:has_fhir_encounter.period.start_GID-641714_Type-641751": "2021-12-08T00:00:00",
+    "@type": ["etype:Fhir_encounter_GID-641751"],
+    "etype:has_fhir_encounter.class_GID-641713_Type-641751": "{\"id\":\"588301\",\"kind\":\"CONCEPT\",\"probability\":1.0,\"name\":{\"strings\":{\"eng\":[\"actcode_amb\"]}},\"description\":{\"strings\":{\"eng\":[\"A comprehensive term for health care provided in a healthcare facility (e.g. a practitioneraTMs office, clinic setting, or hospital) on a nonresident basis. The term ambulatory usually implies that the patient has come to the location and is not assigned to a bed. Sometimes referred to as an outpatient encounter.\"]}},\"metadata\":{\"summary\":\"\",\"lemma\":\"actcode_amb\"}}"
+}
+]

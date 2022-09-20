@@ -1,0 +1,1804 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<kmehrmessage>
+ <header>
+  <standard>
+   <cd S="CD-STANDARD" SV="1.0">20021205</cd>
+  </standard>
+  <id S="ID-KMEHR" SV="1.0">16735666598.20170918100803171</id>
+  <date>2017-09-18</date>
+  <time>10:08:03</time>
+  <sender>
+   <hcparty>
+    <id S="ID-HCPARTY" SV="1.0"></id>
+    <cd S="CD-HCPARTY" SV="1.0">orghospital</cd>
+    <name>CHU de Liège</name>
+   </hcparty>
+  </sender>
+  <recipient>
+   <hcparty>
+    <id S="ID-HCPARTY" SV="1.0">16559284004</id>
+    <id S="LOCAL" SL="ST" SV="1.0">165592</id>
+    <id S="LOCAL" SL="MEXI" SV="1.0">165592</id>
+    <cd S="CD-HCPARTY" SV="1.0">persphysician</cd>
+    <firstname>MARIE-GENEVIEVE</firstname>
+    <familyname>HERMAN</familyname>
+   </hcparty>
+   <hcparty>
+    <id S="ID-HCPARTY" SV="1.0">16559284004</id>
+    <id S="LOCAL" SL="ST" SV="1.0">165592</id>
+    <id S="LOCAL" SL="MEXI" SV="1.0">165592</id>
+    <cd S="CD-HCPARTY" SV="1.0">persphysician</cd>
+    <firstname>MARIE-GENEVIEVE</firstname>
+    <familyname>HERMAN</familyname>
+   </hcparty>
+   <hcparty>
+    <id S="ID-HCPARTY" SV="1.0"></id>
+    <id S="LOCAL" SL="ST" SV="1.0">0099144Q</id>
+    <id S="LOCAL" SL="ADMIN_NAT" SV="1.0">45100218591</id>
+    <cd S="CD-HCPARTY" SV="1.0">persphysician</cd>
+    <name>FEDYNIAK, Michal (M), 02/10/1945, 0099144Q</name>
+   </hcparty>
+  </recipient>
+ </header>
+ <folder>
+  <id S="ID-KMEHR" SV="1.0">1</id>
+  <patient>
+   <id S="ID-PATIENT" SV="1.0">45100218591</id>
+   <id S="LOCAL" SL="ST" SV="1.0">0099144Q</id>
+   <firstname>Michal</firstname>
+   <familyname>FEDYNIAK</familyname>
+   <birthdate>
+    <date>1945-10-02</date>
+   </birthdate>
+   <sex>
+    <cd S="CD-SEX" SV="1.0">male</cd>
+   </sex>
+   <address>
+    <cd S="CD-ADDRESS" SV="1.0">home</cd>
+    <country>
+     <cd S="CD-COUNTRY" SV="1.0">be</cd>
+    </country>
+    <zip>4000</zip>
+    <city>LIEGE</city>
+    <street>RUE VICTOR-CROISIER 8</street>
+   </address>
+  </patient>
+  <transaction>
+   <id S="ID-KMEHR" SV="1.0">1</id>
+   <cd S="CD-TRANSACTION" SV="1.0">labresult</cd>
+   <date>2017-09-18</date>
+   <time>10:08:03</time>
+   <author>
+    <hcparty>
+     <id S="ID-HCPARTY" SV="1.0"></id>
+     <cd S="CD-HCPARTY" SV="1.0">persphysician</cd>
+     <familyname>Valab</familyname>
+    </hcparty>
+    <hcparty>
+     <id S="ID-HCPARTY" SV="1.0"></id>
+     <id S="LOCAL" SL="D_ST" SV="1.0">ST</id>
+     <id S="LOCAL" SL="ST" SV="1.0">ST</id>
+     <cd S="CD-HCPARTY" SV="1.0">deptlaboratory</cd>
+     <name>CHU de Liège</name>
+    </hcparty>
+    <hcparty>
+     <id S="ID-HCPARTY" SV="1.0">86270018998</id>
+     <id S="LOCAL" SL="ST" SV="1.0">862700</id>
+     <cd S="CD-HCPARTY" SV="1.0">orglaboratory</cd>
+     <name>Département de Biologie Clinique</name>
+    </hcparty>
+   </author>
+   <iscomplete>true</iscomplete>
+   <isvalidated>true</isvalidated>
+   <item>
+    <id S="ID-KMEHR" SV="1.0">1</id>
+    <cd S="CD-ITEM" SV="1.0">requestnumber</cd>
+    <content>
+     <id S="LOCAL" SL="local" SV="1.0">11-170901-5045</id>
+     <cd S="" SV="1.0">_Q278610</cd>
+    </content>
+   </item>
+   <item>
+    <id S="ID-KMEHR" SV="1.0">2</id>
+    <cd S="CD-ITEM" SV="1.0">requestdatetime</cd>
+    <content>
+     <date>2017-09-16</date>
+     <time>09:43:00</time>
+    </content>
+   </item>
+   <item>
+    <id S="ID-KMEHR" SV="1.0">3</id>
+    <cd S="CD-ITEM" SV="1.0">requestor</cd>
+    <content>
+     <hcparty>
+      <id S="ID-HCPARTY" SV="1.0">16735666598</id>
+      <id S="LOCAL" SL="ST" SV="1.0">167356</id>
+      <cd S="CD-HCPARTY" SV="1.0">persphysician</cd>
+      <firstname>CHRISTOPHE</firstname>
+      <familyname>BONNET</familyname>
+     </hcparty>
+    </content>
+   </item>
+   <heading>
+    <id S="ID-KMEHR" SV="1.0">4</id>
+    <cd S="CD-HEADING-LAB" SV="1.0">.</cd>
+    <item>
+     <id S="ID-KMEHR" SV="1.0">1</id>
+     <cd S="CD-ITEM" SV="1.0">lab</cd>
+     <cd S="LOCAL" SL="local" DN="Réception des éch. au dispatching" L="F" SV="1.0">PC_DATE_RECEP</cd>
+     <content>
+      <text xml:space="preserve" L="F">16/09/2017 10:13:13</text>
+      <unit>
+       <cd S="LOCAL" SL="local" DN="" L="F" SV="1.0"></cd>
+      </unit>
+      <minref>
+       <text xml:space="preserve" L="F"></text>
+      </minref>
+     </content>
+     <author>
+      <hcparty>
+       <id S="ID-HCPARTY" SV="1.0"></id>
+       <cd S="CD-HCPARTY" SV="1.0">persphysician</cd>
+       <firstname>CAROLE</firstname>
+       <familyname>SCHEPERS</familyname>
+      </hcparty>
+     </author>
+     <beginmoment>
+      <date>2017-09-16</date>
+      <time>09:43:00</time>
+     </beginmoment>
+     <iscomplete>true</iscomplete>
+     <isvalidated>true</isvalidated>
+     <confirmationmoment>
+      <date>2017-09-16</date>
+      <time>10:13:13</time>
+     </confirmationmoment>
+     <validationmoment>
+      <date>2017-09-16</date>
+      <time>10:13:13</time>
+     </validationmoment>
+    </item>
+   </heading>
+   <heading>
+    <id S="ID-KMEHR" SV="1.0">5</id>
+    <cd S="CD-HEADING-LAB" SV="1.0">CYTOLOGIE SANGUINE</cd>
+    <item>
+     <id S="ID-KMEHR" SV="1.0">1</id>
+     <cd S="CD-ITEM" SV="1.0">lab</cd>
+     <cd S="LOCAL" SL="local" DN="Globules rouges" L="F" SV="1.0">GR</cd>
+     <content>
+      <decimal>5.66</decimal>
+      <unit>
+       <cd S="LOCAL" SL="local" DN="10^6/mm^3" L="F" SV="1.0">10^6/mm^3</cd>
+      </unit>
+      <minref>
+       <decimal>4.20</decimal>
+      </minref>
+      <maxref>
+       <decimal>5.60</decimal>
+      </maxref>
+     </content>
+     <beginmoment>
+      <date>2017-09-16</date>
+      <time>09:43:00</time>
+     </beginmoment>
+     <iscomplete>true</iscomplete>
+     <isvalidated>true</isvalidated>
+     <confirmationmoment>
+      <date>2017-09-16</date>
+      <time>11:28:21</time>
+     </confirmationmoment>
+     <validationmoment>
+      <date>2017-09-16</date>
+      <time>11:28:21</time>
+     </validationmoment>
+     <severity>
+      <cd S="CD-SEVERITY" SV="1.0">abnormal</cd>
+      <cd S="LOCAL" SL="local" DN="abnormal" L="F" SV="1.0">1</cd>
+     </severity>
+    </item>
+    <item>
+     <id S="ID-KMEHR" SV="1.0">2</id>
+     <cd S="CD-ITEM" SV="1.0">lab</cd>
+     <cd S="LOCAL" SL="local" DN="Hémoglobine" L="F" SV="1.0">HGB</cd>
+     <content>
+      <decimal>17.8</decimal>
+      <unit>
+       <cd S="LOCAL" SL="local" DN="g/dL" L="F" SV="1.0">g/dL</cd>
+      </unit>
+      <minref>
+       <decimal>13.3</decimal>
+      </minref>
+      <maxref>
+       <decimal>17.2</decimal>
+      </maxref>
+     </content>
+     <beginmoment>
+      <date>2017-09-16</date>
+      <time>09:43:00</time>
+     </beginmoment>
+     <iscomplete>true</iscomplete>
+     <isvalidated>true</isvalidated>
+     <confirmationmoment>
+      <date>2017-09-16</date>
+      <time>11:28:21</time>
+     </confirmationmoment>
+     <validationmoment>
+      <date>2017-09-16</date>
+      <time>11:28:21</time>
+     </validationmoment>
+     <severity>
+      <cd S="CD-SEVERITY" SV="1.0">abnormal</cd>
+      <cd S="LOCAL" SL="local" DN="abnormal" L="F" SV="1.0">1</cd>
+     </severity>
+    </item>
+    <item>
+     <id S="ID-KMEHR" SV="1.0">3</id>
+     <cd S="CD-ITEM" SV="1.0">lab</cd>
+     <cd S="LOCAL" SL="local" DN="Hématocrite" L="F" SV="1.0">HTR</cd>
+     <content>
+      <decimal>49.6</decimal>
+      <unit>
+       <cd S="LOCAL" SL="local" DN="%" L="F" SV="1.0">%</cd>
+      </unit>
+      <minref>
+       <decimal>39.5</decimal>
+      </minref>
+      <maxref>
+       <decimal>50.0</decimal>
+      </maxref>
+     </content>
+     <beginmoment>
+      <date>2017-09-16</date>
+      <time>09:43:00</time>
+     </beginmoment>
+     <iscomplete>true</iscomplete>
+     <isvalidated>true</isvalidated>
+     <confirmationmoment>
+      <date>2017-09-16</date>
+      <time>11:28:21</time>
+     </confirmationmoment>
+     <validationmoment>
+      <date>2017-09-16</date>
+      <time>11:28:21</time>
+     </validationmoment>
+    </item>
+    <item>
+     <id S="ID-KMEHR" SV="1.0">4</id>
+     <cd S="CD-ITEM" SV="1.0">lab</cd>
+     <cd S="LOCAL" SL="local" DN="Volume globulaire" L="F" SV="1.0">VOL</cd>
+     <content>
+      <decimal>87.6</decimal>
+      <unit>
+       <cd S="LOCAL" SL="local" DN="fl" L="F" SV="1.0">fl</cd>
+      </unit>
+      <minref>
+       <decimal>83.7</decimal>
+      </minref>
+      <maxref>
+       <decimal>100.8</decimal>
+      </maxref>
+     </content>
+     <beginmoment>
+      <date>2017-09-16</date>
+      <time>09:43:00</time>
+     </beginmoment>
+     <iscomplete>true</iscomplete>
+     <isvalidated>true</isvalidated>
+     <confirmationmoment>
+      <date>2017-09-16</date>
+      <time>11:28:21</time>
+     </confirmationmoment>
+     <validationmoment>
+      <date>2017-09-16</date>
+      <time>11:28:21</time>
+     </validationmoment>
+    </item>
+    <item>
+     <id S="ID-KMEHR" SV="1.0">5</id>
+     <cd S="CD-ITEM" SV="1.0">lab</cd>
+     <cd S="LOCAL" SL="local" DN="Valeur globulaire" L="F" SV="1.0">VLG</cd>
+     <content>
+      <decimal>31.4</decimal>
+      <unit>
+       <cd S="LOCAL" SL="local" DN="pg" L="F" SV="1.0">pg</cd>
+      </unit>
+      <minref>
+       <decimal>27.9</decimal>
+      </minref>
+      <maxref>
+       <decimal>33.3</decimal>
+      </maxref>
+     </content>
+     <beginmoment>
+      <date>2017-09-16</date>
+      <time>09:43:00</time>
+     </beginmoment>
+     <iscomplete>true</iscomplete>
+     <isvalidated>true</isvalidated>
+     <confirmationmoment>
+      <date>2017-09-16</date>
+      <time>11:28:21</time>
+     </confirmationmoment>
+     <validationmoment>
+      <date>2017-09-16</date>
+      <time>11:28:21</time>
+     </validationmoment>
+    </item>
+    <item>
+     <id S="ID-KMEHR" SV="1.0">6</id>
+     <cd S="CD-ITEM" SV="1.0">lab</cd>
+     <cd S="LOCAL" SL="local" DN="Concentration moyenne Hb" L="F" SV="1.0">COM</cd>
+     <content>
+      <decimal>35.9</decimal>
+      <unit>
+       <cd S="LOCAL" SL="local" DN="g/dL" L="F" SV="1.0">g/dL</cd>
+      </unit>
+      <minref>
+       <decimal>31.0</decimal>
+      </minref>
+      <maxref>
+       <decimal>36.2</decimal>
+      </maxref>
+     </content>
+     <beginmoment>
+      <date>2017-09-16</date>
+      <time>09:43:00</time>
+     </beginmoment>
+     <iscomplete>true</iscomplete>
+     <isvalidated>true</isvalidated>
+     <confirmationmoment>
+      <date>2017-09-16</date>
+      <time>11:28:21</time>
+     </confirmationmoment>
+     <validationmoment>
+      <date>2017-09-16</date>
+      <time>11:28:21</time>
+     </validationmoment>
+    </item>
+    <item>
+     <id S="ID-KMEHR" SV="1.0">7</id>
+     <cd S="CD-ITEM" SV="1.0">lab</cd>
+     <cd S="LOCAL" SL="local" DN="Réticulocytes" L="F" SV="1.0">RE1</cd>
+     <content>
+      <decimal>1.6</decimal>
+      <unit>
+       <cd S="LOCAL" SL="local" DN="%" L="F" SV="1.0">%</cd>
+      </unit>
+      <minref>
+       <decimal>0.5</decimal>
+      </minref>
+      <maxref>
+       <decimal>2.4</decimal>
+      </maxref>
+     </content>
+     <beginmoment>
+      <date>2017-09-16</date>
+      <time>09:43:00</time>
+     </beginmoment>
+     <iscomplete>true</iscomplete>
+     <isvalidated>true</isvalidated>
+     <confirmationmoment>
+      <date>2017-09-16</date>
+      <time>11:28:22</time>
+     </confirmationmoment>
+     <validationmoment>
+      <date>2017-09-16</date>
+      <time>11:28:22</time>
+     </validationmoment>
+    </item>
+    <item>
+     <id S="ID-KMEHR" SV="1.0">8</id>
+     <cd S="CD-ITEM" SV="1.0">lab</cd>
+     <cd S="LOCAL" SL="local" DN="Réticulocytes abs" L="F" SV="1.0">RE2</cd>
+     <content>
+      <decimal>88.9</decimal>
+      <unit>
+       <cd S="LOCAL" SL="local" DN="10^3/mm^3" L="F" SV="1.0">10^3/mm^3</cd>
+      </unit>
+      <minref>
+       <decimal>24.8</decimal>
+      </minref>
+      <maxref>
+       <decimal>110.3</decimal>
+      </maxref>
+     </content>
+     <beginmoment>
+      <date>2017-09-16</date>
+      <time>09:43:00</time>
+     </beginmoment>
+     <iscomplete>true</iscomplete>
+     <isvalidated>true</isvalidated>
+     <confirmationmoment>
+      <date>2017-09-16</date>
+      <time>11:28:22</time>
+     </confirmationmoment>
+     <validationmoment>
+      <date>2017-09-16</date>
+      <time>11:28:22</time>
+     </validationmoment>
+    </item>
+    <item>
+     <id S="ID-KMEHR" SV="1.0">9</id>
+     <cd S="CD-ITEM" SV="1.0">lab</cd>
+     <cd S="LOCAL" SL="local" DN="Hémoglobine réticulocytaire" L="F" SV="1.0">CHR</cd>
+     <content>
+      <decimal>33.7</decimal>
+      <unit>
+       <cd S="LOCAL" SL="local" DN="pg" L="F" SV="1.0">pg</cd>
+      </unit>
+      <minref>
+       <decimal>28.0</decimal>
+      </minref>
+      <maxref>
+       <decimal>35.0</decimal>
+      </maxref>
+     </content>
+     <beginmoment>
+      <date>2017-09-16</date>
+      <time>09:43:00</time>
+     </beginmoment>
+     <iscomplete>true</iscomplete>
+     <isvalidated>true</isvalidated>
+     <confirmationmoment>
+      <date>2017-09-16</date>
+      <time>11:28:22</time>
+     </confirmationmoment>
+     <validationmoment>
+      <date>2017-09-16</date>
+      <time>11:28:22</time>
+     </validationmoment>
+    </item>
+    <item>
+     <id S="ID-KMEHR" SV="1.0">10</id>
+     <cd S="CD-ITEM" SV="1.0">lab</cd>
+     <cd S="LOCAL" SL="local" DN="Fraction réticulocytaire immature" L="F" SV="1.0">IRF</cd>
+     <content>
+      <decimal>6.3</decimal>
+      <unit>
+       <cd S="LOCAL" SL="local" DN="%" L="F" SV="1.0">%</cd>
+      </unit>
+      <minref>
+       <decimal>1.5</decimal>
+      </minref>
+      <maxref>
+       <decimal>13.7</decimal>
+      </maxref>
+     </content>
+     <beginmoment>
+      <date>2017-09-16</date>
+      <time>09:43:00</time>
+     </beginmoment>
+     <iscomplete>true</iscomplete>
+     <isvalidated>true</isvalidated>
+     <confirmationmoment>
+      <date>2017-09-16</date>
+      <time>11:28:22</time>
+     </confirmationmoment>
+     <validationmoment>
+      <date>2017-09-16</date>
+      <time>11:28:22</time>
+     </validationmoment>
+    </item>
+    <item>
+     <id S="ID-KMEHR" SV="1.0">11</id>
+     <cd S="CD-ITEM" SV="1.0">lab</cd>
+     <cd S="LOCAL" SL="local" DN="Plaquettes" L="F" SV="1.0">PLT</cd>
+     <content>
+      <decimal>164</decimal>
+      <unit>
+       <cd S="LOCAL" SL="local" DN="10^3/mm^3" L="F" SV="1.0">10^3/mm^3</cd>
+      </unit>
+      <minref>
+       <decimal>150</decimal>
+      </minref>
+      <maxref>
+       <decimal>353</decimal>
+      </maxref>
+     </content>
+     <beginmoment>
+      <date>2017-09-16</date>
+      <time>09:43:00</time>
+     </beginmoment>
+     <iscomplete>true</iscomplete>
+     <isvalidated>true</isvalidated>
+     <confirmationmoment>
+      <date>2017-09-16</date>
+      <time>11:28:21</time>
+     </confirmationmoment>
+     <validationmoment>
+      <date>2017-09-16</date>
+      <time>11:28:21</time>
+     </validationmoment>
+    </item>
+    <item>
+     <id S="ID-KMEHR" SV="1.0">12</id>
+     <cd S="CD-ITEM" SV="1.0">lab</cd>
+     <cd S="LOCAL" SL="local" DN="Volume plaquettaire moyen" L="F" SV="1.0">MPV</cd>
+     <content>
+      <decimal>10.9</decimal>
+      <unit>
+       <cd S="LOCAL" SL="local" DN="fl" L="F" SV="1.0">fl</cd>
+      </unit>
+      <minref>
+       <decimal>9.4</decimal>
+      </minref>
+      <maxref>
+       <decimal>12.5</decimal>
+      </maxref>
+     </content>
+     <beginmoment>
+      <date>2017-09-16</date>
+      <time>09:43:00</time>
+     </beginmoment>
+     <iscomplete>true</iscomplete>
+     <isvalidated>true</isvalidated>
+     <confirmationmoment>
+      <date>2017-09-16</date>
+      <time>11:28:21</time>
+     </confirmationmoment>
+     <validationmoment>
+      <date>2017-09-16</date>
+      <time>11:28:21</time>
+     </validationmoment>
+    </item>
+    <item>
+     <id S="ID-KMEHR" SV="1.0">13</id>
+     <cd S="CD-ITEM" SV="1.0">lab</cd>
+     <cd S="LOCAL" SL="local" DN="Fraction plaquettaire immature" L="F" SV="1.0">IPF</cd>
+     <content>
+      <decimal>3.1</decimal>
+      <unit>
+       <cd S="LOCAL" SL="local" DN="%" L="F" SV="1.0">%</cd>
+      </unit>
+      <minref>
+       <decimal>1.1</decimal>
+      </minref>
+      <maxref>
+       <decimal>6.1</decimal>
+      </maxref>
+     </content>
+     <beginmoment>
+      <date>2017-09-16</date>
+      <time>09:43:00</time>
+     </beginmoment>
+     <iscomplete>true</iscomplete>
+     <isvalidated>true</isvalidated>
+     <confirmationmoment>
+      <date>2017-09-16</date>
+      <time>11:28:22</time>
+     </confirmationmoment>
+     <validationmoment>
+      <date>2017-09-16</date>
+      <time>11:28:22</time>
+     </validationmoment>
+    </item>
+    <item>
+     <id S="ID-KMEHR" SV="1.0">14</id>
+     <cd S="CD-ITEM" SV="1.0">lab</cd>
+     <cd S="LOCAL" SL="local" DN="Globules blancs" L="F" SV="1.0">GB</cd>
+     <content>
+      <decimal>4.33</decimal>
+      <unit>
+       <cd S="LOCAL" SL="local" DN="10^3/mm^3" L="F" SV="1.0">10^3/mm^3</cd>
+      </unit>
+      <minref>
+       <decimal>4.60</decimal>
+      </minref>
+      <maxref>
+       <decimal>10.10</decimal>
+      </maxref>
+     </content>
+     <beginmoment>
+      <date>2017-09-16</date>
+      <time>09:43:00</time>
+     </beginmoment>
+     <iscomplete>true</iscomplete>
+     <isvalidated>true</isvalidated>
+     <confirmationmoment>
+      <date>2017-09-16</date>
+      <time>11:28:21</time>
+     </confirmationmoment>
+     <validationmoment>
+      <date>2017-09-16</date>
+      <time>11:28:21</time>
+     </validationmoment>
+     <severity>
+      <cd S="CD-SEVERITY" SV="1.0">abnormal</cd>
+      <cd S="LOCAL" SL="local" DN="abnormal" L="F" SV="1.0">-1</cd>
+     </severity>
+    </item>
+    <heading>
+     <id S="ID-KMEHR" SV="1.0">15</id>
+     <cd S="CD-HEADING-LAB" SV="1.0">FORMULE LEUCOCYTAIRE</cd>
+     <item>
+      <id S="ID-KMEHR" SV="1.0">1</id>
+      <cd S="CD-ITEM" SV="1.0">lab</cd>
+      <cd S="LOCAL" SL="local" DN="Neutrophiles" L="F" SV="1.0">NT1_CR</cd>
+      <content>
+       <decimal>48.8</decimal>
+       <unit>
+        <cd S="LOCAL" SL="local" DN="%" L="F" SV="1.0">%</cd>
+       </unit>
+       <minref>
+        <decimal>42.2</decimal>
+       </minref>
+       <maxref>
+        <decimal>71.0</decimal>
+       </maxref>
+      </content>
+      <beginmoment>
+       <date>2017-09-16</date>
+       <time>09:43:00</time>
+      </beginmoment>
+      <iscomplete>true</iscomplete>
+      <isvalidated>true</isvalidated>
+      <confirmationmoment>
+       <date>2017-09-16</date>
+       <time>11:28:21</time>
+      </confirmationmoment>
+      <validationmoment>
+       <date>2017-09-16</date>
+       <time>11:28:21</time>
+      </validationmoment>
+     </item>
+     <item>
+      <id S="ID-KMEHR" SV="1.0">2</id>
+      <cd S="CD-ITEM" SV="1.0">lab</cd>
+      <cd S="LOCAL" SL="local" DN="Lymphocytes" L="F" SV="1.0">LY1_CR</cd>
+      <content>
+       <decimal>38.8</decimal>
+       <unit>
+        <cd S="LOCAL" SL="local" DN="%" L="F" SV="1.0">%</cd>
+       </unit>
+       <minref>
+        <decimal>17.5</decimal>
+       </minref>
+       <maxref>
+        <decimal>43.5</decimal>
+       </maxref>
+      </content>
+      <beginmoment>
+       <date>2017-09-16</date>
+       <time>09:43:00</time>
+      </beginmoment>
+      <iscomplete>true</iscomplete>
+      <isvalidated>true</isvalidated>
+      <confirmationmoment>
+       <date>2017-09-16</date>
+       <time>11:28:21</time>
+      </confirmationmoment>
+      <validationmoment>
+       <date>2017-09-16</date>
+       <time>11:28:21</time>
+      </validationmoment>
+     </item>
+     <item>
+      <id S="ID-KMEHR" SV="1.0">3</id>
+      <cd S="CD-ITEM" SV="1.0">lab</cd>
+      <cd S="LOCAL" SL="local" DN="Monocytes" L="F" SV="1.0">MON_CR</cd>
+      <content>
+       <decimal>9.9</decimal>
+       <unit>
+        <cd S="LOCAL" SL="local" DN="%" L="F" SV="1.0">%</cd>
+       </unit>
+       <minref>
+        <decimal>5.9</decimal>
+       </minref>
+       <maxref>
+        <decimal>13.5</decimal>
+       </maxref>
+      </content>
+      <beginmoment>
+       <date>2017-09-16</date>
+       <time>09:43:00</time>
+      </beginmoment>
+      <iscomplete>true</iscomplete>
+      <isvalidated>true</isvalidated>
+      <confirmationmoment>
+       <date>2017-09-16</date>
+       <time>11:28:22</time>
+      </confirmationmoment>
+      <validationmoment>
+       <date>2017-09-16</date>
+       <time>11:28:22</time>
+      </validationmoment>
+     </item>
+     <item>
+      <id S="ID-KMEHR" SV="1.0">4</id>
+      <cd S="CD-ITEM" SV="1.0">lab</cd>
+      <cd S="LOCAL" SL="local" DN="Eosinophiles" L="F" SV="1.0">EO1_CR</cd>
+      <content>
+       <decimal>1.6</decimal>
+       <unit>
+        <cd S="LOCAL" SL="local" DN="%" L="F" SV="1.0">%</cd>
+       </unit>
+       <minref>
+        <decimal>0.2</decimal>
+       </minref>
+       <maxref>
+        <decimal>7.4</decimal>
+       </maxref>
+      </content>
+      <beginmoment>
+       <date>2017-09-16</date>
+       <time>09:43:00</time>
+      </beginmoment>
+      <iscomplete>true</iscomplete>
+      <isvalidated>true</isvalidated>
+      <confirmationmoment>
+       <date>2017-09-16</date>
+       <time>11:28:22</time>
+      </confirmationmoment>
+      <validationmoment>
+       <date>2017-09-16</date>
+       <time>11:28:22</time>
+      </validationmoment>
+     </item>
+     <item>
+      <id S="ID-KMEHR" SV="1.0">5</id>
+      <cd S="CD-ITEM" SV="1.0">lab</cd>
+      <cd S="LOCAL" SL="local" DN="Basophiles" L="F" SV="1.0">BAS_CR</cd>
+      <content>
+       <decimal>0.9</decimal>
+       <unit>
+        <cd S="LOCAL" SL="local" DN="%" L="F" SV="1.0">%</cd>
+       </unit>
+       <minref>
+        <decimal>0.1</decimal>
+       </minref>
+       <maxref>
+        <decimal>1.1</decimal>
+       </maxref>
+      </content>
+      <beginmoment>
+       <date>2017-09-16</date>
+       <time>09:43:00</time>
+      </beginmoment>
+      <iscomplete>true</iscomplete>
+      <isvalidated>true</isvalidated>
+      <confirmationmoment>
+       <date>2017-09-16</date>
+       <time>11:28:22</time>
+      </confirmationmoment>
+      <validationmoment>
+       <date>2017-09-16</date>
+       <time>11:28:22</time>
+      </validationmoment>
+     </item>
+     <item>
+      <id S="ID-KMEHR" SV="1.0">6</id>
+      <cd S="CD-ITEM" SV="1.0">lab</cd>
+      <cd S="LOCAL" SL="local" DN="Grandes cellules non colorées" L="F" SV="1.0">LUC_CR</cd>
+      <content>
+       <text xml:space="preserve" L="F">Non demandé</text>
+       <unit>
+        <cd S="LOCAL" SL="local" DN="%" L="F" SV="1.0">%</cd>
+       </unit>
+       <minref>
+        <decimal>0.0</decimal>
+       </minref>
+       <maxref>
+        <decimal>4.0</decimal>
+       </maxref>
+      </content>
+      <beginmoment>
+       <date>2017-09-16</date>
+       <time>09:43:00</time>
+      </beginmoment>
+      <iscomplete>true</iscomplete>
+      <isvalidated>true</isvalidated>
+      <lifecycle>
+       <cd S="CD-LIFECYCLE" SV="1.0">cancelled</cd>
+      </lifecycle>
+     </item>
+     <item>
+      <id S="ID-KMEHR" SV="1.0">7</id>
+      <cd S="CD-ITEM" SV="1.0">lab</cd>
+      <cd S="LOCAL" SL="local" DN="Neutrophiles abs" L="F" SV="1.0">NT2_CR</cd>
+      <content>
+       <decimal>2.11</decimal>
+       <unit>
+        <cd S="LOCAL" SL="local" DN="10^3/mm^3" L="F" SV="1.0">10^3/mm^3</cd>
+       </unit>
+       <minref>
+        <decimal>2.20</decimal>
+       </minref>
+       <maxref>
+        <decimal>6.10</decimal>
+       </maxref>
+      </content>
+      <beginmoment>
+       <date>2017-09-16</date>
+       <time>09:43:00</time>
+      </beginmoment>
+      <iscomplete>true</iscomplete>
+      <isvalidated>true</isvalidated>
+      <confirmationmoment>
+       <date>2017-09-16</date>
+       <time>11:28:21</time>
+      </confirmationmoment>
+      <validationmoment>
+       <date>2017-09-16</date>
+       <time>11:28:21</time>
+      </validationmoment>
+      <severity>
+       <cd S="CD-SEVERITY" SV="1.0">abnormal</cd>
+       <cd S="LOCAL" SL="local" DN="abnormal" L="F" SV="1.0">-1</cd>
+      </severity>
+     </item>
+     <item>
+      <id S="ID-KMEHR" SV="1.0">8</id>
+      <cd S="CD-ITEM" SV="1.0">lab</cd>
+      <cd S="LOCAL" SL="local" DN="Lymphocytes abs" L="F" SV="1.0">LY2_CR</cd>
+      <content>
+       <decimal>1.68</decimal>
+       <unit>
+        <cd S="LOCAL" SL="local" DN="10^3/mm^3" L="F" SV="1.0">10^3/mm^3</cd>
+       </unit>
+       <minref>
+        <decimal>1.10</decimal>
+       </minref>
+       <maxref>
+        <decimal>3.70</decimal>
+       </maxref>
+      </content>
+      <beginmoment>
+       <date>2017-09-16</date>
+       <time>09:43:00</time>
+      </beginmoment>
+      <iscomplete>true</iscomplete>
+      <isvalidated>true</isvalidated>
+      <confirmationmoment>
+       <date>2017-09-16</date>
+       <time>11:28:21</time>
+      </confirmationmoment>
+      <validationmoment>
+       <date>2017-09-16</date>
+       <time>11:28:21</time>
+      </validationmoment>
+     </item>
+     <item>
+      <id S="ID-KMEHR" SV="1.0">9</id>
+      <cd S="CD-ITEM" SV="1.0">lab</cd>
+      <cd S="LOCAL" SL="local" DN="Monocytes abs" L="F" SV="1.0">MO2_CR</cd>
+      <content>
+       <decimal>0.43</decimal>
+       <unit>
+        <cd S="LOCAL" SL="local" DN="10^3/mm^3" L="F" SV="1.0">10^3/mm^3</cd>
+       </unit>
+       <minref>
+        <decimal>0.30</decimal>
+       </minref>
+       <maxref>
+        <decimal>1.10</decimal>
+       </maxref>
+      </content>
+      <beginmoment>
+       <date>2017-09-16</date>
+       <time>09:43:00</time>
+      </beginmoment>
+      <iscomplete>true</iscomplete>
+      <isvalidated>true</isvalidated>
+      <confirmationmoment>
+       <date>2017-09-16</date>
+       <time>11:28:21</time>
+      </confirmationmoment>
+      <validationmoment>
+       <date>2017-09-16</date>
+       <time>11:28:21</time>
+      </validationmoment>
+     </item>
+     <item>
+      <id S="ID-KMEHR" SV="1.0">10</id>
+      <cd S="CD-ITEM" SV="1.0">lab</cd>
+      <cd S="LOCAL" SL="local" DN="Eosinophiles abs" L="F" SV="1.0">EO2_CR</cd>
+      <content>
+       <decimal>0.07</decimal>
+       <unit>
+        <cd S="LOCAL" SL="local" DN="10^3/mm^3" L="F" SV="1.0">10^3/mm^3</cd>
+       </unit>
+       <minref>
+        <decimal>0.00</decimal>
+       </minref>
+       <maxref>
+        <decimal>0.50</decimal>
+       </maxref>
+      </content>
+      <beginmoment>
+       <date>2017-09-16</date>
+       <time>09:43:00</time>
+      </beginmoment>
+      <iscomplete>true</iscomplete>
+      <isvalidated>true</isvalidated>
+      <confirmationmoment>
+       <date>2017-09-16</date>
+       <time>11:28:22</time>
+      </confirmationmoment>
+      <validationmoment>
+       <date>2017-09-16</date>
+       <time>11:28:22</time>
+      </validationmoment>
+     </item>
+     <item>
+      <id S="ID-KMEHR" SV="1.0">11</id>
+      <cd S="CD-ITEM" SV="1.0">lab</cd>
+      <cd S="LOCAL" SL="local" DN="Basophiles abs" L="F" SV="1.0">BA2_CR</cd>
+      <content>
+       <decimal>0.04</decimal>
+       <unit>
+        <cd S="LOCAL" SL="local" DN="10^3/mm^3" L="F" SV="1.0">10^3/mm^3</cd>
+       </unit>
+       <minref>
+        <decimal>0.00</decimal>
+       </minref>
+       <maxref>
+        <decimal>0.10</decimal>
+       </maxref>
+      </content>
+      <beginmoment>
+       <date>2017-09-16</date>
+       <time>09:43:00</time>
+      </beginmoment>
+      <iscomplete>true</iscomplete>
+      <isvalidated>true</isvalidated>
+      <confirmationmoment>
+       <date>2017-09-16</date>
+       <time>11:28:22</time>
+      </confirmationmoment>
+      <validationmoment>
+       <date>2017-09-16</date>
+       <time>11:28:22</time>
+      </validationmoment>
+     </item>
+    </heading>
+   </heading>
+   <heading>
+    <id S="ID-KMEHR" SV="1.0">6</id>
+    <cd S="CD-HEADING-LAB" SV="1.0">FER ET VITAMINES</cd>
+    <item>
+     <id S="ID-KMEHR" SV="1.0">1</id>
+     <cd S="CD-ITEM" SV="1.0">lab</cd>
+     <cd S="LOCAL" SL="local" DN="Ferritine" L="F" SV="1.0">FRT</cd>
+     <content>
+      <decimal>234</decimal>
+      <unit>
+       <cd S="LOCAL" SL="local" DN="µg/L" L="F" SV="1.0">µg/L</cd>
+      </unit>
+      <minref>
+       <decimal>30</decimal>
+      </minref>
+      <maxref>
+       <decimal>400</decimal>
+      </maxref>
+     </content>
+     <author>
+      <hcparty>
+       <id S="ID-HCPARTY" SV="1.0"></id>
+       <cd S="CD-HCPARTY" SV="1.0">persphysician</cd>
+       <familyname>Valab</familyname>
+      </hcparty>
+     </author>
+     <beginmoment>
+      <date>2017-09-16</date>
+      <time>09:43:00</time>
+     </beginmoment>
+     <iscomplete>true</iscomplete>
+     <isvalidated>true</isvalidated>
+     <confirmationmoment>
+      <date>2017-09-18</date>
+      <time>10:01:09</time>
+     </confirmationmoment>
+     <validationmoment>
+      <date>2017-09-18</date>
+      <time>10:01:18</time>
+     </validationmoment>
+    </item>
+    <item>
+     <id S="ID-KMEHR" SV="1.0">2</id>
+     <cd S="CD-ITEM" SV="1.0">lab</cd>
+     <cd S="LOCAL" SL="local" DN="Vitamine B12" L="F" SV="1.0">B12</cd>
+     <content>
+      <decimal>269</decimal>
+      <unit>
+       <cd S="LOCAL" SL="local" DN="ng/L" L="F" SV="1.0">ng/L</cd>
+      </unit>
+      <minref>
+       <decimal>200</decimal>
+      </minref>
+     </content>
+     <author>
+      <hcparty>
+       <id S="ID-HCPARTY" SV="1.0"></id>
+       <cd S="CD-HCPARTY" SV="1.0">persphysician</cd>
+       <familyname>Valab</familyname>
+      </hcparty>
+     </author>
+     <beginmoment>
+      <date>2017-09-16</date>
+      <time>09:43:00</time>
+     </beginmoment>
+     <iscomplete>true</iscomplete>
+     <isvalidated>true</isvalidated>
+     <confirmationmoment>
+      <date>2017-09-18</date>
+      <time>10:01:09</time>
+     </confirmationmoment>
+     <validationmoment>
+      <date>2017-09-18</date>
+      <time>10:01:18</time>
+     </validationmoment>
+    </item>
+    <item>
+     <id S="ID-KMEHR" SV="1.0">3</id>
+     <cd S="CD-ITEM" SV="1.0">lab</cd>
+     <cd S="LOCAL" SL="local" DN="Acide folique sérique" L="F" SV="1.0">AFS2</cd>
+     <content>
+      <decimal>14.7</decimal>
+      <unit>
+       <cd S="LOCAL" SL="local" DN="µg/L" L="F" SV="1.0">µg/L</cd>
+      </unit>
+      <minref>
+       <decimal>1.4</decimal>
+      </minref>
+      <maxref>
+       <decimal>19.1</decimal>
+      </maxref>
+     </content>
+     <beginmoment>
+      <date>2017-09-16</date>
+      <time>09:43:00</time>
+     </beginmoment>
+     <iscomplete>true</iscomplete>
+     <isvalidated>true</isvalidated>
+     <confirmationmoment>
+      <date>2017-09-18</date>
+      <time>09:54:32</time>
+     </confirmationmoment>
+     <validationmoment>
+      <date>2017-09-18</date>
+      <time>09:54:32</time>
+     </validationmoment>
+    </item>
+   </heading>
+   <heading>
+    <id S="ID-KMEHR" SV="1.0">7</id>
+    <cd S="CD-HEADING-LAB" SV="1.0">ORIENTATION GENERALE</cd>
+    <item>
+     <id S="ID-KMEHR" SV="1.0">1</id>
+     <cd S="CD-ITEM" SV="1.0">lab</cd>
+     <cd S="LOCAL" SL="local" DN="Sodium" L="F" SV="1.0">NA_ind</cd>
+     <content>
+      <decimal>141</decimal>
+      <unit>
+       <cd S="LOCAL" SL="local" DN="mmol/L" L="F" SV="1.0">mmol/L</cd>
+      </unit>
+      <minref>
+       <decimal>136</decimal>
+      </minref>
+      <maxref>
+       <decimal>145</decimal>
+      </maxref>
+     </content>
+     <author>
+      <hcparty>
+       <id S="ID-HCPARTY" SV="1.0"></id>
+       <cd S="CD-HCPARTY" SV="1.0">persphysician</cd>
+       <familyname>Valab</familyname>
+      </hcparty>
+     </author>
+     <beginmoment>
+      <date>2017-09-16</date>
+      <time>09:43:00</time>
+     </beginmoment>
+     <iscomplete>true</iscomplete>
+     <isvalidated>true</isvalidated>
+     <confirmationmoment>
+      <date>2017-09-16</date>
+      <time>11:51:13</time>
+     </confirmationmoment>
+     <validationmoment>
+      <date>2017-09-16</date>
+      <time>11:51:19</time>
+     </validationmoment>
+    </item>
+    <item>
+     <id S="ID-KMEHR" SV="1.0">2</id>
+     <cd S="CD-ITEM" SV="1.0">lab</cd>
+     <cd S="LOCAL" SL="local" DN="Potassium" L="F" SV="1.0">K_ind</cd>
+     <content>
+      <decimal>4.04</decimal>
+      <unit>
+       <cd S="LOCAL" SL="local" DN="mmol/L" L="F" SV="1.0">mmol/L</cd>
+      </unit>
+      <minref>
+       <decimal>3.50</decimal>
+      </minref>
+      <maxref>
+       <decimal>5.10</decimal>
+      </maxref>
+     </content>
+     <author>
+      <hcparty>
+       <id S="ID-HCPARTY" SV="1.0"></id>
+       <cd S="CD-HCPARTY" SV="1.0">persphysician</cd>
+       <familyname>Valab</familyname>
+      </hcparty>
+     </author>
+     <beginmoment>
+      <date>2017-09-16</date>
+      <time>09:43:00</time>
+     </beginmoment>
+     <iscomplete>true</iscomplete>
+     <isvalidated>true</isvalidated>
+     <confirmationmoment>
+      <date>2017-09-16</date>
+      <time>11:51:12</time>
+     </confirmationmoment>
+     <validationmoment>
+      <date>2017-09-16</date>
+      <time>11:51:20</time>
+     </validationmoment>
+    </item>
+    <item>
+     <id S="ID-KMEHR" SV="1.0">3</id>
+     <cd S="CD-ITEM" SV="1.0">lab</cd>
+     <cd S="LOCAL" SL="local" DN="Calcium" L="F" SV="1.0">CA</cd>
+     <content>
+      <decimal>2.41</decimal>
+      <unit>
+       <cd S="LOCAL" SL="local" DN="mmol/L" L="F" SV="1.0">mmol/L</cd>
+      </unit>
+      <minref>
+       <decimal>2.20</decimal>
+      </minref>
+      <maxref>
+       <decimal>2.60</decimal>
+      </maxref>
+     </content>
+     <author>
+      <hcparty>
+       <id S="ID-HCPARTY" SV="1.0"></id>
+       <cd S="CD-HCPARTY" SV="1.0">persphysician</cd>
+       <familyname>Valab</familyname>
+      </hcparty>
+     </author>
+     <beginmoment>
+      <date>2017-09-16</date>
+      <time>09:43:00</time>
+     </beginmoment>
+     <iscomplete>true</iscomplete>
+     <isvalidated>true</isvalidated>
+     <confirmationmoment>
+      <date>2017-09-16</date>
+      <time>11:51:05</time>
+     </confirmationmoment>
+     <validationmoment>
+      <date>2017-09-16</date>
+      <time>11:51:15</time>
+     </validationmoment>
+    </item>
+    <item>
+     <id S="ID-KMEHR" SV="1.0">4</id>
+     <cd S="CD-ITEM" SV="1.0">lab</cd>
+     <cd S="LOCAL" SL="local" DN="Phosphates" L="F" SV="1.0">Pmmol_L_ind</cd>
+     <content>
+      <decimal>1.03</decimal>
+      <unit>
+       <cd S="LOCAL" SL="local" DN="mmol/L" L="F" SV="1.0">mmol/L</cd>
+      </unit>
+      <minref>
+       <decimal>0.80</decimal>
+      </minref>
+      <maxref>
+       <decimal>1.43</decimal>
+      </maxref>
+     </content>
+     <author>
+      <hcparty>
+       <id S="ID-HCPARTY" SV="1.0"></id>
+       <cd S="CD-HCPARTY" SV="1.0">persphysician</cd>
+       <familyname>Valab</familyname>
+      </hcparty>
+     </author>
+     <beginmoment>
+      <date>2017-09-16</date>
+      <time>09:43:00</time>
+     </beginmoment>
+     <iscomplete>true</iscomplete>
+     <isvalidated>true</isvalidated>
+     <confirmationmoment>
+      <date>2017-09-16</date>
+      <time>11:51:13</time>
+     </confirmationmoment>
+     <validationmoment>
+      <date>2017-09-16</date>
+      <time>11:51:20</time>
+     </validationmoment>
+    </item>
+    <item>
+     <id S="ID-KMEHR" SV="1.0">5</id>
+     <cd S="CD-ITEM" SV="1.0">lab</cd>
+     <cd S="LOCAL" SL="local" DN="" L="F" SV="1.0">G02_com</cd>
+     <content>
+      <text xml:space="preserve" L="F">       Consensus :  
+           Glycémie à jeûn : 60 à 100 mg/dL
+           100 - 126 mg/dL : diminution de la tolérance au glucose
+           &gt; 126 mg/dL  (observé sur 2 prélèvements distincts) : diabète</text>
+      <unit>
+       <cd S="LOCAL" SL="local" DN="" L="F" SV="1.0"></cd>
+      </unit>
+      <minref>
+       <text xml:space="preserve" L="F"></text>
+      </minref>
+     </content>
+     <beginmoment>
+      <date>2017-09-16</date>
+      <time>09:43:00</time>
+     </beginmoment>
+     <iscomplete>true</iscomplete>
+     <isvalidated>true</isvalidated>
+     <confirmationmoment>
+      <date>2017-09-16</date>
+      <time>11:53:06</time>
+     </confirmationmoment>
+     <validationmoment>
+      <date>2017-09-16</date>
+      <time>11:53:06</time>
+     </validationmoment>
+    </item>
+    <item>
+     <id S="ID-KMEHR" SV="1.0">6</id>
+     <cd S="CD-ITEM" SV="1.0">lab</cd>
+     <cd S="LOCAL" SL="local" DN="Glucose (09:43)" L="F" SV="1.0">GF2</cd>
+     <content>
+      <decimal>91</decimal>
+      <unit>
+       <cd S="LOCAL" SL="local" DN="mg/dL" L="F" SV="1.0">mg/dL</cd>
+      </unit>
+      <minref>
+       <decimal>60</decimal>
+      </minref>
+      <maxref>
+       <decimal>100</decimal>
+      </maxref>
+     </content>
+     <author>
+      <hcparty>
+       <id S="ID-HCPARTY" SV="1.0"></id>
+       <cd S="CD-HCPARTY" SV="1.0">persphysician</cd>
+       <familyname>Valab</familyname>
+      </hcparty>
+     </author>
+     <beginmoment>
+      <date>2017-09-16</date>
+      <time>09:43:00</time>
+     </beginmoment>
+     <iscomplete>true</iscomplete>
+     <isvalidated>true</isvalidated>
+     <confirmationmoment>
+      <date>2017-09-16</date>
+      <time>11:53:06</time>
+     </confirmationmoment>
+     <validationmoment>
+      <date>2017-09-16</date>
+      <time>11:55:08</time>
+     </validationmoment>
+    </item>
+    <item>
+     <id S="ID-KMEHR" SV="1.0">7</id>
+     <cd S="CD-ITEM" SV="1.0">lab</cd>
+     <cd S="LOCAL" SL="local" DN="Urée" L="F" SV="1.0">URS3</cd>
+     <content>
+      <decimal>46</decimal>
+      <unit>
+       <cd S="LOCAL" SL="local" DN="mg/dL" L="F" SV="1.0">mg/dL</cd>
+      </unit>
+      <minref>
+       <decimal>16</decimal>
+      </minref>
+      <maxref>
+       <decimal>48</decimal>
+      </maxref>
+     </content>
+     <author>
+      <hcparty>
+       <id S="ID-HCPARTY" SV="1.0"></id>
+       <cd S="CD-HCPARTY" SV="1.0">persphysician</cd>
+       <familyname>Valab</familyname>
+      </hcparty>
+     </author>
+     <beginmoment>
+      <date>2017-09-16</date>
+      <time>09:43:00</time>
+     </beginmoment>
+     <iscomplete>true</iscomplete>
+     <isvalidated>true</isvalidated>
+     <confirmationmoment>
+      <date>2017-09-16</date>
+      <time>11:51:14</time>
+     </confirmationmoment>
+     <validationmoment>
+      <date>2017-09-16</date>
+      <time>11:51:15</time>
+     </validationmoment>
+    </item>
+    <item>
+     <id S="ID-KMEHR" SV="1.0">8</id>
+     <cd S="CD-ITEM" SV="1.0">lab</cd>
+     <cd S="LOCAL" SL="local" DN="Créatinine" L="F" SV="1.0">CR2_ind</cd>
+     <content>
+      <decimal>1.23</decimal>
+      <unit>
+       <cd S="LOCAL" SL="local" DN="mg/dL" L="F" SV="1.0">mg/dL</cd>
+      </unit>
+      <minref>
+       <decimal>0.72</decimal>
+      </minref>
+      <maxref>
+       <decimal>1.18</decimal>
+      </maxref>
+     </content>
+     <author>
+      <hcparty>
+       <id S="ID-HCPARTY" SV="1.0"></id>
+       <cd S="CD-HCPARTY" SV="1.0">persphysician</cd>
+       <familyname>Valab</familyname>
+      </hcparty>
+     </author>
+     <beginmoment>
+      <date>2017-09-16</date>
+      <time>09:43:00</time>
+     </beginmoment>
+     <iscomplete>true</iscomplete>
+     <isvalidated>true</isvalidated>
+     <confirmationmoment>
+      <date>2017-09-16</date>
+      <time>11:51:07</time>
+     </confirmationmoment>
+     <validationmoment>
+      <date>2017-09-16</date>
+      <time>11:51:20</time>
+     </validationmoment>
+     <severity>
+      <cd S="CD-SEVERITY" SV="1.0">abnormal</cd>
+      <cd S="LOCAL" SL="local" DN="abnormal" L="F" SV="1.0">1</cd>
+     </severity>
+    </item>
+    <item>
+     <id S="ID-KMEHR" SV="1.0">9</id>
+     <cd S="CD-ITEM" SV="1.0">lab</cd>
+     <cd S="LOCAL" SL="local" DN="Estimation du GFR (MDRD)" L="F" SV="1.0">MDFG</cd>
+     <content>
+      <decimal>58</decimal>
+      <unit>
+       <cd S="LOCAL" SL="local" DN="ml/min/1.73m²" L="F" SV="1.0">ml/min/1.73m²</cd>
+      </unit>
+      <minref>
+       <decimal>60</decimal>
+      </minref>
+     </content>
+     <beginmoment>
+      <date>2017-09-16</date>
+      <time>09:43:00</time>
+     </beginmoment>
+     <iscomplete>true</iscomplete>
+     <isvalidated>true</isvalidated>
+     <confirmationmoment>
+      <date>2017-09-16</date>
+      <time>11:51:11</time>
+     </confirmationmoment>
+     <validationmoment>
+      <date>2017-09-16</date>
+      <time>11:51:11</time>
+     </validationmoment>
+     <severity>
+      <cd S="CD-SEVERITY" SV="1.0">abnormal</cd>
+      <cd S="LOCAL" SL="local" DN="abnormal" L="F" SV="1.0">-1</cd>
+     </severity>
+    </item>
+    <item>
+     <id S="ID-KMEHR" SV="1.0">10</id>
+     <cd S="CD-ITEM" SV="1.0">lab</cd>
+     <cd S="LOCAL" SL="local" DN="GFR commentaire" L="F" SV="1.0">GFR_com</cd>
+     <content>
+      <text xml:space="preserve" L="F">Non valable pour les patients obèses. Résultat à corriger par un facteur 1.210 pour les patients africains. Formule non validée pour les patients de plus de 70 ans.</text>
+      <unit>
+       <cd S="LOCAL" SL="local" DN="" L="F" SV="1.0"></cd>
+      </unit>
+      <minref>
+       <text xml:space="preserve" L="F"></text>
+      </minref>
+     </content>
+     <beginmoment>
+      <date>2017-09-16</date>
+      <time>09:43:00</time>
+     </beginmoment>
+     <iscomplete>true</iscomplete>
+     <isvalidated>true</isvalidated>
+     <confirmationmoment>
+      <date>2017-09-16</date>
+      <time>11:51:09</time>
+     </confirmationmoment>
+     <validationmoment>
+      <date>2017-09-16</date>
+      <time>11:51:09</time>
+     </validationmoment>
+    </item>
+    <item>
+     <id S="ID-KMEHR" SV="1.0">11</id>
+     <cd S="CD-ITEM" SV="1.0">lab</cd>
+     <cd S="LOCAL" SL="local" DN="Acide urique" L="F" SV="1.0">AU2_ind</cd>
+     <content>
+      <decimal>6.9</decimal>
+      <unit>
+       <cd S="LOCAL" SL="local" DN="mg/dL" L="F" SV="1.0">mg/dL</cd>
+      </unit>
+      <minref>
+       <decimal>3.8</decimal>
+      </minref>
+      <maxref>
+       <decimal>8.0</decimal>
+      </maxref>
+     </content>
+     <text xml:space="preserve" L="F">Valeur recommandée pour un patient traité chroniquement pour la goutte &lt;6 mg/dL (directive EULAR)</text>
+     <author>
+      <hcparty>
+       <id S="ID-HCPARTY" SV="1.0"></id>
+       <cd S="CD-HCPARTY" SV="1.0">persphysician</cd>
+       <familyname>Valab</familyname>
+      </hcparty>
+     </author>
+     <beginmoment>
+      <date>2017-09-16</date>
+      <time>09:43:00</time>
+     </beginmoment>
+     <iscomplete>true</iscomplete>
+     <isvalidated>true</isvalidated>
+     <confirmationmoment>
+      <date>2017-09-16</date>
+      <time>11:51:11</time>
+     </confirmationmoment>
+     <validationmoment>
+      <date>2017-09-16</date>
+      <time>11:51:20</time>
+     </validationmoment>
+    </item>
+    <item>
+     <id S="ID-KMEHR" SV="1.0">12</id>
+     <cd S="CD-ITEM" SV="1.0">lab</cd>
+     <cd S="LOCAL" SL="local" DN="Protéines totales" L="F" SV="1.0">PT_ind</cd>
+     <content>
+      <decimal>74</decimal>
+      <unit>
+       <cd S="LOCAL" SL="local" DN="g/L" L="F" SV="1.0">g/L</cd>
+      </unit>
+      <minref>
+       <decimal>62</decimal>
+      </minref>
+      <maxref>
+       <decimal>78</decimal>
+      </maxref>
+     </content>
+     <author>
+      <hcparty>
+       <id S="ID-HCPARTY" SV="1.0"></id>
+       <cd S="CD-HCPARTY" SV="1.0">persphysician</cd>
+       <familyname>Valab</familyname>
+      </hcparty>
+     </author>
+     <beginmoment>
+      <date>2017-09-16</date>
+      <time>09:43:00</time>
+     </beginmoment>
+     <iscomplete>true</iscomplete>
+     <isvalidated>true</isvalidated>
+     <confirmationmoment>
+      <date>2017-09-16</date>
+      <time>11:51:14</time>
+     </confirmationmoment>
+     <validationmoment>
+      <date>2017-09-16</date>
+      <time>11:51:20</time>
+     </validationmoment>
+    </item>
+    <item>
+     <id S="ID-KMEHR" SV="1.0">13</id>
+     <cd S="CD-ITEM" SV="1.0">lab</cd>
+     <cd S="LOCAL" SL="local" DN="Magnésium" L="F" SV="1.0">MG_ind</cd>
+     <content>
+      <decimal>0.84</decimal>
+      <unit>
+       <cd S="LOCAL" SL="local" DN="mmol/L" L="F" SV="1.0">mmol/L</cd>
+      </unit>
+      <minref>
+       <decimal>0.64</decimal>
+      </minref>
+      <maxref>
+       <decimal>1.03</decimal>
+      </maxref>
+     </content>
+     <author>
+      <hcparty>
+       <id S="ID-HCPARTY" SV="1.0"></id>
+       <cd S="CD-HCPARTY" SV="1.0">persphysician</cd>
+       <familyname>Valab</familyname>
+      </hcparty>
+     </author>
+     <beginmoment>
+      <date>2017-09-16</date>
+      <time>09:43:00</time>
+     </beginmoment>
+     <iscomplete>true</iscomplete>
+     <isvalidated>true</isvalidated>
+     <confirmationmoment>
+      <date>2017-09-16</date>
+      <time>11:51:12</time>
+     </confirmationmoment>
+     <validationmoment>
+      <date>2017-09-16</date>
+      <time>11:51:20</time>
+     </validationmoment>
+    </item>
+    <item>
+     <id S="ID-KMEHR" SV="1.0">14</id>
+     <cd S="CD-ITEM" SV="1.0">lab</cd>
+     <cd S="LOCAL" SL="local" DN="CRP" L="F" SV="1.0">CRP_ind</cd>
+     <content>
+      <decimal>&lt;0.6</decimal>
+      <unit>
+       <cd S="LOCAL" SL="local" DN="mg/L" L="F" SV="1.0">mg/L</cd>
+      </unit>
+      <minref>
+       <decimal>0.0</decimal>
+      </minref>
+      <maxref>
+       <decimal>5.0</decimal>
+      </maxref>
+     </content>
+     <author>
+      <hcparty>
+       <id S="ID-HCPARTY" SV="1.0"></id>
+       <cd S="CD-HCPARTY" SV="1.0">persphysician</cd>
+       <familyname>Valab</familyname>
+      </hcparty>
+     </author>
+     <beginmoment>
+      <date>2017-09-16</date>
+      <time>09:43:00</time>
+     </beginmoment>
+     <iscomplete>true</iscomplete>
+     <isvalidated>true</isvalidated>
+     <confirmationmoment>
+      <date>2017-09-16</date>
+      <time>11:51:06</time>
+     </confirmationmoment>
+     <validationmoment>
+      <date>2017-09-16</date>
+      <time>11:51:20</time>
+     </validationmoment>
+    </item>
+   </heading>
+   <heading>
+    <id S="ID-KMEHR" SV="1.0">8</id>
+    <cd S="CD-HEADING-LAB" SV="1.0">EXPLORATION HEPATIQUE</cd>
+    <item>
+     <id S="ID-KMEHR" SV="1.0">1</id>
+     <cd S="CD-ITEM" SV="1.0">lab</cd>
+     <cd S="LOCAL" SL="local" DN="Bilirubine totale" L="F" SV="1.0">BIT2_ind</cd>
+     <content>
+      <decimal>0.59</decimal>
+      <unit>
+       <cd S="LOCAL" SL="local" DN="mg/dL" L="F" SV="1.0">mg/dL</cd>
+      </unit>
+      <maxref>
+       <decimal>1.20</decimal>
+      </maxref>
+     </content>
+     <author>
+      <hcparty>
+       <id S="ID-HCPARTY" SV="1.0"></id>
+       <cd S="CD-HCPARTY" SV="1.0">persphysician</cd>
+       <familyname>Valab</familyname>
+      </hcparty>
+     </author>
+     <beginmoment>
+      <date>2017-09-16</date>
+      <time>09:43:00</time>
+     </beginmoment>
+     <iscomplete>true</iscomplete>
+     <isvalidated>true</isvalidated>
+     <confirmationmoment>
+      <date>2017-09-16</date>
+      <time>11:51:07</time>
+     </confirmationmoment>
+     <validationmoment>
+      <date>2017-09-16</date>
+      <time>11:51:20</time>
+     </validationmoment>
+    </item>
+    <item>
+     <id S="ID-KMEHR" SV="1.0">2</id>
+     <cd S="CD-ITEM" SV="1.0">lab</cd>
+     <cd S="LOCAL" SL="local" DN="Bilirubine conjuguée" L="F" SV="1.0">BIC2_ind</cd>
+     <content>
+      <decimal>0.25</decimal>
+      <unit>
+       <cd S="LOCAL" SL="local" DN="mg/dL" L="F" SV="1.0">mg/dL</cd>
+      </unit>
+      <maxref>
+       <decimal>0.39</decimal>
+      </maxref>
+     </content>
+     <author>
+      <hcparty>
+       <id S="ID-HCPARTY" SV="1.0"></id>
+       <cd S="CD-HCPARTY" SV="1.0">persphysician</cd>
+       <familyname>Valab</familyname>
+      </hcparty>
+     </author>
+     <beginmoment>
+      <date>2017-09-16</date>
+      <time>09:43:00</time>
+     </beginmoment>
+     <iscomplete>true</iscomplete>
+     <isvalidated>true</isvalidated>
+     <confirmationmoment>
+      <date>2017-09-16</date>
+      <time>11:51:07</time>
+     </confirmationmoment>
+     <validationmoment>
+      <date>2017-09-16</date>
+      <time>11:51:20</time>
+     </validationmoment>
+    </item>
+    <item>
+     <id S="ID-KMEHR" SV="1.0">3</id>
+     <cd S="CD-ITEM" SV="1.0">lab</cd>
+     <cd S="LOCAL" SL="local" DN="GGT" L="F" SV="1.0">GGT_ind</cd>
+     <content>
+      <decimal>23</decimal>
+      <unit>
+       <cd S="LOCAL" SL="local" DN="U/L" L="F" SV="1.0">U/L</cd>
+      </unit>
+      <maxref>
+       <decimal>60</decimal>
+      </maxref>
+     </content>
+     <author>
+      <hcparty>
+       <id S="ID-HCPARTY" SV="1.0"></id>
+       <cd S="CD-HCPARTY" SV="1.0">persphysician</cd>
+       <familyname>Valab</familyname>
+      </hcparty>
+     </author>
+     <beginmoment>
+      <date>2017-09-16</date>
+      <time>09:43:00</time>
+     </beginmoment>
+     <iscomplete>true</iscomplete>
+     <isvalidated>true</isvalidated>
+     <confirmationmoment>
+      <date>2017-09-16</date>
+      <time>11:51:07</time>
+     </confirmationmoment>
+     <validationmoment>
+      <date>2017-09-16</date>
+      <time>11:51:20</time>
+     </validationmoment>
+    </item>
+    <item>
+     <id S="ID-KMEHR" SV="1.0">4</id>
+     <cd S="CD-ITEM" SV="1.0">lab</cd>
+     <cd S="LOCAL" SL="local" DN="TGP (ALAT)" L="F" SV="1.0">TGP_ind</cd>
+     <content>
+      <decimal>22</decimal>
+      <unit>
+       <cd S="LOCAL" SL="local" DN="U/L" L="F" SV="1.0">U/L</cd>
+      </unit>
+      <maxref>
+       <decimal>41</decimal>
+      </maxref>
+     </content>
+     <author>
+      <hcparty>
+       <id S="ID-HCPARTY" SV="1.0"></id>
+       <cd S="CD-HCPARTY" SV="1.0">persphysician</cd>
+       <familyname>Valab</familyname>
+      </hcparty>
+     </author>
+     <beginmoment>
+      <date>2017-09-16</date>
+      <time>09:43:00</time>
+     </beginmoment>
+     <iscomplete>true</iscomplete>
+     <isvalidated>true</isvalidated>
+     <confirmationmoment>
+      <date>2017-09-16</date>
+      <time>11:51:14</time>
+     </confirmationmoment>
+     <validationmoment>
+      <date>2017-09-16</date>
+      <time>11:51:20</time>
+     </validationmoment>
+    </item>
+    <item>
+     <id S="ID-KMEHR" SV="1.0">5</id>
+     <cd S="CD-ITEM" SV="1.0">lab</cd>
+     <cd S="LOCAL" SL="local" DN="LDH" L="F" SV="1.0">LDH2_ind</cd>
+     <content>
+      <decimal>186</decimal>
+      <unit>
+       <cd S="LOCAL" SL="local" DN="U/L" L="F" SV="1.0">U/L</cd>
+      </unit>
+      <maxref>
+       <decimal>250</decimal>
+      </maxref>
+     </content>
+     <author>
+      <hcparty>
+       <id S="ID-HCPARTY" SV="1.0"></id>
+       <cd S="CD-HCPARTY" SV="1.0">persphysician</cd>
+       <familyname>Valab</familyname>
+      </hcparty>
+     </author>
+     <beginmoment>
+      <date>2017-09-16</date>
+      <time>09:43:00</time>
+     </beginmoment>
+     <iscomplete>true</iscomplete>
+     <isvalidated>true</isvalidated>
+     <confirmationmoment>
+      <date>2017-09-16</date>
+      <time>11:51:15</time>
+     </confirmationmoment>
+     <validationmoment>
+      <date>2017-09-16</date>
+      <time>11:51:20</time>
+     </validationmoment>
+    </item>
+   </heading>
+   <heading>
+    <id S="ID-KMEHR" SV="1.0">9</id>
+    <cd S="CD-HEADING-LAB" SV="1.0">-</cd>
+   </heading>
+   <heading>
+    <id S="ID-KMEHR" SV="1.0">10</id>
+    <cd S="CD-HEADING-LAB" SV="1.0">DONNEES CLINIQUES:
+</cd>
+   </heading>
+   <heading>
+    <id S="ID-KMEHR" SV="1.0">11</id>
+    <cd S="CD-HEADING-LAB" SV="1.0"></cd>
+   </heading>
+   <heading>
+    <id S="ID-KMEHR" SV="1.0">12</id>
+    <cd S="CD-HEADING-LAB" SV="1.0">Confraternellement, Ph. Biol. C. LE GOFF, Ph. Biol. A. KEUTGENS</cd>
+   </heading>
+   <heading>
+    <id S="ID-KMEHR" SV="1.0">13</id>
+    <cd S="CD-HEADING-LAB" SV="1.0"></cd>
+   </heading>
+   <heading>
+    <id S="ID-KMEHR" SV="1.0">14</id>
+    <cd S="CD-HEADING-LAB" SV="1.0"></cd>
+   </heading>
+   <heading>
+    <id S="ID-KMEHR" SV="1.0">15</id>
+    <cd S="CD-HEADING-LAB" SV="1.0"></cd>
+   </heading>
+   <heading>
+    <id S="ID-KMEHR" SV="1.0">16</id>
+    <cd S="CD-HEADING-LAB" SV="1.0">Médecin prescripteur :
+BONNET CHRISTOPHE</cd>
+   </heading>
+   <heading>
+    <id S="ID-KMEHR" SV="1.0">17</id>
+    <cd S="CD-HEADING-LAB" SV="1.0">.
+Copie EL_Beguin à BONNET CHRISTOPHE 16735666598
+Copie MEXI_GFOR à HERMAN MARIE-GENEVIEVE 16559284004
+Copie CR_Papier à Hémato</cd>
+   </heading>
+  </transaction>
+ </folder>
+</kmehrmessage>

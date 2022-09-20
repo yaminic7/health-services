@@ -1,0 +1,130 @@
+{
+  "resourceType": "Bundle",
+  "id": "1",
+  "language": "en",
+  "type": "searchset",
+  "timestamp": "2022-03-29T12:19:59.321Z",
+  "entry": [
+    {
+      "fullUrl": "http://iehrexampleurl/Condition/ICD10_J00",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "ICD10_J00",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://hl7.org",
+              "code": "active",
+              "display": "active clinical-condition"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://hl7.org",
+              "code": "confirmed",
+              "display": "confirmed condition-ver-status"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://icd10.org",
+              "code": "j00",
+              "display": "Acute nasopharyngitis [common cold]"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/7031966696"
+        },
+        "onsetDateTime": "2007-09-03"
+      }
+    },
+    {
+      "fullUrl": "http://iehrexampleurl/Condition/ICD10_G40.9",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "ICD10_G40.9",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://hl7.org",
+              "code": "active",
+              "display": "active clinical-condition"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://hl7.org",
+              "code": "confirmed",
+              "display": "confirmed condition-ver-status"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://icd10.org",
+              "code": "g40.9",
+              "display": "Epilepsy, unspecified"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/7031966696"
+        },
+        "onsetDateTime": "2005-01-21"
+      }
+    },
+    {
+      "fullUrl": "IEHR/fhir/Provenance/1648556403985/Condition/ATC_A02BC01",
+      "resource": {
+        "resourceType": "Provenance",
+        "id": "1648556403985",
+        "target": [
+          {
+            "reference": "Condition/ATC_A02BC01"
+          }
+        ],
+        "occurredDateTime": "2022-03-29T12:20:03.986Z",
+        "recorded": "2022-03-29T12:20:03.986Z",
+        "agent": [
+          {
+            "who": {
+              "reference": "Device/1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "IEHR/fhir/Device/1",
+      "resource": {
+        "resourceType": "Device",
+        "id": "1",
+        "status": "active",
+        "deviceName": [
+          {
+            "name": "iehr-translation-service",
+            "type": "other"
+          }
+        ]
+      }
+    }
+  ]
+}

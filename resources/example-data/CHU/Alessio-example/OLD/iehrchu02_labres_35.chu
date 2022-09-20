@@ -1,0 +1,2879 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?><kmehrmessage>
+ <header>
+  <standard>
+   <cd S="CD-STANDARD" SV="1.0">20021205</cd>
+  </standard>
+  <id S="ID-KMEHR" SV="1.0">111abffa18da5be443da57ad01575777bb35d9fb12a402d2f3aaa4e8e250f67d</id>
+  <date>2022-01-01</date>
+  <time>12:00:00</time>
+  <sender>
+   <hcparty>
+    <id S="ID-HCPARTY" SV="1.0"/>
+    <cd S="CD-HCPARTY" SV="1.0">orghospital</cd>
+    <name>CHU de Liège</name>
+   </hcparty>
+  </sender>
+  <recipient>
+   <hcparty>
+    <id S="ID-HCPARTY" SV="1.0">16636785004</id>
+    <id S="LOCAL" SL="ST" SV="1.0">166367</id>
+    <id S="LOCAL" SL="MEXI" SV="1.0">66367</id>
+    <cd S="CD-HCPARTY" SV="1.0">persphysician</cd>
+    <firstname>ISABELLE</firstname>
+    <familyname>DECLOEDT</familyname>
+   </hcparty>
+  </recipient>
+ </header>
+ <folder>
+  <id S="ID-KMEHR" SV="1.0">1</id>
+  <patient>
+   <id S="ID-PATIENT" SV="1.0">11111111111</id>
+   <id S="LOCAL" SL="ST" SV="1.0">61fb84d7bd5e34e389460d9a5c36d19e06668edf2f8c888a44b35cd42096e74a</id>
+   <firstname>iehrchu01</firstname>
+   <familyname>iehrchu01</familyname>
+   <birthdate>
+    <date>2022-07-18</date>
+   </birthdate>
+   <sex>
+    <cd S="CD-SEX" SV="1.0">female</cd>
+   </sex>
+   <address>
+    <cd S="CD-ADDRESS" SV="1.0">home</cd>
+    <country>
+     <cd S="CD-COUNTRY" SV="1.0">be</cd>
+    </country>
+    <zip>4444</zip>
+    <city>CITY</city>
+    <street>Rue XXXXXXXXXX 11</street>
+   </address>
+  </patient>
+  <transaction>
+   <id S="ID-KMEHR" SV="1.0">1</id>
+   <cd S="CD-TRANSACTION" SV="1.0">labresult</cd>
+   <date>2022-01-01</date>
+   <time>12:00:00</time>
+   <author>
+    <hcparty>
+     <id S="ID-HCPARTY" SV="1.0"/>
+     <cd S="CD-HCPARTY" SV="1.0">persphysician</cd>
+     <firstname>Josiane</firstname>
+     <familyname>WYPCHLO</familyname>
+    </hcparty>
+    <hcparty>
+     <id S="ID-HCPARTY" SV="1.0"/>
+     <cd S="CD-HCPARTY" SV="1.0">deptlaboratory</cd>
+     <name>CHU Esneux</name>
+    </hcparty>
+    <hcparty>
+     <id S="ID-HCPARTY" SV="1.0">86270018383</id>
+     <id S="LOCAL" SL="ST" SV="1.0">862700</id>
+     <cd S="CD-HCPARTY" SV="1.0">orglaboratory</cd>
+     <name>Département de Biologie Clinique</name>
+    </hcparty>
+   </author>
+   <iscomplete>true</iscomplete>
+   <isvalidated>true</isvalidated>
+   <item>
+    <id S="ID-KMEHR" SV="1.0">1</id>
+    <cd S="CD-ITEM" SV="1.0">requestnumber</cd>
+    <content>
+     <id S="LOCAL" SL="local" SV="1.0">957b2c320f596ee302fd5c9b9eeba6aa89b91e8915de354e45f8a92073310702</id>
+     <cd S="" SV="1.0">01228950</cd>
+    </content>
+   </item>
+   <item>
+    <id S="ID-KMEHR" SV="1.0">2</id>
+    <cd S="CD-ITEM" SV="1.0">requestdatetime</cd>
+    <content>
+     <date>2022-01-01</date>
+     <time>12:00:00</time>
+    </content>
+   </item>
+   <item>
+    <id S="ID-KMEHR" SV="1.0">3</id>
+    <cd S="CD-ITEM" SV="1.0">requestor</cd>
+    <content>
+     <hcparty>
+      <id S="ID-HCPARTY" SV="1.0">16636785004</id>
+      <id S="LOCAL" SL="ST" SV="1.0">166367</id>
+      <id S="LOCAL" SL="MEXI" SV="1.0">66367</id>
+      <cd S="CD-HCPARTY" SV="1.0">persphysician</cd>
+      <firstname>ISABELLE</firstname>
+      <familyname>DECLOEDT</familyname>
+     </hcparty>
+    </content>
+   </item>
+   <heading>
+    <id S="ID-KMEHR" SV="1.0">4</id>
+    <cd S="CD-HEADING-LAB" SV="1.0">CYTOLOGIE SANGUINE</cd>
+    <item>
+     <id S="ID-KMEHR" SV="1.0">1</id>
+     <cd S="CD-ITEM" SV="1.0">lab</cd>
+     <cd DN="Globules rouges" L="F" S="LOCAL" SL="local" SV="1.0">GR</cd>
+     <content>
+      <decimal>3.98</decimal>
+      <unit>
+       <cd DN="10^6/mm^3" L="F" S="LOCAL" SL="local" SV="1.0">10^6/mm^3</cd>
+      </unit>
+      <minref>
+       <decimal>4.00</decimal>
+      </minref>
+      <maxref>
+       <decimal>5.20</decimal>
+      </maxref>
+     </content>
+     <author>
+      <hcparty>
+       <id S="ID-HCPARTY" SV="1.0"/>
+       <cd S="CD-HCPARTY" SV="1.0">persphysician</cd>
+       <firstname>Jeanine</firstname>
+       <familyname>PIRSON</familyname>
+      </hcparty>
+     </author>
+     <beginmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </beginmoment>
+     <iscomplete>true</iscomplete>
+     <isvalidated>true</isvalidated>
+     <confirmationmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </confirmationmoment>
+     <validationmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </validationmoment>
+     <severity>
+      <cd S="CD-SEVERITY" SV="1.0">abnormal</cd>
+      <cd DN="abnormal" L="F" S="LOCAL" SL="local" SV="1.0">-1</cd>
+     </severity>
+    </item>
+    <item>
+     <id S="ID-KMEHR" SV="1.0">2</id>
+     <cd S="CD-ITEM" SV="1.0">lab</cd>
+     <cd DN="Hémoglobine" L="F" S="LOCAL" SL="local" SV="1.0">HGB</cd>
+     <content>
+      <decimal>12.3</decimal>
+      <unit>
+       <cd DN="g/dL" L="F" S="LOCAL" SL="local" SV="1.0">g/dL</cd>
+      </unit>
+      <minref>
+       <decimal>11.7</decimal>
+      </minref>
+      <maxref>
+       <decimal>14.9</decimal>
+      </maxref>
+     </content>
+     <author>
+      <hcparty>
+       <id S="ID-HCPARTY" SV="1.0"/>
+       <cd S="CD-HCPARTY" SV="1.0">persphysician</cd>
+       <firstname>Jeanine</firstname>
+       <familyname>PIRSON</familyname>
+      </hcparty>
+     </author>
+     <beginmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </beginmoment>
+     <iscomplete>true</iscomplete>
+     <isvalidated>true</isvalidated>
+     <confirmationmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </confirmationmoment>
+     <validationmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </validationmoment>
+    </item>
+    <item>
+     <id S="ID-KMEHR" SV="1.0">3</id>
+     <cd S="CD-ITEM" SV="1.0">lab</cd>
+     <cd DN="Hématocrite" L="F" S="LOCAL" SL="local" SV="1.0">HTR</cd>
+     <content>
+      <decimal>37.5</decimal>
+      <unit>
+       <cd DN="%" L="F" S="LOCAL" SL="local" SV="1.0">%</cd>
+      </unit>
+      <minref>
+       <decimal>35.2</decimal>
+      </minref>
+      <maxref>
+       <decimal>45.4</decimal>
+      </maxref>
+     </content>
+     <author>
+      <hcparty>
+       <id S="ID-HCPARTY" SV="1.0"/>
+       <cd S="CD-HCPARTY" SV="1.0">persphysician</cd>
+       <firstname>Jeanine</firstname>
+       <familyname>PIRSON</familyname>
+      </hcparty>
+     </author>
+     <beginmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </beginmoment>
+     <iscomplete>true</iscomplete>
+     <isvalidated>true</isvalidated>
+     <confirmationmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </confirmationmoment>
+     <validationmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </validationmoment>
+    </item>
+    <item>
+     <id S="ID-KMEHR" SV="1.0">4</id>
+     <cd S="CD-ITEM" SV="1.0">lab</cd>
+     <cd DN="Volume globulaire" L="F" S="LOCAL" SL="local" SV="1.0">VOL</cd>
+     <content>
+      <decimal>94.1</decimal>
+      <unit>
+       <cd DN="fl" L="F" S="LOCAL" SL="local" SV="1.0">fl</cd>
+      </unit>
+      <minref>
+       <decimal>81.0</decimal>
+      </minref>
+      <maxref>
+       <decimal>97.0</decimal>
+      </maxref>
+     </content>
+     <author>
+      <hcparty>
+       <id S="ID-HCPARTY" SV="1.0"/>
+       <cd S="CD-HCPARTY" SV="1.0">persphysician</cd>
+       <firstname>Jeanine</firstname>
+       <familyname>PIRSON</familyname>
+      </hcparty>
+     </author>
+     <beginmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </beginmoment>
+     <iscomplete>true</iscomplete>
+     <isvalidated>true</isvalidated>
+     <confirmationmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </confirmationmoment>
+     <validationmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </validationmoment>
+    </item>
+    <item>
+     <id S="ID-KMEHR" SV="1.0">5</id>
+     <cd S="CD-ITEM" SV="1.0">lab</cd>
+     <cd DN="Valeur globulaire" L="F" S="LOCAL" SL="local" SV="1.0">VLG</cd>
+     <content>
+      <decimal>30.8</decimal>
+      <unit>
+       <cd DN="pg" L="F" S="LOCAL" SL="local" SV="1.0">pg</cd>
+      </unit>
+      <minref>
+       <decimal>26.5</decimal>
+      </minref>
+      <maxref>
+       <decimal>32.6</decimal>
+      </maxref>
+     </content>
+     <author>
+      <hcparty>
+       <id S="ID-HCPARTY" SV="1.0"/>
+       <cd S="CD-HCPARTY" SV="1.0">persphysician</cd>
+       <firstname>Jeanine</firstname>
+       <familyname>PIRSON</familyname>
+      </hcparty>
+     </author>
+     <beginmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </beginmoment>
+     <iscomplete>true</iscomplete>
+     <isvalidated>true</isvalidated>
+     <confirmationmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </confirmationmoment>
+     <validationmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </validationmoment>
+    </item>
+    <item>
+     <id S="ID-KMEHR" SV="1.0">6</id>
+     <cd S="CD-ITEM" SV="1.0">lab</cd>
+     <cd DN="Concentration moyenne Hb" L="F" S="LOCAL" SL="local" SV="1.0">COM</cd>
+     <content>
+      <decimal>32.7</decimal>
+      <unit>
+       <cd DN="g/dL" L="F" S="LOCAL" SL="local" SV="1.0">g/dL</cd>
+      </unit>
+      <minref>
+       <decimal>31.4</decimal>
+      </minref>
+      <maxref>
+       <decimal>35.5</decimal>
+      </maxref>
+     </content>
+     <author>
+      <hcparty>
+       <id S="ID-HCPARTY" SV="1.0"/>
+       <cd S="CD-HCPARTY" SV="1.0">persphysician</cd>
+       <firstname>Jeanine</firstname>
+       <familyname>PIRSON</familyname>
+      </hcparty>
+     </author>
+     <beginmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </beginmoment>
+     <iscomplete>true</iscomplete>
+     <isvalidated>true</isvalidated>
+     <confirmationmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </confirmationmoment>
+     <validationmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </validationmoment>
+    </item>
+    <item>
+     <id S="ID-KMEHR" SV="1.0">7</id>
+     <cd S="CD-ITEM" SV="1.0">lab</cd>
+     <cd DN="Globules rouges hypochromes" L="F" S="LOCAL" SL="local" SV="1.0">HYPO</cd>
+     <content>
+      <decimal>2.6</decimal>
+      <unit>
+       <cd DN="%" L="F" S="LOCAL" SL="local" SV="1.0">%</cd>
+      </unit>
+      <minref>
+       <decimal>0.1</decimal>
+      </minref>
+      <maxref>
+       <decimal>3.5</decimal>
+      </maxref>
+     </content>
+     <author>
+      <hcparty>
+       <id S="ID-HCPARTY" SV="1.0"/>
+       <cd S="CD-HCPARTY" SV="1.0">persphysician</cd>
+       <firstname>Jeanine</firstname>
+       <familyname>PIRSON</familyname>
+      </hcparty>
+     </author>
+     <beginmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </beginmoment>
+     <iscomplete>true</iscomplete>
+     <isvalidated>true</isvalidated>
+     <confirmationmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </confirmationmoment>
+     <validationmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </validationmoment>
+    </item>
+    <item>
+     <id S="ID-KMEHR" SV="1.0">8</id>
+     <cd S="CD-ITEM" SV="1.0">lab</cd>
+     <cd DN="Plaquettes" L="F" S="LOCAL" SL="local" SV="1.0">PLT</cd>
+     <content>
+      <decimal>264</decimal>
+      <unit>
+       <cd DN="10^3/mm^3" L="F" S="LOCAL" SL="local" SV="1.0">10^3/mm^3</cd>
+      </unit>
+      <minref>
+       <decimal>170</decimal>
+      </minref>
+      <maxref>
+       <decimal>400</decimal>
+      </maxref>
+     </content>
+     <author>
+      <hcparty>
+       <id S="ID-HCPARTY" SV="1.0"/>
+       <cd S="CD-HCPARTY" SV="1.0">persphysician</cd>
+       <firstname>Jeanine</firstname>
+       <familyname>PIRSON</familyname>
+      </hcparty>
+     </author>
+     <beginmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </beginmoment>
+     <iscomplete>true</iscomplete>
+     <isvalidated>true</isvalidated>
+     <confirmationmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </confirmationmoment>
+     <validationmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </validationmoment>
+    </item>
+    <item>
+     <id S="ID-KMEHR" SV="1.0">9</id>
+     <cd S="CD-ITEM" SV="1.0">lab</cd>
+     <cd DN="Globules blancs" L="F" S="LOCAL" SL="local" SV="1.0">GB</cd>
+     <content>
+      <decimal>5.82</decimal>
+      <unit>
+       <cd DN="10^3/mm^3" L="F" S="LOCAL" SL="local" SV="1.0">10^3/mm^3</cd>
+      </unit>
+      <minref>
+       <decimal>4.30</decimal>
+      </minref>
+      <maxref>
+       <decimal>11.90</decimal>
+      </maxref>
+     </content>
+     <author>
+      <hcparty>
+       <id S="ID-HCPARTY" SV="1.0"/>
+       <cd S="CD-HCPARTY" SV="1.0">persphysician</cd>
+       <firstname>Jeanine</firstname>
+       <familyname>PIRSON</familyname>
+      </hcparty>
+     </author>
+     <beginmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </beginmoment>
+     <iscomplete>true</iscomplete>
+     <isvalidated>true</isvalidated>
+     <confirmationmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </confirmationmoment>
+     <validationmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </validationmoment>
+    </item>
+    <heading>
+     <id S="ID-KMEHR" SV="1.0">10</id>
+     <cd S="CD-HEADING-LAB" SV="1.0">FORMULE LEUCOCYTAIRE</cd>
+     <item>
+      <id S="ID-KMEHR" SV="1.0">1</id>
+      <cd S="CD-ITEM" SV="1.0">lab</cd>
+      <cd DN="Neutrophiles" L="F" S="LOCAL" SL="local" SV="1.0">NT1_CR</cd>
+      <content>
+       <decimal>55.8</decimal>
+       <unit>
+        <cd DN="%" L="F" S="LOCAL" SL="local" SV="1.0">%</cd>
+       </unit>
+       <minref>
+        <decimal>40.9</decimal>
+       </minref>
+       <maxref>
+        <decimal>73.8</decimal>
+       </maxref>
+      </content>
+      <author>
+       <hcparty>
+        <id S="ID-HCPARTY" SV="1.0"/>
+        <cd S="CD-HCPARTY" SV="1.0">persphysician</cd>
+        <firstname>Jeanine</firstname>
+        <familyname>PIRSON</familyname>
+       </hcparty>
+      </author>
+      <beginmoment>
+       <date>2022-01-01</date>
+       <time>12:00:00</time>
+      </beginmoment>
+      <iscomplete>true</iscomplete>
+      <isvalidated>true</isvalidated>
+      <confirmationmoment>
+       <date>2022-01-01</date>
+       <time>12:00:00</time>
+      </confirmationmoment>
+      <validationmoment>
+       <date>2022-01-01</date>
+       <time>12:00:00</time>
+      </validationmoment>
+     </item>
+     <item>
+      <id S="ID-KMEHR" SV="1.0">2</id>
+      <cd S="CD-ITEM" SV="1.0">lab</cd>
+      <cd DN="Lymphocytes" L="F" S="LOCAL" SL="local" SV="1.0">LY1_CR</cd>
+      <content>
+       <decimal>33.9</decimal>
+       <unit>
+        <cd DN="%" L="F" S="LOCAL" SL="local" SV="1.0">%</cd>
+       </unit>
+       <minref>
+        <decimal>16.6</decimal>
+       </minref>
+       <maxref>
+        <decimal>44.4</decimal>
+       </maxref>
+      </content>
+      <author>
+       <hcparty>
+        <id S="ID-HCPARTY" SV="1.0"/>
+        <cd S="CD-HCPARTY" SV="1.0">persphysician</cd>
+        <firstname>Jeanine</firstname>
+        <familyname>PIRSON</familyname>
+       </hcparty>
+      </author>
+      <beginmoment>
+       <date>2022-01-01</date>
+       <time>12:00:00</time>
+      </beginmoment>
+      <iscomplete>true</iscomplete>
+      <isvalidated>true</isvalidated>
+      <confirmationmoment>
+       <date>2022-01-01</date>
+       <time>12:00:00</time>
+      </confirmationmoment>
+      <validationmoment>
+       <date>2022-01-01</date>
+       <time>12:00:00</time>
+      </validationmoment>
+     </item>
+     <item>
+      <id S="ID-KMEHR" SV="1.0">3</id>
+      <cd S="CD-ITEM" SV="1.0">lab</cd>
+      <cd DN="Monocytes" L="F" S="LOCAL" SL="local" SV="1.0">MON_CR</cd>
+      <content>
+       <decimal>6.1</decimal>
+       <unit>
+        <cd DN="%" L="F" S="LOCAL" SL="local" SV="1.0">%</cd>
+       </unit>
+       <minref>
+        <decimal>3.4</decimal>
+       </minref>
+       <maxref>
+        <decimal>9.4</decimal>
+       </maxref>
+      </content>
+      <author>
+       <hcparty>
+        <id S="ID-HCPARTY" SV="1.0"/>
+        <cd S="CD-HCPARTY" SV="1.0">persphysician</cd>
+        <firstname>Jeanine</firstname>
+        <familyname>PIRSON</familyname>
+       </hcparty>
+      </author>
+      <beginmoment>
+       <date>2022-01-01</date>
+       <time>12:00:00</time>
+      </beginmoment>
+      <iscomplete>true</iscomplete>
+      <isvalidated>true</isvalidated>
+      <confirmationmoment>
+       <date>2022-01-01</date>
+       <time>12:00:00</time>
+      </confirmationmoment>
+      <validationmoment>
+       <date>2022-01-01</date>
+       <time>12:00:00</time>
+      </validationmoment>
+     </item>
+     <item>
+      <id S="ID-KMEHR" SV="1.0">4</id>
+      <cd S="CD-ITEM" SV="1.0">lab</cd>
+      <cd DN="Eosinophiles" L="F" S="LOCAL" SL="local" SV="1.0">EO1_CR</cd>
+      <content>
+       <decimal>2.0</decimal>
+       <unit>
+        <cd DN="%" L="F" S="LOCAL" SL="local" SV="1.0">%</cd>
+       </unit>
+       <minref>
+        <decimal>0.4</decimal>
+       </minref>
+       <maxref>
+        <decimal>7.9</decimal>
+       </maxref>
+      </content>
+      <author>
+       <hcparty>
+        <id S="ID-HCPARTY" SV="1.0"/>
+        <cd S="CD-HCPARTY" SV="1.0">persphysician</cd>
+        <firstname>Jeanine</firstname>
+        <familyname>PIRSON</familyname>
+       </hcparty>
+      </author>
+      <beginmoment>
+       <date>2022-01-01</date>
+       <time>12:00:00</time>
+      </beginmoment>
+      <iscomplete>true</iscomplete>
+      <isvalidated>true</isvalidated>
+      <confirmationmoment>
+       <date>2022-01-01</date>
+       <time>12:00:00</time>
+      </confirmationmoment>
+      <validationmoment>
+       <date>2022-01-01</date>
+       <time>12:00:00</time>
+      </validationmoment>
+     </item>
+     <item>
+      <id S="ID-KMEHR" SV="1.0">5</id>
+      <cd S="CD-ITEM" SV="1.0">lab</cd>
+      <cd DN="Basophiles" L="F" S="LOCAL" SL="local" SV="1.0">BAS_CR</cd>
+      <content>
+       <decimal>0.2</decimal>
+       <unit>
+        <cd DN="%" L="F" S="LOCAL" SL="local" SV="1.0">%</cd>
+       </unit>
+       <minref>
+        <decimal>0.0</decimal>
+       </minref>
+       <maxref>
+        <decimal>1.5</decimal>
+       </maxref>
+      </content>
+      <author>
+       <hcparty>
+        <id S="ID-HCPARTY" SV="1.0"/>
+        <cd S="CD-HCPARTY" SV="1.0">persphysician</cd>
+        <firstname>Jeanine</firstname>
+        <familyname>PIRSON</familyname>
+       </hcparty>
+      </author>
+      <beginmoment>
+       <date>2022-01-01</date>
+       <time>12:00:00</time>
+      </beginmoment>
+      <iscomplete>true</iscomplete>
+      <isvalidated>true</isvalidated>
+      <confirmationmoment>
+       <date>2022-01-01</date>
+       <time>12:00:00</time>
+      </confirmationmoment>
+      <validationmoment>
+       <date>2022-01-01</date>
+       <time>12:00:00</time>
+      </validationmoment>
+     </item>
+     <item>
+      <id S="ID-KMEHR" SV="1.0">6</id>
+      <cd S="CD-ITEM" SV="1.0">lab</cd>
+      <cd DN="Grandes cellules non colorées" L="F" S="LOCAL" SL="local" SV="1.0">LUC_CR</cd>
+      <content>
+       <decimal>2.0</decimal>
+       <unit>
+        <cd DN="%" L="F" S="LOCAL" SL="local" SV="1.0">%</cd>
+       </unit>
+       <minref>
+        <decimal>0.0</decimal>
+       </minref>
+       <maxref>
+        <decimal>4.5</decimal>
+       </maxref>
+      </content>
+      <author>
+       <hcparty>
+        <id S="ID-HCPARTY" SV="1.0"/>
+        <cd S="CD-HCPARTY" SV="1.0">persphysician</cd>
+        <firstname>Jeanine</firstname>
+        <familyname>PIRSON</familyname>
+       </hcparty>
+      </author>
+      <beginmoment>
+       <date>2022-01-01</date>
+       <time>12:00:00</time>
+      </beginmoment>
+      <iscomplete>true</iscomplete>
+      <isvalidated>true</isvalidated>
+      <confirmationmoment>
+       <date>2022-01-01</date>
+       <time>12:00:00</time>
+      </confirmationmoment>
+      <validationmoment>
+       <date>2022-01-01</date>
+       <time>12:00:00</time>
+      </validationmoment>
+     </item>
+     <item>
+      <id S="ID-KMEHR" SV="1.0">7</id>
+      <cd S="CD-ITEM" SV="1.0">lab</cd>
+      <cd DN="Neutrophiles abs" L="F" S="LOCAL" SL="local" SV="1.0">NT2_CR</cd>
+      <content>
+       <decimal>3.25</decimal>
+       <unit>
+        <cd DN="10^3/mm^3" L="F" S="LOCAL" SL="local" SV="1.0">10^3/mm^3</cd>
+       </unit>
+       <minref>
+        <decimal>2.10</decimal>
+       </minref>
+       <maxref>
+        <decimal>8.00</decimal>
+       </maxref>
+      </content>
+      <author>
+       <hcparty>
+        <id S="ID-HCPARTY" SV="1.0"/>
+        <cd S="CD-HCPARTY" SV="1.0">persphysician</cd>
+        <firstname>Jeanine</firstname>
+        <familyname>PIRSON</familyname>
+       </hcparty>
+      </author>
+      <beginmoment>
+       <date>2022-01-01</date>
+       <time>12:00:00</time>
+      </beginmoment>
+      <iscomplete>true</iscomplete>
+      <isvalidated>true</isvalidated>
+      <confirmationmoment>
+       <date>2022-01-01</date>
+       <time>12:00:00</time>
+      </confirmationmoment>
+      <validationmoment>
+       <date>2022-01-01</date>
+       <time>12:00:00</time>
+      </validationmoment>
+     </item>
+     <item>
+      <id S="ID-KMEHR" SV="1.0">8</id>
+      <cd S="CD-ITEM" SV="1.0">lab</cd>
+      <cd DN="Lymphocytes abs" L="F" S="LOCAL" SL="local" SV="1.0">LY2_CR</cd>
+      <content>
+       <decimal>1.97</decimal>
+       <unit>
+        <cd DN="10^3/mm^3" L="F" S="LOCAL" SL="local" SV="1.0">10^3/mm^3</cd>
+       </unit>
+       <minref>
+        <decimal>1.20</decimal>
+       </minref>
+       <maxref>
+        <decimal>3.70</decimal>
+       </maxref>
+      </content>
+      <author>
+       <hcparty>
+        <id S="ID-HCPARTY" SV="1.0"/>
+        <cd S="CD-HCPARTY" SV="1.0">persphysician</cd>
+        <firstname>Jeanine</firstname>
+        <familyname>PIRSON</familyname>
+       </hcparty>
+      </author>
+      <beginmoment>
+       <date>2022-01-01</date>
+       <time>12:00:00</time>
+      </beginmoment>
+      <iscomplete>true</iscomplete>
+      <isvalidated>true</isvalidated>
+      <confirmationmoment>
+       <date>2022-01-01</date>
+       <time>12:00:00</time>
+      </confirmationmoment>
+      <validationmoment>
+       <date>2022-01-01</date>
+       <time>12:00:00</time>
+      </validationmoment>
+     </item>
+     <item>
+      <id S="ID-KMEHR" SV="1.0">9</id>
+      <cd S="CD-ITEM" SV="1.0">lab</cd>
+      <cd DN="Monocytes abs" L="F" S="LOCAL" SL="local" SV="1.0">MO2_CR</cd>
+      <content>
+       <decimal>0.35</decimal>
+       <unit>
+        <cd DN="10^3/mm^3" L="F" S="LOCAL" SL="local" SV="1.0">10^3/mm^3</cd>
+       </unit>
+       <minref>
+        <decimal>0.20</decimal>
+       </minref>
+       <maxref>
+        <decimal>0.70</decimal>
+       </maxref>
+      </content>
+      <author>
+       <hcparty>
+        <id S="ID-HCPARTY" SV="1.0"/>
+        <cd S="CD-HCPARTY" SV="1.0">persphysician</cd>
+        <firstname>Jeanine</firstname>
+        <familyname>PIRSON</familyname>
+       </hcparty>
+      </author>
+      <beginmoment>
+       <date>2022-01-01</date>
+       <time>12:00:00</time>
+      </beginmoment>
+      <iscomplete>true</iscomplete>
+      <isvalidated>true</isvalidated>
+      <confirmationmoment>
+       <date>2022-01-01</date>
+       <time>12:00:00</time>
+      </confirmationmoment>
+      <validationmoment>
+       <date>2022-01-01</date>
+       <time>12:00:00</time>
+      </validationmoment>
+     </item>
+     <item>
+      <id S="ID-KMEHR" SV="1.0">10</id>
+      <cd S="CD-ITEM" SV="1.0">lab</cd>
+      <cd DN="Eosinophiles abs" L="F" S="LOCAL" SL="local" SV="1.0">EO2_CR</cd>
+      <content>
+       <decimal>0.11</decimal>
+       <unit>
+        <cd DN="10^3/mm^3" L="F" S="LOCAL" SL="local" SV="1.0">10^3/mm^3</cd>
+       </unit>
+       <minref>
+        <decimal>0.00</decimal>
+       </minref>
+       <maxref>
+        <decimal>0.50</decimal>
+       </maxref>
+      </content>
+      <author>
+       <hcparty>
+        <id S="ID-HCPARTY" SV="1.0"/>
+        <cd S="CD-HCPARTY" SV="1.0">persphysician</cd>
+        <firstname>Jeanine</firstname>
+        <familyname>PIRSON</familyname>
+       </hcparty>
+      </author>
+      <beginmoment>
+       <date>2022-01-01</date>
+       <time>12:00:00</time>
+      </beginmoment>
+      <iscomplete>true</iscomplete>
+      <isvalidated>true</isvalidated>
+      <confirmationmoment>
+       <date>2022-01-01</date>
+       <time>12:00:00</time>
+      </confirmationmoment>
+      <validationmoment>
+       <date>2022-01-01</date>
+       <time>12:00:00</time>
+      </validationmoment>
+     </item>
+     <item>
+      <id S="ID-KMEHR" SV="1.0">11</id>
+      <cd S="CD-ITEM" SV="1.0">lab</cd>
+      <cd DN="Basophiles abs" L="F" S="LOCAL" SL="local" SV="1.0">BA2_CR</cd>
+      <content>
+       <decimal>0.01</decimal>
+       <unit>
+        <cd DN="10^3/mm^3" L="F" S="LOCAL" SL="local" SV="1.0">10^3/mm^3</cd>
+       </unit>
+       <minref>
+        <decimal>0.00</decimal>
+       </minref>
+       <maxref>
+        <decimal>0.10</decimal>
+       </maxref>
+      </content>
+      <author>
+       <hcparty>
+        <id S="ID-HCPARTY" SV="1.0"/>
+        <cd S="CD-HCPARTY" SV="1.0">persphysician</cd>
+        <firstname>Jeanine</firstname>
+        <familyname>PIRSON</familyname>
+       </hcparty>
+      </author>
+      <beginmoment>
+       <date>2022-01-01</date>
+       <time>12:00:00</time>
+      </beginmoment>
+      <iscomplete>true</iscomplete>
+      <isvalidated>true</isvalidated>
+      <confirmationmoment>
+       <date>2022-01-01</date>
+       <time>12:00:00</time>
+      </confirmationmoment>
+      <validationmoment>
+       <date>2022-01-01</date>
+       <time>12:00:00</time>
+      </validationmoment>
+     </item>
+    </heading>
+   </heading>
+   <heading>
+    <id S="ID-KMEHR" SV="1.0">5</id>
+    <cd S="CD-HEADING-LAB" SV="1.0">COAGULATION</cd>
+    <heading>
+     <id S="ID-KMEHR" SV="1.0">1</id>
+     <cd S="CD-HEADING-LAB" SV="1.0">TESTS GLOBAUX</cd>
+     <item>
+      <id S="ID-KMEHR" SV="1.0">1</id>
+      <cd S="CD-ITEM" SV="1.0">lab</cd>
+      <cd DN="Fibrinogène" L="F" S="LOCAL" SL="local" SV="1.0">FB</cd>
+      <content>
+       <decimal>2.50</decimal>
+       <unit>
+        <cd DN="g/L" L="F" S="LOCAL" SL="local" SV="1.0">g/L</cd>
+       </unit>
+       <minref>
+        <decimal>2.30</decimal>
+       </minref>
+       <maxref>
+        <decimal>4.30</decimal>
+       </maxref>
+      </content>
+      <author>
+       <hcparty>
+        <id S="ID-HCPARTY" SV="1.0"/>
+        <cd S="CD-HCPARTY" SV="1.0">persphysician</cd>
+        <firstname>Michel</firstname>
+        <familyname>JOIRET</familyname>
+       </hcparty>
+      </author>
+      <beginmoment>
+       <date>2022-01-01</date>
+       <time>12:00:00</time>
+      </beginmoment>
+      <iscomplete>true</iscomplete>
+      <isvalidated>true</isvalidated>
+      <confirmationmoment>
+       <date>2022-01-01</date>
+       <time>12:00:00</time>
+      </confirmationmoment>
+      <validationmoment>
+       <date>2022-01-01</date>
+       <time>12:00:00</time>
+      </validationmoment>
+     </item>
+    </heading>
+   </heading>
+   <heading>
+    <id S="ID-KMEHR" SV="1.0">6</id>
+    <cd S="CD-HEADING-LAB" SV="1.0">FER ET VITAMINES</cd>
+    <item>
+     <id S="ID-KMEHR" SV="1.0">1</id>
+     <cd S="CD-ITEM" SV="1.0">lab</cd>
+     <cd DN="Fer" L="F" S="LOCAL" SL="local" SV="1.0">FE_ind</cd>
+     <content>
+      <decimal>13</decimal>
+      <unit>
+       <cd DN="µmol/L" L="F" S="LOCAL" SL="local" SV="1.0">µmol/L</cd>
+      </unit>
+      <minref>
+       <decimal>6</decimal>
+      </minref>
+      <maxref>
+       <decimal>31</decimal>
+      </maxref>
+     </content>
+     <author>
+      <hcparty>
+       <id S="ID-HCPARTY" SV="1.0"/>
+       <cd S="CD-HCPARTY" SV="1.0">persphysician</cd>
+       <firstname>Lorenza</firstname>
+       <familyname>MACCALINI</familyname>
+      </hcparty>
+     </author>
+     <beginmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </beginmoment>
+     <iscomplete>true</iscomplete>
+     <isvalidated>true</isvalidated>
+     <confirmationmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </confirmationmoment>
+     <validationmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </validationmoment>
+    </item>
+    <item>
+     <id S="ID-KMEHR" SV="1.0">2</id>
+     <cd S="CD-ITEM" SV="1.0">lab</cd>
+     <cd DN="Ferritine" L="F" S="LOCAL" SL="local" SV="1.0">FRT</cd>
+     <content>
+      <decimal>19</decimal>
+      <unit>
+       <cd DN="ng/ml" L="F" S="LOCAL" SL="local" SV="1.0">ng/ml</cd>
+      </unit>
+      <minref>
+       <decimal>15</decimal>
+      </minref>
+      <maxref>
+       <decimal>150</decimal>
+      </maxref>
+     </content>
+     <author>
+      <hcparty>
+       <id S="ID-HCPARTY" SV="1.0"/>
+       <cd S="CD-HCPARTY" SV="1.0">persphysician</cd>
+       <firstname>Cynthia</firstname>
+       <familyname>CARACALLA</familyname>
+      </hcparty>
+     </author>
+     <beginmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </beginmoment>
+     <iscomplete>true</iscomplete>
+     <isvalidated>true</isvalidated>
+     <confirmationmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </confirmationmoment>
+     <validationmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </validationmoment>
+    </item>
+    <item>
+     <id S="ID-KMEHR" SV="1.0">3</id>
+     <cd S="CD-ITEM" SV="1.0">lab</cd>
+     <cd DN="Vitamine B12" L="F" S="LOCAL" SL="local" SV="1.0">B12</cd>
+     <content>
+      <decimal>328</decimal>
+      <unit>
+       <cd DN="pg/ml" L="F" S="LOCAL" SL="local" SV="1.0">pg/ml</cd>
+      </unit>
+      <minref>
+       <decimal>200</decimal>
+      </minref>
+     </content>
+     <author>
+      <hcparty>
+       <id S="ID-HCPARTY" SV="1.0"/>
+       <cd S="CD-HCPARTY" SV="1.0">persphysician</cd>
+       <firstname>Cynthia</firstname>
+       <familyname>CARACALLA</familyname>
+      </hcparty>
+     </author>
+     <beginmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </beginmoment>
+     <iscomplete>true</iscomplete>
+     <isvalidated>true</isvalidated>
+     <confirmationmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </confirmationmoment>
+     <validationmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </validationmoment>
+    </item>
+    <item>
+     <id S="ID-KMEHR" SV="1.0">4</id>
+     <cd S="CD-ITEM" SV="1.0">lab</cd>
+     <cd DN="Acide folique sérique" L="F" S="LOCAL" SL="local" SV="1.0">AFS</cd>
+     <content>
+      <decimal>6.4</decimal>
+      <unit>
+       <cd DN="ng/ml" L="F" S="LOCAL" SL="local" SV="1.0">ng/ml</cd>
+      </unit>
+      <minref>
+       <decimal>2.2</decimal>
+      </minref>
+      <maxref>
+       <decimal>17.5</decimal>
+      </maxref>
+     </content>
+     <author>
+      <hcparty>
+       <id S="ID-HCPARTY" SV="1.0"/>
+       <cd S="CD-HCPARTY" SV="1.0">persphysician</cd>
+       <firstname>Cynthia</firstname>
+       <familyname>CARACALLA</familyname>
+      </hcparty>
+     </author>
+     <beginmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </beginmoment>
+     <iscomplete>true</iscomplete>
+     <isvalidated>true</isvalidated>
+     <confirmationmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </confirmationmoment>
+     <validationmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </validationmoment>
+    </item>
+   </heading>
+   <heading>
+    <id S="ID-KMEHR" SV="1.0">7</id>
+    <cd S="CD-HEADING-LAB" SV="1.0">ORIENTATION GENERALE</cd>
+    <item>
+     <id S="ID-KMEHR" SV="1.0">1</id>
+     <cd S="CD-ITEM" SV="1.0">lab</cd>
+     <cd DN="Osmolalité" L="F" S="LOCAL" SL="local" SV="1.0">OS</cd>
+     <content>
+      <decimal>289</decimal>
+      <unit>
+       <cd DN="mosm/kg" L="F" S="LOCAL" SL="local" SV="1.0">mosm/kg</cd>
+      </unit>
+      <minref>
+       <decimal>281</decimal>
+      </minref>
+      <maxref>
+       <decimal>303</decimal>
+      </maxref>
+     </content>
+     <author>
+      <hcparty>
+       <id S="ID-HCPARTY" SV="1.0"/>
+       <cd S="CD-HCPARTY" SV="1.0">persphysician</cd>
+       <firstname>Lorenza</firstname>
+       <familyname>MACCALINI</familyname>
+      </hcparty>
+     </author>
+     <beginmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </beginmoment>
+     <iscomplete>true</iscomplete>
+     <isvalidated>true</isvalidated>
+     <confirmationmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </confirmationmoment>
+     <validationmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </validationmoment>
+    </item>
+    <item>
+     <id S="ID-KMEHR" SV="1.0">2</id>
+     <cd S="CD-ITEM" SV="1.0">lab</cd>
+     <cd DN="Sodium" L="F" S="LOCAL" SL="local" SV="1.0">NA_ind</cd>
+     <content>
+      <decimal>138</decimal>
+      <unit>
+       <cd DN="mmol/L" L="F" S="LOCAL" SL="local" SV="1.0">mmol/L</cd>
+      </unit>
+      <minref>
+       <decimal>135</decimal>
+      </minref>
+      <maxref>
+       <decimal>145</decimal>
+      </maxref>
+     </content>
+     <author>
+      <hcparty>
+       <id S="ID-HCPARTY" SV="1.0"/>
+       <cd S="CD-HCPARTY" SV="1.0">persphysician</cd>
+       <firstname>Lorenza</firstname>
+       <familyname>MACCALINI</familyname>
+      </hcparty>
+     </author>
+     <beginmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </beginmoment>
+     <iscomplete>true</iscomplete>
+     <isvalidated>true</isvalidated>
+     <confirmationmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </confirmationmoment>
+     <validationmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </validationmoment>
+    </item>
+    <item>
+     <id S="ID-KMEHR" SV="1.0">3</id>
+     <cd S="CD-ITEM" SV="1.0">lab</cd>
+     <cd DN="Potassium" L="F" S="LOCAL" SL="local" SV="1.0">K_ind</cd>
+     <content>
+      <decimal>3.7</decimal>
+      <unit>
+       <cd DN="mmol/L" L="F" S="LOCAL" SL="local" SV="1.0">mmol/L</cd>
+      </unit>
+      <minref>
+       <decimal>3.1</decimal>
+      </minref>
+      <maxref>
+       <decimal>4.9</decimal>
+      </maxref>
+     </content>
+     <author>
+      <hcparty>
+       <id S="ID-HCPARTY" SV="1.0"/>
+       <cd S="CD-HCPARTY" SV="1.0">persphysician</cd>
+       <firstname>Lorenza</firstname>
+       <familyname>MACCALINI</familyname>
+      </hcparty>
+     </author>
+     <beginmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </beginmoment>
+     <iscomplete>true</iscomplete>
+     <isvalidated>true</isvalidated>
+     <confirmationmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </confirmationmoment>
+     <validationmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </validationmoment>
+    </item>
+    <item>
+     <id S="ID-KMEHR" SV="1.0">4</id>
+     <cd S="CD-ITEM" SV="1.0">lab</cd>
+     <cd DN="Chlorures" L="F" S="LOCAL" SL="local" SV="1.0">CL_ind</cd>
+     <content>
+      <decimal>104</decimal>
+      <unit>
+       <cd DN="mmol/L" L="F" S="LOCAL" SL="local" SV="1.0">mmol/L</cd>
+      </unit>
+      <minref>
+       <decimal>98</decimal>
+      </minref>
+      <maxref>
+       <decimal>108</decimal>
+      </maxref>
+     </content>
+     <author>
+      <hcparty>
+       <id S="ID-HCPARTY" SV="1.0"/>
+       <cd S="CD-HCPARTY" SV="1.0">persphysician</cd>
+       <firstname>Lorenza</firstname>
+       <familyname>MACCALINI</familyname>
+      </hcparty>
+     </author>
+     <beginmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </beginmoment>
+     <iscomplete>true</iscomplete>
+     <isvalidated>true</isvalidated>
+     <confirmationmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </confirmationmoment>
+     <validationmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </validationmoment>
+    </item>
+    <item>
+     <id S="ID-KMEHR" SV="1.0">5</id>
+     <cd S="CD-ITEM" SV="1.0">lab</cd>
+     <cd DN="Calcium" L="F" S="LOCAL" SL="local" SV="1.0">CA</cd>
+     <content>
+      <decimal>2.14</decimal>
+      <unit>
+       <cd DN="mmol/L" L="F" S="LOCAL" SL="local" SV="1.0">mmol/L</cd>
+      </unit>
+      <minref>
+       <decimal>2.15</decimal>
+      </minref>
+      <maxref>
+       <decimal>2.60</decimal>
+      </maxref>
+     </content>
+     <author>
+      <hcparty>
+       <id S="ID-HCPARTY" SV="1.0"/>
+       <cd S="CD-HCPARTY" SV="1.0">persphysician</cd>
+       <firstname>Lorenza</firstname>
+       <familyname>MACCALINI</familyname>
+      </hcparty>
+     </author>
+     <beginmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </beginmoment>
+     <iscomplete>true</iscomplete>
+     <isvalidated>true</isvalidated>
+     <confirmationmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </confirmationmoment>
+     <validationmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </validationmoment>
+     <severity>
+      <cd S="CD-SEVERITY" SV="1.0">abnormal</cd>
+      <cd DN="abnormal" L="F" S="LOCAL" SL="local" SV="1.0">-1</cd>
+     </severity>
+    </item>
+    <item>
+     <id S="ID-KMEHR" SV="1.0">6</id>
+     <cd S="CD-ITEM" SV="1.0">lab</cd>
+     <cd DN="Phosphates" L="F" S="LOCAL" SL="local" SV="1.0">P_ind</cd>
+     <content>
+      <decimal>30</decimal>
+      <unit>
+       <cd DN="mg/L" L="F" S="LOCAL" SL="local" SV="1.0">mg/L</cd>
+      </unit>
+      <minref>
+       <decimal>23</decimal>
+      </minref>
+      <maxref>
+       <decimal>47</decimal>
+      </maxref>
+     </content>
+     <author>
+      <hcparty>
+       <id S="ID-HCPARTY" SV="1.0"/>
+       <cd S="CD-HCPARTY" SV="1.0">persphysician</cd>
+       <firstname>Lorenza</firstname>
+       <familyname>MACCALINI</familyname>
+      </hcparty>
+     </author>
+     <beginmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </beginmoment>
+     <iscomplete>true</iscomplete>
+     <isvalidated>true</isvalidated>
+     <confirmationmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </confirmationmoment>
+     <validationmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </validationmoment>
+    </item>
+    <item>
+     <id S="ID-KMEHR" SV="1.0">7</id>
+     <cd S="CD-ITEM" SV="1.0">lab</cd>
+     <cd DN="Glucose" L="F" S="LOCAL" SL="local" SV="1.0">GF</cd>
+     <content>
+      <decimal>0.91</decimal>
+      <unit>
+       <cd DN="g/L" L="F" S="LOCAL" SL="local" SV="1.0">g/L</cd>
+      </unit>
+      <minref>
+       <decimal>0.60</decimal>
+      </minref>
+      <maxref>
+       <decimal>1.10</decimal>
+      </maxref>
+     </content>
+     <author>
+      <hcparty>
+       <id S="ID-HCPARTY" SV="1.0"/>
+       <cd S="CD-HCPARTY" SV="1.0">persphysician</cd>
+       <firstname>Lorenza</firstname>
+       <familyname>MACCALINI</familyname>
+      </hcparty>
+     </author>
+     <beginmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </beginmoment>
+     <iscomplete>true</iscomplete>
+     <isvalidated>true</isvalidated>
+     <confirmationmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </confirmationmoment>
+     <validationmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </validationmoment>
+    </item>
+    <item>
+     <id S="ID-KMEHR" SV="1.0">8</id>
+     <cd S="CD-ITEM" SV="1.0">lab</cd>
+     <cd DN="" L="F" S="LOCAL" SL="local" SV="1.0">G_com</cd>
+     <content>
+      <text L="F" xml:space="preserve">     NB :  1.00 - 1.26 g/l : glycémie à jeun pathologique non diabétique
+           &gt; 1.26 g/l : glycémie à jeun pathologique</text>
+      <unit>
+       <cd DN="" L="F" S="LOCAL" SL="local" SV="1.0"/>
+      </unit>
+     </content>
+     <beginmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </beginmoment>
+     <iscomplete>true</iscomplete>
+     <isvalidated>true</isvalidated>
+     <confirmationmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </confirmationmoment>
+     <validationmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </validationmoment>
+    </item>
+    <item>
+     <id S="ID-KMEHR" SV="1.0">9</id>
+     <cd S="CD-ITEM" SV="1.0">lab</cd>
+     <cd DN="Urée" L="F" S="LOCAL" SL="local" SV="1.0">URS</cd>
+     <content>
+      <decimal>0.25</decimal>
+      <unit>
+       <cd DN="g/L" L="F" S="LOCAL" SL="local" SV="1.0">g/L</cd>
+      </unit>
+      <minref>
+       <decimal>0.15</decimal>
+      </minref>
+      <maxref>
+       <decimal>0.53</decimal>
+      </maxref>
+     </content>
+     <author>
+      <hcparty>
+       <id S="ID-HCPARTY" SV="1.0"/>
+       <cd S="CD-HCPARTY" SV="1.0">persphysician</cd>
+       <firstname>Lorenza</firstname>
+       <familyname>MACCALINI</familyname>
+      </hcparty>
+     </author>
+     <beginmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </beginmoment>
+     <iscomplete>true</iscomplete>
+     <isvalidated>true</isvalidated>
+     <confirmationmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </confirmationmoment>
+     <validationmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </validationmoment>
+    </item>
+    <item>
+     <id S="ID-KMEHR" SV="1.0">10</id>
+     <cd S="CD-ITEM" SV="1.0">lab</cd>
+     <cd DN="Créatinine" L="F" S="LOCAL" SL="local" SV="1.0">CR_ind</cd>
+     <content>
+      <decimal>5.2</decimal>
+      <unit>
+       <cd DN="mg/L" L="F" S="LOCAL" SL="local" SV="1.0">mg/L</cd>
+      </unit>
+      <minref>
+       <decimal>3.8</decimal>
+      </minref>
+      <maxref>
+       <decimal>10.2</decimal>
+      </maxref>
+     </content>
+     <author>
+      <hcparty>
+       <id S="ID-HCPARTY" SV="1.0"/>
+       <cd S="CD-HCPARTY" SV="1.0">persphysician</cd>
+       <firstname>Lorenza</firstname>
+       <familyname>MACCALINI</familyname>
+      </hcparty>
+     </author>
+     <beginmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </beginmoment>
+     <iscomplete>true</iscomplete>
+     <isvalidated>true</isvalidated>
+     <confirmationmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </confirmationmoment>
+     <validationmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </validationmoment>
+    </item>
+    <item>
+     <id S="ID-KMEHR" SV="1.0">11</id>
+     <cd S="CD-ITEM" SV="1.0">lab</cd>
+     <cd DN="Estimation du GFR" L="F" S="LOCAL" SL="local" SV="1.0">FDFG</cd>
+     <content>
+      <decimal>&gt;60</decimal>
+      <unit>
+       <cd DN="ml/min" L="F" S="LOCAL" SL="local" SV="1.0">ml/min</cd>
+      </unit>
+      <minref>
+       <decimal>60</decimal>
+      </minref>
+     </content>
+     <author>
+      <hcparty>
+       <id S="ID-HCPARTY" SV="1.0"/>
+       <cd S="CD-HCPARTY" SV="1.0">persphysician</cd>
+       <firstname>Lorenza</firstname>
+       <familyname>MACCALINI</familyname>
+      </hcparty>
+     </author>
+     <beginmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </beginmoment>
+     <iscomplete>true</iscomplete>
+     <isvalidated>true</isvalidated>
+     <confirmationmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </confirmationmoment>
+     <validationmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </validationmoment>
+    </item>
+    <item>
+     <id S="ID-KMEHR" SV="1.0">12</id>
+     <cd S="CD-ITEM" SV="1.0">lab</cd>
+     <cd DN="GFR commentaire" L="F" S="LOCAL" SL="local" SV="1.0">GFR_com</cd>
+     <content>
+      <text L="F" xml:space="preserve">Non valable pour les patients obèses. Résultat à corriger par un facteur 1.210 pour les patients africains. Formule non validée pour les patients de plus de 70 ans.</text>
+      <unit>
+       <cd DN="" L="F" S="LOCAL" SL="local" SV="1.0"/>
+      </unit>
+     </content>
+     <beginmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </beginmoment>
+     <iscomplete>true</iscomplete>
+     <isvalidated>true</isvalidated>
+     <confirmationmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </confirmationmoment>
+     <validationmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </validationmoment>
+    </item>
+    <item>
+     <id S="ID-KMEHR" SV="1.0">13</id>
+     <cd S="CD-ITEM" SV="1.0">lab</cd>
+     <cd DN="Acide urique" L="F" S="LOCAL" SL="local" SV="1.0">AU_ind</cd>
+     <content>
+      <decimal>45</decimal>
+      <unit>
+       <cd DN="mg/L" L="F" S="LOCAL" SL="local" SV="1.0">mg/L</cd>
+      </unit>
+      <maxref>
+       <decimal>60</decimal>
+      </maxref>
+     </content>
+     <author>
+      <hcparty>
+       <id S="ID-HCPARTY" SV="1.0"/>
+       <cd S="CD-HCPARTY" SV="1.0">persphysician</cd>
+       <firstname>Lorenza</firstname>
+       <familyname>MACCALINI</familyname>
+      </hcparty>
+     </author>
+     <beginmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </beginmoment>
+     <iscomplete>true</iscomplete>
+     <isvalidated>true</isvalidated>
+     <confirmationmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </confirmationmoment>
+     <validationmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </validationmoment>
+    </item>
+    <item>
+     <id S="ID-KMEHR" SV="1.0">14</id>
+     <cd S="CD-ITEM" SV="1.0">lab</cd>
+     <cd DN="Protéines totales" L="F" S="LOCAL" SL="local" SV="1.0">PT_ind</cd>
+     <content>
+      <decimal>66</decimal>
+      <unit>
+       <cd DN="g/L" L="F" S="LOCAL" SL="local" SV="1.0">g/L</cd>
+      </unit>
+      <minref>
+       <decimal>66</decimal>
+      </minref>
+      <maxref>
+       <decimal>83</decimal>
+      </maxref>
+     </content>
+     <author>
+      <hcparty>
+       <id S="ID-HCPARTY" SV="1.0"/>
+       <cd S="CD-HCPARTY" SV="1.0">persphysician</cd>
+       <firstname>Lorenza</firstname>
+       <familyname>MACCALINI</familyname>
+      </hcparty>
+     </author>
+     <beginmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </beginmoment>
+     <iscomplete>true</iscomplete>
+     <isvalidated>true</isvalidated>
+     <confirmationmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </confirmationmoment>
+     <validationmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </validationmoment>
+    </item>
+    <item>
+     <id S="ID-KMEHR" SV="1.0">15</id>
+     <cd S="CD-ITEM" SV="1.0">lab</cd>
+     <cd DN="Magnésium" L="F" S="LOCAL" SL="local" SV="1.0">MG_ind</cd>
+     <content>
+      <decimal>0.78</decimal>
+      <unit>
+       <cd DN="mmol/L" L="F" S="LOCAL" SL="local" SV="1.0">mmol/L</cd>
+      </unit>
+      <minref>
+       <decimal>0.75</decimal>
+      </minref>
+      <maxref>
+       <decimal>1.00</decimal>
+      </maxref>
+     </content>
+     <author>
+      <hcparty>
+       <id S="ID-HCPARTY" SV="1.0"/>
+       <cd S="CD-HCPARTY" SV="1.0">persphysician</cd>
+       <firstname>Lorenza</firstname>
+       <familyname>MACCALINI</familyname>
+      </hcparty>
+     </author>
+     <beginmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </beginmoment>
+     <iscomplete>true</iscomplete>
+     <isvalidated>true</isvalidated>
+     <confirmationmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </confirmationmoment>
+     <validationmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </validationmoment>
+    </item>
+    <item>
+     <id S="ID-KMEHR" SV="1.0">16</id>
+     <cd S="CD-ITEM" SV="1.0">lab</cd>
+     <cd DN="CRP" L="F" S="LOCAL" SL="local" SV="1.0">CRP_ind</cd>
+     <content>
+      <decimal>1.2</decimal>
+      <unit>
+       <cd DN="mg/L" L="F" S="LOCAL" SL="local" SV="1.0">mg/L</cd>
+      </unit>
+      <minref>
+       <decimal>0.0</decimal>
+      </minref>
+      <maxref>
+       <decimal>6.0</decimal>
+      </maxref>
+     </content>
+     <author>
+      <hcparty>
+       <id S="ID-HCPARTY" SV="1.0"/>
+       <cd S="CD-HCPARTY" SV="1.0">persphysician</cd>
+       <firstname>Lorenza</firstname>
+       <familyname>MACCALINI</familyname>
+      </hcparty>
+     </author>
+     <beginmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </beginmoment>
+     <iscomplete>true</iscomplete>
+     <isvalidated>true</isvalidated>
+     <confirmationmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </confirmationmoment>
+     <validationmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </validationmoment>
+    </item>
+   </heading>
+   <heading>
+    <id S="ID-KMEHR" SV="1.0">8</id>
+    <cd S="CD-HEADING-LAB" SV="1.0">EXPLORATION HEPATIQUE</cd>
+    <item>
+     <id S="ID-KMEHR" SV="1.0">1</id>
+     <cd S="CD-ITEM" SV="1.0">lab</cd>
+     <cd DN="Bilirubine totale" L="F" S="LOCAL" SL="local" SV="1.0">BIT_ind</cd>
+     <content>
+      <decimal>5.9</decimal>
+      <unit>
+       <cd DN="mg/L" L="F" S="LOCAL" SL="local" SV="1.0">mg/L</cd>
+      </unit>
+      <minref>
+       <decimal>2.3</decimal>
+      </minref>
+      <maxref>
+       <decimal>10.0</decimal>
+      </maxref>
+     </content>
+     <author>
+      <hcparty>
+       <id S="ID-HCPARTY" SV="1.0"/>
+       <cd S="CD-HCPARTY" SV="1.0">persphysician</cd>
+       <firstname>Lorenza</firstname>
+       <familyname>MACCALINI</familyname>
+      </hcparty>
+     </author>
+     <beginmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </beginmoment>
+     <iscomplete>true</iscomplete>
+     <isvalidated>true</isvalidated>
+     <confirmationmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </confirmationmoment>
+     <validationmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </validationmoment>
+    </item>
+    <item>
+     <id S="ID-KMEHR" SV="1.0">2</id>
+     <cd S="CD-ITEM" SV="1.0">lab</cd>
+     <cd DN="Bilirubine conjuguée" L="F" S="LOCAL" SL="local" SV="1.0">BIC_ind</cd>
+     <content>
+      <decimal>1.7</decimal>
+      <unit>
+       <cd DN="mg/L" L="F" S="LOCAL" SL="local" SV="1.0">mg/L</cd>
+      </unit>
+      <minref>
+       <decimal>0.5</decimal>
+      </minref>
+      <maxref>
+       <decimal>3.8</decimal>
+      </maxref>
+     </content>
+     <author>
+      <hcparty>
+       <id S="ID-HCPARTY" SV="1.0"/>
+       <cd S="CD-HCPARTY" SV="1.0">persphysician</cd>
+       <firstname>Lorenza</firstname>
+       <familyname>MACCALINI</familyname>
+      </hcparty>
+     </author>
+     <beginmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </beginmoment>
+     <iscomplete>true</iscomplete>
+     <isvalidated>true</isvalidated>
+     <confirmationmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </confirmationmoment>
+     <validationmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </validationmoment>
+    </item>
+    <item>
+     <id S="ID-KMEHR" SV="1.0">3</id>
+     <cd S="CD-ITEM" SV="1.0">lab</cd>
+     <cd DN="Phosphatase alcaline" L="F" S="LOCAL" SL="local" SV="1.0">PAL_ind</cd>
+     <content>
+      <decimal>48</decimal>
+      <unit>
+       <cd DN="UI/L" L="F" S="LOCAL" SL="local" SV="1.0">UI/L</cd>
+      </unit>
+      <minref>
+       <decimal>34</decimal>
+      </minref>
+      <maxref>
+       <decimal>117</decimal>
+      </maxref>
+     </content>
+     <author>
+      <hcparty>
+       <id S="ID-HCPARTY" SV="1.0"/>
+       <cd S="CD-HCPARTY" SV="1.0">persphysician</cd>
+       <firstname>Lorenza</firstname>
+       <familyname>MACCALINI</familyname>
+      </hcparty>
+     </author>
+     <beginmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </beginmoment>
+     <iscomplete>true</iscomplete>
+     <isvalidated>true</isvalidated>
+     <confirmationmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </confirmationmoment>
+     <validationmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </validationmoment>
+    </item>
+    <item>
+     <id S="ID-KMEHR" SV="1.0">4</id>
+     <cd S="CD-ITEM" SV="1.0">lab</cd>
+     <cd DN="GGT" L="F" S="LOCAL" SL="local" SV="1.0">GGT_ind</cd>
+     <content>
+      <decimal>7</decimal>
+      <unit>
+       <cd DN="UI/L" L="F" S="LOCAL" SL="local" SV="1.0">UI/L</cd>
+      </unit>
+      <minref>
+       <decimal>5</decimal>
+      </minref>
+      <maxref>
+       <decimal>50</decimal>
+      </maxref>
+     </content>
+     <author>
+      <hcparty>
+       <id S="ID-HCPARTY" SV="1.0"/>
+       <cd S="CD-HCPARTY" SV="1.0">persphysician</cd>
+       <firstname>Lorenza</firstname>
+       <familyname>MACCALINI</familyname>
+      </hcparty>
+     </author>
+     <beginmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </beginmoment>
+     <iscomplete>true</iscomplete>
+     <isvalidated>true</isvalidated>
+     <confirmationmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </confirmationmoment>
+     <validationmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </validationmoment>
+    </item>
+    <item>
+     <id S="ID-KMEHR" SV="1.0">5</id>
+     <cd S="CD-ITEM" SV="1.0">lab</cd>
+     <cd DN="TGO (ASAT)" L="F" S="LOCAL" SL="local" SV="1.0">TGO_ind</cd>
+     <content>
+      <decimal>16</decimal>
+      <unit>
+       <cd DN="UI/L" L="F" S="LOCAL" SL="local" SV="1.0">UI/L</cd>
+      </unit>
+      <minref>
+       <decimal>14</decimal>
+      </minref>
+      <maxref>
+       <decimal>40</decimal>
+      </maxref>
+     </content>
+     <author>
+      <hcparty>
+       <id S="ID-HCPARTY" SV="1.0"/>
+       <cd S="CD-HCPARTY" SV="1.0">persphysician</cd>
+       <firstname>Lorenza</firstname>
+       <familyname>MACCALINI</familyname>
+      </hcparty>
+     </author>
+     <beginmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </beginmoment>
+     <iscomplete>true</iscomplete>
+     <isvalidated>true</isvalidated>
+     <confirmationmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </confirmationmoment>
+     <validationmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </validationmoment>
+    </item>
+    <item>
+     <id S="ID-KMEHR" SV="1.0">6</id>
+     <cd S="CD-ITEM" SV="1.0">lab</cd>
+     <cd DN="TGP (ALAT)" L="F" S="LOCAL" SL="local" SV="1.0">TGP_ind</cd>
+     <content>
+      <decimal>10</decimal>
+      <unit>
+       <cd DN="UI/L" L="F" S="LOCAL" SL="local" SV="1.0">UI/L</cd>
+      </unit>
+      <minref>
+       <decimal>6</decimal>
+      </minref>
+      <maxref>
+       <decimal>40</decimal>
+      </maxref>
+     </content>
+     <author>
+      <hcparty>
+       <id S="ID-HCPARTY" SV="1.0"/>
+       <cd S="CD-HCPARTY" SV="1.0">persphysician</cd>
+       <firstname>Lorenza</firstname>
+       <familyname>MACCALINI</familyname>
+      </hcparty>
+     </author>
+     <beginmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </beginmoment>
+     <iscomplete>true</iscomplete>
+     <isvalidated>true</isvalidated>
+     <confirmationmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </confirmationmoment>
+     <validationmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </validationmoment>
+    </item>
+    <item>
+     <id S="ID-KMEHR" SV="1.0">7</id>
+     <cd S="CD-ITEM" SV="1.0">lab</cd>
+     <cd DN="LDH" L="F" S="LOCAL" SL="local" SV="1.0">LDH_ind</cd>
+     <content>
+      <decimal>279</decimal>
+      <unit>
+       <cd DN="UI/L" L="F" S="LOCAL" SL="local" SV="1.0">UI/L</cd>
+      </unit>
+      <minref>
+       <decimal>240</decimal>
+      </minref>
+      <maxref>
+       <decimal>480</decimal>
+      </maxref>
+     </content>
+     <author>
+      <hcparty>
+       <id S="ID-HCPARTY" SV="1.0"/>
+       <cd S="CD-HCPARTY" SV="1.0">persphysician</cd>
+       <firstname>Lorenza</firstname>
+       <familyname>MACCALINI</familyname>
+      </hcparty>
+     </author>
+     <beginmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </beginmoment>
+     <iscomplete>true</iscomplete>
+     <isvalidated>true</isvalidated>
+     <confirmationmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </confirmationmoment>
+     <validationmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </validationmoment>
+    </item>
+   </heading>
+   <heading>
+    <id S="ID-KMEHR" SV="1.0">9</id>
+    <cd S="CD-HEADING-LAB" SV="1.0">ENZYMES PANCREATIQUES</cd>
+    <item>
+     <id S="ID-KMEHR" SV="1.0">1</id>
+     <cd S="CD-ITEM" SV="1.0">lab</cd>
+     <cd DN="Amylase" L="F" S="LOCAL" SL="local" SV="1.0">AMY_ind</cd>
+     <content>
+      <decimal>41</decimal>
+      <unit>
+       <cd DN="UI/L" L="F" S="LOCAL" SL="local" SV="1.0">UI/L</cd>
+      </unit>
+      <minref>
+       <decimal>20</decimal>
+      </minref>
+      <maxref>
+       <decimal>90</decimal>
+      </maxref>
+     </content>
+     <author>
+      <hcparty>
+       <id S="ID-HCPARTY" SV="1.0"/>
+       <cd S="CD-HCPARTY" SV="1.0">persphysician</cd>
+       <firstname>Lorenza</firstname>
+       <familyname>MACCALINI</familyname>
+      </hcparty>
+     </author>
+     <beginmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </beginmoment>
+     <iscomplete>true</iscomplete>
+     <isvalidated>true</isvalidated>
+     <confirmationmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </confirmationmoment>
+     <validationmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </validationmoment>
+    </item>
+    <item>
+     <id S="ID-KMEHR" SV="1.0">2</id>
+     <cd S="CD-ITEM" SV="1.0">lab</cd>
+     <cd DN="Lipase" L="F" S="LOCAL" SL="local" SV="1.0">LIP_ind</cd>
+     <content>
+      <decimal>18</decimal>
+      <unit>
+       <cd DN="UI/L" L="F" S="LOCAL" SL="local" SV="1.0">UI/L</cd>
+      </unit>
+      <minref>
+       <decimal>16</decimal>
+      </minref>
+      <maxref>
+       <decimal>63</decimal>
+      </maxref>
+     </content>
+     <author>
+      <hcparty>
+       <id S="ID-HCPARTY" SV="1.0"/>
+       <cd S="CD-HCPARTY" SV="1.0">persphysician</cd>
+       <firstname>Lorenza</firstname>
+       <familyname>MACCALINI</familyname>
+      </hcparty>
+     </author>
+     <beginmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </beginmoment>
+     <iscomplete>true</iscomplete>
+     <isvalidated>true</isvalidated>
+     <confirmationmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </confirmationmoment>
+     <validationmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </validationmoment>
+    </item>
+   </heading>
+   <heading>
+    <id S="ID-KMEHR" SV="1.0">10</id>
+    <cd S="CD-HEADING-LAB" SV="1.0">LIPIDES</cd>
+    <item>
+     <id S="ID-KMEHR" SV="1.0">1</id>
+     <cd S="CD-ITEM" SV="1.0">lab</cd>
+     <cd DN="Triglycérides" L="F" S="LOCAL" SL="local" SV="1.0">TG_ind</cd>
+     <content>
+      <decimal>0.37</decimal>
+      <unit>
+       <cd DN="g/L" L="F" S="LOCAL" SL="local" SV="1.0">g/L</cd>
+      </unit>
+     </content>
+     <author>
+      <hcparty>
+       <id S="ID-HCPARTY" SV="1.0"/>
+       <cd S="CD-HCPARTY" SV="1.0">persphysician</cd>
+       <firstname>Lorenza</firstname>
+       <familyname>MACCALINI</familyname>
+      </hcparty>
+     </author>
+     <beginmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </beginmoment>
+     <iscomplete>true</iscomplete>
+     <isvalidated>true</isvalidated>
+     <confirmationmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </confirmationmoment>
+     <validationmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </validationmoment>
+    </item>
+    <item>
+     <id S="ID-KMEHR" SV="1.0">2</id>
+     <cd S="CD-ITEM" SV="1.0">lab</cd>
+     <cd DN="" L="F" S="LOCAL" SL="local" SV="1.0">TG_norm</cd>
+     <content>
+      <text L="F" xml:space="preserve">     Valeurs conseillées : &lt;  1.50 g/l</text>
+      <unit>
+       <cd DN="" L="F" S="LOCAL" SL="local" SV="1.0"/>
+      </unit>
+     </content>
+     <beginmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </beginmoment>
+     <iscomplete>true</iscomplete>
+     <isvalidated>true</isvalidated>
+     <confirmationmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </confirmationmoment>
+     <validationmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </validationmoment>
+    </item>
+    <item>
+     <id S="ID-KMEHR" SV="1.0">3</id>
+     <cd S="CD-ITEM" SV="1.0">lab</cd>
+     <cd DN="Cholestérol total" L="F" S="LOCAL" SL="local" SV="1.0">CHT_ind</cd>
+     <content>
+      <decimal>1.46</decimal>
+      <unit>
+       <cd DN="g/L" L="F" S="LOCAL" SL="local" SV="1.0">g/L</cd>
+      </unit>
+      <maxref>
+       <decimal>1.90</decimal>
+      </maxref>
+     </content>
+     <author>
+      <hcparty>
+       <id S="ID-HCPARTY" SV="1.0"/>
+       <cd S="CD-HCPARTY" SV="1.0">persphysician</cd>
+       <firstname>Lorenza</firstname>
+       <familyname>MACCALINI</familyname>
+      </hcparty>
+     </author>
+     <beginmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </beginmoment>
+     <iscomplete>true</iscomplete>
+     <isvalidated>true</isvalidated>
+     <confirmationmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </confirmationmoment>
+     <validationmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </validationmoment>
+    </item>
+    <item>
+     <id S="ID-KMEHR" SV="1.0">4</id>
+     <cd S="CD-ITEM" SV="1.0">lab</cd>
+     <cd DN="" L="F" S="LOCAL" SL="local" SV="1.0">CHT_norm</cd>
+     <content>
+      <text L="F" xml:space="preserve">     Valeurs conseillées : 
+               avec risque cardio-vasculaire : &lt; 1.75 g/l
+               sans risque cardio-vasculaire : &lt; 1.90 g/l
+
+
+
+
+</text>
+      <unit>
+       <cd DN="" L="F" S="LOCAL" SL="local" SV="1.0"/>
+      </unit>
+     </content>
+     <author>
+      <hcparty>
+       <id S="ID-HCPARTY" SV="1.0"/>
+       <cd S="CD-HCPARTY" SV="1.0">persphysician</cd>
+       <firstname>Lorenza</firstname>
+       <familyname>MACCALINI</familyname>
+      </hcparty>
+     </author>
+     <beginmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </beginmoment>
+     <iscomplete>true</iscomplete>
+     <isvalidated>true</isvalidated>
+     <confirmationmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </confirmationmoment>
+     <validationmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </validationmoment>
+    </item>
+    <item>
+     <id S="ID-KMEHR" SV="1.0">5</id>
+     <cd S="CD-ITEM" SV="1.0">lab</cd>
+     <cd DN="Cholestérol HDL" L="F" S="LOCAL" SL="local" SV="1.0">HDL_ind</cd>
+     <content>
+      <decimal>0.61</decimal>
+      <unit>
+       <cd DN="g/L" L="F" S="LOCAL" SL="local" SV="1.0">g/L</cd>
+      </unit>
+     </content>
+     <author>
+      <hcparty>
+       <id S="ID-HCPARTY" SV="1.0"/>
+       <cd S="CD-HCPARTY" SV="1.0">persphysician</cd>
+       <firstname>Lorenza</firstname>
+       <familyname>MACCALINI</familyname>
+      </hcparty>
+     </author>
+     <beginmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </beginmoment>
+     <iscomplete>true</iscomplete>
+     <isvalidated>true</isvalidated>
+     <confirmationmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </confirmationmoment>
+     <validationmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </validationmoment>
+    </item>
+    <item>
+     <id S="ID-KMEHR" SV="1.0">6</id>
+     <cd S="CD-ITEM" SV="1.0">lab</cd>
+     <cd DN="" L="F" S="LOCAL" SL="local" SV="1.0">HDL_norm</cd>
+     <content>
+      <text L="F" xml:space="preserve">     Homme (valeurs conseillées) : &gt;  0.40 g/l
+     Femme (valeurs conseillées) : &gt;  0.50 g/l</text>
+      <unit>
+       <cd DN="" L="F" S="LOCAL" SL="local" SV="1.0"/>
+      </unit>
+     </content>
+     <beginmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </beginmoment>
+     <iscomplete>true</iscomplete>
+     <isvalidated>true</isvalidated>
+     <confirmationmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </confirmationmoment>
+     <validationmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </validationmoment>
+    </item>
+    <item>
+     <id S="ID-KMEHR" SV="1.0">7</id>
+     <cd S="CD-ITEM" SV="1.0">lab</cd>
+     <cd DN="HDL/Cholestérol total" L="F" S="LOCAL" SL="local" SV="1.0">HCHT</cd>
+     <content>
+      <decimal>0.42</decimal>
+      <unit>
+       <cd DN="" L="F" S="LOCAL" SL="local" SV="1.0"/>
+      </unit>
+     </content>
+     <author>
+      <hcparty>
+       <id S="ID-HCPARTY" SV="1.0"/>
+       <cd S="CD-HCPARTY" SV="1.0">persphysician</cd>
+       <firstname>Lorenza</firstname>
+       <familyname>MACCALINI</familyname>
+      </hcparty>
+     </author>
+     <beginmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </beginmoment>
+     <iscomplete>true</iscomplete>
+     <isvalidated>true</isvalidated>
+     <confirmationmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </confirmationmoment>
+     <validationmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </validationmoment>
+    </item>
+    <item>
+     <id S="ID-KMEHR" SV="1.0">8</id>
+     <cd S="CD-ITEM" SV="1.0">lab</cd>
+     <cd DN="Cholestérol LDL (calculé)" L="F" S="LOCAL" SL="local" SV="1.0">LDLC</cd>
+     <content>
+      <decimal>0.78</decimal>
+      <unit>
+       <cd DN="g/L" L="F" S="LOCAL" SL="local" SV="1.0">g/L</cd>
+      </unit>
+     </content>
+     <author>
+      <hcparty>
+       <id S="ID-HCPARTY" SV="1.0"/>
+       <cd S="CD-HCPARTY" SV="1.0">persphysician</cd>
+       <firstname>Lorenza</firstname>
+       <familyname>MACCALINI</familyname>
+      </hcparty>
+     </author>
+     <beginmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </beginmoment>
+     <iscomplete>true</iscomplete>
+     <isvalidated>true</isvalidated>
+     <confirmationmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </confirmationmoment>
+     <validationmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </validationmoment>
+    </item>
+   </heading>
+   <heading>
+    <id S="ID-KMEHR" SV="1.0">11</id>
+    <cd S="CD-HEADING-LAB" SV="1.0">ELECTROPHORESES</cd>
+    <heading>
+     <id S="ID-KMEHR" SV="1.0">1</id>
+     <cd S="CD-HEADING-LAB" SV="1.0">PROTEINES-FRACTIONS</cd>
+     <item>
+      <id S="ID-KMEHR" SV="1.0">1</id>
+      <cd S="CD-ITEM" SV="1.0">lab</cd>
+      <cd DN="Albumine" L="F" S="LOCAL" SL="local" SV="1.0">ALR</cd>
+      <content>
+       <decimal>62.6</decimal>
+       <unit>
+        <cd DN="%" L="F" S="LOCAL" SL="local" SV="1.0">%</cd>
+       </unit>
+       <minref>
+        <decimal>55.8</decimal>
+       </minref>
+       <maxref>
+        <decimal>66.1</decimal>
+       </maxref>
+      </content>
+      <author>
+       <hcparty>
+        <id S="ID-HCPARTY" SV="1.0"/>
+        <cd S="CD-HCPARTY" SV="1.0">persphysician</cd>
+        <firstname>Réginald</firstname>
+        <familyname>DEMOLLIN</familyname>
+       </hcparty>
+      </author>
+      <beginmoment>
+       <date>2022-01-01</date>
+       <time>12:00:00</time>
+      </beginmoment>
+      <iscomplete>true</iscomplete>
+      <isvalidated>true</isvalidated>
+      <confirmationmoment>
+       <date>2022-01-01</date>
+       <time>12:00:00</time>
+      </confirmationmoment>
+      <validationmoment>
+       <date>2022-01-01</date>
+       <time>12:00:00</time>
+      </validationmoment>
+     </item>
+     <item>
+      <id S="ID-KMEHR" SV="1.0">2</id>
+      <cd S="CD-ITEM" SV="1.0">lab</cd>
+      <cd DN="Alpha-1-globulines" L="F" S="LOCAL" SL="local" SV="1.0">A1</cd>
+      <content>
+       <decimal>3.9</decimal>
+       <unit>
+        <cd DN="%" L="F" S="LOCAL" SL="local" SV="1.0">%</cd>
+       </unit>
+       <minref>
+        <decimal>2.9</decimal>
+       </minref>
+       <maxref>
+        <decimal>4.9</decimal>
+       </maxref>
+      </content>
+      <author>
+       <hcparty>
+        <id S="ID-HCPARTY" SV="1.0"/>
+        <cd S="CD-HCPARTY" SV="1.0">persphysician</cd>
+        <firstname>Réginald</firstname>
+        <familyname>DEMOLLIN</familyname>
+       </hcparty>
+      </author>
+      <beginmoment>
+       <date>2022-01-01</date>
+       <time>12:00:00</time>
+      </beginmoment>
+      <iscomplete>true</iscomplete>
+      <isvalidated>true</isvalidated>
+      <confirmationmoment>
+       <date>2022-01-01</date>
+       <time>12:00:00</time>
+      </confirmationmoment>
+      <validationmoment>
+       <date>2022-01-01</date>
+       <time>12:00:00</time>
+      </validationmoment>
+     </item>
+     <item>
+      <id S="ID-KMEHR" SV="1.0">3</id>
+      <cd S="CD-ITEM" SV="1.0">lab</cd>
+      <cd DN="Alpha-2-globulines" L="F" S="LOCAL" SL="local" SV="1.0">A2</cd>
+      <content>
+       <decimal>8.5</decimal>
+       <unit>
+        <cd DN="%" L="F" S="LOCAL" SL="local" SV="1.0">%</cd>
+       </unit>
+       <minref>
+        <decimal>7.1</decimal>
+       </minref>
+       <maxref>
+        <decimal>11.8</decimal>
+       </maxref>
+      </content>
+      <author>
+       <hcparty>
+        <id S="ID-HCPARTY" SV="1.0"/>
+        <cd S="CD-HCPARTY" SV="1.0">persphysician</cd>
+        <firstname>Réginald</firstname>
+        <familyname>DEMOLLIN</familyname>
+       </hcparty>
+      </author>
+      <beginmoment>
+       <date>2022-01-01</date>
+       <time>12:00:00</time>
+      </beginmoment>
+      <iscomplete>true</iscomplete>
+      <isvalidated>true</isvalidated>
+      <confirmationmoment>
+       <date>2022-01-01</date>
+       <time>12:00:00</time>
+      </confirmationmoment>
+      <validationmoment>
+       <date>2022-01-01</date>
+       <time>12:00:00</time>
+      </validationmoment>
+     </item>
+     <item>
+      <id S="ID-KMEHR" SV="1.0">4</id>
+      <cd S="CD-ITEM" SV="1.0">lab</cd>
+      <cd DN="Bêta-globulines" L="F" S="LOCAL" SL="local" SV="1.0">BE</cd>
+      <content>
+       <decimal>10.4</decimal>
+       <unit>
+        <cd DN="%" L="F" S="LOCAL" SL="local" SV="1.0">%</cd>
+       </unit>
+       <minref>
+        <decimal>8.4</decimal>
+       </minref>
+       <maxref>
+        <decimal>13.1</decimal>
+       </maxref>
+      </content>
+      <author>
+       <hcparty>
+        <id S="ID-HCPARTY" SV="1.0"/>
+        <cd S="CD-HCPARTY" SV="1.0">persphysician</cd>
+        <firstname>Réginald</firstname>
+        <familyname>DEMOLLIN</familyname>
+       </hcparty>
+      </author>
+      <beginmoment>
+       <date>2022-01-01</date>
+       <time>12:00:00</time>
+      </beginmoment>
+      <iscomplete>true</iscomplete>
+      <isvalidated>true</isvalidated>
+      <confirmationmoment>
+       <date>2022-01-01</date>
+       <time>12:00:00</time>
+      </confirmationmoment>
+      <validationmoment>
+       <date>2022-01-01</date>
+       <time>12:00:00</time>
+      </validationmoment>
+     </item>
+     <item>
+      <id S="ID-KMEHR" SV="1.0">5</id>
+      <cd S="CD-ITEM" SV="1.0">lab</cd>
+      <cd DN="Gamma-globulines" L="F" S="LOCAL" SL="local" SV="1.0">GA</cd>
+      <content>
+       <decimal>14.6</decimal>
+       <unit>
+        <cd DN="%" L="F" S="LOCAL" SL="local" SV="1.0">%</cd>
+       </unit>
+       <minref>
+        <decimal>11.1</decimal>
+       </minref>
+       <maxref>
+        <decimal>18.8</decimal>
+       </maxref>
+      </content>
+      <author>
+       <hcparty>
+        <id S="ID-HCPARTY" SV="1.0"/>
+        <cd S="CD-HCPARTY" SV="1.0">persphysician</cd>
+        <firstname>Réginald</firstname>
+        <familyname>DEMOLLIN</familyname>
+       </hcparty>
+      </author>
+      <beginmoment>
+       <date>2022-01-01</date>
+       <time>12:00:00</time>
+      </beginmoment>
+      <iscomplete>true</iscomplete>
+      <isvalidated>true</isvalidated>
+      <confirmationmoment>
+       <date>2022-01-01</date>
+       <time>12:00:00</time>
+      </confirmationmoment>
+      <validationmoment>
+       <date>2022-01-01</date>
+       <time>12:00:00</time>
+      </validationmoment>
+     </item>
+     <item>
+      <id S="ID-KMEHR" SV="1.0">6</id>
+      <cd S="CD-ITEM" SV="1.0">lab</cd>
+      <cd DN="Albumine" L="F" S="LOCAL" SL="local" SV="1.0">ALRA</cd>
+      <content>
+       <decimal>41.3</decimal>
+       <unit>
+        <cd DN="g/L" L="F" S="LOCAL" SL="local" SV="1.0">g/L</cd>
+       </unit>
+      </content>
+      <author>
+       <hcparty>
+        <id S="ID-HCPARTY" SV="1.0"/>
+        <cd S="CD-HCPARTY" SV="1.0">persphysician</cd>
+        <firstname>Réginald</firstname>
+        <familyname>DEMOLLIN</familyname>
+       </hcparty>
+      </author>
+      <beginmoment>
+       <date>2022-01-01</date>
+       <time>12:00:00</time>
+      </beginmoment>
+      <iscomplete>true</iscomplete>
+      <isvalidated>true</isvalidated>
+      <confirmationmoment>
+       <date>2022-01-01</date>
+       <time>12:00:00</time>
+      </confirmationmoment>
+      <validationmoment>
+       <date>2022-01-01</date>
+       <time>12:00:00</time>
+      </validationmoment>
+     </item>
+     <item>
+      <id S="ID-KMEHR" SV="1.0">7</id>
+      <cd S="CD-ITEM" SV="1.0">lab</cd>
+      <cd DN="Alpha-1-globulines" L="F" S="LOCAL" SL="local" SV="1.0">A1A</cd>
+      <content>
+       <decimal>2.6</decimal>
+       <unit>
+        <cd DN="g/L" L="F" S="LOCAL" SL="local" SV="1.0">g/L</cd>
+       </unit>
+      </content>
+      <author>
+       <hcparty>
+        <id S="ID-HCPARTY" SV="1.0"/>
+        <cd S="CD-HCPARTY" SV="1.0">persphysician</cd>
+        <firstname>Réginald</firstname>
+        <familyname>DEMOLLIN</familyname>
+       </hcparty>
+      </author>
+      <beginmoment>
+       <date>2022-01-01</date>
+       <time>12:00:00</time>
+      </beginmoment>
+      <iscomplete>true</iscomplete>
+      <isvalidated>true</isvalidated>
+      <confirmationmoment>
+       <date>2022-01-01</date>
+       <time>12:00:00</time>
+      </confirmationmoment>
+      <validationmoment>
+       <date>2022-01-01</date>
+       <time>12:00:00</time>
+      </validationmoment>
+     </item>
+     <item>
+      <id S="ID-KMEHR" SV="1.0">8</id>
+      <cd S="CD-ITEM" SV="1.0">lab</cd>
+      <cd DN="Alpha-2-globulines" L="F" S="LOCAL" SL="local" SV="1.0">A2A</cd>
+      <content>
+       <decimal>5.6</decimal>
+       <unit>
+        <cd DN="g/L" L="F" S="LOCAL" SL="local" SV="1.0">g/L</cd>
+       </unit>
+      </content>
+      <author>
+       <hcparty>
+        <id S="ID-HCPARTY" SV="1.0"/>
+        <cd S="CD-HCPARTY" SV="1.0">persphysician</cd>
+        <firstname>Réginald</firstname>
+        <familyname>DEMOLLIN</familyname>
+       </hcparty>
+      </author>
+      <beginmoment>
+       <date>2022-01-01</date>
+       <time>12:00:00</time>
+      </beginmoment>
+      <iscomplete>true</iscomplete>
+      <isvalidated>true</isvalidated>
+      <confirmationmoment>
+       <date>2022-01-01</date>
+       <time>12:00:00</time>
+      </confirmationmoment>
+      <validationmoment>
+       <date>2022-01-01</date>
+       <time>12:00:00</time>
+      </validationmoment>
+     </item>
+     <item>
+      <id S="ID-KMEHR" SV="1.0">9</id>
+      <cd S="CD-ITEM" SV="1.0">lab</cd>
+      <cd DN="Bêta-globulines" L="F" S="LOCAL" SL="local" SV="1.0">BEA</cd>
+      <content>
+       <decimal>6.9</decimal>
+       <unit>
+        <cd DN="g/L" L="F" S="LOCAL" SL="local" SV="1.0">g/L</cd>
+       </unit>
+      </content>
+      <author>
+       <hcparty>
+        <id S="ID-HCPARTY" SV="1.0"/>
+        <cd S="CD-HCPARTY" SV="1.0">persphysician</cd>
+        <firstname>Réginald</firstname>
+        <familyname>DEMOLLIN</familyname>
+       </hcparty>
+      </author>
+      <beginmoment>
+       <date>2022-01-01</date>
+       <time>12:00:00</time>
+      </beginmoment>
+      <iscomplete>true</iscomplete>
+      <isvalidated>true</isvalidated>
+      <confirmationmoment>
+       <date>2022-01-01</date>
+       <time>12:00:00</time>
+      </confirmationmoment>
+      <validationmoment>
+       <date>2022-01-01</date>
+       <time>12:00:00</time>
+      </validationmoment>
+     </item>
+     <item>
+      <id S="ID-KMEHR" SV="1.0">10</id>
+      <cd S="CD-ITEM" SV="1.0">lab</cd>
+      <cd DN="Gamma-globulines" L="F" S="LOCAL" SL="local" SV="1.0">GAA</cd>
+      <content>
+       <decimal>9.6</decimal>
+       <unit>
+        <cd DN="g/L" L="F" S="LOCAL" SL="local" SV="1.0">g/L</cd>
+       </unit>
+      </content>
+      <author>
+       <hcparty>
+        <id S="ID-HCPARTY" SV="1.0"/>
+        <cd S="CD-HCPARTY" SV="1.0">persphysician</cd>
+        <firstname>Réginald</firstname>
+        <familyname>DEMOLLIN</familyname>
+       </hcparty>
+      </author>
+      <beginmoment>
+       <date>2022-01-01</date>
+       <time>12:00:00</time>
+      </beginmoment>
+      <iscomplete>true</iscomplete>
+      <isvalidated>true</isvalidated>
+      <confirmationmoment>
+       <date>2022-01-01</date>
+       <time>12:00:00</time>
+      </confirmationmoment>
+      <validationmoment>
+       <date>2022-01-01</date>
+       <time>12:00:00</time>
+      </validationmoment>
+     </item>
+    </heading>
+   </heading>
+   <heading>
+    <id S="ID-KMEHR" SV="1.0">12</id>
+    <cd S="CD-HEADING-LAB" SV="1.0">THYROIDE</cd>
+    <item>
+     <id S="ID-KMEHR" SV="1.0">1</id>
+     <cd S="CD-ITEM" SV="1.0">lab</cd>
+     <cd DN="TSH" L="F" S="LOCAL" SL="local" SV="1.0">TSH</cd>
+     <content>
+      <decimal>2.53</decimal>
+      <unit>
+       <cd DN="µUI/ml" L="F" S="LOCAL" SL="local" SV="1.0">µUI/ml</cd>
+      </unit>
+      <minref>
+       <decimal>0.20</decimal>
+      </minref>
+      <maxref>
+       <decimal>4.20</decimal>
+      </maxref>
+     </content>
+     <author>
+      <hcparty>
+       <id S="ID-HCPARTY" SV="1.0"/>
+       <cd S="CD-HCPARTY" SV="1.0">persphysician</cd>
+       <firstname>Cynthia</firstname>
+       <familyname>CARACALLA</familyname>
+      </hcparty>
+     </author>
+     <beginmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </beginmoment>
+     <iscomplete>true</iscomplete>
+     <isvalidated>true</isvalidated>
+     <confirmationmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </confirmationmoment>
+     <validationmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </validationmoment>
+    </item>
+    <item>
+     <id S="ID-KMEHR" SV="1.0">2</id>
+     <cd S="CD-ITEM" SV="1.0">lab</cd>
+     <cd DN="T3 libre" L="F" S="LOCAL" SL="local" SV="1.0">FT3</cd>
+     <content>
+      <decimal>3.0</decimal>
+      <unit>
+       <cd DN="pg/ml" L="F" S="LOCAL" SL="local" SV="1.0">pg/ml</cd>
+      </unit>
+      <minref>
+       <decimal>1.5</decimal>
+      </minref>
+      <maxref>
+       <decimal>4.6</decimal>
+      </maxref>
+     </content>
+     <author>
+      <hcparty>
+       <id S="ID-HCPARTY" SV="1.0"/>
+       <cd S="CD-HCPARTY" SV="1.0">persphysician</cd>
+       <firstname>Cynthia</firstname>
+       <familyname>CARACALLA</familyname>
+      </hcparty>
+     </author>
+     <beginmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </beginmoment>
+     <iscomplete>true</iscomplete>
+     <isvalidated>true</isvalidated>
+     <confirmationmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </confirmationmoment>
+     <validationmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </validationmoment>
+    </item>
+    <item>
+     <id S="ID-KMEHR" SV="1.0">3</id>
+     <cd S="CD-ITEM" SV="1.0">lab</cd>
+     <cd DN="T4 libre" L="F" S="LOCAL" SL="local" SV="1.0">FT4</cd>
+     <content>
+      <decimal>12.7</decimal>
+      <unit>
+       <cd DN="pg/ml" L="F" S="LOCAL" SL="local" SV="1.0">pg/ml</cd>
+      </unit>
+      <minref>
+       <decimal>7.0</decimal>
+      </minref>
+      <maxref>
+       <decimal>17.0</decimal>
+      </maxref>
+     </content>
+     <author>
+      <hcparty>
+       <id S="ID-HCPARTY" SV="1.0"/>
+       <cd S="CD-HCPARTY" SV="1.0">persphysician</cd>
+       <firstname>Cynthia</firstname>
+       <familyname>CARACALLA</familyname>
+      </hcparty>
+     </author>
+     <beginmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </beginmoment>
+     <iscomplete>true</iscomplete>
+     <isvalidated>true</isvalidated>
+     <confirmationmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </confirmationmoment>
+     <validationmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </validationmoment>
+    </item>
+   </heading>
+   <heading>
+    <id S="ID-KMEHR" SV="1.0">13</id>
+    <cd S="CD-HEADING-LAB" SV="1.0">-</cd>
+   </heading>
+   <heading>
+    <id S="ID-KMEHR" SV="1.0">14</id>
+    <cd S="CD-HEADING-LAB" SV="1.0">-</cd>
+   </heading>
+   <heading>
+    <id S="ID-KMEHR" SV="1.0">15</id>
+    <cd S="CD-HEADING-LAB" SV="1.0">-</cd>
+   </heading>
+   <heading>
+    <id S="ID-KMEHR" SV="1.0">16</id>
+    <cd S="CD-HEADING-LAB" SV="1.0">-</cd>
+   </heading>
+   <heading>
+    <id S="ID-KMEHR" SV="1.0">17</id>
+    <cd S="CD-HEADING-LAB" SV="1.0">ENVOI LABORATOIRE INTERNE</cd>
+    <item>
+     <id S="ID-KMEHR" SV="1.0">1</id>
+     <cd S="CD-ITEM" SV="1.0">lab</cd>
+     <cd DN="Laboratoire de microbiologie" L="F" S="LOCAL" SL="local" SV="1.0">BAVI</cd>
+     <content>
+      <text L="F" xml:space="preserve">"Ce prélèvement est envoyé au laboratoire de microbiologie.
+ Pour tout renseignement concernant cet échantillon, le
+ laboratoire se tient à votre disposition au numéro
+ de téléphone:  04/366.24.37 ou 04/366.24.52"</text>
+      <unit>
+       <cd DN="" L="F" S="LOCAL" SL="local" SV="1.0"/>
+      </unit>
+     </content>
+     <author>
+      <hcparty>
+       <id S="ID-HCPARTY" SV="1.0"/>
+       <cd S="CD-HCPARTY" SV="1.0">persphysician</cd>
+       <firstname>Josiane</firstname>
+       <familyname>WYPCHLO</familyname>
+      </hcparty>
+     </author>
+     <beginmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </beginmoment>
+     <iscomplete>true</iscomplete>
+     <isvalidated>true</isvalidated>
+     <confirmationmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </confirmationmoment>
+     <validationmoment>
+      <date>2022-01-01</date>
+      <time>12:00:00</time>
+     </validationmoment>
+    </item>
+   </heading>
+   <heading>
+    <id S="ID-KMEHR" SV="1.0">18</id>
+    <cd S="CD-HEADING-LAB" SV="1.0">DONNEES CLINIQUES:
+</cd>
+   </heading>
+   <heading>
+    <id S="ID-KMEHR" SV="1.0">19</id>
+    <cd S="CD-HEADING-LAB" SV="1.0">Confraternellement, Dr. Biol. AM. FERIR, Ph. Biol. JP. CHAPELLE, Dr. A. GOTHOT</cd>
+   </heading>
+  </transaction>
+ </folder>
+</kmehrmessage>

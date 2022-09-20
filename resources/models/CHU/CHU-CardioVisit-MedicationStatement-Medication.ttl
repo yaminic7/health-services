@@ -1,0 +1,1451 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix etype: <http://knowdive.disi.unitn.it/etype#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix km-dev: <http://isi.edu/integration/karma/dev#> .
+
+_:node1g6ooijn2x1 a km-dev:R2RMLMapping ;
+	km-dev:sourceName "cardiovisit.json" ;
+	km-dev:modelPublicationTime "1656540974818"^^xsd:long ;
+	km-dev:modelVersion "1.7" ;
+	km-dev:hasInputColumns "[[{\"columnName\":\"properties\"},{\"columnName\":\"prescriptions\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"medicationstatement_status Concepts\"}],[{\"columnName\":\"objet\"},{\"columnName\":\"niss\"}],[{\"columnName\":\"properties\"},{\"columnName\":\"prescriptions\"},{\"columnName\":\"Prescr:Frequency_1\"}],[{\"columnName\":\"properties\"},{\"columnName\":\"prescriptions\"},{\"columnName\":\"Prescr:PeriodUnit_1\"}],[{\"columnName\":\"date\"}],[{\"columnName\":\"properties\"},{\"columnName\":\"prescriptions\"},{\"columnName\":\"atc_ingredient Concepts\"}]]" ;
+	km-dev:hasOutputColumns "[[{\"columnName\":\"properties\"},{\"columnName\":\"prescriptions\"},{\"columnName\":\"Values\"}],[{\"columnName\":\"medicationstatement_status\"}],[{\"columnName\":\"properties\"},{\"columnName\":\"prescriptions\"},{\"columnName\":\"clean_periodunit\"}],[{\"columnName\":\"properties\"},{\"columnName\":\"prescriptions\"},{\"columnName\":\"medstatement_id\"}],[{\"columnName\":\"medicationstatement_status Concepts\"}],[{\"columnName\":\"properties\"},{\"columnName\":\"prescriptions\"},{\"columnName\":\"Prescr:Frequency_1\"}],[{\"columnName\":\"objet\"},{\"columnName\":\"niss\"}],[{\"columnName\":\"isoDate\"}],[{\"columnName\":\"properties\"},{\"columnName\":\"prescriptions\"},{\"columnName\":\"medication_id\"}],[{\"columnName\":\"properties\"},{\"columnName\":\"prescriptions\"},{\"columnName\":\"atc_ingredient Concepts\"}],[{\"columnName\":\"properties\"},{\"columnName\":\"prescriptions\"},{\"columnName\":\"atc_ingredient\"}]]" ;
+	km-dev:hasModelLabel "cardiovisit.json" ;
+	km-dev:hasWorksheetHistory """[
+    {
+        \"commandName\": \"SplitValuesCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"properties\"},
+                    {\"columnName\": \"TRAIT_EC\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"delimiter\",
+                \"type\": \"other\",
+                \"value\": \"regex:[,;]\\\\s+\"
+            },
+            {
+                \"name\": \"newColName\",
+                \"type\": \"other\",
+                \"value\": \"prescriptions\"
+            },
+            {
+                \"name\": \"newHNodeId\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"ExtractStructureCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"properties\"},
+                    {\"columnName\": \"prescriptions\"},
+                    {\"columnName\": \"Values\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"rootLocale\",
+                \"type\": \"other\",
+                \"value\": \"fra\"
+            },
+            {
+                \"name\": \"pipeline\",
+                \"type\": \"other\",
+                \"value\": \"IEPrescriptionPipeline\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"SubmitPythonTransformationCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"properties\"},
+                    {\"columnName\": \"prescriptions\"},
+                    {\"columnName\": \"Prescr:DrugProduct_1\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"newColumnName\",
+                \"type\": \"other\",
+                \"value\": \"atc_ingredient\"
+            },
+            {
+                \"name\": \"transformationCode\",
+                \"type\": \"other\",
+                \"value\": \"return transformIngredients(\\\"Prescr:DrugIngredient_1\\\", \\\"Prescr:DrugProduct_1\\\")\"
+            },
+            {
+                \"name\": \"errorDefaultValue\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"isJSONOutput\",
+                \"type\": \"other\",
+                \"value\": \"false\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"properties\\\"},{\\\"columnName\\\":\\\"prescriptions\\\"},{\\\"columnName\\\":\\\"Prescr:DrugIngredient_1\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"properties\\\"},{\\\"columnName\\\":\\\"prescriptions\\\"},{\\\"columnName\\\":\\\"Prescr:DrugProduct_1\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"properties\\\"},{\\\"columnName\\\":\\\"prescriptions\\\"},{\\\"columnName\\\":\\\"atc_ingredient\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"ExtractConceptsCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"properties\"},
+                    {\"columnName\": \"prescriptions\"},
+                    {\"columnName\": \"atc_ingredient\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"extractionURL\",
+                \"type\": \"other\",
+                \"value\": \"http://sweb:8080\"
+            },
+            {
+                \"name\": \"rootConcept\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"rootLocale\",
+                \"type\": \"other\",
+                \"value\": \"ita\"
+            },
+            {
+                \"name\": \"preferenceLevel\",
+                \"type\": \"other\",
+                \"value\": \"Can Ignore\"
+            },
+            {
+                \"name\": \"pipeline\",
+                \"type\": \"other\",
+                \"value\": \"SingleWordConceptExtractionPipeline\"
+            },
+            {
+                \"name\": \"conceptForTextArray\",
+                \"type\": \"other\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"SubmitPythonTransformationCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"properties\"},
+                    {\"columnName\": \"prescriptions\"},
+                    {\"columnName\": \"Values\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"newColumnName\",
+                \"type\": \"other\",
+                \"value\": \"medication_id\"
+            },
+            {
+                \"name\": \"transformationCode\",
+                \"type\": \"other\",
+                \"value\": \"return \\\"MED_\\\" + str(getRowIndex()) + \\\"_\\\" + getValueFromNestedColumnByIndex(\\\"objet\\\", \\\"niss\\\", 0)\"
+            },
+            {
+                \"name\": \"errorDefaultValue\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"isJSONOutput\",
+                \"type\": \"other\",
+                \"value\": \"false\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"objet\\\"},{\\\"columnName\\\":\\\"niss\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"properties\\\"},{\\\"columnName\\\":\\\"prescriptions\\\"},{\\\"columnName\\\":\\\"medication_id\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"SubmitPythonTransformationCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"properties\"},
+                    {\"columnName\": \"prescriptions\"},
+                    {\"columnName\": \"Values\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"newColumnName\",
+                \"type\": \"other\",
+                \"value\": \"medstatement_id\"
+            },
+            {
+                \"name\": \"transformationCode\",
+                \"type\": \"other\",
+                \"value\": \"return \\\"MEDSTATEMENT_\\\" + str(getRowIndex()) + \\\"_\\\" + getValueFromNestedColumnByIndex(\\\"objet\\\", \\\"niss\\\", 0)\"
+            },
+            {
+                \"name\": \"errorDefaultValue\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"isJSONOutput\",
+                \"type\": \"other\",
+                \"value\": \"false\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"objet\\\"},{\\\"columnName\\\":\\\"niss\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"properties\\\"},{\\\"columnName\\\":\\\"prescriptions\\\"},{\\\"columnName\\\":\\\"medstatement_id\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"SubmitPythonTransformationCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"properties\"},
+                    {\"columnName\": \"prescriptions\"},
+                    {\"columnName\": \"Prescr:PeriodUnit_1\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"newColumnName\",
+                \"type\": \"other\",
+                \"value\": \"clean_periodunit\"
+            },
+            {
+                \"name\": \"transformationCode\",
+                \"type\": \"other\",
+                \"value\": \"v = getValue(\\\"Prescr:PeriodUnit_1\\\").strip()\\nif len(v) < 1:\\n    return \\\"\\\"\\nv = v.replace(\\\".\\\", \\\"\\\")\\nif v[0] in [\\\"j\\\", \\\"d\\\", \\\"g\\\"]:\\n    code = \\\"d\\\"\\nelif v[0] == \\\"s\\\":\\n    code = \\\"wk\\\"\\nelif v[0] == \\\"m\\\":\\n    code = \\\"mo\\\"\\nelse:\\n    code = \\\"d\\\"\\nreturn code\"
+            },
+            {
+                \"name\": \"errorDefaultValue\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"isJSONOutput\",
+                \"type\": \"other\",
+                \"value\": \"false\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"properties\\\"},{\\\"columnName\\\":\\\"prescriptions\\\"},{\\\"columnName\\\":\\\"Prescr:PeriodUnit_1\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"properties\\\"},{\\\"columnName\\\":\\\"prescriptions\\\"},{\\\"columnName\\\":\\\"clean_periodunit\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"AddColumnCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"description\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"hTableId\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"newColumnName\",
+                \"type\": \"other\",
+                \"value\": \"medicationstatement_status\"
+            },
+            {
+                \"name\": \"defaultValue\",
+                \"type\": \"other\",
+                \"value\": \"active\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"medicationstatement_status\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"ExtractConceptsCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"medicationstatement_status\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"extractionURL\",
+                \"type\": \"other\",
+                \"value\": \"http://sweb:8080\"
+            },
+            {
+                \"name\": \"rootConcept\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"rootLocale\",
+                \"type\": \"other\",
+                \"value\": \"eng\"
+            },
+            {
+                \"name\": \"preferenceLevel\",
+                \"type\": \"other\",
+                \"value\": \"Can Ignore\"
+            },
+            {
+                \"name\": \"pipeline\",
+                \"type\": \"other\",
+                \"value\": \"ConceptExtractionPipeline\"
+            },
+            {
+                \"name\": \"conceptForTextArray\",
+                \"type\": \"other\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"SubmitPythonTransformationCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"date\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"newColumnName\",
+                \"type\": \"other\",
+                \"value\": \"isoDate\"
+            },
+            {
+                \"name\": \"transformationCode\",
+                \"type\": \"other\",
+                \"value\": \"return toISODate(getValue(\\\"date\\\"))\"
+            },
+            {
+                \"name\": \"errorDefaultValue\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"isJSONOutput\",
+                \"type\": \"other\",
+                \"value\": \"false\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"date\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"isoDate\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"properties\"},
+                    {\"columnName\": \"prescriptions\"},
+                    {\"columnName\": \"atc_ingredient Concepts\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#Fhir_medication_GID-641750\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#Fhir_medication_GID-6417501\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#has_fhir_medication.code_GID-641736_Type-641750\",
+                    \"DomainLabel\": \"etype:Fhir_medication_GID-6417501 (add)\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:Concept\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"properties\\\"},{\\\"columnName\\\":\\\"prescriptions\\\"},{\\\"columnName\\\":\\\"atc_ingredient Concepts\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"properties\\\"},{\\\"columnName\\\":\\\"prescriptions\\\"},{\\\"columnName\\\":\\\"atc_ingredient Concepts\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"properties\"},
+                    {\"columnName\": \"prescriptions\"},
+                    {\"columnName\": \"medication_id\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#Fhir_medication_GID-641750\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#Fhir_medication_GID-6417501\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1\",
+                    \"DomainLabel\": \"etype:Fhir_medication_GID-6417501\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"properties\\\"},{\\\"columnName\\\":\\\"prescriptions\\\"},{\\\"columnName\\\":\\\"medication_id\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"properties\\\"},{\\\"columnName\\\":\\\"prescriptions\\\"},{\\\"columnName\\\":\\\"medication_id\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"properties\"},
+                    {\"columnName\": \"prescriptions\"},
+                    {\"columnName\": \"medstatement_id\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#Fhir_medicationstatement_GID-641724\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#Fhir_medicationstatement_GID-6417241\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1\",
+                    \"DomainLabel\": \"etype:Fhir_medicationstatement_GID-6417241 (add)\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"properties\\\"},{\\\"columnName\\\":\\\"prescriptions\\\"},{\\\"columnName\\\":\\\"medstatement_id\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"properties\\\"},{\\\"columnName\\\":\\\"prescriptions\\\"},{\\\"columnName\\\":\\\"medstatement_id\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"properties\"},
+                    {\"columnName\": \"prescriptions\"},
+                    {\"columnName\": \"Prescr:Frequency_1\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#Fhir_medicationstatement_GID-641724\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#Fhir_medicationstatement_GID-6417241\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#has_fhir_medicationstatement.dosage.timing.repeat.frequency_GID-648358_Type-641724\",
+                    \"DomainLabel\": \"etype:Fhir_medicationstatement_GID-6417241\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"properties\\\"},{\\\"columnName\\\":\\\"prescriptions\\\"},{\\\"columnName\\\":\\\"Prescr:Frequency_1\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"properties\\\"},{\\\"columnName\\\":\\\"prescriptions\\\"},{\\\"columnName\\\":\\\"Prescr:Frequency_1\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"properties\"},
+                    {\"columnName\": \"prescriptions\"},
+                    {\"columnName\": \"clean_periodunit\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#Fhir_medicationstatement_GID-641724\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#Fhir_medicationstatement_GID-6417241\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#has_fhir_medicationstatement.dosage.timing.repeat.periodunit_GID-648360_Type-641724\",
+                    \"DomainLabel\": \"etype:Fhir_medicationstatement_GID-6417241\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"properties\\\"},{\\\"columnName\\\":\\\"prescriptions\\\"},{\\\"columnName\\\":\\\"clean_periodunit\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"properties\\\"},{\\\"columnName\\\":\\\"prescriptions\\\"},{\\\"columnName\\\":\\\"clean_periodunit\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"objet\"},
+                    {\"columnName\": \"niss\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#Patient_GID-55936\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#Patient_GID-559361\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1\",
+                    \"DomainLabel\": \"etype:Patient_GID-559361 (add)\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"objet\\\"},{\\\"columnName\\\":\\\"niss\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"objet\\\"},{\\\"columnName\\\":\\\"niss\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"medicationstatement_status Concepts\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#Fhir_medicationstatement_GID-641724\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#Fhir_medicationstatement_GID-6417241\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#has_fhir_medicationstatement.status_GID-641727_Type-641724\",
+                    \"DomainLabel\": \"etype:Fhir_medicationstatement_GID-6417241\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:Concept\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"medicationstatement_status Concepts\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"medicationstatement_status Concepts\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"isoDate\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#Fhir_medicationstatement_GID-641724\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#Fhir_medicationstatement_GID-6417241\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#has_fhir_medicationstatement.effectivedatetime_GID-641725_Type-641724\",
+                    \"DomainLabel\": \"etype:Fhir_medicationstatement_GID-6417241\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:dateTime\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"isoDate\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"isoDate\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"properties\"},
+                    {\"columnName\": \"prescriptions\"},
+                    {\"columnName\": \"Values\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#Fhir_medicationstatement_GID-641724\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#Fhir_medicationstatement_GID-6417241\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#has_fhir_medicationstatement.dosage.text_GID-648357_Type-641724\",
+                    \"DomainLabel\": \"etype:Fhir_medicationstatement_GID-6417241\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"properties\\\"},{\\\"columnName\\\":\\\"prescriptions\\\"},{\\\"columnName\\\":\\\"Values\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"properties\\\"},{\\\"columnName\\\":\\\"prescriptions\\\"},{\\\"columnName\\\":\\\"Values\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"AddLinkCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"edge\",
+                \"type\": \"other\",
+                \"value\": {
+                    \"edgeTargetId\": \"http://knowdive.disi.unitn.it/etype#Fhir_medication_GID-6417501\",
+                    \"edgeId\": \"http://knowdive.disi.unitn.it/etype#has_fhir_medicationstatement.medicationreference.reference_GID-641753_Type-641724\",
+                    \"edgeTargetUri\": \"http://knowdive.disi.unitn.it/etype#Fhir_medication_GID-641750\",
+                    \"edgeSourceId\": \"http://knowdive.disi.unitn.it/etype#Fhir_medicationstatement_GID-6417241\",
+                    \"edgeSourceUri\": \"http://knowdive.disi.unitn.it/etype#Fhir_medicationstatement_GID-641724\"
+                }
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Modeling\"]
+    },
+    {
+        \"commandName\": \"AddLinkCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"edge\",
+                \"type\": \"other\",
+                \"value\": {
+                    \"edgeTargetId\": \"http://knowdive.disi.unitn.it/etype#Patient_GID-559361\",
+                    \"edgeId\": \"http://knowdive.disi.unitn.it/etype#has_fhir_medicationstatement.subject.reference_GID-641752_Type-641724\",
+                    \"edgeTargetUri\": \"http://knowdive.disi.unitn.it/etype#Patient_GID-55936\",
+                    \"edgeSourceId\": \"http://knowdive.disi.unitn.it/etype#Fhir_medicationstatement_GID-6417241\",
+                    \"edgeSourceUri\": \"http://knowdive.disi.unitn.it/etype#Fhir_medicationstatement_GID-641724\"
+                }
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Modeling\"]
+    }
+]""" .
+
+km-dev:TriplesMap_4753a897-2cb8-41c9-8991-34872f68d06a a rr:TriplesMap .
+
+_:node1g6ooijn2x1 km-dev:hasTriplesMap km-dev:TriplesMap_4753a897-2cb8-41c9-8991-34872f68d06a .
+
+km-dev:TriplesMap_4753a897-2cb8-41c9-8991-34872f68d06a km-dev:isPartOfMapping _:node1g6ooijn2x1 .
+
+_:node1g6ooijn2x2 rr:tableName "cardiovisit.json" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1g6ooijn2x1 .
+
+_:node1g6ooijn2x1 km-dev:hasLogicalTable _:node1g6ooijn2x2 .
+
+km-dev:TriplesMap_4753a897-2cb8-41c9-8991-34872f68d06a rr:logicalTable _:node1g6ooijn2x2 ;
+	rr:subjectMap _:node1g6ooijn2x3 .
+
+_:node1g6ooijn2x1 km-dev:hasSubjectMap _:node1g6ooijn2x3 .
+
+_:node1g6ooijn2x3 km-dev:isPartOfMapping _:node1g6ooijn2x1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://knowdive.disi.unitn.it/etype#Fhir_medicationstatement_GID-6417241" ;
+	rr:class etype:Fhir_medicationstatement_GID-641724 ;
+	rr:termType rr:BlankNode ;
+	km-dev:namePrefix "etype:Fhir_medicationstatement_GID-6417241" ;
+	a km-dev:steinerTreeRootNode .
+
+km-dev:PredicateObjectMap_b33a7d17-07cd-47e5-8cb1-e30fe30fd4be rr:predicate <http://knowdive.disi.unitn.it/etype#has_fhir_medicationstatement.medicationreference.reference_GID-641753_Type-641724> .
+
+km-dev:RefObjectMap_6637b705-54a9-4f3e-b792-49a41749d211 a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_40e03b55-f4da-4e27-8e99-06ed92ea12e1 ;
+	km-dev:isPartOfMapping _:node1g6ooijn2x1 .
+
+_:node1g6ooijn2x1 km-dev:hasObjectMap km-dev:RefObjectMap_6637b705-54a9-4f3e-b792-49a41749d211 .
+
+km-dev:PredicateObjectMap_b33a7d17-07cd-47e5-8cb1-e30fe30fd4be rr:objectMap km-dev:RefObjectMap_6637b705-54a9-4f3e-b792-49a41749d211 .
+
+km-dev:TriplesMap_4753a897-2cb8-41c9-8991-34872f68d06a rr:predicateObjectMap km-dev:PredicateObjectMap_b33a7d17-07cd-47e5-8cb1-e30fe30fd4be .
+
+km-dev:PredicateObjectMap_b33a7d17-07cd-47e5-8cb1-e30fe30fd4be a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1g6ooijn2x1 .
+
+_:node1g6ooijn2x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_b33a7d17-07cd-47e5-8cb1-e30fe30fd4be .
+
+km-dev:PredicateObjectMap_9f3afc29-46d8-4b7f-ab99-e0c8b9997179 rr:predicate <http://knowdive.disi.unitn.it/etype#has_fhir_medicationstatement.subject.reference_GID-641752_Type-641724> .
+
+km-dev:RefObjectMap_281b118b-d8f7-41c4-a743-5e907c4f69c5 a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_ce36e995-1757-47a6-9202-dcb419bb7e9f ;
+	km-dev:isPartOfMapping _:node1g6ooijn2x1 .
+
+_:node1g6ooijn2x1 km-dev:hasObjectMap km-dev:RefObjectMap_281b118b-d8f7-41c4-a743-5e907c4f69c5 .
+
+km-dev:PredicateObjectMap_9f3afc29-46d8-4b7f-ab99-e0c8b9997179 rr:objectMap km-dev:RefObjectMap_281b118b-d8f7-41c4-a743-5e907c4f69c5 .
+
+km-dev:TriplesMap_4753a897-2cb8-41c9-8991-34872f68d06a rr:predicateObjectMap km-dev:PredicateObjectMap_9f3afc29-46d8-4b7f-ab99-e0c8b9997179 .
+
+km-dev:PredicateObjectMap_9f3afc29-46d8-4b7f-ab99-e0c8b9997179 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1g6ooijn2x1 .
+
+_:node1g6ooijn2x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_9f3afc29-46d8-4b7f-ab99-e0c8b9997179 .
+
+km-dev:PredicateObjectMap_8b56bcae-1cd0-426b-abed-a0aea59d27ab rr:predicate <http://knowdive.disi.unitn.it/etype#has_fhir_medicationstatement.dosage.text_GID-648357_Type-641724> .
+
+_:node1g6ooijn2x4 rr:column "[\"properties\",\"prescriptions\",\"Values\"]" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1g6ooijn2x1 .
+
+_:node1g6ooijn2x1 km-dev:hasObjectMap _:node1g6ooijn2x4 .
+
+km-dev:PredicateObjectMap_8b56bcae-1cd0-426b-abed-a0aea59d27ab rr:objectMap _:node1g6ooijn2x4 .
+
+km-dev:TriplesMap_4753a897-2cb8-41c9-8991-34872f68d06a rr:predicateObjectMap km-dev:PredicateObjectMap_8b56bcae-1cd0-426b-abed-a0aea59d27ab .
+
+km-dev:PredicateObjectMap_8b56bcae-1cd0-426b-abed-a0aea59d27ab a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1g6ooijn2x1 .
+
+_:node1g6ooijn2x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_8b56bcae-1cd0-426b-abed-a0aea59d27ab .
+
+km-dev:PredicateObjectMap_56aa3170-7404-4eab-9a31-7c089561f64e rr:predicate <http://knowdive.disi.unitn.it/etype#has_fhir_medicationstatement.dosage.timing.repeat.periodunit_GID-648360_Type-641724> .
+
+_:node1g6ooijn2x5 rr:column "[\"properties\",\"prescriptions\",\"clean_periodunit\"]" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1g6ooijn2x1 .
+
+_:node1g6ooijn2x1 km-dev:hasObjectMap _:node1g6ooijn2x5 .
+
+km-dev:PredicateObjectMap_56aa3170-7404-4eab-9a31-7c089561f64e rr:objectMap _:node1g6ooijn2x5 .
+
+km-dev:TriplesMap_4753a897-2cb8-41c9-8991-34872f68d06a rr:predicateObjectMap km-dev:PredicateObjectMap_56aa3170-7404-4eab-9a31-7c089561f64e .
+
+km-dev:PredicateObjectMap_56aa3170-7404-4eab-9a31-7c089561f64e a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1g6ooijn2x1 .
+
+_:node1g6ooijn2x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_56aa3170-7404-4eab-9a31-7c089561f64e .
+
+km-dev:PredicateObjectMap_9ac7a6dc-f4eb-4775-b282-7ee629556b02 rr:predicate etype:has_identifier_GID-39085_Type-1 .
+
+_:node1g6ooijn2x6 rr:column "[\"properties\",\"prescriptions\",\"medstatement_id\"]" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1g6ooijn2x1 .
+
+_:node1g6ooijn2x1 km-dev:hasObjectMap _:node1g6ooijn2x6 .
+
+km-dev:PredicateObjectMap_9ac7a6dc-f4eb-4775-b282-7ee629556b02 rr:objectMap _:node1g6ooijn2x6 .
+
+km-dev:TriplesMap_4753a897-2cb8-41c9-8991-34872f68d06a rr:predicateObjectMap km-dev:PredicateObjectMap_9ac7a6dc-f4eb-4775-b282-7ee629556b02 .
+
+km-dev:PredicateObjectMap_9ac7a6dc-f4eb-4775-b282-7ee629556b02 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1g6ooijn2x1 .
+
+_:node1g6ooijn2x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_9ac7a6dc-f4eb-4775-b282-7ee629556b02 .
+
+km-dev:PredicateObjectMap_8a9ec6aa-750e-447c-ac49-afa1806e8beb rr:predicate <http://knowdive.disi.unitn.it/etype#has_fhir_medicationstatement.status_GID-641727_Type-641724> .
+
+_:node1g6ooijn2x7 rr:column "medicationstatement_status Concepts" ;
+	a rr:ObjectMap ;
+	rr:datatype "http://www.w3.org/2001/XMLSchema#Concept" ;
+	km-dev:isPartOfMapping _:node1g6ooijn2x1 .
+
+_:node1g6ooijn2x1 km-dev:hasObjectMap _:node1g6ooijn2x7 .
+
+km-dev:PredicateObjectMap_8a9ec6aa-750e-447c-ac49-afa1806e8beb rr:objectMap _:node1g6ooijn2x7 .
+
+km-dev:TriplesMap_4753a897-2cb8-41c9-8991-34872f68d06a rr:predicateObjectMap km-dev:PredicateObjectMap_8a9ec6aa-750e-447c-ac49-afa1806e8beb .
+
+km-dev:PredicateObjectMap_8a9ec6aa-750e-447c-ac49-afa1806e8beb a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1g6ooijn2x1 .
+
+_:node1g6ooijn2x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_8a9ec6aa-750e-447c-ac49-afa1806e8beb .
+
+km-dev:PredicateObjectMap_fc813fc1-4aae-4445-9fc5-07800ddf397f rr:predicate <http://knowdive.disi.unitn.it/etype#has_fhir_medicationstatement.dosage.timing.repeat.frequency_GID-648358_Type-641724> .
+
+_:node1g6ooijn2x8 rr:column "[\"properties\",\"prescriptions\",\"Prescr:Frequency_1\"]" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1g6ooijn2x1 .
+
+_:node1g6ooijn2x1 km-dev:hasObjectMap _:node1g6ooijn2x8 .
+
+km-dev:PredicateObjectMap_fc813fc1-4aae-4445-9fc5-07800ddf397f rr:objectMap _:node1g6ooijn2x8 .
+
+km-dev:TriplesMap_4753a897-2cb8-41c9-8991-34872f68d06a rr:predicateObjectMap km-dev:PredicateObjectMap_fc813fc1-4aae-4445-9fc5-07800ddf397f .
+
+km-dev:PredicateObjectMap_fc813fc1-4aae-4445-9fc5-07800ddf397f a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1g6ooijn2x1 .
+
+_:node1g6ooijn2x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_fc813fc1-4aae-4445-9fc5-07800ddf397f .
+
+km-dev:PredicateObjectMap_b25ad3bc-11a9-4ce3-994d-5d6590cc3e74 rr:predicate <http://knowdive.disi.unitn.it/etype#has_fhir_medicationstatement.effectivedatetime_GID-641725_Type-641724> .
+
+_:node1g6ooijn2x9 rr:column "isoDate" ;
+	a rr:ObjectMap ;
+	rr:datatype "http://www.w3.org/2001/XMLSchema#dateTime" ;
+	km-dev:isPartOfMapping _:node1g6ooijn2x1 .
+
+_:node1g6ooijn2x1 km-dev:hasObjectMap _:node1g6ooijn2x9 .
+
+km-dev:PredicateObjectMap_b25ad3bc-11a9-4ce3-994d-5d6590cc3e74 rr:objectMap _:node1g6ooijn2x9 .
+
+km-dev:TriplesMap_4753a897-2cb8-41c9-8991-34872f68d06a rr:predicateObjectMap km-dev:PredicateObjectMap_b25ad3bc-11a9-4ce3-994d-5d6590cc3e74 .
+
+km-dev:PredicateObjectMap_b25ad3bc-11a9-4ce3-994d-5d6590cc3e74 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1g6ooijn2x1 .
+
+_:node1g6ooijn2x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_b25ad3bc-11a9-4ce3-994d-5d6590cc3e74 .
+
+km-dev:TriplesMap_40e03b55-f4da-4e27-8e99-06ed92ea12e1 a rr:TriplesMap .
+
+_:node1g6ooijn2x1 km-dev:hasTriplesMap km-dev:TriplesMap_40e03b55-f4da-4e27-8e99-06ed92ea12e1 .
+
+km-dev:TriplesMap_40e03b55-f4da-4e27-8e99-06ed92ea12e1 km-dev:isPartOfMapping _:node1g6ooijn2x1 .
+
+_:node1g6ooijn2x10 rr:tableName "cardiovisit.json" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1g6ooijn2x1 .
+
+_:node1g6ooijn2x1 km-dev:hasLogicalTable _:node1g6ooijn2x10 .
+
+km-dev:TriplesMap_40e03b55-f4da-4e27-8e99-06ed92ea12e1 rr:logicalTable _:node1g6ooijn2x10 ;
+	rr:subjectMap _:node1g6ooijn2x11 .
+
+_:node1g6ooijn2x1 km-dev:hasSubjectMap _:node1g6ooijn2x11 .
+
+_:node1g6ooijn2x11 km-dev:isPartOfMapping _:node1g6ooijn2x1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://knowdive.disi.unitn.it/etype#Fhir_medication_GID-6417501" ;
+	rr:class etype:Fhir_medication_GID-641750 ;
+	rr:termType rr:BlankNode ;
+	km-dev:namePrefix "etype:Fhir_medication_GID-6417501" .
+
+km-dev:PredicateObjectMap_0f3d273b-d319-4544-90f1-9d64f1c02851 rr:predicate etype:has_identifier_GID-39085_Type-1 .
+
+_:node1g6ooijn2x12 rr:column "[\"properties\",\"prescriptions\",\"medication_id\"]" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1g6ooijn2x1 .
+
+_:node1g6ooijn2x1 km-dev:hasObjectMap _:node1g6ooijn2x12 .
+
+km-dev:PredicateObjectMap_0f3d273b-d319-4544-90f1-9d64f1c02851 rr:objectMap _:node1g6ooijn2x12 .
+
+km-dev:TriplesMap_40e03b55-f4da-4e27-8e99-06ed92ea12e1 rr:predicateObjectMap km-dev:PredicateObjectMap_0f3d273b-d319-4544-90f1-9d64f1c02851 .
+
+km-dev:PredicateObjectMap_0f3d273b-d319-4544-90f1-9d64f1c02851 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1g6ooijn2x1 .
+
+_:node1g6ooijn2x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_0f3d273b-d319-4544-90f1-9d64f1c02851 .
+
+km-dev:PredicateObjectMap_56b39599-5739-4953-bab0-fd4b0742340e rr:predicate <http://knowdive.disi.unitn.it/etype#has_fhir_medication.code_GID-641736_Type-641750> .
+
+_:node1g6ooijn2x13 rr:column "[\"properties\",\"prescriptions\",\"atc_ingredient Concepts\"]" ;
+	a rr:ObjectMap ;
+	rr:datatype "http://www.w3.org/2001/XMLSchema#Concept" ;
+	km-dev:isPartOfMapping _:node1g6ooijn2x1 .
+
+_:node1g6ooijn2x1 km-dev:hasObjectMap _:node1g6ooijn2x13 .
+
+km-dev:PredicateObjectMap_56b39599-5739-4953-bab0-fd4b0742340e rr:objectMap _:node1g6ooijn2x13 .
+
+km-dev:TriplesMap_40e03b55-f4da-4e27-8e99-06ed92ea12e1 rr:predicateObjectMap km-dev:PredicateObjectMap_56b39599-5739-4953-bab0-fd4b0742340e .
+
+km-dev:PredicateObjectMap_56b39599-5739-4953-bab0-fd4b0742340e a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1g6ooijn2x1 .
+
+_:node1g6ooijn2x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_56b39599-5739-4953-bab0-fd4b0742340e .
+
+km-dev:TriplesMap_ce36e995-1757-47a6-9202-dcb419bb7e9f a rr:TriplesMap .
+
+_:node1g6ooijn2x1 km-dev:hasTriplesMap km-dev:TriplesMap_ce36e995-1757-47a6-9202-dcb419bb7e9f .
+
+km-dev:TriplesMap_ce36e995-1757-47a6-9202-dcb419bb7e9f km-dev:isPartOfMapping _:node1g6ooijn2x1 .
+
+_:node1g6ooijn2x14 rr:tableName "cardiovisit.json" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1g6ooijn2x1 .
+
+_:node1g6ooijn2x1 km-dev:hasLogicalTable _:node1g6ooijn2x14 .
+
+km-dev:TriplesMap_ce36e995-1757-47a6-9202-dcb419bb7e9f rr:logicalTable _:node1g6ooijn2x14 ;
+	rr:subjectMap _:node1g6ooijn2x15 .
+
+_:node1g6ooijn2x1 km-dev:hasSubjectMap _:node1g6ooijn2x15 .
+
+_:node1g6ooijn2x15 km-dev:isPartOfMapping _:node1g6ooijn2x1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://knowdive.disi.unitn.it/etype#Patient_GID-559361" ;
+	rr:class etype:Patient_GID-55936 ;
+	rr:termType rr:BlankNode ;
+	km-dev:namePrefix "etype:Patient_GID-559361" .
+
+km-dev:PredicateObjectMap_2cccab88-527e-465b-a582-7ea6daaef6ba rr:predicate etype:has_identifier_GID-39085_Type-1 .
+
+_:node1g6ooijn2x16 rr:column "[\"objet\",\"niss\"]" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1g6ooijn2x1 .
+
+_:node1g6ooijn2x1 km-dev:hasObjectMap _:node1g6ooijn2x16 .
+
+km-dev:PredicateObjectMap_2cccab88-527e-465b-a582-7ea6daaef6ba rr:objectMap _:node1g6ooijn2x16 .
+
+km-dev:TriplesMap_ce36e995-1757-47a6-9202-dcb419bb7e9f rr:predicateObjectMap km-dev:PredicateObjectMap_2cccab88-527e-465b-a582-7ea6daaef6ba .
+
+km-dev:PredicateObjectMap_2cccab88-527e-465b-a582-7ea6daaef6ba a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1g6ooijn2x1 .
+
+_:node1g6ooijn2x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_2cccab88-527e-465b-a582-7ea6daaef6ba .

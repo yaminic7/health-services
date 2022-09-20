@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ClinicalDocument xsi:schemaLocation="urn:hl7-org:v3 CDA.xsd" xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns="urn:hl7-org:v3">
+    <realmCode code="IT"></realmCode>
+    <typeId extension="POCD_HD000040" root="2.16.840.1.113883.1.3"></typeId>
+
+    <templateId root="2.16.840.1.113883.2.9.10.1.9.1" extension="1.1"></templateId>
+
+    <id root="2.16.840.1.113883.2.9.2.90907.4.4" extension="IEHR.FTGM07.0.01" assigningAuthorityName="Fondazione Monasterio"></id>
+    <code code="11488-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Referto Ambulatoriale"></code>
+    <title>Referto Ambulatoriale</title>
+    <effectiveTime value="20220403160000+0200"></effectiveTime>
+
+    <confidentialityCode code="N" codeSystem="2.16.840.1.113883.5.25"></confidentialityCode>
+    <languageCode code="it_IT"></languageCode>
+    <setId root="2.16.840.1.113883.2.9.2.90907.4.4" extension="IEHR.FTGM07.0.01" assigningAuthorityName="Fondazione Monasterio"></setId>
+    <versionNumber value="1"></versionNumber>
+
+    <recordTarget>
+
+        <patientRole>
+            <id assigningAuthorityName="C7_IEHR" extension="IEHR.FTGM10" root="2.16.840.1.113883.2.9.2.90907.4.1"></id>
+
+            <patient>
+                <name>
+                    <given>TEN</given>
+                    <family>FTGM</family>
+                </name>
+                <administrativeGenderCode code="F" codeSystem="2.16.840.1.113883.5.1"></administrativeGenderCode>
+                <birthTime value="19690517"></birthTime>
+            </patient>
+            <providerOrganization>
+                <id root="2.16.840.1.113883.2.9.2.90907"></id>
+                <name>Fondazione Monasterio</name>
+            </providerOrganization>
+        </patientRole>
+    </recordTarget>
+
+    <author>
+
+        <time value="20220403180000+0200"></time>
+        <assignedAuthor>
+            <id root="2.16.840.1.113883.2.9.4.3.2" extension="MNDMHL58M15G702G" assigningAuthorityName="MEF"></id>
+            <assignedPerson>
+                <name>
+                    <given>MICHELE</given>
+                    <family>EMDIN</family>
+                </name>
+            </assignedPerson>
+        </assignedAuthor>
+    </author>
+
+    <custodian>
+        <assignedCustodian>
+            <representedCustodianOrganization>
+
+                <id root="2.16.840.1.113883.2.9.2.90907"></id>
+
+                <name>Fondazione Monasterio</name>
+            </representedCustodianOrganization>
+        </assignedCustodian>
+    </custodian>
+
+    <componentOf typeCode="COMP">
+        <encompassingEncounter classCode="ENC" moodCode="EVN">
+            <id assigningAuthorityName="Fondazione Monasterio" extension="6601652" root="2.16.840.1.113883.2.9.2.90907.4.6.1"></id>
+
+            <code code="AMB" codeSystem="2.16.840.1.113883.1.11.13955" codeSystemName="ActEncounterCode" displayName="ambulatory"></code>
+            <effectiveTime>
+                <low value="20210520"></low>
+                <high value="20210520"></high>
+            </effectiveTime>
+        </encompassingEncounter>
+    </componentOf>
+
+    <component>
+        <structuredBody>
+
+
+            <component typeCode="COMP">
+                <section classCode="DOCSECT" moodCode="EVN">
+                    <code code="29299-5" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"></code>
+                    <title>Quesito diagnostico</title>
+                    <text>ipertensione e giramenti di testa</text>
+                </section>
+            </component>
+
+
+            <component typeCode="COMP">
+                <section classCode="DOCSECT" moodCode="EVN">
+                    <code code="11329-0" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"></code>
+                    <title>Anamnesi</title>
+                    <text> Riferita ipercolesterolemia da circa 10 anni. Riferito cefalea
+                        transiente. Familiarità per cardiopatia, dislipidemia ed ipertensione.
+                    </text>
+                </section>
+            </component>
+
+
+            <component typeCode="COMP">
+                <section classCode="DOCSECT" moodCode="EVN">
+                    <code code="48765-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"></code>
+                    <title>Allergie e/o reazioni avverse</title>
+                    <text>Non note.</text>
+                </section>
+            </component>
+
+
+            <component typeCode="COMP">
+                <section classCode="DOCSECT" moodCode="EVN">
+                    <code code="29545-1" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"></code>
+                    <title>Esame Obiettivo</title>
+                    <text>Azione cardiaca ritmica normofrequente, non soffi cardiaci. Non turgore
+                        giugulare. Murmure vescicolare normotrasmesso. Addome trattabile alla
+                        palpazione superficiale e profonda. Non edemi declivi.</text>
+                </section>
+            </component>
+
+
+            <component typeCode="COMP">
+                <section classCode="DOCSECT" moodCode="EVN">
+                    <code code="62387-6" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"></code>
+                    <title>Prestazioni ed esami</title>
+                    <text></text>
+                    <entry>
+                        <act classCode="ACT" moodCode="EVN">
+                            <id root="2.16.840.1.113883.2.9.2.90907.4.5.5" extension="218986.25.8952.2746918" assigningAuthorityName="Fondazione Monasterio"></id>
+                            <code code="8952" codeSystem="2.16.840.1.113883.6.2" codeSystemName="ICD9CM" displayName="ECG"></code>
+                            <effectiveTime value="20210520090000+0200"></effectiveTime>
+
+                            <entryRelationship typeCode="COMP">
+                                <observation classCode="OBS" moodCode="EVN">
+                                    <code code="8867-4" codeSystem="2.16.840.1.113883.6.1" displayName="frequenza cardiaca"></code>
+                                    <value unit="bpm" value="84" xsi:type="PQ"></value>
+                                </observation>
+                            </entryRelationship>
+
+                            <entryRelationship typeCode="COMP">
+                                <observation classCode="OBS" moodCode="EVN">
+                                    <code code="8952" codeSystem="2.16.840.1.113883.6.2" codeSystemName="ICD9CM" displayName="ECG"></code>
+                                    <text>Ritmo sinusale, FC: 85 bpm, RR: 700 ms, PR: 106 ms, QRS:
+                                        94 ms, QTc: 409 ms, asse QRS: 37 deg.</text>
+                                    <value xsi:type="ED" representation="B64" mediaType="application/dicom+zip">__image_1_placeholder__</value>
+                                </observation>
+                            </entryRelationship>
+                        </act>
+                    </entry>
+                    <entry>
+                        <act classCode="ACT" moodCode="EVN">
+                            <code code="8872" codeSystem="2.16.840.1.113883.6.2" codeSystemName="ICD9CM" displayName="echocardiogram"></code>
+                            <effectiveTime value="20220403170000+0200"></effectiveTime>
+
+                            <entryRelationship typeCode="COMP">
+                                <observation classCode="OBS" moodCode="EVN">
+                                    <code code="10230-1" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Frazione di eiezione Ventricolo SX"></code>
+                                    <value xsi:type="PQ" value="60" unit="%"></value>
+                                </observation>
+                            </entryRelationship>
+
+                            <entryRelationship typeCode="COMP">
+                                <observation classCode="OBS" moodCode="EVN">
+                                    <code code="29430-6" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Spessore del setto interventricolare"></code>
+                                    <value xsi:type="PQ" value="11" unit="mm"></value>
+
+                                </observation>
+                            </entryRelationship>
+
+                            <entryRelationship typeCode="COMP">
+                                <observation classCode="OBS" moodCode="EVN">
+                                    <code code="8872" codeSystem="2.16.840.1.113883.6.2" codeSystemName="ICD9CM" displayName="echocardiogram"></code>
+                                    <text>Frazione di eiezione 60%, SIV 11mm. Esame nei limiti della
+                                        norma.</text>
+                                    <value xsi:type="ED" representation="B64" mediaType="application/dicom+zip">__image_2_placeholder__</value>
+                                </observation>
+                            </entryRelationship>
+                        </act>
+                    </entry>
+
+                    <entry>
+                        <act classCode="ACT" moodCode="EVN">
+                            <code code="8113" codeSystem="2.16.840.1.113883.6.2" codeSystemName="ICD9CM" displayName="Monitoraggio pressione arteriosa 24h"></code>
+                            <effectiveTime value="20210520090000+0200"></effectiveTime>
+                            <text>Profilo pressorio indicativo di ipertensione arteriosa diastolica
+                                di grado lieve/moderato tipo dipper.</text>
+                        </act>
+                    </entry>
+
+                </section>
+            </component>
+
+
+            <component typeCode="COMP">
+                <section classCode="DOCSECT" moodCode="EVN">
+                    <code code="29548-5" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"></code>
+                    <title>Diagnosi</title>
+                    <text>Ipertensione arteriosa diastolica di grado lieve/moderato tipo dipper.
+                        Ipercolesterolemia.</text>
+                    <entry>
+                        <observation classCode="OBS" moodCode="EVN">
+                            <code code="4011" codeSystem="2.16.840.1.113883.6.2" codeSystemName="ICD9CM" displayName="Ipertensione arteriosa essenziale lieve-media"></code>
+                        </observation>
+                    </entry>
+                    <entry>
+                        <observation classCode="OBS" moodCode="EVN">
+                            <code code="2720" codeSystem="2.16.840.1.113883.6.2" codeSystemName="ICD9CM" displayName="percolesterolemia pura"></code>
+                        </observation>
+                    </entry>
+                </section>
+            </component>
+
+
+            <component typeCode="COMP">
+                <section classCode="DOCSECT" moodCode="EVN">
+                    <code code="55110-1" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"></code>
+                    <title>Conclusioni</title>
+                    <text>Ipertensione, Ipercolesterolemia.</text>
+                </section>
+            </component>
+
+
+            <component>
+                <section>
+                    <code code="18776-5" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" codeSystemVersion="2.19"></code>
+                    <title>Istruzioni di follow-up</title>
+                    <text>Si raccomanda di svolgere regolare esercizio fisico di tipo aerobico, di
+                        limitare il consumo di sale con la dieta e di controllare periodicamente la
+                        pressione arteriosa. </text>
+                </section>
+            </component>
+
+
+
+
+            <component>
+                <section>
+                    <code code="10160-0" codeSystem="2.16.840.1.113883.6.1"></code>
+                    <title>Farmaci</title>
+                    <text>Blopres 8mg x 1 al mattino</text>
+                </section>
+            </component>
+
+
+
+            <component>
+                <section>
+                    <code code="8716-3" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"
+                    displayName="Parametri Vitali"></code>
+                    <title>Parametri Vitali</title>
+                    <entry typeCode="DRIV">
+
+                        <organizer classCode="CLUSTER" moodCode="EVN">
+
+                            <statusCode code="completed"></statusCode>
+
+                            <effectiveTime value="20210520090000+0200"></effectiveTime>
+
+                            <component>
+
+                                <observation classCode="OBS" moodCode="EVN">
+                                    <code code="8867-4" codeSystem="2.16.840.1.113883.6.1"
+                                    displayName="frequenza cardiaca"></code>
+                                    <value unit="bpm" value="75" xsi:type="PQ"></value>
+                                </observation>
+                            </component>
+
+                            <component>
+
+                                <observation classCode="OBS" moodCode="EVN">
+                                    <code code="8462-4" codeSystem="2.16.840.1.113883.6.1" displayName="Pressione arteriosa diastolica"></code>
+                                    <value unit="mmHg" value="90" xsi:type="PQ"></value>
+                                </observation>
+                            </component>
+
+                            <component>
+
+                                <observation classCode="OBS" moodCode="EVN">
+                                    <code code="8480-6" codeSystem="2.16.840.1.113883.6.1" displayName="pressione arteriosa sistolica"></code>
+                                    <value unit="mmHg" value="130" xsi:type="PQ"></value>
+                                </observation>
+                            </component>
+
+                        </organizer>
+                    </entry>
+                </section>
+            </component>
+
+
+            <component>
+                <section>
+                    <code code="30954-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Esami di laboratorio"></code>
+                    <title>Esami di laboratorio</title>
+                    <text></text>
+                    <entry typeCode="DRIV">
+                        <organizer classCode="CLUSTER" moodCode="EVN">
+
+                            <statusCode code="completed"></statusCode>
+
+                            <effectiveTime value="20210520090000+0200"></effectiveTime>
+
+                            <component>
+                                <observation classCode="OBS" moodCode="EVN">
+                                    <code code="789-8" codeSystem="2.16.840.1.113883.6.1"
+                                    codeSystemName="LOINC" displayName="Eritrociti"></code>
+                                    <statusCode code="completed"></statusCode>
+                                    <value unit="x10^6/L" value="4.80" xsi:type="PQ"></value>
+                                    <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"></interpretationCode>
+                                    <referenceRange>
+                                        <observationRange>
+                                            <value xsi:type="ST"> 3,02 - 5,07 </value>
+                                        </observationRange>
+                                    </referenceRange>
+                                </observation>
+                            </component>
+
+                            <component>
+                                <observation classCode="OBS" moodCode="EVN">
+                                    <code code="718-7" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Emoglobina"></code>
+                                    <statusCode code="completed"></statusCode>
+                                    <value unit="g/dL" value="13.8" xsi:type="PQ"></value>
+                                    <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"></interpretationCode>
+                                    <referenceRange>
+                                        <observationRange>
+                                            <value xsi:type="ST">11,50-15,50</value>
+                                        </observationRange>
+                                    </referenceRange>
+                                </observation>
+                            </component>
+
+                            <component>
+                                <observation classCode="OBS" moodCode="EVN">
+                                    <code code="4544-3" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Ematocrito (HCT)"></code>
+                                    <statusCode code="completed"></statusCode>
+                                    <value unit="%" value="40.2" xsi:type="PQ"></value>
+                                    <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"></interpretationCode>
+                                    <referenceRange>
+                                        <observationRange>
+                                            <value xsi:type="ST"> 26,8 - 37,8 </value>
+                                        </observationRange>
+                                    </referenceRange>
+                                </observation>
+                            </component>
+
+                            <component>
+                                <observation classCode="OBS" moodCode="EVN">
+                                    <code code="777-3" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Piastrine"></code>
+                                    <statusCode code="completed"></statusCode>
+                                    <value unit="x10^3/L" value="196" xsi:type="PQ"></value>
+                                    <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"></interpretationCode>
+                                    <referenceRange>
+                                        <observationRange>
+                                            <value xsi:type="ST"> 150-400 </value>
+                                        </observationRange>
+                                    </referenceRange>
+                                </observation>
+                            </component>
+
+                            <component>
+                                <observation classCode="OBS" moodCode="EVN">
+                                    <code code="1742-6" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Transaminasi G.P. (ALT)"></code>
+                                    <statusCode code="completed"></statusCode>
+                                    <value unit="IU/L" value="13" xsi:type="PQ"></value>
+                                    <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"></interpretationCode>
+                                    <referenceRange>
+                                        <observationRange>
+                                            <value xsi:type="ST"> 5 - 33 </value>
+                                        </observationRange>
+                                    </referenceRange>
+                                </observation>
+                            </component>
+
+                            <component>
+                                <observation classCode="OBS" moodCode="EVN">
+                                    <code code="2324-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Gamma-GT"></code>
+                                    <statusCode code="completed"></statusCode>
+                                    <value unit="IU/L" value="13" xsi:type="PQ"></value>
+                                    <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"></interpretationCode>
+                                    <referenceRange>
+                                        <observationRange>
+                                            <value xsi:type="ST"> 12 - 122 </value>
+                                        </observationRange>
+                                    </referenceRange>
+                                </observation>
+                            </component>
+
+                            <component>
+                                <observation classCode="OBS" moodCode="EVN">
+                                    <code code="2345-7" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Glicemia"></code>
+                                    <statusCode code="completed"></statusCode>
+                                    <value unit="mg/dL" value="89" xsi:type="PQ"></value>
+                                    <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"></interpretationCode>
+                                    <referenceRange>
+                                        <observationRange>
+                                            <value xsi:type="ST"> 60 - 99 (Criteri interpretativi
+                                                ADA 2014 $ 60 - 99 glicemia a digiuno normale$ 100 -
+                                                125 glicemia a digiuno alterata$ &gt;= 126
+                                                indicativa diabete mellito,$ 2 riscontri) </value>
+                                        </observationRange>
+                                    </referenceRange>
+                                </observation>
+                            </component>
+
+                            <component>
+                                <observation classCode="OBS" moodCode="EVN">
+                                    <code code="2160-0" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Creatinina (metodo enzimatico)"></code>
+                                    <statusCode code="completed"></statusCode>
+                                    <value unit="mg/dL" value=".76" xsi:type="PQ"></value>
+                                    <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"></interpretationCode>
+                                    <referenceRange>
+                                        <observationRange>
+                                            <value xsi:type="ST"> 0,16 - 0,39 </value>
+                                        </observationRange>
+                                    </referenceRange>
+                                </observation>
+                            </component>
+                        </organizer>
+                    </entry>
+
+                </section>
+            </component>
+
+
+        </structuredBody>
+    </component>
+</ClinicalDocument>

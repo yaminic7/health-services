@@ -1,0 +1,95 @@
+{
+    "app": {
+        "port": 3001,
+        "current_language": "it"
+    },
+    "sweb": {
+        "host": "localhost",
+        "port": 8081,
+        "vocabulary": 1,
+        "kb": 1,
+        "eb": 1
+    },
+    "kos": {
+        "host": "localhost",
+        "port": 5001,
+        "authToken": "594f34947a6679cece7058288a2eccd1"
+    },
+    "converter": {
+        "host": "localhost",
+        "port": 6000
+    },
+    "languages":  [
+        {
+            "name": "italian",
+            "iso1": "it",
+            "iso2": "ita"
+        },
+        {
+            "name": "english",
+            "iso1": "en",
+            "iso2": "eng"
+        },
+        {
+            "name": "french",
+            "iso1": "fr",
+            "iso2": "fra"
+        },
+        {
+            "name": "greek",
+            "iso1": "el",
+            "iso2": "ell"
+        }
+    ],
+    "mappingModelPath":"./resources/models/",
+    "dataSchemaPath":"./resources/schema/",
+    "RDFdataPath":"./resources/rdf/",
+    "EMLdataPath":"./resources/eml/",
+    "FHIRdataPath":"./resources/fhir/",
+    "dataPath":"./resources/data/",
+    "FHIRExporterParameter": [
+        {"FHIRResourceName":"Patient"},
+        {"FHIRResourceName":"Observation"},
+        {"FHIRResourceName":"Practitioner"},
+        {"FHIRResourceName":"MedicationRequest"},
+        {"FHIRResourceName":"MedicationStatement"},
+        {"FHIRResourceName":"Medication"},
+        {"FHIRResourceName":"DiagnosticReport"},
+        {"FHIRResourceName":"Composition"},
+        {"FHIRResourceName":"Encounter"}
+    ],
+    "process":
+        [
+            {
+                "resourceName":"discharge.pdf",
+                "component":"PDFEXTRACTOR",
+                "model":""
+            },
+            {
+                "resourceName":"discharge.csv",
+                "component":"“DATAMAPPER”",
+                "model":"DISCHARGE.TTL"
+            },
+            {
+                "resourceName":"ips.xml",
+                "component":"XMLSPLITTER",
+                "model":"IPS_SPLITTER"
+            },
+            {
+                "resourceName":"ips_patient.xml”",
+                "component":"“DATAMAPPER”",
+                "model":"IPS_PATIENT.TTL"
+            },
+            {
+                "resourceName":"ips_visit.xml”",
+                "component":"“DATAMAPPER”",
+                "model":"IPS_VISIT.TTL"
+            },
+            {
+                "resourceName":"ips_medication.xml”",
+                "component":"“DATAMAPPER”",
+                "model":"IPS_MEDICATION.TTL"
+            }
+        ]   
+}
+

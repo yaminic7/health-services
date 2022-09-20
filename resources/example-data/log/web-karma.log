@@ -1,0 +1,569 @@
+INFO [2022-08-12 15:13:41,642] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/resources/example-data/../models/MedicationStatement.ttl
+INFO [2022-08-12 15:13:41,930] (ServletContextParameterMap->setup->122): KARMA_USER_HOME not set.  Defaulting to /home/simone/karma
+INFO [2022-08-12 15:13:41,930] (ServletContextParameterMap->setup->132): Karma home: /home/simone/karma/
+INFO [2022-08-12 15:13:41,936] (KarmaUserMetadata->createDirectoryForMetadata->31): Set parameter: USER_PREFERENCES_DIRECTORY -> /home/simone/karma/user-preferences/
+INFO [2022-08-12 15:13:41,937] (KarmaUserMetadata->createDirectoryForMetadata->31): Set parameter: USER_CONFIG_DIRECTORY -> /home/simone/karma/config/
+INFO [2022-08-12 15:13:41,937] (KarmaUserMetadata->createDirectoryForMetadata->31): Set parameter: USER_PYTHON_SCRIPTS_DIRECTORY -> /home/simone/karma/python/
+INFO [2022-08-12 15:13:45,098] (KarmaUserMetadata->createDirectoryForMetadata->31): Set parameter: USER_CATALOG_DOWNLOAD_DIRECTORY -> /home/simone/karma/catalog-download/
+INFO [2022-08-12 15:13:45,101] (ModelingConfiguration->loadParams->319): Load modeling.properties: /home/simone/karma/config/modeling.properties:true
+DEBUG [2022-08-12 15:13:45,101] (ModelingConfiguration->loadParams->336): Done Loading modeling.properties
+INFO [2022-08-12 15:13:45,103] (KnowDiveServicesConfiguration->loadConfig->87): KnowDiveConfiguration:/home/simone/karma/config/knowdive.properties
+INFO [2022-08-12 15:13:45,103] (KnowDiveServicesConfiguration->loadConfig->119): set SCROLL_SERVICE_URL=http://localhost:8081 from /home/simone/karma/config/knowdive.properties
+INFO [2022-08-12 15:13:45,104] (KnowDiveServicesConfiguration->loadConfig->134): set EML_SERVICE_URL= from /home/simone/karma/config/knowdive.properties
+INFO [2022-08-12 15:13:45,104] (KnowDiveServicesConfiguration->loadConfig->149): set KOS_SERVICE_URL= from /home/simone/karma/config/knowdive.properties
+INFO [2022-08-12 15:13:45,104] (KnowDiveServicesConfiguration->loadConfig->164): set KG_IMPORTER_URL= from /home/simone/karma/config/knowdive.properties
+INFO [2022-08-12 15:13:45,105] (KnowDiveServicesConfiguration->loadConfig->179): set CATALOG_BASE_URL= from /home/simone/karma/config/knowdive.properties
+INFO [2022-08-12 15:13:45,105] (KnowDiveServicesConfiguration->loadConfig->194): set CATALOG_INSTANCE_API_KEY= from /home/simone/karma/config/knowdive.properties
+INFO [2022-08-12 15:13:45,105] (KnowDiveServicesConfiguration->updateProperty->282): Write Property: SCROLL_SERVICE_URL=http://localhost:8081
+DEBUG [2022-08-12 15:13:45,191] (EncodingDetector->detect->43): Detected encoding = UTF-8
+DEBUG [2022-08-12 15:13:45,300] (EncodingDetector->detect->61): Detected encoding for file: 7137380_small.xml: UTF-8
+INFO [2022-08-12 15:13:45,306] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/resources/example-data/../models/MedicationStatement.ttl
+DEBUG [2022-08-12 15:13:45,368] (GenericRDFGenerator->generateRDF->109): Generating rdf for 7137380_small.xml
+DEBUG [2022-08-12 15:13:45,370] (GenericRDFGenerator->generateRDF->117): Initializing workspace for 7137380_small.xml
+DEBUG [2022-08-12 15:13:45,409] (Reflections->scan->186): going to scan these urls:
+jar:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/Conversion/automatic-process/karma-offline-0.0.1-SNAPSHOT-shaded.jar!/
+INFO [2022-08-12 15:13:45,702] (Reflections->scan->229): Reflections took 292 ms to scan 1 urls, producing 105 keys and 847 values 
+DEBUG [2022-08-12 15:13:45,715] (LuceneBasedSTModelHandler-><init>->50): inside STModelHandler constructor
+DEBUG [2022-08-12 15:13:45,716] (Reflections->scan->186): going to scan these urls:
+jar:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/Conversion/automatic-process/karma-offline-0.0.1-SNAPSHOT-shaded.jar!/
+INFO [2022-08-12 15:13:45,934] (Reflections->scan->229): Reflections took 218 ms to scan 1 urls, producing 105 keys and 847 values 
+INFO [2022-08-12 15:13:46,033] (ExecutionController->dynamicallyBuildCommandFactoryMap->93): Loaded 110 possible commands
+DEBUG [2022-08-12 15:13:46,034] (GenericRDFGenerator->generateRDF->119): Initialized workspace for 7137380_small.xml
+DEBUG [2022-08-12 15:13:46,034] (GenericRDFGenerator->generateRDF->124): Generating worksheet for 7137380_small.xml
+DEBUG [2022-08-12 15:13:46,044] (EncodingDetector->detect->43): Detected encoding = UTF-8
+DEBUG [2022-08-12 15:13:46,159] (GenericRDFGenerator->generateRDF->134): Generated worksheet for 7137380_small.xml
+DEBUG [2022-08-12 15:13:46,159] (GenericRDFGenerator->generateRDF->135): Parsing mapping for 7137380_small.xml
+DEBUG [2022-08-12 15:13:46,205] (TemplateTermSetBuilder->constructTemplateTermSetFromR2rmlColumnString->98): Column["ClinicalDocument","recordTarget","patientRole","id","extension"]
+DEBUG [2022-08-12 15:13:46,207] (TemplateTermSetBuilder->constructTemplateTermSetFromR2rmlColumnString->98): Column["ClinicalDocument","component","structuredBody","component","section","text_split","Prescr:Dosage_1"]
+DEBUG [2022-08-12 15:13:46,209] (TemplateTermSetBuilder->constructTemplateTermSetFromR2rmlColumnString->98): Column["ClinicalDocument","component","structuredBody","component","section","text_split","status Concepts"]
+DEBUG [2022-08-12 15:13:46,210] (TemplateTermSetBuilder->constructTemplateTermSetFromR2rmlColumnString->98): Column["ClinicalDocument","component","structuredBody","component","section","text_split","Prescr:PeriodUnit_1"]
+DEBUG [2022-08-12 15:13:46,213] (TemplateTermSetBuilder->constructTemplateTermSetFromR2rmlColumnString->98): Column["ClinicalDocument","effectiveTime","date_time_iso"]
+DEBUG [2022-08-12 15:13:46,216] (TemplateTermSetBuilder->constructTemplateTermSetFromR2rmlTemplateString->61): String templ term: MS_
+DEBUG [2022-08-12 15:13:46,225] (TemplateTermSetBuilder->constructTemplateTermSetFromR2rmlTemplateString->66): Col name templ term: ["ClinicalDocument","component","structuredBody","component","section","text_split","ingredient_mapping"]
+DEBUG [2022-08-12 15:13:46,226] (TemplateTermSetBuilder->constructTemplateTermSetFromR2rmlColumnString->98): Column["ClinicalDocument","component","structuredBody","component","section","text_split","Prescr:Frequency_1"]
+DEBUG [2022-08-12 15:13:46,226] (TemplateTermSetBuilder->constructTemplateTermSetFromR2rmlColumnString->98): Column["ClinicalDocument","component","structuredBody","component","section","text_split","Values"]
+DEBUG [2022-08-12 15:13:46,231] (TemplateTermSetBuilder->constructTemplateTermSetFromR2rmlColumnString->98): Column["ClinicalDocument","component","structuredBody","component","section","text_split","ingredient_mapping Concepts"]
+DEBUG [2022-08-12 15:13:46,237] (TemplateTermSetBuilder->constructTemplateTermSetFromR2rmlTemplateString->61): String templ term: MED_
+DEBUG [2022-08-12 15:13:46,240] (TemplateTermSetBuilder->constructTemplateTermSetFromR2rmlTemplateString->66): Col name templ term: ["ClinicalDocument","component","structuredBody","component","section","text_split","ingredient_mapping"]
+DEBUG [2022-08-12 15:13:46,248] (TemplateTermSetBuilder->constructTemplateTermSetFromR2rmlColumnString->98): Column["ClinicalDocument","component","structuredBody","component","section","text_split","Values"]
+DEBUG [2022-08-12 15:13:46,250] (TemplateTermSetBuilder->constructTemplateTermSetFromR2rmlColumnString->98): Column["ClinicalDocument","component","structuredBody","component","section","text_split","ingredient_mapping Concepts"]
+DEBUG [2022-08-12 15:13:46,251] (KR2RMLMappingAuxillaryInformation->findSubjectMapTemplateAnchor->90): found anchor ["ClinicalDocument","recordTarget","patientRole","id","extension"] at 4
+DEBUG [2022-08-12 15:13:46,252] (KR2RMLMappingAuxillaryInformation->findSubjectMapTemplateAnchor->90): found anchor ["ClinicalDocument","component","structuredBody","component","section","text_split","ingredient_mapping Concepts"] at 6
+DEBUG [2022-08-12 15:13:46,252] (KR2RMLMappingAuxillaryInformation->findSubjectMapTemplateAnchor->90): found anchor ["ClinicalDocument","component","structuredBody","component","section","text_split","Prescr:Dosage_1"] at 6
+DEBUG [2022-08-12 15:13:46,254] (GenericRDFGenerator->generateRDF->138): Parsed mapping for 7137380_small.xml
+DEBUG [2022-08-12 15:13:46,265] (WorksheetCommandHistoryExecutor->executeCommand->99): Command in history: SplitValuesCommand
+DEBUG [2022-08-12 15:13:46,267] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: ClinicalDocument
+DEBUG [2022-08-12 15:13:46,268] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: component
+DEBUG [2022-08-12 15:13:46,268] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: structuredBody
+DEBUG [2022-08-12 15:13:46,269] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: component
+DEBUG [2022-08-12 15:13:46,271] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: section
+DEBUG [2022-08-12 15:13:46,274] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: text
+DEBUG [2022-08-12 15:13:46,277] (WorksheetCommandHistoryExecutor->executeCommand->118): Executing command: SplitValuesCommand
+DEBUG [2022-08-12 15:13:46,278] (SplitValuesCommand->doIt->108): SplitValuesCommand:text_split, columnName:text
+INFO [2022-08-12 15:13:46,292] (UIConfiguration->loadConfig->73): UICOnfiguration:/home/simone/karma/config/
+INFO [2022-08-12 15:13:46,292] (UIConfiguration->loadConfig->85): Load File:/home/simone/karma/config//ui.properties
+INFO [2022-08-12 15:13:46,293] (UIConfiguration->loadConfig->73): UICOnfiguration:/home/simone/karma/config/
+INFO [2022-08-12 15:13:46,293] (UIConfiguration->loadConfig->85): Load File:/home/simone/karma/config//ui.properties
+DEBUG [2022-08-12 15:13:46,311] (WorksheetCommandHistoryExecutor->executeCommand->99): Command in history: ExtractStructureCommand
+DEBUG [2022-08-12 15:13:46,312] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: ClinicalDocument
+DEBUG [2022-08-12 15:13:46,312] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: component
+DEBUG [2022-08-12 15:13:46,312] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: structuredBody
+DEBUG [2022-08-12 15:13:46,312] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: component
+DEBUG [2022-08-12 15:13:46,313] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: section
+DEBUG [2022-08-12 15:13:46,313] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: text_split
+DEBUG [2022-08-12 15:13:46,313] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: Values
+DEBUG [2022-08-12 15:13:46,316] (WorksheetCommandHistoryExecutor->executeCommand->118): Executing command: ExtractStructureCommand
+INFO [2022-08-12 15:13:46,331] (SWEBNLPExtractionCommand->sendRequestToSWEB->233): ExtractStructureCommand starting the execution 
+INFO [2022-08-12 15:13:46,332] (SWEBNLPExtractionCommand->sendRequestToSWEB->234): Total number of http request: 1
+INFO [2022-08-12 15:13:51,028] (SWEBNLPExtractionCommand->sendRequestToSWEB->252): Time to end all http Requests and deSerialize: 4.694sec
+DEBUG [2022-08-12 15:13:51,030] (AddCellValueCommand->populateRowsWithDefaultValues->206): No value found for column: Prescr:DrugProduct_1 -> row ID R2146
+DEBUG [2022-08-12 15:13:51,030] (AddCellValueCommand->populateRowsWithDefaultValues->206): No value found for column: Prescr:DrugProduct_1 -> row ID R2154
+DEBUG [2022-08-12 15:13:51,030] (AddCellValueCommand->populateRowsWithDefaultValues->206): No value found for column: Prescr:DrugProduct_1 -> row ID R2156
+DEBUG [2022-08-12 15:13:51,030] (AddCellValueCommand->populateRowsWithDefaultValues->206): No value found for column: Prescr:DrugProduct_1 -> row ID R2158
+DEBUG [2022-08-12 15:13:51,030] (AddCellValueCommand->populateRowsWithDefaultValues->206): No value found for column: Prescr:DrugProduct_1 -> row ID R2160
+DEBUG [2022-08-12 15:13:51,031] (AddCellValueCommand->populateRowsWithDefaultValues->206): No value found for column: Prescr:DrugProduct_1 -> row ID R2170
+DEBUG [2022-08-12 15:13:51,031] (AddCellValueCommand->populateRowsWithDefaultValues->206): No value found for column: Prescr:DrugProduct_1 -> row ID R2172
+DEBUG [2022-08-12 15:13:51,032] (AddCellValueCommand->populateRowsWithDefaultValues->206): No value found for column: Prescr:DrugIngredient_1 -> row ID R2146
+DEBUG [2022-08-12 15:13:51,032] (AddCellValueCommand->populateRowsWithDefaultValues->206): No value found for column: Prescr:DrugIngredient_1 -> row ID R2154
+DEBUG [2022-08-12 15:13:51,032] (AddCellValueCommand->populateRowsWithDefaultValues->206): No value found for column: Prescr:DrugIngredient_1 -> row ID R2156
+DEBUG [2022-08-12 15:13:51,032] (AddCellValueCommand->populateRowsWithDefaultValues->206): No value found for column: Prescr:DrugIngredient_1 -> row ID R2158
+DEBUG [2022-08-12 15:13:51,032] (AddCellValueCommand->populateRowsWithDefaultValues->206): No value found for column: Prescr:DrugIngredient_1 -> row ID R2160
+DEBUG [2022-08-12 15:13:51,032] (AddCellValueCommand->populateRowsWithDefaultValues->206): No value found for column: Prescr:DrugIngredient_1 -> row ID R2170
+DEBUG [2022-08-12 15:13:51,032] (AddCellValueCommand->populateRowsWithDefaultValues->206): No value found for column: Prescr:DrugIngredient_1 -> row ID R2172
+DEBUG [2022-08-12 15:13:51,033] (AddCellValueCommand->populateRowsWithDefaultValues->206): No value found for column: Prescr:PeriodUnit_1 -> row ID R2146
+DEBUG [2022-08-12 15:13:51,033] (AddCellValueCommand->populateRowsWithDefaultValues->206): No value found for column: Prescr:PeriodUnit_1 -> row ID R2154
+DEBUG [2022-08-12 15:13:51,033] (AddCellValueCommand->populateRowsWithDefaultValues->206): No value found for column: Prescr:PeriodUnit_1 -> row ID R2156
+DEBUG [2022-08-12 15:13:51,033] (AddCellValueCommand->populateRowsWithDefaultValues->206): No value found for column: Prescr:PeriodUnit_1 -> row ID R2158
+DEBUG [2022-08-12 15:13:51,033] (AddCellValueCommand->populateRowsWithDefaultValues->206): No value found for column: Prescr:PeriodUnit_1 -> row ID R2170
+DEBUG [2022-08-12 15:13:51,033] (AddCellValueCommand->populateRowsWithDefaultValues->206): No value found for column: Prescr:PeriodUnit_1 -> row ID R2172
+DEBUG [2022-08-12 15:13:51,034] (AddCellValueCommand->populateRowsWithDefaultValues->206): No value found for column: Prescr:Frequency_1 -> row ID R2146
+DEBUG [2022-08-12 15:13:51,034] (AddCellValueCommand->populateRowsWithDefaultValues->206): No value found for column: Prescr:Frequency_1 -> row ID R2154
+DEBUG [2022-08-12 15:13:51,035] (AddCellValueCommand->populateRowsWithDefaultValues->206): No value found for column: Prescr:Frequency_1 -> row ID R2156
+DEBUG [2022-08-12 15:13:51,035] (AddCellValueCommand->populateRowsWithDefaultValues->206): No value found for column: Prescr:Frequency_1 -> row ID R2158
+DEBUG [2022-08-12 15:13:51,035] (AddCellValueCommand->populateRowsWithDefaultValues->206): No value found for column: Prescr:Frequency_1 -> row ID R2170
+DEBUG [2022-08-12 15:13:51,035] (AddCellValueCommand->populateRowsWithDefaultValues->206): No value found for column: Prescr:Frequency_1 -> row ID R2172
+DEBUG [2022-08-12 15:13:51,036] (AddCellValueCommand->populateRowsWithDefaultValues->206): No value found for column: Prescr:Form_1 -> row ID R2146
+DEBUG [2022-08-12 15:13:51,036] (AddCellValueCommand->populateRowsWithDefaultValues->206): No value found for column: Prescr:Form_1 -> row ID R2154
+DEBUG [2022-08-12 15:13:51,036] (AddCellValueCommand->populateRowsWithDefaultValues->206): No value found for column: Prescr:Form_1 -> row ID R2156
+DEBUG [2022-08-12 15:13:51,036] (AddCellValueCommand->populateRowsWithDefaultValues->206): No value found for column: Prescr:Form_1 -> row ID R2158
+DEBUG [2022-08-12 15:13:51,036] (AddCellValueCommand->populateRowsWithDefaultValues->206): No value found for column: Prescr:Form_1 -> row ID R2170
+DEBUG [2022-08-12 15:13:51,036] (AddCellValueCommand->populateRowsWithDefaultValues->206): No value found for column: Prescr:Form_1 -> row ID R2172
+DEBUG [2022-08-12 15:13:51,037] (AddCellValueCommand->populateRowsWithDefaultValues->206): No value found for column: Prescr:Dosage_1 -> row ID R2146
+DEBUG [2022-08-12 15:13:51,037] (AddCellValueCommand->populateRowsWithDefaultValues->206): No value found for column: Prescr:Dosage_1 -> row ID R2154
+DEBUG [2022-08-12 15:13:51,037] (AddCellValueCommand->populateRowsWithDefaultValues->206): No value found for column: Prescr:Dosage_1 -> row ID R2156
+DEBUG [2022-08-12 15:13:51,038] (AddCellValueCommand->populateRowsWithDefaultValues->206): No value found for column: Prescr:Dosage_1 -> row ID R2158
+DEBUG [2022-08-12 15:13:51,038] (AddCellValueCommand->populateRowsWithDefaultValues->206): No value found for column: Prescr:Dosage_1 -> row ID R2170
+DEBUG [2022-08-12 15:13:51,038] (AddCellValueCommand->populateRowsWithDefaultValues->206): No value found for column: Prescr:Dosage_1 -> row ID R2172
+DEBUG [2022-08-12 15:13:51,039] (AddCellValueCommand->populateRowsWithDefaultValues->206): No value found for column: Prescr:StrengthUnit_1 -> row ID R2146
+DEBUG [2022-08-12 15:13:51,039] (AddCellValueCommand->populateRowsWithDefaultValues->206): No value found for column: Prescr:StrengthUnit_1 -> row ID R2154
+DEBUG [2022-08-12 15:13:51,039] (AddCellValueCommand->populateRowsWithDefaultValues->206): No value found for column: Prescr:StrengthUnit_1 -> row ID R2156
+DEBUG [2022-08-12 15:13:51,039] (AddCellValueCommand->populateRowsWithDefaultValues->206): No value found for column: Prescr:StrengthUnit_1 -> row ID R2158
+DEBUG [2022-08-12 15:13:51,039] (AddCellValueCommand->populateRowsWithDefaultValues->206): No value found for column: Prescr:StrengthUnit_1 -> row ID R2170
+DEBUG [2022-08-12 15:13:51,039] (AddCellValueCommand->populateRowsWithDefaultValues->206): No value found for column: Prescr:StrengthUnit_1 -> row ID R2172
+DEBUG [2022-08-12 15:13:51,040] (AddCellValueCommand->populateRowsWithDefaultValues->206): No value found for column: Prescr:StrengthValue_1 -> row ID R2146
+DEBUG [2022-08-12 15:13:51,041] (AddCellValueCommand->populateRowsWithDefaultValues->206): No value found for column: Prescr:StrengthValue_1 -> row ID R2154
+DEBUG [2022-08-12 15:13:51,041] (AddCellValueCommand->populateRowsWithDefaultValues->206): No value found for column: Prescr:StrengthValue_1 -> row ID R2156
+DEBUG [2022-08-12 15:13:51,041] (AddCellValueCommand->populateRowsWithDefaultValues->206): No value found for column: Prescr:StrengthValue_1 -> row ID R2158
+DEBUG [2022-08-12 15:13:51,041] (AddCellValueCommand->populateRowsWithDefaultValues->206): No value found for column: Prescr:StrengthValue_1 -> row ID R2170
+DEBUG [2022-08-12 15:13:51,041] (AddCellValueCommand->populateRowsWithDefaultValues->206): No value found for column: Prescr:StrengthValue_1 -> row ID R2172
+DEBUG [2022-08-12 15:13:51,042] (AddCellValueCommand->populateRowsWithDefaultValues->206): No value found for column: default_1 -> row ID R2146
+DEBUG [2022-08-12 15:13:51,043] (AddCellValueCommand->populateRowsWithDefaultValues->206): No value found for column: default_1 -> row ID R2150
+DEBUG [2022-08-12 15:13:51,043] (AddCellValueCommand->populateRowsWithDefaultValues->206): No value found for column: default_1 -> row ID R2164
+DEBUG [2022-08-12 15:13:51,043] (AddCellValueCommand->populateRowsWithDefaultValues->206): No value found for column: default_1 -> row ID R2172
+DEBUG [2022-08-12 15:13:51,043] (AddCellValueCommand->populateRowsWithDefaultValues->206): No value found for column: default_1 -> row ID R2176
+DEBUG [2022-08-12 15:13:51,043] (AddCellValueCommand->populateRowsWithDefaultValues->206): No value found for column: default_1 -> row ID R2178
+DEBUG [2022-08-12 15:13:51,043] (AddCellValueCommand->populateRowsWithDefaultValues->206): No value found for column: default_1 -> row ID R2180
+DEBUG [2022-08-12 15:13:51,043] (AddCellValueCommand->populateRowsWithDefaultValues->206): No value found for column: default_1 -> row ID R2182
+DEBUG [2022-08-12 15:13:51,043] (AddCellValueCommand->populateRowsWithDefaultValues->206): No value found for column: default_1 -> row ID R2184
+DEBUG [2022-08-12 15:13:51,043] (AddCellValueCommand->populateRowsWithDefaultValues->206): No value found for column: default_1 -> row ID R2186
+DEBUG [2022-08-12 15:13:51,046] (AddCellValueCommand->populateRowsWithDefaultValues->206): No value found for column: Prescr:StopDrug_1 -> row ID R2172
+DEBUG [2022-08-12 15:13:51,046] (AddCellValueCommand->populateRowsWithDefaultValues->206): No value found for column: Prescr:StopDrug_1 -> row ID R2186
+DEBUG [2022-08-12 15:13:51,048] (AddCellValueCommand->populateRowsWithDefaultValues->206): No value found for column: Prescr:Note_1 -> row ID R2172
+DEBUG [2022-08-12 15:13:51,049] (AddCellValueCommand->populateRowsWithDefaultValues->206): No value found for column: Prescr:Note_1 -> row ID R2186
+INFO [2022-08-12 15:13:51,103] (SWEBNLPExtractionCommand->doIt->144): ExtractStructureCommand executed successfully on column: ClinicalDocument > component > structuredBody > component > section > text_split > Values
+INFO [2022-08-12 15:13:51,104] (SWEBNLPExtractionCommand->doIt->146): list of new created columns: [Prescr:Note_1, Prescr:StopDrug_1,  , Prescr:StrengthValue_1, Prescr:StrengthUnit_1, Prescr:Dosage_1, Prescr:Form_1, Prescr:Frequency_1, Prescr:PeriodUnit_1, Prescr:DrugIngredient_1, Prescr:DrugProduct_1]
+DEBUG [2022-08-12 15:13:51,104] (WorksheetCommandHistoryExecutor->executeCommand->99): Command in history: SubmitPythonTransformationCommand
+DEBUG [2022-08-12 15:13:51,105] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: ClinicalDocument
+DEBUG [2022-08-12 15:13:51,105] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: component
+DEBUG [2022-08-12 15:13:51,105] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: structuredBody
+DEBUG [2022-08-12 15:13:51,105] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: component
+DEBUG [2022-08-12 15:13:51,106] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: section
+DEBUG [2022-08-12 15:13:51,106] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: text_split
+DEBUG [2022-08-12 15:13:51,106] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: Prescr:DrugIngredient_1
+DEBUG [2022-08-12 15:13:51,111] (WorksheetCommandHistoryExecutor->executeCommand->118): Executing command: SubmitPythonTransformationCommand
+DEBUG [2022-08-12 15:13:51,113] (SubmitPythonTransformationCommand->doIt->110): SubmitPythonTranformation: HN2213:null
+DEBUG [2022-08-12 15:13:51,119] (PythonTransformationCommand->generateTransformedValues->124): Executing PyTransform def transform(r):
+	return transformIngredients("Prescr:DrugIngredient_1", "Prescr:DrugProduct_1")
+
+
+DEBUG [2022-08-12 15:14:20,385] (PythonTransformationCommand->generateTransformedValues->187): transform time 28988
+DEBUG [2022-08-12 15:14:20,386] (WorksheetCommandHistoryExecutor->executeCommand->99): Command in history: ExtractConceptsCommand
+DEBUG [2022-08-12 15:14:20,386] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: ClinicalDocument
+DEBUG [2022-08-12 15:14:20,386] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: component
+DEBUG [2022-08-12 15:14:20,386] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: structuredBody
+DEBUG [2022-08-12 15:14:20,386] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: component
+DEBUG [2022-08-12 15:14:20,387] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: section
+DEBUG [2022-08-12 15:14:20,387] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: text_split
+DEBUG [2022-08-12 15:14:20,387] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: ingredient_mapping
+DEBUG [2022-08-12 15:14:20,388] (WorksheetCommandHistoryExecutor->executeCommand->118): Executing command: ExtractConceptsCommand
+INFO [2022-08-12 15:14:20,390] (SWEBNLPExtractionCommand->sendRequestToSWEB->233): ExtractConceptsCommand starting the execution 
+INFO [2022-08-12 15:14:20,390] (SWEBNLPExtractionCommand->sendRequestToSWEB->234): Total number of http request: 1
+INFO [2022-08-12 15:14:20,675] (SWEBNLPExtractionCommand->sendRequestToSWEB->252): Time to end all http Requests and deSerialize: 0.284sec
+INFO [2022-08-12 15:14:20,677] (SWEBNLPExtractionCommand->doIt->144): ExtractConceptsCommand executed successfully on column: ClinicalDocument > component > structuredBody > component > section > text_split > ingredient_mapping
+INFO [2022-08-12 15:14:20,677] (SWEBNLPExtractionCommand->doIt->146): list of new created columns: [ingredient_mapping Concepts]
+DEBUG [2022-08-12 15:14:20,677] (WorksheetCommandHistoryExecutor->executeCommand->99): Command in history: SubmitPythonTransformationCommand
+DEBUG [2022-08-12 15:14:20,678] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: ClinicalDocument
+DEBUG [2022-08-12 15:14:20,678] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: effectiveTime
+DEBUG [2022-08-12 15:14:20,678] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: value
+DEBUG [2022-08-12 15:14:20,678] (WorksheetCommandHistoryExecutor->executeCommand->118): Executing command: SubmitPythonTransformationCommand
+DEBUG [2022-08-12 15:14:20,678] (SubmitPythonTransformationCommand->doIt->110): SubmitPythonTranformation: HN1982:null
+DEBUG [2022-08-12 15:14:20,678] (PythonTransformationCommand->generateTransformedValues->124): Executing PyTransform def transform(r):
+	return toISODate(getValue("value"))
+
+
+DEBUG [2022-08-12 15:14:20,694] (PythonTransformationCommand->generateTransformedValues->187): transform time 15
+DEBUG [2022-08-12 15:14:20,697] (WorksheetCommandHistoryExecutor->executeCommand->99): Command in history: AddColumnCommand
+DEBUG [2022-08-12 15:14:20,699] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: ClinicalDocument
+DEBUG [2022-08-12 15:14:20,700] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: component
+DEBUG [2022-08-12 15:14:20,707] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: structuredBody
+DEBUG [2022-08-12 15:14:20,707] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: component
+DEBUG [2022-08-12 15:14:20,707] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: section
+DEBUG [2022-08-12 15:14:20,707] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: text_split
+DEBUG [2022-08-12 15:14:20,707] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: Prescr:Note_1
+DEBUG [2022-08-12 15:14:20,708] (WorksheetCommandHistoryExecutor->executeCommand->118): Executing command: AddColumnCommand
+DEBUG [2022-08-12 15:14:20,714] (WorksheetCommandHistoryExecutor->executeCommand->99): Command in history: ExtractConceptsCommand
+DEBUG [2022-08-12 15:14:20,715] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: ClinicalDocument
+DEBUG [2022-08-12 15:14:20,715] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: component
+DEBUG [2022-08-12 15:14:20,715] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: structuredBody
+DEBUG [2022-08-12 15:14:20,715] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: component
+DEBUG [2022-08-12 15:14:20,715] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: section
+DEBUG [2022-08-12 15:14:20,716] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: text_split
+DEBUG [2022-08-12 15:14:20,716] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: status
+DEBUG [2022-08-12 15:14:20,717] (WorksheetCommandHistoryExecutor->executeCommand->118): Executing command: ExtractConceptsCommand
+INFO [2022-08-12 15:14:20,717] (SWEBNLPExtractionCommand->sendRequestToSWEB->233): ExtractConceptsCommand starting the execution 
+INFO [2022-08-12 15:14:20,718] (SWEBNLPExtractionCommand->sendRequestToSWEB->234): Total number of http request: 1
+INFO [2022-08-12 15:14:20,886] (SWEBNLPExtractionCommand->sendRequestToSWEB->252): Time to end all http Requests and deSerialize: 0.167sec
+INFO [2022-08-12 15:14:20,887] (SWEBNLPExtractionCommand->doIt->144): ExtractConceptsCommand executed successfully on column: ClinicalDocument > component > structuredBody > component > section > text_split > status
+INFO [2022-08-12 15:14:20,887] (SWEBNLPExtractionCommand->doIt->146): list of new created columns: [status Concepts]
+DEBUG [2022-08-12 15:14:20,888] (WorksheetCommandHistoryExecutor->executeCommand->99): Command in history: SubmitPythonTransformationCommand
+DEBUG [2022-08-12 15:14:20,888] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: ClinicalDocument
+DEBUG [2022-08-12 15:14:20,888] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: component
+DEBUG [2022-08-12 15:14:20,888] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: structuredBody
+DEBUG [2022-08-12 15:14:20,888] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: component
+DEBUG [2022-08-12 15:14:20,888] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: section
+DEBUG [2022-08-12 15:14:20,889] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: text_split
+DEBUG [2022-08-12 15:14:20,889] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: ingredient_mapping
+DEBUG [2022-08-12 15:14:20,889] (WorksheetCommandHistoryExecutor->executeCommand->118): Executing command: SubmitPythonTransformationCommand
+DEBUG [2022-08-12 15:14:20,889] (SubmitPythonTransformationCommand->doIt->110): SubmitPythonTranformation: HN2444:null
+DEBUG [2022-08-12 15:14:20,889] (PythonTransformationCommand->generateTransformedValues->124): Executing PyTransform def transform(r):
+	return "MED_" + getValue("ingredient_mapping")
+
+
+DEBUG [2022-08-12 15:14:20,892] (PythonTransformationCommand->generateTransformedValues->187): transform time 3
+DEBUG [2022-08-12 15:14:20,892] (WorksheetCommandHistoryExecutor->executeCommand->99): Command in history: SubmitPythonTransformationCommand
+DEBUG [2022-08-12 15:14:20,892] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: ClinicalDocument
+DEBUG [2022-08-12 15:14:20,893] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: component
+DEBUG [2022-08-12 15:14:20,893] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: structuredBody
+DEBUG [2022-08-12 15:14:20,893] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: component
+DEBUG [2022-08-12 15:14:20,893] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: section
+DEBUG [2022-08-12 15:14:20,893] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: text_split
+DEBUG [2022-08-12 15:14:20,893] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: medication_id
+DEBUG [2022-08-12 15:14:20,893] (WorksheetCommandHistoryExecutor->executeCommand->118): Executing command: SubmitPythonTransformationCommand
+DEBUG [2022-08-12 15:14:20,893] (SubmitPythonTransformationCommand->doIt->110): SubmitPythonTranformation: HN2545:null
+DEBUG [2022-08-12 15:14:20,894] (PythonTransformationCommand->generateTransformedValues->124): Executing PyTransform def transform(r):
+	return "MS_" + getValue("ingredient_mapping")
+
+
+DEBUG [2022-08-12 15:14:20,896] (PythonTransformationCommand->generateTransformedValues->187): transform time 2
+DEBUG [2022-08-12 15:14:20,896] (WorksheetCommandHistoryExecutor->executeCommand->99): Command in history: OperateSelectionCommand
+DEBUG [2022-08-12 15:14:20,896] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: ClinicalDocument
+DEBUG [2022-08-12 15:14:20,896] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: component
+DEBUG [2022-08-12 15:14:20,897] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: structuredBody
+DEBUG [2022-08-12 15:14:20,897] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: component
+DEBUG [2022-08-12 15:14:20,897] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: section
+DEBUG [2022-08-12 15:14:20,897] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: text
+DEBUG [2022-08-12 15:14:20,898] (WorksheetCommandHistoryExecutor->executeCommand->118): Executing command: OperateSelectionCommand
+DEBUG [2022-08-12 15:14:20,900] (MiniSelection->getCompiledCode->125): Executing PySelection
+def selection1660310060900_1_DEFAULT_TEST(r):
+	return (not getValueFromNestedColumnByIndex("section", "code/code", 0) == "10160-0") and (not getValue("title").lower() == "farmaci")
+
+DEBUG [2022-08-12 15:14:20,919] (GenericRDFGenerator->generateRDF->151): Generating output for 7137380_small.xml
+DEBUG [2022-08-12 15:14:20,926] (DFSTriplesMapGraphDAGifier->cleanGraph->102): working on root
+DEBUG [2022-08-12 15:14:20,926] (DFSTriplesMapGraphDAGifier->cleanGraph->110): Removing PredicateObjectMap [Predicate [template=<http://knowdive.disi.unitn.it/etype#has_fhir_medicationstatement.medicationreference.reference_GID-641753_Type-641724>], RefObjectMap [http://isi.edu/integration/karma/dev#TriplesMap_e5b7fa8e-832c-4fa0-9724-a7eef97a38df]]
+DEBUG [2022-08-12 15:14:20,926] (DFSTriplesMapGraphDAGifier->cleanGraph->121): Spilling [<http://knowdive.disi.unitn.it/etype#Fhir_medication_GID-641750>] http://isi.edu/integration/karma/dev#TriplesMap_e5b7fa8e-832c-4fa0-9724-a7eef97a38df
+DEBUG [2022-08-12 15:14:20,926] (DFSTriplesMapGraphDAGifier->cleanGraph->110): Removing PredicateObjectMap [Predicate [template=<http://knowdive.disi.unitn.it/etype#has_fhir_medicationstatement.subject.reference_GID-641752_Type-641724>], RefObjectMap [http://isi.edu/integration/karma/dev#TriplesMap_b528a686-f74e-48d4-b6a8-1986075134f4]]
+DEBUG [2022-08-12 15:14:20,927] (DFSTriplesMapGraphDAGifier->cleanGraph->116): Flipping PredicateObjectMap [Predicate [template=<http://knowdive.disi.unitn.it/etype#has_fhir_medicationstatement.subject.reference_GID-641752_Type-641724>], RefObjectMap [http://isi.edu/integration/karma/dev#TriplesMap_b528a686-f74e-48d4-b6a8-1986075134f4]]
+DEBUG [2022-08-12 15:14:20,927] (DFSTriplesMapGraphDAGifier->cleanGraph->121): Spilling [<http://knowdive.disi.unitn.it/etype#Fhir_medicationstatement_GID-641724>] http://isi.edu/integration/karma/dev#TriplesMap_842cbd27-994f-4955-934a-2296d6078569
+DEBUG [2022-08-12 15:14:20,927] (DFSTriplesMapGraphDAGifier->cleanGraph->89): http://isi.edu/integration/karma/dev#TriplesMap_b528a686-f74e-48d4-b6a8-1986075134f4 was already spilled
+DEBUG [2022-08-12 15:14:20,933] (TriplesMapWorkerPlan->generate->154): Processing PredicateObjectMap [Predicate [template=<http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1>], ObjectMap [
+template=<ColumnHNodeId:["ClinicalDocument","recordTarget","patientRole","id","extension"]>,
+rdfLiteralType=null,
+language=null]]
+DEBUG [2022-08-12 15:14:20,936] (TriplesMapWorkerPlan->generate->154): Processing PredicateObjectMap [Predicate [template=<http://knowdive.disi.unitn.it/etype#has_fhir_medicationstatement.medicationreference.reference_GID-641753_Type-641724>], RefObjectMap [http://isi.edu/integration/karma/dev#TriplesMap_e5b7fa8e-832c-4fa0-9724-a7eef97a38df]]
+DEBUG [2022-08-12 15:14:20,936] (TriplesMapWorkerPlan->generate->157): Skipping PredicateObjectMap [Predicate [template=<http://knowdive.disi.unitn.it/etype#has_fhir_medicationstatement.medicationreference.reference_GID-641753_Type-641724>], RefObjectMap [http://isi.edu/integration/karma/dev#TriplesMap_e5b7fa8e-832c-4fa0-9724-a7eef97a38df]]
+DEBUG [2022-08-12 15:14:20,936] (TriplesMapWorkerPlan->generate->154): Processing PredicateObjectMap [Predicate [template=<http://knowdive.disi.unitn.it/etype#has_fhir_medicationstatement.dosage.doseandrate.dosequantity.value_GID-648395_Type-641724>], ObjectMap [
+template=<ColumnHNodeId:["ClinicalDocument","component","structuredBody","component","section","text_split","Prescr:Dosage_1"]>,
+rdfLiteralType=null,
+language=null]]
+DEBUG [2022-08-12 15:14:20,936] (TriplesMapWorkerPlan->generate->154): Processing PredicateObjectMap [Predicate [template=<http://knowdive.disi.unitn.it/etype#has_fhir_medicationstatement.status_GID-641727_Type-641724>], ObjectMap [
+template=<ColumnHNodeId:["ClinicalDocument","component","structuredBody","component","section","text_split","status Concepts"]>,
+rdfLiteralType=<http://www.w3.org/2001/XMLSchema#Concept>,
+language=null]]
+DEBUG [2022-08-12 15:14:20,937] (TriplesMapWorkerPlan->generate->154): Processing PredicateObjectMap [Predicate [template=<http://knowdive.disi.unitn.it/etype#has_fhir_medicationstatement.dosage.timing.repeat.periodunit_GID-648360_Type-641724>], ObjectMap [
+template=<ColumnHNodeId:["ClinicalDocument","component","structuredBody","component","section","text_split","Prescr:PeriodUnit_1"]>,
+rdfLiteralType=null,
+language=null]]
+DEBUG [2022-08-12 15:14:20,937] (TriplesMapWorkerPlan->generate->154): Processing PredicateObjectMap [Predicate [template=<http://knowdive.disi.unitn.it/etype#has_fhir_medicationstatement.effectivedatetime_GID-641725_Type-641724>], ObjectMap [
+template=<ColumnHNodeId:["ClinicalDocument","effectiveTime","date_time_iso"]>,
+rdfLiteralType=<http://www.w3.org/2001/XMLSchema#dateTime>,
+language=null]]
+DEBUG [2022-08-12 15:14:20,937] (TriplesMapWorkerPlan->generate->154): Processing PredicateObjectMap [Predicate [template=<http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1>], ObjectMap [
+template=<MS_><ColumnHNodeId:["ClinicalDocument","component","structuredBody","component","section","text_split","ingredient_mapping"]>,
+rdfLiteralType=null,
+language=null]]
+DEBUG [2022-08-12 15:14:20,938] (TriplesMapWorkerPlan->generate->154): Processing PredicateObjectMap [Predicate [template=<http://knowdive.disi.unitn.it/etype#has_fhir_medicationstatement.dosage.timing.repeat.frequency_GID-648358_Type-641724>], ObjectMap [
+template=<ColumnHNodeId:["ClinicalDocument","component","structuredBody","component","section","text_split","Prescr:Frequency_1"]>,
+rdfLiteralType=null,
+language=null]]
+DEBUG [2022-08-12 15:14:20,938] (TriplesMapWorkerPlan->generate->154): Processing PredicateObjectMap [Predicate [template=<http://knowdive.disi.unitn.it/etype#has_fhir_medicationstatement.subject.reference_GID-641752_Type-641724>], RefObjectMap [http://isi.edu/integration/karma/dev#TriplesMap_b528a686-f74e-48d4-b6a8-1986075134f4]]
+DEBUG [2022-08-12 15:14:20,938] (TriplesMapWorkerPlan->generate->157): Skipping PredicateObjectMap [Predicate [template=<http://knowdive.disi.unitn.it/etype#has_fhir_medicationstatement.subject.reference_GID-641752_Type-641724>], RefObjectMap [http://isi.edu/integration/karma/dev#TriplesMap_b528a686-f74e-48d4-b6a8-1986075134f4]]
+DEBUG [2022-08-12 15:14:20,939] (TriplesMapWorkerPlan->generate->154): Processing PredicateObjectMap [Predicate [template=<http://knowdive.disi.unitn.it/etype#has_fhir_medicationstatement.dosage.text_GID-648357_Type-641724>], ObjectMap [
+template=<ColumnHNodeId:["ClinicalDocument","component","structuredBody","component","section","text_split","Values"]>,
+rdfLiteralType=null,
+language=null]]
+DEBUG [2022-08-12 15:14:20,940] (TriplesMapWorkerPlan->generate->154): Processing PredicateObjectMap [Predicate [template=<http://knowdive.disi.unitn.it/etype#has_fhir_medication.code_GID-641736_Type-641750>], ObjectMap [
+template=<ColumnHNodeId:["ClinicalDocument","component","structuredBody","component","section","text_split","ingredient_mapping Concepts"]>,
+rdfLiteralType=<http://www.w3.org/2001/XMLSchema#Concept>,
+language=null]]
+DEBUG [2022-08-12 15:14:20,940] (TriplesMapWorkerPlan->generate->154): Processing PredicateObjectMap [Predicate [template=<http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1>], ObjectMap [
+template=<MED_><ColumnHNodeId:["ClinicalDocument","component","structuredBody","component","section","text_split","ingredient_mapping"]>,
+rdfLiteralType=null,
+language=null]]
+DEBUG [2022-08-12 15:14:20,942] (TriplesMapWorkerPlan->generate->154): Processing PredicateObjectMap [Predicate [template=<http://knowdive.disi.unitn.it/etype#has_fhir_medication.text_GID-648399_Type-641750>], ObjectMap [
+template=<ColumnHNodeId:["ClinicalDocument","component","structuredBody","component","section","text_split","Values"]>,
+rdfLiteralType=null,
+language=null]]
+DEBUG [2022-08-12 15:14:20,942] (TriplesMapWorkerPlan->generate->154): Processing PredicateObjectMap [Predicate [template=<http://knowdive.disi.unitn.it/etype#has_fhir_medication.ingredient.itemcodeableconcept_GID-648396_Type-641750>], ObjectMap [
+template=<ColumnHNodeId:["ClinicalDocument","component","structuredBody","component","section","text_split","ingredient_mapping Concepts"]>,
+rdfLiteralType=<http://www.w3.org/2001/XMLSchema#Concept>,
+language=null]]
+DEBUG [2022-08-12 15:14:20,967] (TriplesMapWorker->call->88): Processing http://isi.edu/integration/karma/dev#TriplesMap_e5b7fa8e-832c-4fa0-9724-a7eef97a38df 410252a9:1829230668b:-7fe1
+DEBUG [2022-08-12 15:14:21,057] (TriplesMapWorker->call->101): Processed http://isi.edu/integration/karma/dev#TriplesMap_e5b7fa8e-832c-4fa0-9724-a7eef97a38df 410252a9:1829230668b:-7fe1
+DEBUG [2022-08-12 15:14:21,057] (TriplesMapWorker->call->88): Processing http://isi.edu/integration/karma/dev#TriplesMap_842cbd27-994f-4955-934a-2296d6078569 410252a9:1829230668b:-7fea
+DEBUG [2022-08-12 15:14:21,109] (TriplesMapWorker->call->101): Processed http://isi.edu/integration/karma/dev#TriplesMap_842cbd27-994f-4955-934a-2296d6078569 410252a9:1829230668b:-7fea
+DEBUG [2022-08-12 15:14:21,110] (TriplesMapWorker->call->88): Processing http://isi.edu/integration/karma/dev#TriplesMap_b528a686-f74e-48d4-b6a8-1986075134f4 410252a9:1829230668b:-7fdb
+DEBUG [2022-08-12 15:14:21,130] (TriplesMapWorker->call->101): Processed http://isi.edu/integration/karma/dev#TriplesMap_b528a686-f74e-48d4-b6a8-1986075134f4 410252a9:1829230668b:-7fdb
+DEBUG [2022-08-12 15:14:21,133] (N3KR2RMLRDFWriter->flush->164): Flushing writer
+DEBUG [2022-08-12 15:14:21,133] (N3KR2RMLRDFWriter->flush->170): Flushed writer
+DEBUG [2022-08-12 15:14:21,134] (GenericRDFGenerator->generateRDF->157): Generated output for 7137380_small.xml
+DEBUG [2022-08-12 15:14:21,135] (GenericRDFGenerator->generateRDF->169): Generated rdf for 7137380_small.xml
+INFO [2022-08-12 15:14:21,135] (OfflineRdfGenerator->generateRdfFromFile->705): generate rdf from file completed
+INFO [2022-08-12 15:14:21,136] (OfflineRdfGenerator->generateRDF->197): done after 36025
+INFO [2022-08-12 15:14:21,136] (OfflineRdfGenerator->generateRDF->200): RDF published at: Medrdf.n3
+DEBUG [2022-08-12 15:14:21,137] (N3KR2RMLRDFWriter->flush->164): Flushing writer
+DEBUG [2022-08-12 15:14:21,137] (N3KR2RMLRDFWriter->flush->170): Flushed writer
+INFO [2022-08-12 15:14:21,137] (OfflineRdfGenerator->main->162): Time to generate RDF:0.65958333 mins
+INFO [2022-08-12 15:16:03,895] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/resources/example-data/../models/medication_new_patient15.ttl
+INFO [2022-08-12 15:16:04,165] (ServletContextParameterMap->setup->122): KARMA_USER_HOME not set.  Defaulting to /home/simone/karma
+INFO [2022-08-12 15:16:04,166] (ServletContextParameterMap->setup->132): Karma home: /home/simone/karma/
+INFO [2022-08-12 15:16:04,172] (KarmaUserMetadata->createDirectoryForMetadata->31): Set parameter: USER_PREFERENCES_DIRECTORY -> /home/simone/karma/user-preferences/
+INFO [2022-08-12 15:16:04,173] (KarmaUserMetadata->createDirectoryForMetadata->31): Set parameter: USER_CONFIG_DIRECTORY -> /home/simone/karma/config/
+INFO [2022-08-12 15:16:04,173] (KarmaUserMetadata->createDirectoryForMetadata->31): Set parameter: USER_PYTHON_SCRIPTS_DIRECTORY -> /home/simone/karma/python/
+INFO [2022-08-12 15:16:07,264] (KarmaUserMetadata->createDirectoryForMetadata->31): Set parameter: USER_CATALOG_DOWNLOAD_DIRECTORY -> /home/simone/karma/catalog-download/
+INFO [2022-08-12 15:16:07,267] (ModelingConfiguration->loadParams->319): Load modeling.properties: /home/simone/karma/config/modeling.properties:true
+DEBUG [2022-08-12 15:16:07,267] (ModelingConfiguration->loadParams->336): Done Loading modeling.properties
+INFO [2022-08-12 15:16:07,268] (KnowDiveServicesConfiguration->loadConfig->87): KnowDiveConfiguration:/home/simone/karma/config/knowdive.properties
+INFO [2022-08-12 15:16:07,268] (KnowDiveServicesConfiguration->loadConfig->119): set SCROLL_SERVICE_URL=http://localhost:8081 from /home/simone/karma/config/knowdive.properties
+INFO [2022-08-12 15:16:07,269] (KnowDiveServicesConfiguration->loadConfig->134): set EML_SERVICE_URL= from /home/simone/karma/config/knowdive.properties
+INFO [2022-08-12 15:16:07,269] (KnowDiveServicesConfiguration->loadConfig->149): set KOS_SERVICE_URL= from /home/simone/karma/config/knowdive.properties
+INFO [2022-08-12 15:16:07,269] (KnowDiveServicesConfiguration->loadConfig->164): set KG_IMPORTER_URL= from /home/simone/karma/config/knowdive.properties
+INFO [2022-08-12 15:16:07,269] (KnowDiveServicesConfiguration->loadConfig->179): set CATALOG_BASE_URL= from /home/simone/karma/config/knowdive.properties
+INFO [2022-08-12 15:16:07,269] (KnowDiveServicesConfiguration->loadConfig->194): set CATALOG_INSTANCE_API_KEY= from /home/simone/karma/config/knowdive.properties
+INFO [2022-08-12 15:16:07,269] (KnowDiveServicesConfiguration->updateProperty->282): Write Property: SCROLL_SERVICE_URL=http://localhost:8081
+DEBUG [2022-08-12 15:16:07,348] (EncodingDetector->detect->43): Detected encoding = UTF-8
+DEBUG [2022-08-12 15:16:07,463] (EncodingDetector->detect->61): Detected encoding for file: 7137380_small.xml: UTF-8
+INFO [2022-08-12 15:16:07,499] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/resources/example-data/../models/medication_new_patient15.ttl
+DEBUG [2022-08-12 15:16:07,561] (GenericRDFGenerator->generateRDF->109): Generating rdf for 7137380_small.xml
+DEBUG [2022-08-12 15:16:07,567] (GenericRDFGenerator->generateRDF->117): Initializing workspace for 7137380_small.xml
+DEBUG [2022-08-12 15:16:07,612] (Reflections->scan->186): going to scan these urls:
+jar:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/Conversion/automatic-process/karma-offline-0.0.1-SNAPSHOT-shaded.jar!/
+INFO [2022-08-12 15:16:07,890] (Reflections->scan->229): Reflections took 277 ms to scan 1 urls, producing 105 keys and 847 values 
+DEBUG [2022-08-12 15:16:07,928] (LuceneBasedSTModelHandler-><init>->50): inside STModelHandler constructor
+DEBUG [2022-08-12 15:16:07,930] (Reflections->scan->186): going to scan these urls:
+jar:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/Conversion/automatic-process/karma-offline-0.0.1-SNAPSHOT-shaded.jar!/
+INFO [2022-08-12 15:16:08,057] (Reflections->scan->229): Reflections took 126 ms to scan 1 urls, producing 105 keys and 847 values 
+INFO [2022-08-12 15:16:08,132] (ExecutionController->dynamicallyBuildCommandFactoryMap->93): Loaded 110 possible commands
+DEBUG [2022-08-12 15:16:08,132] (GenericRDFGenerator->generateRDF->119): Initialized workspace for 7137380_small.xml
+DEBUG [2022-08-12 15:16:08,132] (GenericRDFGenerator->generateRDF->124): Generating worksheet for 7137380_small.xml
+DEBUG [2022-08-12 15:16:08,157] (EncodingDetector->detect->43): Detected encoding = UTF-8
+DEBUG [2022-08-12 15:16:08,271] (GenericRDFGenerator->generateRDF->134): Generated worksheet for 7137380_small.xml
+DEBUG [2022-08-12 15:16:08,271] (GenericRDFGenerator->generateRDF->135): Parsing mapping for 7137380_small.xml
+DEBUG [2022-08-12 15:16:08,316] (TemplateTermSetBuilder->constructTemplateTermSetFromR2rmlColumnString->98): Column["ClinicalDocument","recordTarget","patientRole","id","extension"]
+DEBUG [2022-08-12 15:16:08,319] (TemplateTermSetBuilder->constructTemplateTermSetFromR2rmlColumnString->98): Column["ClinicalDocument","component","structuredBody","component","section","presc_split","status Concepts"]
+DEBUG [2022-08-12 15:16:08,320] (TemplateTermSetBuilder->constructTemplateTermSetFromR2rmlTemplateString->61): String templ term: MEDST_
+DEBUG [2022-08-12 15:16:08,320] (TemplateTermSetBuilder->constructTemplateTermSetFromR2rmlTemplateString->66): Col name templ term: ["ClinicalDocument","component","structuredBody","component","section","presc_split","ingredient_mapping"]
+DEBUG [2022-08-12 15:16:08,321] (TemplateTermSetBuilder->constructTemplateTermSetFromR2rmlColumnString->98): Column["ClinicalDocument","component","structuredBody","component","section","presc_split","Values"]
+DEBUG [2022-08-12 15:16:08,321] (TemplateTermSetBuilder->constructTemplateTermSetFromR2rmlColumnString->98): Column["ClinicalDocument","componentOf","encompassingEncounter","effectiveTime","low","isoDate"]
+DEBUG [2022-08-12 15:16:08,322] (TemplateTermSetBuilder->constructTemplateTermSetFromR2rmlColumnString->98): Column["ClinicalDocument","component","structuredBody","component","section","presc_split","ingredient_mapping Concepts"]
+DEBUG [2022-08-12 15:16:08,324] (TemplateTermSetBuilder->constructTemplateTermSetFromR2rmlTemplateString->61): String templ term: MED_
+DEBUG [2022-08-12 15:16:08,324] (TemplateTermSetBuilder->constructTemplateTermSetFromR2rmlTemplateString->66): Col name templ term: ["ClinicalDocument","component","structuredBody","component","section","presc_split","ingredient_mapping"]
+DEBUG [2022-08-12 15:16:08,324] (KR2RMLMappingAuxillaryInformation->findSubjectMapTemplateAnchor->90): found anchor ["ClinicalDocument","recordTarget","patientRole","id","extension"] at 4
+DEBUG [2022-08-12 15:16:08,325] (KR2RMLMappingAuxillaryInformation->findSubjectMapTemplateAnchor->90): found anchor ["ClinicalDocument","component","structuredBody","component","section","presc_split","status Concepts"] at 6
+DEBUG [2022-08-12 15:16:08,325] (KR2RMLMappingAuxillaryInformation->findSubjectMapTemplateAnchor->90): found anchor ["ClinicalDocument","component","structuredBody","component","section","presc_split","ingredient_mapping Concepts"] at 6
+DEBUG [2022-08-12 15:16:08,325] (GenericRDFGenerator->generateRDF->138): Parsed mapping for 7137380_small.xml
+DEBUG [2022-08-12 15:16:08,330] (WorksheetCommandHistoryExecutor->executeCommand->99): Command in history: SubmitPythonTransformationCommand
+DEBUG [2022-08-12 15:16:08,332] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: ClinicalDocument
+DEBUG [2022-08-12 15:16:08,332] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: component
+DEBUG [2022-08-12 15:16:08,332] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: structuredBody
+DEBUG [2022-08-12 15:16:08,332] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: component
+DEBUG [2022-08-12 15:16:08,333] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: section
+DEBUG [2022-08-12 15:16:08,333] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: title
+DEBUG [2022-08-12 15:16:08,340] (WorksheetCommandHistoryExecutor->executeCommand->118): Executing command: SubmitPythonTransformationCommand
+DEBUG [2022-08-12 15:16:08,341] (SubmitPythonTransformationCommand->doIt->110): SubmitPythonTranformation: HN101:null
+INFO [2022-08-12 15:16:08,349] (UIConfiguration->loadConfig->73): UICOnfiguration:/home/simone/karma/config/
+INFO [2022-08-12 15:16:08,358] (UIConfiguration->loadConfig->85): Load File:/home/simone/karma/config//ui.properties
+INFO [2022-08-12 15:16:08,366] (UIConfiguration->loadConfig->73): UICOnfiguration:/home/simone/karma/config/
+INFO [2022-08-12 15:16:08,366] (UIConfiguration->loadConfig->85): Load File:/home/simone/karma/config//ui.properties
+DEBUG [2022-08-12 15:16:08,375] (PythonTransformationCommand->generateTransformedValues->124): Executing PyTransform def transform(r):
+	if getValue("title").lower() == "farmaci":
+	    return getValue("text")
+	return ""
+
+
+DEBUG [2022-08-12 15:16:08,779] (PythonTransformationCommand->generateTransformedValues->187): transform time 12
+DEBUG [2022-08-12 15:16:08,781] (WorksheetCommandHistoryExecutor->executeCommand->99): Command in history: SplitValuesCommand
+DEBUG [2022-08-12 15:16:08,781] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: ClinicalDocument
+DEBUG [2022-08-12 15:16:08,781] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: component
+DEBUG [2022-08-12 15:16:08,782] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: structuredBody
+DEBUG [2022-08-12 15:16:08,782] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: component
+DEBUG [2022-08-12 15:16:08,782] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: section
+DEBUG [2022-08-12 15:16:08,782] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: prescriptions
+DEBUG [2022-08-12 15:16:08,783] (WorksheetCommandHistoryExecutor->executeCommand->118): Executing command: SplitValuesCommand
+DEBUG [2022-08-12 15:16:08,783] (SplitValuesCommand->doIt->108): SplitValuesCommand:presc_split, columnName:prescriptions
+DEBUG [2022-08-12 15:16:08,786] (WorksheetCommandHistoryExecutor->executeCommand->99): Command in history: ExtractStructureCommand
+DEBUG [2022-08-12 15:16:08,786] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: ClinicalDocument
+DEBUG [2022-08-12 15:16:08,786] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: component
+DEBUG [2022-08-12 15:16:08,786] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: structuredBody
+DEBUG [2022-08-12 15:16:08,787] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: component
+DEBUG [2022-08-12 15:16:08,787] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: section
+DEBUG [2022-08-12 15:16:08,787] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: presc_split
+DEBUG [2022-08-12 15:16:08,787] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: Values
+DEBUG [2022-08-12 15:16:08,789] (WorksheetCommandHistoryExecutor->executeCommand->118): Executing command: ExtractStructureCommand
+INFO [2022-08-12 15:16:08,800] (SWEBNLPExtractionCommand->sendRequestToSWEB->233): ExtractStructureCommand starting the execution 
+INFO [2022-08-12 15:16:08,803] (SWEBNLPExtractionCommand->sendRequestToSWEB->234): Total number of http request: 1
+INFO [2022-08-12 15:16:12,592] (SWEBNLPExtractionCommand->sendRequestToSWEB->252): Time to end all http Requests and deSerialize: 3.783sec
+INFO [2022-08-12 15:16:12,686] (SWEBNLPExtractionCommand->doIt->144): ExtractStructureCommand executed successfully on column: ClinicalDocument > component > structuredBody > component > section > presc_split > Values
+INFO [2022-08-12 15:16:12,686] (SWEBNLPExtractionCommand->doIt->146): list of new created columns: [Prescr:DrugIngredient_1, Prescr:DrugProduct_1, Prescr:StrengthValue_1, Prescr:StrengthUnit_1, Prescr:Dosage_1, Prescr:Form_1, Prescr:Frequency_1, Prescr:PeriodUnit_1, Prescr:Note_1, Prescr:StopDrug_1]
+DEBUG [2022-08-12 15:16:12,689] (WorksheetCommandHistoryExecutor->executeCommand->99): Command in history: SubmitPythonTransformationCommand
+DEBUG [2022-08-12 15:16:12,689] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: ClinicalDocument
+DEBUG [2022-08-12 15:16:12,689] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: component
+DEBUG [2022-08-12 15:16:12,689] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: structuredBody
+DEBUG [2022-08-12 15:16:12,689] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: component
+DEBUG [2022-08-12 15:16:12,690] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: section
+DEBUG [2022-08-12 15:16:12,690] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: presc_split
+DEBUG [2022-08-12 15:16:12,690] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: Prescr:DrugIngredient_1
+DEBUG [2022-08-12 15:16:12,704] (WorksheetCommandHistoryExecutor->executeCommand->118): Executing command: SubmitPythonTransformationCommand
+DEBUG [2022-08-12 15:16:12,707] (SubmitPythonTransformationCommand->doIt->110): SubmitPythonTranformation: HN2247:null
+DEBUG [2022-08-12 15:16:12,708] (PythonTransformationCommand->generateTransformedValues->124): Executing PyTransform def transform(r):
+	return transformIngredients("Prescr:DrugIngredient_1", "Prescr:DrugProduct_1")
+
+
+DEBUG [2022-08-12 15:16:19,553] (PythonTransformationCommand->generateTransformedValues->187): transform time 6844
+DEBUG [2022-08-12 15:16:19,555] (WorksheetCommandHistoryExecutor->executeCommand->99): Command in history: SubmitPythonTransformationCommand
+DEBUG [2022-08-12 15:16:19,555] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: ClinicalDocument
+DEBUG [2022-08-12 15:16:19,556] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: component
+DEBUG [2022-08-12 15:16:19,556] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: structuredBody
+DEBUG [2022-08-12 15:16:19,556] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: component
+DEBUG [2022-08-12 15:16:19,556] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: section
+DEBUG [2022-08-12 15:16:19,556] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: presc_split
+DEBUG [2022-08-12 15:16:19,556] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: ingredient_mapping
+DEBUG [2022-08-12 15:16:19,557] (WorksheetCommandHistoryExecutor->executeCommand->118): Executing command: SubmitPythonTransformationCommand
+DEBUG [2022-08-12 15:16:19,557] (SubmitPythonTransformationCommand->doIt->110): SubmitPythonTranformation: HN2256:null
+DEBUG [2022-08-12 15:16:19,558] (PythonTransformationCommand->generateTransformedValues->124): Executing PyTransform def transform(r):
+	return "MED_" + getValue("ingredient_mapping")
+
+
+DEBUG [2022-08-12 15:16:19,570] (PythonTransformationCommand->generateTransformedValues->187): transform time 11
+DEBUG [2022-08-12 15:16:19,571] (WorksheetCommandHistoryExecutor->executeCommand->99): Command in history: AddColumnCommand
+DEBUG [2022-08-12 15:16:19,571] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: ClinicalDocument
+DEBUG [2022-08-12 15:16:19,571] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: component
+DEBUG [2022-08-12 15:16:19,572] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: structuredBody
+DEBUG [2022-08-12 15:16:19,572] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: component
+DEBUG [2022-08-12 15:16:19,572] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: section
+DEBUG [2022-08-12 15:16:19,572] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: presc_split
+DEBUG [2022-08-12 15:16:19,572] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: Prescr:DrugProduct_1
+DEBUG [2022-08-12 15:16:19,572] (WorksheetCommandHistoryExecutor->executeCommand->118): Executing command: AddColumnCommand
+DEBUG [2022-08-12 15:16:19,574] (WorksheetCommandHistoryExecutor->executeCommand->99): Command in history: SubmitPythonTransformationCommand
+DEBUG [2022-08-12 15:16:19,574] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: ClinicalDocument
+DEBUG [2022-08-12 15:16:19,574] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: component
+DEBUG [2022-08-12 15:16:19,574] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: structuredBody
+DEBUG [2022-08-12 15:16:19,574] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: component
+DEBUG [2022-08-12 15:16:19,574] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: section
+DEBUG [2022-08-12 15:16:19,575] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: presc_split
+DEBUG [2022-08-12 15:16:19,575] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: ingredient_mapping
+DEBUG [2022-08-12 15:16:19,576] (WorksheetCommandHistoryExecutor->executeCommand->118): Executing command: SubmitPythonTransformationCommand
+DEBUG [2022-08-12 15:16:19,585] (SubmitPythonTransformationCommand->doIt->110): SubmitPythonTranformation: HN2256:null
+DEBUG [2022-08-12 15:16:19,586] (PythonTransformationCommand->generateTransformedValues->124): Executing PyTransform def transform(r):
+	return "MEDST_" + getValue("ingredient_mapping")
+
+
+DEBUG [2022-08-12 15:16:19,591] (PythonTransformationCommand->generateTransformedValues->187): transform time 2
+DEBUG [2022-08-12 15:16:19,592] (WorksheetCommandHistoryExecutor->executeCommand->99): Command in history: SubmitPythonTransformationCommand
+DEBUG [2022-08-12 15:16:19,592] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: ClinicalDocument
+DEBUG [2022-08-12 15:16:19,592] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: componentOf
+DEBUG [2022-08-12 15:16:19,592] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: encompassingEncounter
+DEBUG [2022-08-12 15:16:19,592] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: effectiveTime
+DEBUG [2022-08-12 15:16:19,592] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: low
+DEBUG [2022-08-12 15:16:19,592] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: value
+DEBUG [2022-08-12 15:16:19,593] (WorksheetCommandHistoryExecutor->executeCommand->118): Executing command: SubmitPythonTransformationCommand
+DEBUG [2022-08-12 15:16:19,593] (SubmitPythonTransformationCommand->doIt->110): SubmitPythonTranformation: HN1927:null
+DEBUG [2022-08-12 15:16:19,593] (PythonTransformationCommand->generateTransformedValues->124): Executing PyTransform def transform(r):
+	return toISODate(getValue("value"))
+
+
+DEBUG [2022-08-12 15:16:19,609] (PythonTransformationCommand->generateTransformedValues->187): transform time 16
+DEBUG [2022-08-12 15:16:19,610] (WorksheetCommandHistoryExecutor->executeCommand->99): Command in history: ExtractConceptsCommand
+DEBUG [2022-08-12 15:16:19,610] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: ClinicalDocument
+DEBUG [2022-08-12 15:16:19,610] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: component
+DEBUG [2022-08-12 15:16:19,610] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: structuredBody
+DEBUG [2022-08-12 15:16:19,610] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: component
+DEBUG [2022-08-12 15:16:19,611] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: section
+DEBUG [2022-08-12 15:16:19,611] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: presc_split
+DEBUG [2022-08-12 15:16:19,611] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: ingredient_mapping
+DEBUG [2022-08-12 15:16:19,613] (WorksheetCommandHistoryExecutor->executeCommand->118): Executing command: ExtractConceptsCommand
+INFO [2022-08-12 15:16:19,614] (SWEBNLPExtractionCommand->sendRequestToSWEB->233): ExtractConceptsCommand starting the execution 
+INFO [2022-08-12 15:16:19,614] (SWEBNLPExtractionCommand->sendRequestToSWEB->234): Total number of http request: 1
+INFO [2022-08-12 15:16:19,850] (SWEBNLPExtractionCommand->sendRequestToSWEB->252): Time to end all http Requests and deSerialize: 0.235sec
+INFO [2022-08-12 15:16:19,852] (SWEBNLPExtractionCommand->doIt->144): ExtractConceptsCommand executed successfully on column: ClinicalDocument > component > structuredBody > component > section > presc_split > ingredient_mapping
+INFO [2022-08-12 15:16:19,852] (SWEBNLPExtractionCommand->doIt->146): list of new created columns: [ingredient_mapping Concepts]
+DEBUG [2022-08-12 15:16:19,852] (WorksheetCommandHistoryExecutor->executeCommand->99): Command in history: ExtractConceptsCommand
+DEBUG [2022-08-12 15:16:19,852] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: ClinicalDocument
+DEBUG [2022-08-12 15:16:19,852] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: component
+DEBUG [2022-08-12 15:16:19,852] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: structuredBody
+DEBUG [2022-08-12 15:16:19,852] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: component
+DEBUG [2022-08-12 15:16:19,852] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: section
+DEBUG [2022-08-12 15:16:19,853] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: presc_split
+DEBUG [2022-08-12 15:16:19,853] (WorksheetCommandHistoryExecutor->normalizeCommandHistoryJsonInput->180): Column being normalized: status
+DEBUG [2022-08-12 15:16:19,853] (WorksheetCommandHistoryExecutor->executeCommand->118): Executing command: ExtractConceptsCommand
+INFO [2022-08-12 15:16:19,853] (SWEBNLPExtractionCommand->sendRequestToSWEB->233): ExtractConceptsCommand starting the execution 
+INFO [2022-08-12 15:16:19,853] (SWEBNLPExtractionCommand->sendRequestToSWEB->234): Total number of http request: 1
+INFO [2022-08-12 15:16:20,008] (SWEBNLPExtractionCommand->sendRequestToSWEB->252): Time to end all http Requests and deSerialize: 0.154sec
+INFO [2022-08-12 15:16:20,009] (SWEBNLPExtractionCommand->doIt->144): ExtractConceptsCommand executed successfully on column: ClinicalDocument > component > structuredBody > component > section > presc_split > status
+INFO [2022-08-12 15:16:20,009] (SWEBNLPExtractionCommand->doIt->146): list of new created columns: [status Concepts]
+DEBUG [2022-08-12 15:16:20,010] (GenericRDFGenerator->generateRDF->151): Generating output for 7137380_small.xml
+DEBUG [2022-08-12 15:16:20,013] (DFSTriplesMapGraphDAGifier->cleanGraph->102): working on root
+DEBUG [2022-08-12 15:16:20,013] (DFSTriplesMapGraphDAGifier->cleanGraph->110): Removing PredicateObjectMap [Predicate [template=<http://knowdive.disi.unitn.it/etype#has_fhir_medicationstatement.medicationreference.reference_GID-641753_Type-641724>], RefObjectMap [http://isi.edu/integration/karma/dev#TriplesMap_72c5bc75-8c0d-4633-83ab-9e00a5935ee3]]
+DEBUG [2022-08-12 15:16:20,013] (DFSTriplesMapGraphDAGifier->cleanGraph->121): Spilling [<http://knowdive.disi.unitn.it/etype#Fhir_medication_GID-641750>] http://isi.edu/integration/karma/dev#TriplesMap_72c5bc75-8c0d-4633-83ab-9e00a5935ee3
+DEBUG [2022-08-12 15:16:20,013] (DFSTriplesMapGraphDAGifier->cleanGraph->102): working on root
+DEBUG [2022-08-12 15:16:20,013] (DFSTriplesMapGraphDAGifier->cleanGraph->110): Removing PredicateObjectMap [Predicate [template=<http://knowdive.disi.unitn.it/etype#has_fhir_medicationstatement.subject.reference_GID-641752_Type-641724>], RefObjectMap [http://isi.edu/integration/karma/dev#TriplesMap_3a19a241-a90d-4672-8dc7-13552623aebe]]
+DEBUG [2022-08-12 15:16:20,013] (DFSTriplesMapGraphDAGifier->cleanGraph->116): Flipping PredicateObjectMap [Predicate [template=<http://knowdive.disi.unitn.it/etype#has_fhir_medicationstatement.subject.reference_GID-641752_Type-641724>], RefObjectMap [http://isi.edu/integration/karma/dev#TriplesMap_3a19a241-a90d-4672-8dc7-13552623aebe]]
+DEBUG [2022-08-12 15:16:20,013] (DFSTriplesMapGraphDAGifier->cleanGraph->121): Spilling [<http://knowdive.disi.unitn.it/etype#Fhir_medicationstatement_GID-641724>] http://isi.edu/integration/karma/dev#TriplesMap_df84b85f-a484-483c-b38a-7fefc64a56ed
+DEBUG [2022-08-12 15:16:20,013] (DFSTriplesMapGraphDAGifier->cleanGraph->89): http://isi.edu/integration/karma/dev#TriplesMap_3a19a241-a90d-4672-8dc7-13552623aebe was already spilled
+DEBUG [2022-08-12 15:16:20,019] (TriplesMapWorkerPlan->generate->154): Processing PredicateObjectMap [Predicate [template=<http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1>], ObjectMap [
+template=<ColumnHNodeId:["ClinicalDocument","recordTarget","patientRole","id","extension"]>,
+rdfLiteralType=null,
+language=null]]
+DEBUG [2022-08-12 15:16:20,020] (TriplesMapWorkerPlan->generate->154): Processing PredicateObjectMap [Predicate [template=<http://knowdive.disi.unitn.it/etype#has_fhir_medicationstatement.subject.reference_GID-641752_Type-641724>], RefObjectMap [http://isi.edu/integration/karma/dev#TriplesMap_3a19a241-a90d-4672-8dc7-13552623aebe]]
+DEBUG [2022-08-12 15:16:20,020] (TriplesMapWorkerPlan->generate->157): Skipping PredicateObjectMap [Predicate [template=<http://knowdive.disi.unitn.it/etype#has_fhir_medicationstatement.subject.reference_GID-641752_Type-641724>], RefObjectMap [http://isi.edu/integration/karma/dev#TriplesMap_3a19a241-a90d-4672-8dc7-13552623aebe]]
+DEBUG [2022-08-12 15:16:20,020] (TriplesMapWorkerPlan->generate->154): Processing PredicateObjectMap [Predicate [template=<http://knowdive.disi.unitn.it/etype#has_fhir_medicationstatement.status_GID-641727_Type-641724>], ObjectMap [
+template=<ColumnHNodeId:["ClinicalDocument","component","structuredBody","component","section","presc_split","status Concepts"]>,
+rdfLiteralType=<http://www.w3.org/2001/XMLSchema#Concept>,
+language=null]]
+DEBUG [2022-08-12 15:16:20,021] (TriplesMapWorkerPlan->generate->154): Processing PredicateObjectMap [Predicate [template=<http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1>], ObjectMap [
+template=<MEDST_><ColumnHNodeId:["ClinicalDocument","component","structuredBody","component","section","presc_split","ingredient_mapping"]>,
+rdfLiteralType=null,
+language=null]]
+DEBUG [2022-08-12 15:16:20,021] (TriplesMapWorkerPlan->generate->154): Processing PredicateObjectMap [Predicate [template=<http://knowdive.disi.unitn.it/etype#has_fhir_medicationstatement.dosage.text_GID-648357_Type-641724>], ObjectMap [
+template=<ColumnHNodeId:["ClinicalDocument","component","structuredBody","component","section","presc_split","Values"]>,
+rdfLiteralType=null,
+language=null]]
+DEBUG [2022-08-12 15:16:20,021] (TriplesMapWorkerPlan->generate->154): Processing PredicateObjectMap [Predicate [template=<http://knowdive.disi.unitn.it/etype#has_fhir_medicationstatement.effectivedatetime_GID-641725_Type-641724>], ObjectMap [
+template=<ColumnHNodeId:["ClinicalDocument","componentOf","encompassingEncounter","effectiveTime","low","isoDate"]>,
+rdfLiteralType=<http://www.w3.org/2001/XMLSchema#dateTime>,
+language=null]]
+DEBUG [2022-08-12 15:16:20,025] (TriplesMapWorkerPlan->generate->154): Processing PredicateObjectMap [Predicate [template=<http://knowdive.disi.unitn.it/etype#has_fhir_medicationstatement.medicationreference.reference_GID-641753_Type-641724>], RefObjectMap [http://isi.edu/integration/karma/dev#TriplesMap_72c5bc75-8c0d-4633-83ab-9e00a5935ee3]]
+DEBUG [2022-08-12 15:16:20,026] (TriplesMapWorkerPlan->generate->157): Skipping PredicateObjectMap [Predicate [template=<http://knowdive.disi.unitn.it/etype#has_fhir_medicationstatement.medicationreference.reference_GID-641753_Type-641724>], RefObjectMap [http://isi.edu/integration/karma/dev#TriplesMap_72c5bc75-8c0d-4633-83ab-9e00a5935ee3]]
+DEBUG [2022-08-12 15:16:20,027] (TriplesMapWorkerPlan->generate->154): Processing PredicateObjectMap [Predicate [template=<http://knowdive.disi.unitn.it/etype#has_fhir_medication.code_GID-641736_Type-641750>], ObjectMap [
+template=<ColumnHNodeId:["ClinicalDocument","component","structuredBody","component","section","presc_split","ingredient_mapping Concepts"]>,
+rdfLiteralType=<http://www.w3.org/2001/XMLSchema#Concept>,
+language=null]]
+DEBUG [2022-08-12 15:16:20,029] (TriplesMapWorkerPlan->generate->154): Processing PredicateObjectMap [Predicate [template=<http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1>], ObjectMap [
+template=<MED_><ColumnHNodeId:["ClinicalDocument","component","structuredBody","component","section","presc_split","ingredient_mapping"]>,
+rdfLiteralType=null,
+language=null]]
+DEBUG [2022-08-12 15:16:20,039] (TriplesMapWorker->call->88): Processing http://isi.edu/integration/karma/dev#TriplesMap_72c5bc75-8c0d-4633-83ab-9e00a5935ee3 e4adf2d:18292329234:-7fe9
+DEBUG [2022-08-12 15:16:20,093] (TriplesMapWorker->call->101): Processed http://isi.edu/integration/karma/dev#TriplesMap_72c5bc75-8c0d-4633-83ab-9e00a5935ee3 e4adf2d:18292329234:-7fe9
+DEBUG [2022-08-12 15:16:20,093] (TriplesMapWorker->call->88): Processing http://isi.edu/integration/karma/dev#TriplesMap_df84b85f-a484-483c-b38a-7fefc64a56ed e4adf2d:18292329234:-7fef
+DEBUG [2022-08-12 15:16:20,240] (TriplesMapWorker->call->101): Processed http://isi.edu/integration/karma/dev#TriplesMap_df84b85f-a484-483c-b38a-7fefc64a56ed e4adf2d:18292329234:-7fef
+DEBUG [2022-08-12 15:16:20,241] (TriplesMapWorker->call->88): Processing http://isi.edu/integration/karma/dev#TriplesMap_3a19a241-a90d-4672-8dc7-13552623aebe e4adf2d:18292329234:-7fe5
+DEBUG [2022-08-12 15:16:20,246] (TriplesMapWorker->call->101): Processed http://isi.edu/integration/karma/dev#TriplesMap_3a19a241-a90d-4672-8dc7-13552623aebe e4adf2d:18292329234:-7fe5
+DEBUG [2022-08-12 15:16:20,247] (N3KR2RMLRDFWriter->flush->164): Flushing writer
+DEBUG [2022-08-12 15:16:20,247] (N3KR2RMLRDFWriter->flush->170): Flushed writer
+DEBUG [2022-08-12 15:16:20,247] (GenericRDFGenerator->generateRDF->157): Generated output for 7137380_small.xml
+DEBUG [2022-08-12 15:16:20,248] (GenericRDFGenerator->generateRDF->169): Generated rdf for 7137380_small.xml
+INFO [2022-08-12 15:16:20,248] (OfflineRdfGenerator->generateRdfFromFile->705): generate rdf from file completed
+INFO [2022-08-12 15:16:20,248] (OfflineRdfGenerator->generateRDF->197): done after 12975
+INFO [2022-08-12 15:16:20,248] (OfflineRdfGenerator->generateRDF->200): RDF published at: Medrdf.n3
+DEBUG [2022-08-12 15:16:20,248] (N3KR2RMLRDFWriter->flush->164): Flushing writer
+DEBUG [2022-08-12 15:16:20,248] (N3KR2RMLRDFWriter->flush->170): Flushed writer
+INFO [2022-08-12 15:16:20,248] (OfflineRdfGenerator->main->162): Time to generate RDF:0.27378333 mins

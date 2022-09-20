@@ -1,0 +1,1564 @@
+<?xml version="1.0"?>
+<!DOCTYPE rdf:RDF [
+  <!ENTITY xsd 'http://www.w3.org/2001/XMLSchema#'>
+  <!ENTITY rdfs 'http://www.w3.org/2000/01/rdf-schema#'>
+  <!ENTITY etype 'http://knowdive.disi.unitn.it/etype#'>
+  <!ENTITY owl 'http://www.w3.org/2002/07/owl#'>
+  <!ENTITY rdf 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>]>
+<rdf:RDF
+    xmlns:rdf="&rdf;"
+    xmlns:etype="&etype;"
+    xmlns:owl="&owl;"
+    xmlns:rdfs="&rdfs;"
+    xmlns:xsd="&xsd;">
+  <rdfs:Datatype rdf:about="&etype;concept">
+    <rdfs:subClassOf rdf:resource="&xsd;long"/>
+  </rdfs:Datatype>
+  <owl:Class rdf:about="&etype;Fhir_condition_GID-641742">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="&etype;Entity_GID-1"/>
+    </rdfs:subClassOf>
+    <etype:isEtype rdf:datatype="&xsd;boolean">true</etype:isEtype>
+    <etype:GID rdf:datatype="&xsd;long">641742</etype:GID>
+  </owl:Class>
+  <owl:Class rdf:about="&etype;Fhir_allergyintolerance_GID-641728">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="&etype;Entity_GID-1"/>
+    </rdfs:subClassOf>
+    <etype:isEtype rdf:datatype="&xsd;boolean">true</etype:isEtype>
+    <etype:GID rdf:datatype="&xsd;long">641728</etype:GID>
+  </owl:Class>
+  <owl:Class rdf:about="&etype;Computer_file_GID-34892">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="&etype;Function_kind_GID-120019"/>
+    </rdfs:subClassOf>
+    <etype:isEtype rdf:datatype="&xsd;boolean">true</etype:isEtype>
+    <etype:GID rdf:datatype="&xsd;long">34892</etype:GID>
+  </owl:Class>
+  <owl:Class rdf:about="&etype;Duration_GID-80582">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="&etype;ComplexType"/>
+    </rdfs:subClassOf>
+    <etype:isEtype rdf:datatype="&xsd;boolean">false</etype:isEtype>
+    <etype:GID rdf:datatype="&xsd;long">80582</etype:GID>
+  </owl:Class>
+  <owl:Class rdf:about="&etype;Living_being_GID-120021">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="&etype;Real_kind_GID-120017"/>
+    </rdfs:subClassOf>
+    <etype:isEtype rdf:datatype="&xsd;boolean">true</etype:isEtype>
+    <etype:GID rdf:datatype="&xsd;long">120021</etype:GID>
+  </owl:Class>
+  <owl:Class rdf:about="&etype;Fhir_medicationrequest_GID-200098">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="&etype;Event_GID-138"/>
+    </rdfs:subClassOf>
+    <etype:isEtype rdf:datatype="&xsd;boolean">true</etype:isEtype>
+    <etype:GID rdf:datatype="&xsd;long">200098</etype:GID>
+  </owl:Class>
+  <owl:Class rdf:about="&etype;Entity_GID-1">
+    <rdfs:subClassOf rdf:resource="&etype;ComplexType"/>
+    <etype:isEtype rdf:datatype="&xsd;boolean">true</etype:isEtype>
+    <etype:GID rdf:datatype="&xsd;long">1</etype:GID>
+  </owl:Class>
+  <owl:Class rdf:about="&etype;IdentifyingSet"/>
+  <owl:Class rdf:about="&etype;Real_kind_GID-120017">
+    <rdfs:subClassOf rdf:resource="&etype;Entity_GID-1"/>
+    <etype:isEtype rdf:datatype="&xsd;boolean">true</etype:isEtype>
+    <etype:GID rdf:datatype="&xsd;long">120017</etype:GID>
+  </owl:Class>
+  <owl:Class rdf:about="&etype;Organization_GID-43544">
+    <etype:hasIdentifyingSet>
+      <etype:Organization_GID-43544 rdf:about="&etype;IdentifyingSet_IS1-105">
+        <etype:hasIdProperty>Location_GID-132</etype:hasIdProperty>
+        <etype:hasIdProperty>Class_GID-43482</etype:hasIdProperty>
+        <etype:hasIdProperty>Name_GID-2</etype:hasIdProperty>
+      </etype:Organization_GID-43544>
+    </etype:hasIdentifyingSet>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="&etype;Function_kind_GID-120019"/>
+    </rdfs:subClassOf>
+    <etype:isEtype rdf:datatype="&xsd;boolean">true</etype:isEtype>
+    <etype:GID rdf:datatype="&xsd;long">43544</etype:GID>
+  </owl:Class>
+  <owl:Class rdf:about="&etype;Structure_GID-24069">
+    <rdfs:subClassOf rdf:resource="&etype;ComplexType"/>
+    <etype:isEtype rdf:datatype="&xsd;boolean">false</etype:isEtype>
+    <etype:GID rdf:datatype="&xsd;long">24069</etype:GID>
+  </owl:Class>
+  <owl:Class rdf:about="&etype;Name_GID-2">
+    <rdfs:subClassOf rdf:resource="&etype;ComplexType"/>
+    <etype:isEtype rdf:datatype="&xsd;boolean">false</etype:isEtype>
+    <etype:GID rdf:datatype="&xsd;long">2</etype:GID>
+  </owl:Class>
+  <owl:Class rdf:about="&etype;Moment_GID-81213">
+    <rdfs:subClassOf rdf:resource="&etype;ComplexType"/>
+    <etype:isEtype rdf:datatype="&xsd;boolean">false</etype:isEtype>
+    <etype:GID rdf:datatype="&xsd;long">81213</etype:GID>
+  </owl:Class>
+  <owl:Class rdf:about="&etype;Action_kind_GID-120018">
+    <rdfs:subClassOf rdf:resource="&etype;Entity_GID-1"/>
+    <etype:isEtype rdf:datatype="&xsd;boolean">true</etype:isEtype>
+    <etype:GID rdf:datatype="&xsd;long">120018</etype:GID>
+  </owl:Class>
+  <owl:Class rdf:about="&etype;Fhir_careplan_GID-698316">
+    <rdfs:subClassOf rdf:resource="&etype;Entity_GID-1"/>
+    <etype:isEtype rdf:datatype="&xsd;boolean">true</etype:isEtype>
+    <etype:GID rdf:datatype="&xsd;long">698316</etype:GID>
+  </owl:Class>
+  <owl:Class rdf:about="&etype;Fhir_observation_GID-200056">
+    <rdfs:subClassOf rdf:resource="&etype;Entity_GID-1"/>
+    <etype:isEtype rdf:datatype="&xsd;boolean">true</etype:isEtype>
+    <etype:GID rdf:datatype="&xsd;long">200056</etype:GID>
+  </owl:Class>
+  <owl:Class rdf:about="&etype;Fhir_medicationstatement_GID-641724">
+    <rdfs:subClassOf rdf:resource="&etype;Entity_GID-1"/>
+    <etype:isEtype rdf:datatype="&xsd;boolean">true</etype:isEtype>
+    <etype:GID rdf:datatype="&xsd;long">641724</etype:GID>
+  </owl:Class>
+  <owl:Class rdf:about="&etype;Fhir_medication_GID-641750">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="&etype;Event_GID-138"/>
+    </rdfs:subClassOf>
+    <etype:isEtype rdf:datatype="&xsd;boolean">true</etype:isEtype>
+    <etype:GID rdf:datatype="&xsd;long">641750</etype:GID>
+  </owl:Class>
+  <owl:Class rdf:about="&etype;Fhir_diagnosticreport_GID-200115">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="&etype;Event_GID-138"/>
+    </rdfs:subClassOf>
+    <etype:isEtype rdf:datatype="&xsd;boolean">true</etype:isEtype>
+    <etype:GID rdf:datatype="&xsd;long">200115</etype:GID>
+  </owl:Class>
+  <owl:Class rdf:about="&etype;Creation_GID-16921">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="&etype;Function_kind_GID-120019"/>
+    </rdfs:subClassOf>
+    <etype:isEtype rdf:datatype="&xsd;boolean">true</etype:isEtype>
+    <etype:GID rdf:datatype="&xsd;long">16921</etype:GID>
+  </owl:Class>
+  <owl:Class rdf:about="&etype;Fhir_encounter_GID-641751">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="&etype;Event_GID-138"/>
+    </rdfs:subClassOf>
+    <etype:isEtype rdf:datatype="&xsd;boolean">true</etype:isEtype>
+    <etype:GID rdf:datatype="&xsd;long">641751</etype:GID>
+  </owl:Class>
+  <owl:Class rdf:about="&etype;SemanticString">
+    <rdfs:subClassOf rdf:resource="&etype;ComplexType"/>
+  </owl:Class>
+  <owl:Class rdf:about="&etype;Fhir_media_GID-648392">
+    <rdfs:subClassOf rdf:resource="&etype;Entity_GID-1"/>
+    <etype:isEtype rdf:datatype="&xsd;boolean">true</etype:isEtype>
+    <etype:GID rdf:datatype="&xsd;long">648392</etype:GID>
+  </owl:Class>
+  <owl:Class rdf:about="&etype;Person_name_GID-117693">
+    <rdfs:subClassOf rdf:resource="&etype;Name_GID-2"/>
+    <etype:isEtype rdf:datatype="&xsd;boolean">false</etype:isEtype>
+    <etype:GID rdf:datatype="&xsd;long">117693</etype:GID>
+  </owl:Class>
+  <owl:Class rdf:about="&etype;Fhir_composition_GID-641682">
+    <rdfs:subClassOf rdf:resource="&etype;Creation_GID-16921"/>
+    <etype:isEtype rdf:datatype="&xsd;boolean">true</etype:isEtype>
+    <etype:GID rdf:datatype="&xsd;long">641682</etype:GID>
+  </owl:Class>
+  <owl:Class rdf:about="&etype;Fhir_organization_GID-641802">
+    <rdfs:subClassOf rdf:resource="&etype;Organization_GID-43544"/>
+    <etype:isEtype rdf:datatype="&xsd;boolean">true</etype:isEtype>
+    <etype:GID rdf:datatype="&xsd;long">641802</etype:GID>
+  </owl:Class>
+  <owl:Class rdf:about="&etype;Location_GID-132">
+    <etype:hasIdentifyingSet>
+      <etype:Location_GID-132 rdf:about="&etype;IdentifyingSet_IS1-103">
+        <etype:hasIdProperty>Longitude_GID-46270</etype:hasIdProperty>
+        <etype:hasIdProperty>Latitude_GID-46263</etype:hasIdProperty>
+        <etype:hasIdProperty>Part_meronym_GID-22</etype:hasIdProperty>
+        <etype:hasIdProperty>Class_GID-43482</etype:hasIdProperty>
+        <etype:hasIdProperty>Name_GID-2</etype:hasIdProperty>
+      </etype:Location_GID-132>
+    </etype:hasIdentifyingSet>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="&etype;Function_kind_GID-120019"/>
+    </rdfs:subClassOf>
+    <etype:isEtype rdf:datatype="&xsd;boolean">true</etype:isEtype>
+    <etype:GID rdf:datatype="&xsd;long">132</etype:GID>
+  </owl:Class>
+  <owl:Class rdf:about="&etype;Metadata_GID-45663">
+    <rdfs:subClassOf rdf:resource="&etype;ComplexType"/>
+    <etype:isEtype rdf:datatype="&xsd;boolean">false</etype:isEtype>
+    <etype:GID rdf:datatype="&xsd;long">45663</etype:GID>
+  </owl:Class>
+  <owl:Class rdf:about="&etype;Person_GID-118">
+    <etype:hasIdentifyingSet>
+      <etype:Person_GID-118 rdf:about="&etype;IdentifyingSet_IS1-102">
+        <etype:hasIdProperty>Name_GID-2</etype:hasIdProperty>
+        <etype:hasIdProperty>Class_GID-43482</etype:hasIdProperty>
+        <etype:hasIdProperty>Electronic_mail_GID-33745</etype:hasIdProperty>
+      </etype:Person_GID-118>
+    </etype:hasIdentifyingSet>
+    <rdfs:subClassOf rdf:resource="&etype;Living_being_GID-120021"/>
+    <etype:isEtype rdf:datatype="&xsd;boolean">true</etype:isEtype>
+    <etype:GID rdf:datatype="&xsd;long">118</etype:GID>
+  </owl:Class>
+  <owl:Class rdf:about="&etype;Context_GID-120016">
+    <rdfs:subClassOf rdf:resource="&etype;Entity_GID-1"/>
+    <etype:isEtype rdf:datatype="&xsd;boolean">true</etype:isEtype>
+    <etype:GID rdf:datatype="&xsd;long">120016</etype:GID>
+  </owl:Class>
+  <owl:Class rdf:about="&etype;Function_kind_GID-120019">
+    <rdfs:subClassOf rdf:resource="&etype;Entity_GID-1"/>
+    <etype:isEtype rdf:datatype="&xsd;boolean">true</etype:isEtype>
+    <etype:GID rdf:datatype="&xsd;long">120019</etype:GID>
+  </owl:Class>
+  <owl:Class rdf:about="&etype;Patient_GID-55936">
+    <rdfs:subClassOf rdf:resource="&etype;Person_GID-118"/>
+    <etype:isEtype rdf:datatype="&xsd;boolean">true</etype:isEtype>
+    <etype:GID rdf:datatype="&xsd;long">55936</etype:GID>
+  </owl:Class>
+  <owl:Class rdf:about="&etype;Fhir_practitioner_GID-641678">
+    <rdfs:subClassOf rdf:resource="&etype;Person_GID-118"/>
+    <etype:isEtype rdf:datatype="&xsd;boolean">true</etype:isEtype>
+    <etype:GID rdf:datatype="&xsd;long">641678</etype:GID>
+  </owl:Class>
+  <owl:Class rdf:about="&etype;NLString">
+    <rdfs:subClassOf rdf:resource="&etype;ComplexType"/>
+  </owl:Class>
+  <owl:Class rdf:about="&etype;Event_GID-138">
+    <etype:hasIdentifyingSet>
+      <etype:Event_GID-138 rdf:about="&etype;IdentifyingSet_IS1-104">
+        <etype:hasIdProperty>End_GID-81330</etype:hasIdProperty>
+        <etype:hasIdProperty>Beginning_GID-81324</etype:hasIdProperty>
+        <etype:hasIdProperty>Class_GID-43482</etype:hasIdProperty>
+        <etype:hasIdProperty>Name_GID-2</etype:hasIdProperty>
+      </etype:Event_GID-138>
+    </etype:hasIdentifyingSet>
+    <rdfs:subClassOf rdf:resource="&etype;Context_GID-120016"/>
+    <etype:isEtype rdf:datatype="&xsd;boolean">true</etype:isEtype>
+    <etype:GID rdf:datatype="&xsd;long">138</etype:GID>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="&etype;has_fhir_diagnosticreport.performer.reference_GID-200123_Type-200115">
+    <rdfs:range rdf:resource="&etype;Entity_GID-1"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_diagnosticreport_GID-200115"/>
+    <etype:GID rdf:datatype="&xsd;long">200123</etype:GID>
+    <rdfs:subPropertyOf>
+      <owl:ObjectProperty rdf:about="&etype;relationalAttribute"/>
+    </rdfs:subPropertyOf>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;GID">
+    <rdf:type rdf:resource="&owl;AnnotationProperty"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_location_GID-132_Type-138">
+    <rdfs:range rdf:resource="&etype;Function_kind_GID-120019"/>
+    <rdfs:domain rdf:resource="&etype;Event_GID-138"/>
+    <etype:GID rdf:datatype="&xsd;long">132</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_subject_GID-35361_Type-16921">
+    <rdfs:range rdf:resource="&etype;SemanticString"/>
+    <rdfs:domain rdf:resource="&etype;Creation_GID-16921"/>
+    <etype:GID rdf:datatype="&xsd;long">35361</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_fhir_diagnosticreport.encounter.reference_GID-641789_Type-200115">
+    <rdfs:range rdf:resource="&etype;Entity_GID-1"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_diagnosticreport_GID-200115"/>
+    <etype:GID rdf:datatype="&xsd;long">641789</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_fhir_allergyintolerance.reaction.manifestation_GID-641731_Type-641728">
+    <rdfs:range rdf:resource="&etype;Entity_GID-1"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_allergyintolerance_GID-641728"/>
+    <etype:GID rdf:datatype="&xsd;long">641731</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_fhir_encounter.participant.individual.reference_GID-641739_Type-641751">
+    <rdfs:range rdf:resource="&etype;Person_GID-118"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_encounter_GID-641751"/>
+    <etype:GID rdf:datatype="&xsd;long">641739</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_middle_name_GID-34005_Type-117693">
+    <rdfs:range rdf:resource="&etype;NLString"/>
+    <rdfs:domain rdf:resource="&etype;Person_name_GID-117693"/>
+    <etype:GID rdf:datatype="&xsd;long">34005</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_fhir_observation.meta_GID-641745_Type-200056">
+    <rdfs:range rdf:resource="&etype;Metadata_GID-45663"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_observation_GID-200056"/>
+    <etype:GID rdf:datatype="&xsd;long">641745</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_contributor_GID-53267_Type-16921">
+    <rdfs:range rdf:resource="&etype;Person_GID-118"/>
+    <rdfs:domain rdf:resource="&etype;Creation_GID-16921"/>
+    <etype:GID rdf:datatype="&xsd;long">53267</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_creator_GID-51275_Type-16921">
+    <rdfs:range rdf:resource="&etype;Person_GID-118"/>
+    <rdfs:domain rdf:resource="&etype;Creation_GID-16921"/>
+    <etype:GID rdf:datatype="&xsd;long">51275</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_fhir_diagnosticreport.result.reference_GID-200125_Type-200115">
+    <rdfs:range rdf:resource="&etype;Entity_GID-1"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_diagnosticreport_GID-200115"/>
+    <etype:GID rdf:datatype="&xsd;long">200125</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_creator_GID-51275_Type-34892">
+    <rdfs:range rdf:resource="&etype;Person_GID-118"/>
+    <rdfs:domain rdf:resource="&etype;Computer_file_GID-34892"/>
+    <etype:GID rdf:datatype="&xsd;long">51275</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_fhir_observation.performer.reference_GID-641681_Type-200056">
+    <rdfs:range rdf:resource="&etype;ComplexType"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_observation_GID-200056"/>
+    <etype:GID rdf:datatype="&xsd;long">641681</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_fhir_allergyintolerance.patient.reference_GID-698303_Type-641728">
+    <rdfs:range rdf:resource="&etype;ComplexType"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_allergyintolerance_GID-641728"/>
+    <etype:GID rdf:datatype="&xsd;long">698303</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_fhir_condition.recorder.reference_GID-641738_Type-641742">
+    <rdfs:range rdf:resource="&etype;Person_GID-118"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_condition_GID-641742"/>
+    <etype:GID rdf:datatype="&xsd;long">641738</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_fhir_composition.attester.party_GID-641691_Type-641682">
+    <rdfs:range rdf:resource="&etype;Person_GID-118"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_composition_GID-641682"/>
+    <etype:GID rdf:datatype="&xsd;long">641691</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_fhir_composition.encounter.reference_GID-641748_Type-641682">
+    <rdfs:range rdf:resource="&etype;Person_GID-118"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_composition_GID-641682"/>
+    <etype:GID rdf:datatype="&xsd;long">641748</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_key_word_GID-33805_Type-16921">
+    <rdfs:range rdf:resource="&etype;SemanticString"/>
+    <rdfs:domain rdf:resource="&etype;Creation_GID-16921"/>
+    <etype:GID rdf:datatype="&xsd;long">33805</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_end_GID-81330_Type-1">
+    <rdfs:range rdf:resource="&etype;Entity_GID-1"/>
+    <rdfs:domain rdf:resource="&etype;Entity_GID-1"/>
+    <etype:GID rdf:datatype="&xsd;long">81330</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_birthday_GID-81257_Type-118">
+    <rdfs:range rdf:resource="&etype;Entity_GID-1"/>
+    <rdfs:domain rdf:resource="&etype;Person_GID-118"/>
+    <etype:GID rdf:datatype="&xsd;long">81257</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_fhir_composition.author.reference_GID-641746_Type-641682">
+    <rdfs:range rdf:resource="&etype;Person_GID-118"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_composition_GID-641682"/>
+    <etype:GID rdf:datatype="&xsd;long">641746</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_fhir_diagnosticreport.resultsinterpreter.reference_GID-200124_Type-200115">
+    <rdfs:range rdf:resource="&etype;Entity_GID-1"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_diagnosticreport_GID-200115"/>
+    <etype:GID rdf:datatype="&xsd;long">200124</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_fhir_careplan.subject.reference_GID-698310_Type-698316">
+    <rdfs:range rdf:resource="&etype;ComplexType"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_careplan_GID-698316"/>
+    <etype:GID rdf:datatype="&xsd;long">698310</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_description_GID-3_Type-1">
+    <rdfs:range rdf:resource="&etype;SemanticString"/>
+    <rdfs:domain rdf:resource="&etype;Entity_GID-1"/>
+    <etype:GID rdf:datatype="&xsd;long">3</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_location_GID-132_Type-43544">
+    <rdfs:range rdf:resource="&etype;Function_kind_GID-120019"/>
+    <rdfs:domain rdf:resource="&etype;Organization_GID-43544"/>
+    <etype:GID rdf:datatype="&xsd;long">132</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_fhir_condition.subject.reference_GID-641737_Type-641742">
+    <rdfs:range rdf:resource="&etype;Person_GID-118"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_condition_GID-641742"/>
+    <etype:GID rdf:datatype="&xsd;long">641737</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_first_name_GID-34006_Type-117693">
+    <rdfs:range rdf:resource="&etype;NLString"/>
+    <rdfs:domain rdf:resource="&etype;Person_name_GID-117693"/>
+    <etype:GID rdf:datatype="&xsd;long">34006</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_phase_GID-81455_Type-138">
+    <rdfs:range rdf:resource="&etype;Entity_GID-1"/>
+    <rdfs:domain rdf:resource="&etype;Event_GID-138"/>
+    <etype:GID rdf:datatype="&xsd;long">81455</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;hasIdProperty">
+    <rdfs:domain rdf:resource="&etype;IdentifyingSet"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_fhir_medicationrequest.subject.reference_GID-200131_Type-200098">
+    <rdfs:range rdf:resource="&etype;Person_GID-118"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_medicationrequest_GID-200098"/>
+    <etype:GID rdf:datatype="&xsd;long">200131</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_time_GID-81346_Type-45663">
+    <rdfs:range rdf:resource="&etype;Entity_GID-1"/>
+    <rdfs:domain rdf:resource="&etype;Metadata_GID-45663"/>
+    <etype:GID rdf:datatype="&xsd;long">81346</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_fhir_allergyintolerance.meta_GID-641707_Type-641728">
+    <rdfs:range rdf:resource="&etype;Metadata_GID-45663"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_allergyintolerance_GID-641728"/>
+    <etype:GID rdf:datatype="&xsd;long">641707</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_surname_GID-34003_Type-117693">
+    <rdfs:range rdf:resource="&etype;NLString"/>
+    <rdfs:domain rdf:resource="&etype;Person_name_GID-117693"/>
+    <etype:GID rdf:datatype="&xsd;long">34003</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_fhir_composition.encounter_GID-641692_Type-641682">
+    <rdfs:range rdf:resource="&etype;Event_GID-138"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_composition_GID-641682"/>
+    <etype:GID rdf:datatype="&xsd;long">641692</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_fhir_media.operator.reference_GID-648387_Type-648392">
+    <rdfs:range rdf:resource="&etype;ComplexType"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_media_GID-648392"/>
+    <etype:GID rdf:datatype="&xsd;long">648387</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_name_GID-2_Type-2">
+    <rdfs:range rdf:resource="&etype;NLString"/>
+    <rdfs:domain rdf:resource="&etype;Name_GID-2"/>
+    <etype:GID rdf:datatype="&xsd;long">2</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_date_of_publication_GID-117691_Type-34892">
+    <rdfs:range rdf:resource="&etype;Entity_GID-1"/>
+    <rdfs:domain rdf:resource="&etype;Computer_file_GID-34892"/>
+    <etype:GID rdf:datatype="&xsd;long">117691</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_fhir_composition.attester.party.reference_GID-641747_Type-641682">
+    <rdfs:range rdf:resource="&etype;Person_GID-118"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_composition_GID-641682"/>
+    <etype:GID rdf:datatype="&xsd;long">641747</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_fhir_composition.subject.reference_GID-641749_Type-641682">
+    <rdfs:range rdf:resource="&etype;Person_GID-118"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_composition_GID-641682"/>
+    <etype:GID rdf:datatype="&xsd;long">641749</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_fhir_medicationrequest.requester.reference_GID-200101_Type-200098">
+    <rdfs:range rdf:resource="&etype;Entity_GID-1"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_medicationrequest_GID-200098"/>
+    <etype:GID rdf:datatype="&xsd;long">200101</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_fhir_careplan.author.reference_GID-698315_Type-698316">
+    <rdfs:range rdf:resource="&etype;ComplexType"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_careplan_GID-698316"/>
+    <etype:GID rdf:datatype="&xsd;long">698315</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_fhir_media.subject.reference_GID-648386_Type-648392">
+    <rdfs:range rdf:resource="&etype;ComplexType"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_media_GID-648392"/>
+    <etype:GID rdf:datatype="&xsd;long">648386</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_fhir_medicationstatement.meta_GID-641694_Type-641724">
+    <rdfs:range rdf:resource="&etype;Metadata_GID-45663"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_medicationstatement_GID-641724"/>
+    <etype:GID rdf:datatype="&xsd;long">641694</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_fhir_diagnosticreport.subject.reference_GID-200121_Type-200115">
+    <rdfs:range rdf:resource="&etype;Person_GID-118"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_diagnosticreport_GID-200115"/>
+    <etype:GID rdf:datatype="&xsd;long">200121</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_fhir_careplan.encounter.reference_GID-698311_Type-698316">
+    <rdfs:range rdf:resource="&etype;ComplexType"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_careplan_GID-698316"/>
+    <etype:GID rdf:datatype="&xsd;long">698311</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_beginning_GID-81324_Type-1">
+    <rdfs:range rdf:resource="&etype;Entity_GID-1"/>
+    <rdfs:domain rdf:resource="&etype;Entity_GID-1"/>
+    <etype:GID rdf:datatype="&xsd;long">81324</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_fhir_medicationstatement.medicationreference.reference_GID-641753_Type-641724">
+    <rdfs:range rdf:resource="&etype;Event_GID-138"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_medicationstatement_GID-641724"/>
+    <etype:GID rdf:datatype="&xsd;long">641753</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_fhir_composition.subject_GID-641693_Type-641682">
+    <rdfs:range rdf:resource="&etype;Person_GID-118"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_composition_GID-641682"/>
+    <etype:GID rdf:datatype="&xsd;long">641693</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_fhir_encounter.subject.reference_GID-641788_Type-641751">
+    <rdfs:range rdf:resource="&etype;Person_GID-118"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_encounter_GID-641751"/>
+    <etype:GID rdf:datatype="&xsd;long">641788</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_fhir_observation.subject.reference_GID-200093_Type-200056">
+    <rdfs:range rdf:resource="&etype;Person_GID-118"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_observation_GID-200056"/>
+    <etype:GID rdf:datatype="&xsd;long">200093</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_date_of_death_GID-118224_Type-118">
+    <rdfs:range rdf:resource="&etype;Entity_GID-1"/>
+    <rdfs:domain rdf:resource="&etype;Person_GID-118"/>
+    <etype:GID rdf:datatype="&xsd;long">118224</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_title_GID-34045_Type-16921">
+    <rdfs:range rdf:resource="&etype;NLString"/>
+    <rdfs:domain rdf:resource="&etype;Creation_GID-16921"/>
+    <etype:GID rdf:datatype="&xsd;long">34045</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_name_GID-2_Type-1">
+    <rdfs:range rdf:resource="&etype;Entity_GID-1"/>
+    <rdfs:domain rdf:resource="&etype;Entity_GID-1"/>
+    <etype:GID rdf:datatype="&xsd;long">2</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_fhir_medicationrequest.medicationreference.reference_GID-648373_Type-200098">
+    <rdfs:range rdf:resource="&etype;Entity_GID-1"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_medicationrequest_GID-200098"/>
+    <etype:GID rdf:datatype="&xsd;long">648373</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_fhir_encounter.reasonreference.reference_GID-698301_Type-641751">
+    <rdfs:range rdf:resource="&etype;ComplexType"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_encounter_GID-641751"/>
+    <etype:GID rdf:datatype="&xsd;long">698301</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;hasIdentifyingSet">
+    <rdfs:range rdf:resource="&etype;IdentifyingSet"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_fhir_diagnosticreport.media.link.reference_GID-648394_Type-200115">
+    <rdfs:range rdf:resource="&etype;ComplexType"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_diagnosticreport_GID-200115"/>
+    <etype:GID rdf:datatype="&xsd;long">648394</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_place_of_death_GID-118225_Type-118">
+    <rdfs:range rdf:resource="&etype;Location_GID-132"/>
+    <rdfs:domain rdf:resource="&etype;Person_GID-118"/>
+    <etype:GID rdf:datatype="&xsd;long">118225</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_duration_GID-80582_Type-1">
+    <rdfs:range rdf:resource="&etype;Entity_GID-1"/>
+    <rdfs:domain rdf:resource="&etype;Entity_GID-1"/>
+    <etype:GID rdf:datatype="&xsd;long">80582</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_birthplace_GID-45896_Type-118">
+    <rdfs:range rdf:resource="&etype;Location_GID-132"/>
+    <rdfs:domain rdf:resource="&etype;Person_GID-118"/>
+    <etype:GID rdf:datatype="&xsd;long">45896</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_birthplace_GID-45897_Type-45663">
+    <rdfs:range rdf:resource="&etype;Location_GID-132"/>
+    <rdfs:domain rdf:resource="&etype;Metadata_GID-45663"/>
+    <etype:GID rdf:datatype="&xsd;long">45897</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_fhir_medicationstatement.subject.reference_GID-641752_Type-641724">
+    <rdfs:range rdf:resource="&etype;Person_GID-118"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_medicationstatement_GID-641724"/>
+    <etype:GID rdf:datatype="&xsd;long">641752</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_fhir_patient.generalpractitioner.reference_GID-641801_Type-55936">
+    <rdfs:range rdf:resource="&etype;Person_GID-118"/>
+    <rdfs:domain rdf:resource="&etype;Patient_GID-55936"/>
+    <etype:GID rdf:datatype="&xsd;long">641801</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_fhir_encounter.diagnosis.condition.reference_GID-641741_Type-641751">
+    <rdfs:range rdf:resource="&etype;Entity_GID-1"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_encounter_GID-641751"/>
+    <etype:GID rdf:datatype="&xsd;long">641741</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_outline_GID-34682_Type-16921">
+    <rdfs:range rdf:resource="&etype;SemanticString"/>
+    <rdfs:domain rdf:resource="&etype;Creation_GID-16921"/>
+    <etype:GID rdf:datatype="&xsd;long">34682</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_participant_GID-55912_Type-138">
+    <rdfs:range rdf:resource="&etype;Person_GID-118"/>
+    <rdfs:domain rdf:resource="&etype;Event_GID-138"/>
+    <etype:GID rdf:datatype="&xsd;long">55912</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="&etype;has_part_meronym_GID-22_Type-1">
+    <rdfs:range rdf:resource="&etype;Entity_GID-1"/>
+    <rdfs:domain rdf:resource="&etype;Entity_GID-1"/>
+    <etype:GID rdf:datatype="&xsd;long">22</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;relationalAttribute"/>
+  </owl:ObjectProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_medicationrequest.status_GID-641659_Type-200098">
+    <rdfs:range rdf:resource="&etype;concept"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_medicationrequest_GID-200098"/>
+    <etype:GID rdf:datatype="&xsd;long">641659</etype:GID>
+    <rdfs:subPropertyOf>
+      <owl:DatatypeProperty rdf:about="&etype;datatypeAttribute"/>
+    </rdfs:subPropertyOf>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_medication.amount.denominator.system_GID-648370_Type-641750">
+    <rdfs:range rdf:resource="&xsd;string"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_medication_GID-641750"/>
+    <etype:GID rdf:datatype="&xsd;long">648370</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_observation.note.text_GID-698306_Type-200056">
+    <rdfs:range rdf:resource="&xsd;string"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_observation_GID-200056"/>
+    <etype:GID rdf:datatype="&xsd;long">698306</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_encounter.period.end_GID-641715_Type-641751">
+    <rdfs:range rdf:resource="&xsd;dateTime"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_encounter_GID-641751"/>
+    <etype:GID rdf:datatype="&xsd;long">641715</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_observation.referencerange.low.value_GID-641679_Type-200056">
+    <rdfs:range rdf:resource="&xsd;string"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_observation_GID-200056"/>
+    <etype:GID rdf:datatype="&xsd;long">641679</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_composition.type_GID-641684_Type-641682">
+    <rdfs:range rdf:resource="&etype;concept"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_composition_GID-641682"/>
+    <etype:GID rdf:datatype="&xsd;long">641684</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_observation.status_GID-200080_Type-200056">
+    <rdfs:range rdf:resource="&etype;concept"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_observation_GID-200056"/>
+    <etype:GID rdf:datatype="&xsd;long">200080</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_diagnosticreport.conclusion_GID-698307_Type-200115">
+    <rdfs:range rdf:resource="&xsd;string"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_diagnosticreport_GID-200115"/>
+    <etype:GID rdf:datatype="&xsd;long">698307</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_condition.code_GID-641702_Type-641742">
+    <rdfs:range rdf:resource="&etype;concept"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_condition_GID-641742"/>
+    <etype:GID rdf:datatype="&xsd;long">641702</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;hasSourceString">
+    <rdfs:range rdf:resource="&xsd;string"/>
+    <rdfs:domain rdf:resource="&etype;SemanticString"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_encounter.hospitalization.dischargedisposition_GID-641716_Type-641751">
+    <rdfs:range rdf:resource="&etype;concept"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_encounter_GID-641751"/>
+    <etype:GID rdf:datatype="&xsd;long">641716</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_context_property_GID-120032_Type-120016">
+    <rdfs:range rdf:resource="&etype;concept"/>
+    <rdfs:domain rdf:resource="&etype;Context_GID-120016"/>
+    <etype:GID rdf:datatype="&xsd;long">120032</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_object_property_GID-120033_Type-200056">
+    <rdfs:range rdf:resource="&etype;concept"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_observation_GID-200056"/>
+    <etype:GID rdf:datatype="&xsd;long">120033</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_media.content.contenttype_GID-648388_Type-648392">
+    <rdfs:range rdf:resource="&xsd;string"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_media_GID-648392"/>
+    <etype:GID rdf:datatype="&xsd;long">648388</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_practitioner.qualification.code_GID-641677_Type-641678">
+    <rdfs:range rdf:resource="&etype;concept"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_practitioner_GID-641678"/>
+    <etype:GID rdf:datatype="&xsd;long">641677</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_function_property_GID-120037_Type-120019">
+    <rdfs:range rdf:resource="&etype;concept"/>
+    <rdfs:domain rdf:resource="&etype;Function_kind_GID-120019"/>
+    <etype:GID rdf:datatype="&xsd;long">120037</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_patient.deceaseddatetime_GID-200017_Type-55936">
+    <rdfs:range rdf:resource="&xsd;dateTime"/>
+    <rdfs:domain rdf:resource="&etype;Patient_GID-55936"/>
+    <etype:GID rdf:datatype="&xsd;long">200017</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_careplan.intent_GID-698312_Type-698316">
+    <rdfs:range rdf:resource="&xsd;string"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_careplan_GID-698316"/>
+    <etype:GID rdf:datatype="&xsd;long">698312</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_biological_property_GID-120034_Type-120021">
+    <rdfs:range rdf:resource="&etype;concept"/>
+    <rdfs:domain rdf:resource="&etype;Living_being_GID-120021"/>
+    <etype:GID rdf:datatype="&xsd;long">120034</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_medication.amount.numerator.value_GID-648364_Type-641750">
+    <rdfs:range rdf:resource="&xsd;int"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_medication_GID-641750"/>
+    <etype:GID rdf:datatype="&xsd;long">648364</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_medicationrequest.dosageinstruction.text_GID-648372_Type-200098">
+    <rdfs:range rdf:resource="&xsd;string"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_medicationrequest_GID-200098"/>
+    <etype:GID rdf:datatype="&xsd;long">648372</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_allergyintolerance.category_GID-641709_Type-641728">
+    <rdfs:range rdf:resource="&etype;concept"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_allergyintolerance_GID-641728"/>
+    <etype:GID rdf:datatype="&xsd;long">641709</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_medicationstatement.dosage.timing.repeat.periodunit_GID-648360_Type-641724">
+    <rdfs:range rdf:resource="&xsd;string"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_medicationstatement_GID-641724"/>
+    <etype:GID rdf:datatype="&xsd;long">648360</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_medicationstatement.dosage.timing.repeat.timeofday_GID-648361_Type-641724">
+    <rdfs:range rdf:resource="&xsd;dateTime"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_medicationstatement_GID-641724"/>
+    <etype:GID rdf:datatype="&xsd;long">648361</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_medicationstatement.dosage.text_GID-648357_Type-641724">
+    <rdfs:range rdf:resource="&xsd;string"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_medicationstatement_GID-641724"/>
+    <etype:GID rdf:datatype="&xsd;long">648357</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_allergyintolerance.onsetdatetime_GID-641730_Type-641728">
+    <rdfs:range rdf:resource="&xsd;dateTime"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_allergyintolerance_GID-641728"/>
+    <etype:GID rdf:datatype="&xsd;long">641730</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_practitioner.address.line_GID-641671_Type-641678">
+    <rdfs:range rdf:resource="&xsd;string"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_practitioner_GID-641678"/>
+    <etype:GID rdf:datatype="&xsd;long">641671</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_diagnosticreport.status_GID-200118_Type-200115">
+    <rdfs:range rdf:resource="&etype;concept"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_diagnosticreport_GID-200115"/>
+    <etype:GID rdf:datatype="&xsd;long">200118</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_composition.date_GID-641686_Type-641682">
+    <rdfs:range rdf:resource="&xsd;dateTime"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_composition_GID-641682"/>
+    <etype:GID rdf:datatype="&xsd;long">641686</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_encounter.period.start_GID-641714_Type-641751">
+    <rdfs:range rdf:resource="&xsd;dateTime"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_encounter_GID-641751"/>
+    <etype:GID rdf:datatype="&xsd;long">641714</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_media.content.data_GID-648389_Type-648392">
+    <rdfs:range rdf:resource="&xsd;string"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_media_GID-648392"/>
+    <etype:GID rdf:datatype="&xsd;long">648389</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_medicationstatement.dosage.route_GID-648362_Type-641724">
+    <rdfs:range rdf:resource="&etype;concept"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_medicationstatement_GID-641724"/>
+    <etype:GID rdf:datatype="&xsd;long">648362</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_medicationstatement.dosage.timing.repeat.period_GID-648359_Type-641724">
+    <rdfs:range rdf:resource="&xsd;string"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_medicationstatement_GID-641724"/>
+    <etype:GID rdf:datatype="&xsd;long">648359</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_medicationstatement.dosage.timing.repeat.frequency_GID-648358_Type-641724">
+    <rdfs:range rdf:resource="&xsd;string"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_medicationstatement_GID-641724"/>
+    <etype:GID rdf:datatype="&xsd;long">648358</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_diagnosticreport.text_GID-698304_Type-200115">
+    <rdfs:range rdf:resource="&xsd;string"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_diagnosticreport_GID-200115"/>
+    <etype:GID rdf:datatype="&xsd;long">698304</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_careplan.description_GID-698317_Type-698316">
+    <rdfs:range rdf:resource="&xsd;string"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_careplan_GID-698316"/>
+    <etype:GID rdf:datatype="&xsd;long">698317</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_encounter.status_GID-641712_Type-641751">
+    <rdfs:range rdf:resource="&etype;concept"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_encounter_GID-641751"/>
+    <etype:GID rdf:datatype="&xsd;long">641712</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_media.note.text_GID-698318_Type-648392">
+    <rdfs:range rdf:resource="&xsd;string"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_media_GID-648392"/>
+    <etype:GID rdf:datatype="&xsd;long">698318</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_observation.referencerange.high.value_GID-641680_Type-200056">
+    <rdfs:range rdf:resource="&xsd;string"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_observation_GID-200056"/>
+    <etype:GID rdf:datatype="&xsd;long">641680</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_latitude_GID-46263_Type-132">
+    <rdfs:range rdf:resource="&xsd;float"/>
+    <rdfs:domain rdf:resource="&etype;Location_GID-132"/>
+    <etype:GID rdf:datatype="&xsd;long">46263</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_careplan.category_GID-698314_Type-698316">
+    <rdfs:range rdf:resource="&etype;concept"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_careplan_GID-698316"/>
+    <etype:GID rdf:datatype="&xsd;long">698314</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_condition.abatementdatetime_GID-641696_Type-641742">
+    <rdfs:range rdf:resource="&xsd;dateTime"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_condition_GID-641742"/>
+    <etype:GID rdf:datatype="&xsd;long">641696</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_medication.amount.denominator.value_GID-648368_Type-641750">
+    <rdfs:range rdf:resource="&xsd;int"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_medication_GID-641750"/>
+    <etype:GID rdf:datatype="&xsd;long">648368</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_diagnosticreport.effectivedatetime_GID-200122_Type-200115">
+    <rdfs:range rdf:resource="&xsd;dateTime"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_diagnosticreport_GID-200115"/>
+    <etype:GID rdf:datatype="&xsd;long">200122</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_practitioner.address.postalcode_GID-641672_Type-641678">
+    <rdfs:range rdf:resource="&xsd;string"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_practitioner_GID-641678"/>
+    <etype:GID rdf:datatype="&xsd;long">641672</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_medication.amount.numerator.code_GID-648367_Type-641750">
+    <rdfs:range rdf:resource="&etype;concept"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_medication_GID-641750"/>
+    <etype:GID rdf:datatype="&xsd;long">648367</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_observation.referencerange.low.unit_GID-641798_Type-200056">
+    <rdfs:range rdf:resource="&etype;concept"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_observation_GID-200056"/>
+    <etype:GID rdf:datatype="&xsd;long">641798</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_patient.communication.language_GID-200005_Type-55936">
+    <rdfs:range rdf:resource="&xsd;string"/>
+    <rdfs:domain rdf:resource="&etype;Patient_GID-55936"/>
+    <etype:GID rdf:datatype="&xsd;long">200005</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_condition.category_GID-641700_Type-641742">
+    <rdfs:range rdf:resource="&etype;concept"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_condition_GID-641742"/>
+    <etype:GID rdf:datatype="&xsd;long">641700</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_observation.specimen.reference_GID-200128_Type-200056">
+    <rdfs:range rdf:resource="&xsd;string"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_observation_GID-200056"/>
+    <etype:GID rdf:datatype="&xsd;long">200128</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_patient.name.given_GID-200031_Type-55936">
+    <rdfs:range rdf:resource="&xsd;string"/>
+    <rdfs:domain rdf:resource="&etype;Patient_GID-55936"/>
+    <etype:GID rdf:datatype="&xsd;long">200031</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_observation.effectivedatetime_GID-200063_Type-200056">
+    <rdfs:range rdf:resource="&xsd;dateTime"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_observation_GID-200056"/>
+    <etype:GID rdf:datatype="&xsd;long">200063</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_practitioner.name.given_GID-641664_Type-641678">
+    <rdfs:range rdf:resource="&xsd;string"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_practitioner_GID-641678"/>
+    <etype:GID rdf:datatype="&xsd;long">641664</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_media.status_GID-648385_Type-648392">
+    <rdfs:range rdf:resource="&etype;concept"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_media_GID-648392"/>
+    <etype:GID rdf:datatype="&xsd;long">648385</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_observation.bodysite_GID-200058_Type-200056">
+    <rdfs:range rdf:resource="&etype;concept"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_observation_GID-200056"/>
+    <etype:GID rdf:datatype="&xsd;long">200058</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_veracity_GID-26929_Type-45663">
+    <rdfs:range rdf:resource="&xsd;float"/>
+    <rdfs:domain rdf:resource="&etype;Metadata_GID-45663"/>
+    <etype:GID rdf:datatype="&xsd;long">26929</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;hasString">
+    <rdfs:range rdf:resource="&xsd;string"/>
+    <rdfs:domain rdf:resource="&etype;NLString"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_observation.category_GID-200096_Type-200056">
+    <rdfs:range rdf:resource="&etype;concept"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_observation_GID-200056"/>
+    <etype:GID rdf:datatype="&xsd;long">200096</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_medication.form_GID-648363_Type-641750">
+    <rdfs:range rdf:resource="&etype;concept"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_medication_GID-641750"/>
+    <etype:GID rdf:datatype="&xsd;long">648363</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_medicationrequest.dosageinstruction.route_GID-200109_Type-200098">
+    <rdfs:range rdf:resource="&etype;concept"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_medicationrequest_GID-200098"/>
+    <etype:GID rdf:datatype="&xsd;long">200109</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_patient.name.family_GID-200032_Type-55936">
+    <rdfs:range rdf:resource="&xsd;string"/>
+    <rdfs:domain rdf:resource="&etype;Patient_GID-55936"/>
+    <etype:GID rdf:datatype="&xsd;long">200032</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_allergyintolerance.onset_GID-698309_Type-641728">
+    <rdfs:range rdf:resource="&xsd;dateTime"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_allergyintolerance_GID-641728"/>
+    <etype:GID rdf:datatype="&xsd;long">698309</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_electronic_mail_GID-33745_Type-118">
+    <rdfs:range rdf:resource="&xsd;string"/>
+    <rdfs:domain rdf:resource="&etype;Person_GID-118"/>
+    <etype:GID rdf:datatype="&xsd;long">33745</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_medicationstatement.effectivedatetime_GID-641725_Type-641724">
+    <rdfs:range rdf:resource="&xsd;dateTime"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_medicationstatement_GID-641724"/>
+    <etype:GID rdf:datatype="&xsd;long">641725</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_observation.valuequantity.unit_GID-200094_Type-200056">
+    <rdfs:range rdf:resource="&etype;concept"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_observation_GID-200056"/>
+    <etype:GID rdf:datatype="&xsd;long">200094</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_practitioner.address.state_GID-641673_Type-641678">
+    <rdfs:range rdf:resource="&xsd;string"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_practitioner_GID-641678"/>
+    <etype:GID rdf:datatype="&xsd;long">641673</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_practitioner.gender_GID-641675_Type-641678">
+    <rdfs:range rdf:resource="&etype;concept"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_practitioner_GID-641678"/>
+    <etype:GID rdf:datatype="&xsd;long">641675</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_medication.amount.numerator.unit_GID-648365_Type-641750">
+    <rdfs:range rdf:resource="&xsd;string"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_medication_GID-641750"/>
+    <etype:GID rdf:datatype="&xsd;long">648365</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_practitioner.address.country_GID-641669_Type-641678">
+    <rdfs:range rdf:resource="&xsd;string"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_practitioner_GID-641678"/>
+    <etype:GID rdf:datatype="&xsd;long">641669</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_allergyintolerance.reaction.substance_GID-641733_Type-641728">
+    <rdfs:range rdf:resource="&etype;concept"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_allergyintolerance_GID-641728"/>
+    <etype:GID rdf:datatype="&xsd;long">641733</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_observation.referencerange.high.unit_GID-641799_Type-200056">
+    <rdfs:range rdf:resource="&etype;concept"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_observation_GID-200056"/>
+    <etype:GID rdf:datatype="&xsd;long">641799</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_home_page_GID-34125_Type-34892">
+    <rdfs:range rdf:resource="&xsd;string"/>
+    <rdfs:domain rdf:resource="&etype;Computer_file_GID-34892"/>
+    <etype:GID rdf:datatype="&xsd;long">34125</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_observation.referencerange.text_GID-200077_Type-200056">
+    <rdfs:range rdf:resource="&xsd;string"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_observation_GID-200056"/>
+    <etype:GID rdf:datatype="&xsd;long">200077</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_observation.note_GID-200070_Type-200056">
+    <rdfs:range rdf:resource="&xsd;string"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_observation_GID-200056"/>
+    <etype:GID rdf:datatype="&xsd;long">200070</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_organization.name_GID-641804_Type-641802">
+    <rdfs:range rdf:resource="&xsd;string"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_organization_GID-641802"/>
+    <etype:GID rdf:datatype="&xsd;long">641804</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_medicationrequest.dosageinstruction.timing.repeat.boundsperiod.start_GID-200104_Type-200098">
+    <rdfs:range rdf:resource="&xsd;dateTime"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_medicationrequest_GID-200098"/>
+    <etype:GID rdf:datatype="&xsd;long">200104</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_observation.valuecodeableconcept_GID-200083_Type-200056">
+    <rdfs:range rdf:resource="&etype;concept"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_observation_GID-200056"/>
+    <etype:GID rdf:datatype="&xsd;long">200083</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_practitioner.telecom.value_GID-641667_Type-641678">
+    <rdfs:range rdf:resource="&xsd;int"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_practitioner_GID-641678"/>
+    <etype:GID rdf:datatype="&xsd;long">641667</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_observation.code_GID-200097_Type-200056">
+    <rdfs:range rdf:resource="&etype;concept"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_observation_GID-200056"/>
+    <etype:GID rdf:datatype="&xsd;long">200097</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_practitioner.address.district_GID-641670_Type-641678">
+    <rdfs:range rdf:resource="&xsd;string"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_practitioner_GID-641678"/>
+    <etype:GID rdf:datatype="&xsd;long">641670</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;hasLanguage">
+    <rdfs:range rdf:resource="&xsd;language"/>
+    <rdfs:domain rdf:resource="&etype;NLString"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_condition.clinicalstatus_GID-641698_Type-641742">
+    <rdfs:range rdf:resource="&etype;concept"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_condition_GID-641742"/>
+    <etype:GID rdf:datatype="&xsd;long">641698</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_object_property_GID-120033_Type-120017">
+    <rdfs:range rdf:resource="&etype;concept"/>
+    <rdfs:domain rdf:resource="&etype;Real_kind_GID-120017"/>
+    <etype:GID rdf:datatype="&xsd;long">120033</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_medication.amount.denominator.code_GID-648371_Type-641750">
+    <rdfs:range rdf:resource="&etype;concept"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_medication_GID-641750"/>
+    <etype:GID rdf:datatype="&xsd;long">648371</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_medicationstatement.status_GID-641727_Type-641724">
+    <rdfs:range rdf:resource="&etype;concept"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_medicationstatement_GID-641724"/>
+    <etype:GID rdf:datatype="&xsd;long">641727</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_encounter.location.location.reference_GID-641740_Type-641751">
+    <rdfs:range rdf:resource="&xsd;string"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_encounter_GID-641751"/>
+    <etype:GID rdf:datatype="&xsd;long">641740</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_practitioner.name.text_GID-641666_Type-641678">
+    <rdfs:range rdf:resource="&xsd;string"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_practitioner_GID-641678"/>
+    <etype:GID rdf:datatype="&xsd;long">641666</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_practitioner.name.family_GID-641665_Type-641678">
+    <rdfs:range rdf:resource="&xsd;string"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_practitioner_GID-641678"/>
+    <etype:GID rdf:datatype="&xsd;long">641665</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_observation.device.reference_GID-200127_Type-200056">
+    <rdfs:range rdf:resource="&xsd;string"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_observation_GID-200056"/>
+    <etype:GID rdf:datatype="&xsd;long">200127</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_allergyintolerance.reaction.onset_GID-641732_Type-641728">
+    <rdfs:range rdf:resource="&xsd;dateTime"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_allergyintolerance_GID-641728"/>
+    <etype:GID rdf:datatype="&xsd;long">641732</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_practitioner.birthdate_GID-641676_Type-641678">
+    <rdfs:range rdf:resource="&xsd;dateTime"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_practitioner_GID-641678"/>
+    <etype:GID rdf:datatype="&xsd;long">641676</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_diagnosticreport.category_GID-200119_Type-200115">
+    <rdfs:range rdf:resource="&etype;concept"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_diagnosticreport_GID-200115"/>
+    <etype:GID rdf:datatype="&xsd;long">200119</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_condition.note.text_GID-698300_Type-641742">
+    <rdfs:range rdf:resource="&xsd;string"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_condition_GID-641742"/>
+    <etype:GID rdf:datatype="&xsd;long">698300</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_format_GID-35579_Type-34892">
+    <rdfs:range rdf:resource="&xsd;string"/>
+    <rdfs:domain rdf:resource="&etype;Computer_file_GID-34892"/>
+    <etype:GID rdf:datatype="&xsd;long">35579</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_medicationrequest.dosageinstruction.timing.repeat.period_GID-200107_Type-200098">
+    <rdfs:range rdf:resource="&xsd;float"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_medicationrequest_GID-200098"/>
+    <etype:GID rdf:datatype="&xsd;long">200107</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_medicationrequest.medication.medicationcodeableconcept_GID-641660_Type-200098">
+    <rdfs:range rdf:resource="&etype;concept"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_medicationrequest_GID-200098"/>
+    <etype:GID rdf:datatype="&xsd;long">641660</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_medicationrequest.dosageinstruction.timing.repeat.boundsperiod.end_GID-200105_Type-200098">
+    <rdfs:range rdf:resource="&xsd;dateTime"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_medicationrequest_GID-200098"/>
+    <etype:GID rdf:datatype="&xsd;long">200105</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_diagnosticreport.code_GID-200120_Type-200115">
+    <rdfs:range rdf:resource="&etype;concept"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_diagnosticreport_GID-200115"/>
+    <etype:GID rdf:datatype="&xsd;long">200120</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_composition.identifier_GID-641683_Type-641682">
+    <rdfs:range rdf:resource="&xsd;string"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_composition_GID-641682"/>
+    <etype:GID rdf:datatype="&xsd;long">641683</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_careplan.created_GID-698313_Type-698316">
+    <rdfs:range rdf:resource="&xsd;dateTime"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_careplan_GID-698316"/>
+    <etype:GID rdf:datatype="&xsd;long">698313</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_version_GID-31836_Type-34892">
+    <rdfs:range rdf:resource="&xsd;string"/>
+    <rdfs:domain rdf:resource="&etype;Computer_file_GID-34892"/>
+    <etype:GID rdf:datatype="&xsd;long">31836</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_allergyintolerance.code_GID-641708_Type-641728">
+    <rdfs:range rdf:resource="&etype;concept"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_allergyintolerance_GID-641728"/>
+    <etype:GID rdf:datatype="&xsd;long">641708</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_patient.gender_GID-200018_Type-55936">
+    <rdfs:range rdf:resource="&etype;concept"/>
+    <rdfs:domain rdf:resource="&etype;Patient_GID-55936"/>
+    <etype:GID rdf:datatype="&xsd;long">200018</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_action_property_GID-120036_Type-120018">
+    <rdfs:range rdf:resource="&etype;concept"/>
+    <rdfs:domain rdf:resource="&etype;Action_kind_GID-120018"/>
+    <etype:GID rdf:datatype="&xsd;long">120036</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_medicationrequest.dosageinstruction.doseandrate.dosequantity.value_GID-200111_Type-200098">
+    <rdfs:range rdf:resource="&xsd;float"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_medicationrequest_GID-200098"/>
+    <etype:GID rdf:datatype="&xsd;long">200111</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_medicationrequest.reasoncode.codeableconcept_GID-200129_Type-200098">
+    <rdfs:range rdf:resource="&etype;concept"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_medicationrequest_GID-200098"/>
+    <etype:GID rdf:datatype="&xsd;long">200129</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_medication.amount.numerator.system_GID-648366_Type-641750">
+    <rdfs:range rdf:resource="&xsd;string"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_medication_GID-641750"/>
+    <etype:GID rdf:datatype="&xsd;long">648366</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_composition.status_GID-641687_Type-641682">
+    <rdfs:range rdf:resource="&xsd;string"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_composition_GID-641682"/>
+    <etype:GID rdf:datatype="&xsd;long">641687</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_media.content.creation_GID-648390_Type-648392">
+    <rdfs:range rdf:resource="&xsd;dateTime"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_media_GID-648392"/>
+    <etype:GID rdf:datatype="&xsd;long">648390</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_medicationrequest.reasoncode.text_GID-200102_Type-200098">
+    <rdfs:range rdf:resource="&xsd;string"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_medicationrequest_GID-200098"/>
+    <etype:GID rdf:datatype="&xsd;long">200102</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_observation.valuequantity.value_GID-200095_Type-200056">
+    <rdfs:range rdf:resource="&xsd;float"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_observation_GID-200056"/>
+    <etype:GID rdf:datatype="&xsd;long">200095</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_license_GID-35108_Type-34892">
+    <rdfs:range rdf:resource="&xsd;string"/>
+    <rdfs:domain rdf:resource="&etype;Computer_file_GID-34892"/>
+    <etype:GID rdf:datatype="&xsd;long">35108</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_condition.onsetdatetime_GID-641695_Type-641742">
+    <rdfs:range rdf:resource="&xsd;dateTime"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_condition_GID-641742"/>
+    <etype:GID rdf:datatype="&xsd;long">641695</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_end_GID-81330_Type-81213">
+    <rdfs:range rdf:resource="&xsd;dateTime"/>
+    <rdfs:domain rdf:resource="&etype;Moment_GID-81213"/>
+    <etype:GID rdf:datatype="&xsd;long">81330</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_allergyintolerance.verificationstatus_GID-641734_Type-641728">
+    <rdfs:range rdf:resource="&etype;concept"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_allergyintolerance_GID-641728"/>
+    <etype:GID rdf:datatype="&xsd;long">641734</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_elevation_GID-28270_Type-132">
+    <rdfs:range rdf:resource="&xsd;float"/>
+    <rdfs:domain rdf:resource="&etype;Location_GID-132"/>
+    <etype:GID rdf:datatype="&xsd;long">28270</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_condition.recordeddate_GID-641703_Type-641742">
+    <rdfs:range rdf:resource="&xsd;dateTime"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_condition_GID-641742"/>
+    <etype:GID rdf:datatype="&xsd;long">641703</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_medication.amount.denominator.unit_GID-648369_Type-641750">
+    <rdfs:range rdf:resource="&xsd;string"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_medication_GID-641750"/>
+    <etype:GID rdf:datatype="&xsd;long">648369</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_minimum_GID-73141_Type-80582">
+    <rdfs:range rdf:resource="&xsd;long"/>
+    <rdfs:domain rdf:resource="&etype;Duration_GID-80582"/>
+    <etype:GID rdf:datatype="&xsd;long">73141</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_patient.address.text_GID-200043_Type-55936">
+    <rdfs:range rdf:resource="&xsd;string"/>
+    <rdfs:domain rdf:resource="&etype;Patient_GID-55936"/>
+    <etype:GID rdf:datatype="&xsd;long">200043</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_condition.verificationstatus_GID-641697_Type-641742">
+    <rdfs:range rdf:resource="&etype;concept"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_condition_GID-641742"/>
+    <etype:GID rdf:datatype="&xsd;long">641697</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_medicationrequest.authoredon_GID-200100_Type-200098">
+    <rdfs:range rdf:resource="&xsd;dateTime"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_medicationrequest_GID-200098"/>
+    <etype:GID rdf:datatype="&xsd;long">200100</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_observation.valuedatetime_GID-200084_Type-200056">
+    <rdfs:range rdf:resource="&xsd;dateTime"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_observation_GID-200056"/>
+    <etype:GID rdf:datatype="&xsd;long">200084</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_encounter.class_GID-641713_Type-641751">
+    <rdfs:range rdf:resource="&etype;concept"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_encounter_GID-641751"/>
+    <etype:GID rdf:datatype="&xsd;long">641713</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_object_property_GID-120033_Type-200098">
+    <rdfs:range rdf:resource="&etype;concept"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_medicationrequest_GID-200098"/>
+    <etype:GID rdf:datatype="&xsd;long">120033</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_allergyintolerance.note.text_GID-698308_Type-641728">
+    <rdfs:range rdf:resource="&xsd;string"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_allergyintolerance_GID-641728"/>
+    <etype:GID rdf:datatype="&xsd;long">698308</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_title_GID-34019_Type-117693">
+    <rdfs:range rdf:resource="&etype;concept"/>
+    <rdfs:domain rdf:resource="&etype;Person_name_GID-117693"/>
+    <etype:GID rdf:datatype="&xsd;long">34019</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_object_property_GID-120033_Type-200115">
+    <rdfs:range rdf:resource="&etype;concept"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_diagnosticreport_GID-200115"/>
+    <etype:GID rdf:datatype="&xsd;long">120033</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_medicationrequest.dosageinstruction.additionalinstruction.text_GID-200103_Type-200098">
+    <rdfs:range rdf:resource="&xsd;string"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_medicationrequest_GID-200098"/>
+    <etype:GID rdf:datatype="&xsd;long">200103</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_patient.birthdate_GID-200003_Type-55936">
+    <rdfs:range rdf:resource="&xsd;dateTime"/>
+    <rdfs:domain rdf:resource="&etype;Patient_GID-55936"/>
+    <etype:GID rdf:datatype="&xsd;long">200003</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_composition.title_GID-641685_Type-641682">
+    <rdfs:range rdf:resource="&xsd;string"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_composition_GID-641682"/>
+    <etype:GID rdf:datatype="&xsd;long">641685</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_beginning_GID-81324_Type-81213">
+    <rdfs:range rdf:resource="&xsd;dateTime"/>
+    <rdfs:domain rdf:resource="&etype;Moment_GID-81213"/>
+    <etype:GID rdf:datatype="&xsd;long">81324</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_composition.attester_GID-641689_Type-641682">
+    <rdfs:range rdf:resource="&xsd;string"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_composition_GID-641682"/>
+    <etype:GID rdf:datatype="&xsd;long">641689</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_patient.extension.valueaddress.country_GID-641722_Type-55936">
+    <rdfs:range rdf:resource="&xsd;string"/>
+    <rdfs:domain rdf:resource="&etype;Patient_GID-55936"/>
+    <etype:GID rdf:datatype="&xsd;long">641722</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_medicationrequest.dosageinstruction.timing.repeat.frequency_GID-200106_Type-200098">
+    <rdfs:range rdf:resource="&xsd;int"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_medicationrequest_GID-200098"/>
+    <etype:GID rdf:datatype="&xsd;long">200106</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_patient.extension.valueaddress.line_GID-641723_Type-55936">
+    <rdfs:range rdf:resource="&xsd;string"/>
+    <rdfs:domain rdf:resource="&etype;Patient_GID-55936"/>
+    <etype:GID rdf:datatype="&xsd;long">641723</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_composition.attester.time_GID-641690_Type-641682">
+    <rdfs:range rdf:resource="&xsd;dateTime"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_composition_GID-641682"/>
+    <etype:GID rdf:datatype="&xsd;long">641690</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_longitude_GID-46270_Type-132">
+    <rdfs:range rdf:resource="&xsd;float"/>
+    <rdfs:domain rdf:resource="&etype;Location_GID-132"/>
+    <etype:GID rdf:datatype="&xsd;long">46270</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_encounter.type_GID-641711_Type-641751">
+    <rdfs:range rdf:resource="&etype;concept"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_encounter_GID-641751"/>
+    <etype:GID rdf:datatype="&xsd;long">641711</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_patient.extension.valueaddress.city_GID-641721_Type-55936">
+    <rdfs:range rdf:resource="&xsd;string"/>
+    <rdfs:domain rdf:resource="&etype;Patient_GID-55936"/>
+    <etype:GID rdf:datatype="&xsd;long">641721</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_medication.code_GID-641736_Type-641750">
+    <rdfs:range rdf:resource="&etype;concept"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_medication_GID-641750"/>
+    <etype:GID rdf:datatype="&xsd;long">641736</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_url_GID-34123_Type-34892">
+    <rdfs:range rdf:resource="&xsd;string"/>
+    <rdfs:domain rdf:resource="&etype;Computer_file_GID-34892"/>
+    <etype:GID rdf:datatype="&xsd;long">34123</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_allergyintolerance.clinicalstatus_GID-641729_Type-641728">
+    <rdfs:range rdf:resource="&etype;concept"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_allergyintolerance_GID-641728"/>
+    <etype:GID rdf:datatype="&xsd;long">641729</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_patient.deceasedboolean_GID-200016_Type-55936">
+    <rdfs:range rdf:resource="&xsd;boolean"/>
+    <rdfs:domain rdf:resource="&etype;Patient_GID-55936"/>
+    <etype:GID rdf:datatype="&xsd;long">200016</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_size_GID-28114_Type-34892">
+    <rdfs:range rdf:resource="&xsd;long"/>
+    <rdfs:domain rdf:resource="&etype;Computer_file_GID-34892"/>
+    <etype:GID rdf:datatype="&xsd;long">28114</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_patient.telecom.value_GID-200045_Type-55936">
+    <rdfs:range rdf:resource="&xsd;string"/>
+    <rdfs:domain rdf:resource="&etype;Patient_GID-55936"/>
+    <etype:GID rdf:datatype="&xsd;long">200045</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_allergyintolerance.text_GID-698302_Type-641728">
+    <rdfs:range rdf:resource="&xsd;string"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_allergyintolerance_GID-641728"/>
+    <etype:GID rdf:datatype="&xsd;long">698302</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_practitioner.address.text_GID-641674_Type-641678">
+    <rdfs:range rdf:resource="&xsd;string"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_practitioner_GID-641678"/>
+    <etype:GID rdf:datatype="&xsd;long">641674</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_class_GID-43482_Type-1">
+    <rdfs:range rdf:resource="&etype;concept"/>
+    <rdfs:domain rdf:resource="&etype;Entity_GID-1"/>
+    <etype:GID rdf:datatype="&xsd;long">43482</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_identifier_GID-39085_Type-1">
+    <rdfs:range rdf:resource="&xsd;string"/>
+    <rdfs:domain rdf:resource="&etype;Entity_GID-1"/>
+    <etype:GID rdf:datatype="&xsd;long">39085</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_maximum_GID-73238_Type-80582">
+    <rdfs:range rdf:resource="&xsd;long"/>
+    <rdfs:domain rdf:resource="&etype;Duration_GID-80582"/>
+    <etype:GID rdf:datatype="&xsd;long">73238</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_patient.extension.url_GID-641720_Type-55936">
+    <rdfs:range rdf:resource="&xsd;string"/>
+    <rdfs:domain rdf:resource="&etype;Patient_GID-55936"/>
+    <etype:GID rdf:datatype="&xsd;long">641720</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_medicationrequest.dosageinstruction.timing.repeat.periodunit_GID-200108_Type-200098">
+    <rdfs:range rdf:resource="&etype;concept"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_medicationrequest_GID-200098"/>
+    <etype:GID rdf:datatype="&xsd;long">200108</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="&etype;has_fhir_practitioner.address.city_GID-641668_Type-641678">
+    <rdfs:range rdf:resource="&xsd;string"/>
+    <rdfs:domain rdf:resource="&etype;Fhir_practitioner_GID-641678"/>
+    <etype:GID rdf:datatype="&xsd;long">641668</etype:GID>
+    <rdfs:subPropertyOf rdf:resource="&etype;datatypeAttribute"/>
+  </owl:DatatypeProperty>
+  <owl:AnnotationProperty rdf:about="&etype;isEtype"/>
+  <owl:AnnotationProperty rdf:about="&etype;hasUnitOfMeasure">
+    <rdfs:range rdf:resource="&etype;concept"/>
+  </owl:AnnotationProperty>
+</rdf:RDF>

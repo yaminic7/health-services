@@ -1,0 +1,3621 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix etype: <http://knowdive.disi.unitn.it/etype#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix km-dev: <http://isi.edu/integration/karma/dev#> .
+
+_:node1g4d1mmbpx1 a km-dev:R2RMLMapping ;
+	km-dev:sourceName "FTGM10_Visit-noImage.xml" ;
+	km-dev:modelPublicationTime "1654000408953"^^xsd:long ;
+	km-dev:modelVersion "1.7" ;
+	km-dev:hasInputColumns "[[{\"columnName\":\"ClinicalDocument\"},{\"columnName\":\"setId\"},{\"columnName\":\"DRcategory Concepts\"}],[{\"columnName\":\"ClinicalDocument\"},{\"columnName\":\"componentOf\"},{\"columnName\":\"encompassingEncounter\"},{\"columnName\":\"id\"},{\"columnName\":\"extension\"}],[{\"columnName\":\"ClinicalDocument\"},{\"columnName\":\"setId\"},{\"columnName\":\"DR-code Concepts\"}],[{\"columnName\":\"ClinicalDocument\"},{\"columnName\":\"component\"},{\"columnName\":\"structuredBody\"},{\"columnName\":\"component\"},{\"columnName\":\"section\"},{\"columnName\":\"entry\"},{\"columnName\":\"act\"},{\"columnName\":\"entryRelationship\"},{\"columnName\":\"observation\"},{\"columnName\":\"code\"},{\"columnName\":\"code\"}],[{\"columnName\":\"ClinicalDocument\"},{\"columnName\":\"custodian\"},{\"columnName\":\"assignedCustodian\"},{\"columnName\":\"representedCustodianOrganization\"},{\"columnName\":\"id\"},{\"columnName\":\"root\"}],[{\"columnName\":\"ClinicalDocument\"},{\"columnName\":\"author\"},{\"columnName\":\"assignedAuthor\"},{\"columnName\":\"id\"},{\"columnName\":\"extension\"}],[{\"columnName\":\"ClinicalDocument\"},{\"columnName\":\"author\"},{\"columnName\":\"assignedAuthor\"},{\"columnName\":\"assignedPerson\"},{\"columnName\":\"name\"},{\"columnName\":\"family\"}],[{\"columnName\":\"ClinicalDocument\"},{\"columnName\":\"component\"},{\"columnName\":\"structuredBody\"},{\"columnName\":\"component\"},{\"columnName\":\"section\"},{\"columnName\":\"entry\"},{\"columnName\":\"act\"},{\"columnName\":\"entryRelationship\"},{\"columnName\":\"observation\"},{\"columnName\":\"code\"},{\"columnName\":\"mediaStatus Concepts\"}],[{\"columnName\":\"ClinicalDocument\"},{\"columnName\":\"component\"},{\"columnName\":\"structuredBody\"},{\"columnName\":\"component\"},{\"columnName\":\"section\"},{\"columnName\":\"entry\"},{\"columnName\":\"act\"},{\"columnName\":\"entryRelationship\"},{\"columnName\":\"observation\"},{\"columnName\":\"code\"},{\"columnName\":\"obsCategory Concepts\"}],[{\"columnName\":\"ClinicalDocument\"},{\"columnName\":\"recordTarget\"},{\"columnName\":\"patientRole\"},{\"columnName\":\"id\"},{\"columnName\":\"extension\"}],[{\"columnName\":\"ClinicalDocument\"},{\"columnName\":\"setId\"},{\"columnName\":\"DRstatus Concepts\"}],[{\"columnName\":\"ClinicalDocument\"},{\"columnName\":\"author\"},{\"columnName\":\"assignedAuthor\"},{\"columnName\":\"assignedPerson\"},{\"columnName\":\"name\"},{\"columnName\":\"given\"}],[{\"columnName\":\"ClinicalDocument\"},{\"columnName\":\"component\"},{\"columnName\":\"structuredBody\"},{\"columnName\":\"component\"},{\"columnName\":\"section\"},{\"columnName\":\"entry\"},{\"columnName\":\"act\"},{\"columnName\":\"entryRelationship\"},{\"columnName\":\"observation\"},{\"columnName\":\"code\"},{\"columnName\":\"codeLabel Concepts\"}],[{\"columnName\":\"ClinicalDocument\"},{\"columnName\":\"effectiveTime\"},{\"columnName\":\"value\"}],[{\"columnName\":\"ClinicalDocument\"},{\"columnName\":\"setId\"},{\"columnName\":\"extension\"}],[{\"columnName\":\"ClinicalDocument\"},{\"columnName\":\"component\"},{\"columnName\":\"structuredBody\"},{\"columnName\":\"component\"},{\"columnName\":\"section\"},{\"columnName\":\"entry\"},{\"columnName\":\"act\"},{\"columnName\":\"entryRelationship\"},{\"columnName\":\"observation\"},{\"columnName\":\"value\"},{\"columnName\":\"unitConcept Concepts\"}],[{\"columnName\":\"ClinicalDocument\"},{\"columnName\":\"component\"},{\"columnName\":\"structuredBody\"},{\"columnName\":\"component\"},{\"columnName\":\"section\"},{\"columnName\":\"entry\"},{\"columnName\":\"act\"},{\"columnName\":\"entryRelationship\"},{\"columnName\":\"observation\"},{\"columnName\":\"value\"},{\"columnName\":\"value\"}],[{\"columnName\":\"ClinicalDocument\"},{\"columnName\":\"component\"},{\"columnName\":\"structuredBody\"},{\"columnName\":\"component\"},{\"columnName\":\"section\"},{\"columnName\":\"entry\"},{\"columnName\":\"act\"},{\"columnName\":\"entryRelationship\"},{\"columnName\":\"observation\"},{\"columnName\":\"code\"},{\"columnName\":\"codeSystem\"}],[{\"columnName\":\"ClinicalDocument\"},{\"columnName\":\"component\"},{\"columnName\":\"structuredBody\"},{\"columnName\":\"component\"},{\"columnName\":\"section\"},{\"columnName\":\"entry\"},{\"columnName\":\"act\"},{\"columnName\":\"entryRelationship\"},{\"columnName\":\"observation\"},{\"columnName\":\"value\"},{\"columnName\":\"content\"}],[{\"columnName\":\"ClinicalDocument\"},{\"columnName\":\"custodian\"},{\"columnName\":\"assignedCustodian\"},{\"columnName\":\"representedCustodianOrganization\"},{\"columnName\":\"name\"}]]" ;
+	km-dev:hasOutputColumns "[[{\"columnName\":\"ClinicalDocument\"},{\"columnName\":\"setId\"},{\"columnName\":\"DR-code Concepts\"}],[{\"columnName\":\"ClinicalDocument\"},{\"columnName\":\"custodian\"},{\"columnName\":\"assignedCustodian\"},{\"columnName\":\"representedCustodianOrganization\"},{\"columnName\":\"id\"},{\"columnName\":\"root\"}],[{\"columnName\":\"ClinicalDocument\"},{\"columnName\":\"author\"},{\"columnName\":\"assignedAuthor\"},{\"columnName\":\"assignedPerson\"},{\"columnName\":\"name\"},{\"columnName\":\"family\"}],[{\"columnName\":\"ClinicalDocument\"},{\"columnName\":\"recordTarget\"},{\"columnName\":\"patientRole\"},{\"columnName\":\"id\"},{\"columnName\":\"extension\"}],[{\"columnName\":\"ClinicalDocument\"},{\"columnName\":\"setId\"},{\"columnName\":\"DRstatus Concepts\"}],[{\"columnName\":\"ClinicalDocument\"},{\"columnName\":\"author\"},{\"columnName\":\"assignedAuthor\"},{\"columnName\":\"assignedPerson\"},{\"columnName\":\"name\"},{\"columnName\":\"given\"}],[{\"columnName\":\"ClinicalDocument\"},{\"columnName\":\"component\"},{\"columnName\":\"structuredBody\"},{\"columnName\":\"component\"},{\"columnName\":\"section\"},{\"columnName\":\"entry\"},{\"columnName\":\"act\"},{\"columnName\":\"entryRelationship\"},{\"columnName\":\"observation\"},{\"columnName\":\"code\"},{\"columnName\":\"codeLabel Concepts\"}],[{\"columnName\":\"ClinicalDocument\"},{\"columnName\":\"component\"},{\"columnName\":\"structuredBody\"},{\"columnName\":\"component\"},{\"columnName\":\"section\"},{\"columnName\":\"entry\"},{\"columnName\":\"act\"},{\"columnName\":\"entryRelationship\"},{\"columnName\":\"observation\"},{\"columnName\":\"code\"},{\"columnName\":\"mediaStatus\"}],[{\"columnName\":\"ClinicalDocument\"},{\"columnName\":\"component\"},{\"columnName\":\"structuredBody\"},{\"columnName\":\"component\"},{\"columnName\":\"section\"},{\"columnName\":\"entry\"},{\"columnName\":\"act\"},{\"columnName\":\"entryRelationship\"},{\"columnName\":\"observation\"},{\"columnName\":\"code\"},{\"columnName\":\"obsCategory\"}],[{\"columnName\":\"ClinicalDocument\"},{\"columnName\":\"component\"},{\"columnName\":\"structuredBody\"},{\"columnName\":\"component\"},{\"columnName\":\"section\"},{\"columnName\":\"entry\"},{\"columnName\":\"act\"},{\"columnName\":\"entryRelationship\"},{\"columnName\":\"observation\"},{\"columnName\":\"value\"},{\"columnName\":\"value\"}],[{\"columnName\":\"ClinicalDocument\"},{\"columnName\":\"component\"},{\"columnName\":\"structuredBody\"},{\"columnName\":\"component\"},{\"columnName\":\"section\"},{\"columnName\":\"entry\"},{\"columnName\":\"act\"},{\"columnName\":\"entryRelationship\"},{\"columnName\":\"observation\"},{\"columnName\":\"value\"},{\"columnName\":\"mediaContentType\"}],[{\"columnName\":\"ClinicalDocument\"},{\"columnName\":\"component\"},{\"columnName\":\"structuredBody\"},{\"columnName\":\"component\"},{\"columnName\":\"section\"},{\"columnName\":\"entry\"},{\"columnName\":\"act\"},{\"columnName\":\"entryRelationship\"},{\"columnName\":\"observation\"},{\"columnName\":\"value\"},{\"columnName\":\"unitConcept\"}],[{\"columnName\":\"ClinicalDocument\"},{\"columnName\":\"setId\"},{\"columnName\":\"DRcategory\"}],[{\"columnName\":\"ClinicalDocument\"},{\"columnName\":\"custodian\"},{\"columnName\":\"assignedCustodian\"},{\"columnName\":\"representedCustodianOrganization\"},{\"columnName\":\"name\"}],[{\"columnName\":\"ClinicalDocument\"},{\"columnName\":\"setId\"},{\"columnName\":\"DRcategory Concepts\"}],[{\"columnName\":\"ClinicalDocument\"},{\"columnName\":\"componentOf\"},{\"columnName\":\"encompassingEncounter\"},{\"columnName\":\"id\"},{\"columnName\":\"extension\"}],[{\"columnName\":\"ClinicalDocument\"},{\"columnName\":\"component\"},{\"columnName\":\"structuredBody\"},{\"columnName\":\"component\"},{\"columnName\":\"section\"},{\"columnName\":\"entry\"},{\"columnName\":\"act\"},{\"columnName\":\"entryRelationship\"},{\"columnName\":\"observation\"},{\"columnName\":\"code\"},{\"columnName\":\"mediaId\"}],[{\"columnName\":\"ClinicalDocument\"},{\"columnName\":\"component\"},{\"columnName\":\"structuredBody\"},{\"columnName\":\"component\"},{\"columnName\":\"section\"},{\"columnName\":\"entry\"},{\"columnName\":\"act\"},{\"columnName\":\"entryRelationship\"},{\"columnName\":\"observation\"},{\"columnName\":\"code\"},{\"columnName\":\"codeLabel\"}],[{\"columnName\":\"ClinicalDocument\"},{\"columnName\":\"author\"},{\"columnName\":\"assignedAuthor\"},{\"columnName\":\"id\"},{\"columnName\":\"extension\"}],[{\"columnName\":\"ClinicalDocument\"},{\"columnName\":\"component\"},{\"columnName\":\"structuredBody\"},{\"columnName\":\"component\"},{\"columnName\":\"section\"},{\"columnName\":\"entry\"},{\"columnName\":\"act\"},{\"columnName\":\"entryRelationship\"},{\"columnName\":\"observation\"},{\"columnName\":\"code\"},{\"columnName\":\"mediaStatus Concepts\"}],[{\"columnName\":\"ClinicalDocument\"},{\"columnName\":\"component\"},{\"columnName\":\"structuredBody\"},{\"columnName\":\"component\"},{\"columnName\":\"section\"},{\"columnName\":\"entry\"},{\"columnName\":\"act\"},{\"columnName\":\"entryRelationship\"},{\"columnName\":\"observation\"},{\"columnName\":\"code\"},{\"columnName\":\"obsCategory Concepts\"}],[{\"columnName\":\"ClinicalDocument\"},{\"columnName\":\"effectiveTime\"},{\"columnName\":\"value\"}],[{\"columnName\":\"ClinicalDocument\"},{\"columnName\":\"setId\"},{\"columnName\":\"extension\"}],[{\"columnName\":\"ClinicalDocument\"},{\"columnName\":\"component\"},{\"columnName\":\"structuredBody\"},{\"columnName\":\"component\"},{\"columnName\":\"section\"},{\"columnName\":\"entry\"},{\"columnName\":\"act\"},{\"columnName\":\"entryRelationship\"},{\"columnName\":\"observation\"},{\"columnName\":\"value\"},{\"columnName\":\"unitConcept Concepts\"}],[{\"columnName\":\"ClinicalDocument\"},{\"columnName\":\"component\"},{\"columnName\":\"structuredBody\"},{\"columnName\":\"component\"},{\"columnName\":\"section\"},{\"columnName\":\"entry\"},{\"columnName\":\"act\"},{\"columnName\":\"entryRelationship\"},{\"columnName\":\"observation\"},{\"columnName\":\"value\"},{\"columnName\":\"content\"}],[{\"columnName\":\"ClinicalDocument\"},{\"columnName\":\"setId\"},{\"columnName\":\"DR-code\"}],[{\"columnName\":\"ClinicalDocument\"},{\"columnName\":\"setId\"},{\"columnName\":\"DRstatus\"}]]" ;
+	km-dev:hasModelLabel "FTGM10_Visit-noImage.xml" ;
+	km-dev:hasWorksheetHistory """[
+    {
+        \"commandName\": \"SubmitPythonTransformationCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"ClinicalDocument\"},
+                    {\"columnName\": \"component\"},
+                    {\"columnName\": \"structuredBody\"},
+                    {\"columnName\": \"component\"},
+                    {\"columnName\": \"section\"},
+                    {\"columnName\": \"entry\"},
+                    {\"columnName\": \"act\"},
+                    {\"columnName\": \"entryRelationship\"},
+                    {\"columnName\": \"observation\"},
+                    {\"columnName\": \"code\"},
+                    {\"columnName\": \"codeSystemName\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"newColumnName\",
+                \"type\": \"other\",
+                \"value\": \"codeLabel\"
+            },
+            {
+                \"name\": \"transformationCode\",
+                \"type\": \"other\",
+                \"value\": \"if getValue(\\\"code\\\")!=\\\"\\\":\\n\\n    if getValue(\\\"codeSystem\\\")==\\\"2.16.840.1.113883.6.1\\\":\\n        return \\\"loinc_\\\"+getValue(\\\"code\\\")\\n    else:\\n        return \\\"\\\"\\n\\nelse:\\n    return \\\"\\\"\"
+            },
+            {
+                \"name\": \"errorDefaultValue\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"isJSONOutput\",
+                \"type\": \"other\",
+                \"value\": \"false\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"ClinicalDocument\\\"},{\\\"columnName\\\":\\\"component\\\"},{\\\"columnName\\\":\\\"structuredBody\\\"},{\\\"columnName\\\":\\\"component\\\"},{\\\"columnName\\\":\\\"section\\\"},{\\\"columnName\\\":\\\"entry\\\"},{\\\"columnName\\\":\\\"act\\\"},{\\\"columnName\\\":\\\"entryRelationship\\\"},{\\\"columnName\\\":\\\"observation\\\"},{\\\"columnName\\\":\\\"code\\\"},{\\\"columnName\\\":\\\"code\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"ClinicalDocument\\\"},{\\\"columnName\\\":\\\"component\\\"},{\\\"columnName\\\":\\\"structuredBody\\\"},{\\\"columnName\\\":\\\"component\\\"},{\\\"columnName\\\":\\\"section\\\"},{\\\"columnName\\\":\\\"entry\\\"},{\\\"columnName\\\":\\\"act\\\"},{\\\"columnName\\\":\\\"entryRelationship\\\"},{\\\"columnName\\\":\\\"observation\\\"},{\\\"columnName\\\":\\\"code\\\"},{\\\"columnName\\\":\\\"codeSystem\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"ClinicalDocument\\\"},{\\\"columnName\\\":\\\"component\\\"},{\\\"columnName\\\":\\\"structuredBody\\\"},{\\\"columnName\\\":\\\"component\\\"},{\\\"columnName\\\":\\\"section\\\"},{\\\"columnName\\\":\\\"entry\\\"},{\\\"columnName\\\":\\\"act\\\"},{\\\"columnName\\\":\\\"entryRelationship\\\"},{\\\"columnName\\\":\\\"observation\\\"},{\\\"columnName\\\":\\\"code\\\"},{\\\"columnName\\\":\\\"codeLabel\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"SubmitPythonTransformationCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"ClinicalDocument\"},
+                    {\"columnName\": \"component\"},
+                    {\"columnName\": \"structuredBody\"},
+                    {\"columnName\": \"component\"},
+                    {\"columnName\": \"section\"},
+                    {\"columnName\": \"entry\"},
+                    {\"columnName\": \"act\"},
+                    {\"columnName\": \"entryRelationship\"},
+                    {\"columnName\": \"observation\"},
+                    {\"columnName\": \"code\"},
+                    {\"columnName\": \"code\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"newColumnName\",
+                \"type\": \"other\",
+                \"value\": \"mediaId\"
+            },
+            {
+                \"name\": \"transformationCode\",
+                \"type\": \"other\",
+                \"value\": \"if getValue(\\\"code\\\")==\\\"8952\\\":\\n    return \\\"ecg-media-8952\\\"\\nelse:\\n    return \\\"\\\"\"
+            },
+            {
+                \"name\": \"errorDefaultValue\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"isJSONOutput\",
+                \"type\": \"other\",
+                \"value\": \"false\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"ClinicalDocument\\\"},{\\\"columnName\\\":\\\"component\\\"},{\\\"columnName\\\":\\\"structuredBody\\\"},{\\\"columnName\\\":\\\"component\\\"},{\\\"columnName\\\":\\\"section\\\"},{\\\"columnName\\\":\\\"entry\\\"},{\\\"columnName\\\":\\\"act\\\"},{\\\"columnName\\\":\\\"entryRelationship\\\"},{\\\"columnName\\\":\\\"observation\\\"},{\\\"columnName\\\":\\\"code\\\"},{\\\"columnName\\\":\\\"code\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"ClinicalDocument\\\"},{\\\"columnName\\\":\\\"component\\\"},{\\\"columnName\\\":\\\"structuredBody\\\"},{\\\"columnName\\\":\\\"component\\\"},{\\\"columnName\\\":\\\"section\\\"},{\\\"columnName\\\":\\\"entry\\\"},{\\\"columnName\\\":\\\"act\\\"},{\\\"columnName\\\":\\\"entryRelationship\\\"},{\\\"columnName\\\":\\\"observation\\\"},{\\\"columnName\\\":\\\"code\\\"},{\\\"columnName\\\":\\\"mediaId\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"SubmitPythonTransformationCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"ClinicalDocument\"},
+                    {\"columnName\": \"component\"},
+                    {\"columnName\": \"structuredBody\"},
+                    {\"columnName\": \"component\"},
+                    {\"columnName\": \"section\"},
+                    {\"columnName\": \"entry\"},
+                    {\"columnName\": \"act\"},
+                    {\"columnName\": \"entryRelationship\"},
+                    {\"columnName\": \"observation\"},
+                    {\"columnName\": \"code\"},
+                    {\"columnName\": \"mediaId\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"newColumnName\",
+                \"type\": \"other\",
+                \"value\": \"mediaStatus\"
+            },
+            {
+                \"name\": \"transformationCode\",
+                \"type\": \"other\",
+                \"value\": \"if getValue(\\\"mediaId\\\")!=\\\"\\\":\\n    return \\\"completed\\\"\\nelse:\\n    return \\\"\\\"\"
+            },
+            {
+                \"name\": \"errorDefaultValue\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"isJSONOutput\",
+                \"type\": \"other\",
+                \"value\": \"false\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"ClinicalDocument\\\"},{\\\"columnName\\\":\\\"component\\\"},{\\\"columnName\\\":\\\"structuredBody\\\"},{\\\"columnName\\\":\\\"component\\\"},{\\\"columnName\\\":\\\"section\\\"},{\\\"columnName\\\":\\\"entry\\\"},{\\\"columnName\\\":\\\"act\\\"},{\\\"columnName\\\":\\\"entryRelationship\\\"},{\\\"columnName\\\":\\\"observation\\\"},{\\\"columnName\\\":\\\"code\\\"},{\\\"columnName\\\":\\\"mediaId\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"ClinicalDocument\\\"},{\\\"columnName\\\":\\\"component\\\"},{\\\"columnName\\\":\\\"structuredBody\\\"},{\\\"columnName\\\":\\\"component\\\"},{\\\"columnName\\\":\\\"section\\\"},{\\\"columnName\\\":\\\"entry\\\"},{\\\"columnName\\\":\\\"act\\\"},{\\\"columnName\\\":\\\"entryRelationship\\\"},{\\\"columnName\\\":\\\"observation\\\"},{\\\"columnName\\\":\\\"code\\\"},{\\\"columnName\\\":\\\"mediaStatus\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"ExtractConceptsCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"ClinicalDocument\"},
+                    {\"columnName\": \"component\"},
+                    {\"columnName\": \"structuredBody\"},
+                    {\"columnName\": \"component\"},
+                    {\"columnName\": \"section\"},
+                    {\"columnName\": \"entry\"},
+                    {\"columnName\": \"act\"},
+                    {\"columnName\": \"entryRelationship\"},
+                    {\"columnName\": \"observation\"},
+                    {\"columnName\": \"code\"},
+                    {\"columnName\": \"mediaStatus\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"extractionURL\",
+                \"type\": \"other\",
+                \"value\": \"http://sweb:8080\"
+            },
+            {
+                \"name\": \"rootConcept\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"rootLocale\",
+                \"type\": \"other\",
+                \"value\": \"Auto Detect\"
+            },
+            {
+                \"name\": \"preferenceLevel\",
+                \"type\": \"other\",
+                \"value\": \"Can Ignore\"
+            },
+            {
+                \"name\": \"pipeline\",
+                \"type\": \"other\",
+                \"value\": \"ConceptExtractionPipeline\"
+            },
+            {
+                \"name\": \"conceptForTextArray\",
+                \"type\": \"other\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"SubmitPythonTransformationCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"ClinicalDocument\"},
+                    {\"columnName\": \"component\"},
+                    {\"columnName\": \"structuredBody\"},
+                    {\"columnName\": \"component\"},
+                    {\"columnName\": \"section\"},
+                    {\"columnName\": \"entry\"},
+                    {\"columnName\": \"act\"},
+                    {\"columnName\": \"entryRelationship\"},
+                    {\"columnName\": \"observation\"},
+                    {\"columnName\": \"value\"},
+                    {\"columnName\": \"content\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"newColumnName\",
+                \"type\": \"other\",
+                \"value\": \"mediaContentType\"
+            },
+            {
+                \"name\": \"transformationCode\",
+                \"type\": \"other\",
+                \"value\": \"if getValue(\\\"content\\\")!=\\\"\\\":\\n    return \\\"image/png\\\"\\nelse: \\n    return \\\"\\\"\"
+            },
+            {
+                \"name\": \"errorDefaultValue\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"isJSONOutput\",
+                \"type\": \"other\",
+                \"value\": \"false\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"ClinicalDocument\\\"},{\\\"columnName\\\":\\\"component\\\"},{\\\"columnName\\\":\\\"structuredBody\\\"},{\\\"columnName\\\":\\\"component\\\"},{\\\"columnName\\\":\\\"section\\\"},{\\\"columnName\\\":\\\"entry\\\"},{\\\"columnName\\\":\\\"act\\\"},{\\\"columnName\\\":\\\"entryRelationship\\\"},{\\\"columnName\\\":\\\"observation\\\"},{\\\"columnName\\\":\\\"value\\\"},{\\\"columnName\\\":\\\"content\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"ClinicalDocument\\\"},{\\\"columnName\\\":\\\"component\\\"},{\\\"columnName\\\":\\\"structuredBody\\\"},{\\\"columnName\\\":\\\"component\\\"},{\\\"columnName\\\":\\\"section\\\"},{\\\"columnName\\\":\\\"entry\\\"},{\\\"columnName\\\":\\\"act\\\"},{\\\"columnName\\\":\\\"entryRelationship\\\"},{\\\"columnName\\\":\\\"observation\\\"},{\\\"columnName\\\":\\\"value\\\"},{\\\"columnName\\\":\\\"mediaContentType\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"SubmitPythonTransformationCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"ClinicalDocument\"},
+                    {\"columnName\": \"setId\"},
+                    {\"columnName\": \"extension\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"newColumnName\",
+                \"type\": \"other\",
+                \"value\": \"DRstatus\"
+            },
+            {
+                \"name\": \"transformationCode\",
+                \"type\": \"other\",
+                \"value\": \"return \\\"final\\\"\"
+            },
+            {
+                \"name\": \"errorDefaultValue\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"isJSONOutput\",
+                \"type\": \"other\",
+                \"value\": \"false\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"ClinicalDocument\\\"},{\\\"columnName\\\":\\\"setId\\\"},{\\\"columnName\\\":\\\"DRstatus\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"ExtractConceptsCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"ClinicalDocument\"},
+                    {\"columnName\": \"setId\"},
+                    {\"columnName\": \"DRstatus\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"extractionURL\",
+                \"type\": \"other\",
+                \"value\": \"http://sweb:8080\"
+            },
+            {
+                \"name\": \"rootConcept\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"rootLocale\",
+                \"type\": \"other\",
+                \"value\": \"eng\"
+            },
+            {
+                \"name\": \"preferenceLevel\",
+                \"type\": \"other\",
+                \"value\": \"Can Ignore\"
+            },
+            {
+                \"name\": \"pipeline\",
+                \"type\": \"other\",
+                \"value\": \"ConceptExtractionPipeline\"
+            },
+            {
+                \"name\": \"conceptForTextArray\",
+                \"type\": \"other\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"SubmitPythonTransformationCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"ClinicalDocument\"},
+                    {\"columnName\": \"setId\"},
+                    {\"columnName\": \"extension\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"newColumnName\",
+                \"type\": \"other\",
+                \"value\": \"DRcategory\"
+            },
+            {
+                \"name\": \"transformationCode\",
+                \"type\": \"other\",
+                \"value\": \"return \\\"hl7_lab\\\"\"
+            },
+            {
+                \"name\": \"errorDefaultValue\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"isJSONOutput\",
+                \"type\": \"other\",
+                \"value\": \"false\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"ClinicalDocument\\\"},{\\\"columnName\\\":\\\"setId\\\"},{\\\"columnName\\\":\\\"DRcategory\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"ExtractConceptsCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"ClinicalDocument\"},
+                    {\"columnName\": \"setId\"},
+                    {\"columnName\": \"DRcategory\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"extractionURL\",
+                \"type\": \"other\",
+                \"value\": \"http://sweb:8080\"
+            },
+            {
+                \"name\": \"rootConcept\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"rootLocale\",
+                \"type\": \"other\",
+                \"value\": \"eng\"
+            },
+            {
+                \"name\": \"preferenceLevel\",
+                \"type\": \"other\",
+                \"value\": \"Can Ignore\"
+            },
+            {
+                \"name\": \"pipeline\",
+                \"type\": \"other\",
+                \"value\": \"ConceptExtractionPipeline\"
+            },
+            {
+                \"name\": \"conceptForTextArray\",
+                \"type\": \"other\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"SubmitPythonTransformationCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"ClinicalDocument\"},
+                    {\"columnName\": \"setId\"},
+                    {\"columnName\": \"extension\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"newColumnName\",
+                \"type\": \"other\",
+                \"value\": \"DR-code\"
+            },
+            {
+                \"name\": \"transformationCode\",
+                \"type\": \"other\",
+                \"value\": \"return \\\"loinc_30954-2\\\"\"
+            },
+            {
+                \"name\": \"errorDefaultValue\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"isJSONOutput\",
+                \"type\": \"other\",
+                \"value\": \"false\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"ClinicalDocument\\\"},{\\\"columnName\\\":\\\"setId\\\"},{\\\"columnName\\\":\\\"DR-code\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"ExtractConceptsCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"ClinicalDocument\"},
+                    {\"columnName\": \"setId\"},
+                    {\"columnName\": \"DR-code\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"extractionURL\",
+                \"type\": \"other\",
+                \"value\": \"http://sweb:8080\"
+            },
+            {
+                \"name\": \"rootConcept\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"rootLocale\",
+                \"type\": \"other\",
+                \"value\": \"Auto Detect\"
+            },
+            {
+                \"name\": \"preferenceLevel\",
+                \"type\": \"other\",
+                \"value\": \"Can Ignore\"
+            },
+            {
+                \"name\": \"pipeline\",
+                \"type\": \"other\",
+                \"value\": \"SingleWordConceptExtractionPipeline\"
+            },
+            {
+                \"name\": \"conceptForTextArray\",
+                \"type\": \"other\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"ExtractConceptsCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"ClinicalDocument\"},
+                    {\"columnName\": \"component\"},
+                    {\"columnName\": \"structuredBody\"},
+                    {\"columnName\": \"component\"},
+                    {\"columnName\": \"section\"},
+                    {\"columnName\": \"entry\"},
+                    {\"columnName\": \"act\"},
+                    {\"columnName\": \"entryRelationship\"},
+                    {\"columnName\": \"observation\"},
+                    {\"columnName\": \"code\"},
+                    {\"columnName\": \"codeLabel\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"extractionURL\",
+                \"type\": \"other\",
+                \"value\": \"http://sweb:8080\"
+            },
+            {
+                \"name\": \"rootConcept\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"rootLocale\",
+                \"type\": \"other\",
+                \"value\": \"Auto Detect\"
+            },
+            {
+                \"name\": \"preferenceLevel\",
+                \"type\": \"other\",
+                \"value\": \"Can Ignore\"
+            },
+            {
+                \"name\": \"pipeline\",
+                \"type\": \"other\",
+                \"value\": \"SingleWordConceptExtractionPipeline\"
+            },
+            {
+                \"name\": \"conceptForTextArray\",
+                \"type\": \"other\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"SubmitPythonTransformationCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"ClinicalDocument\"},
+                    {\"columnName\": \"component\"},
+                    {\"columnName\": \"structuredBody\"},
+                    {\"columnName\": \"component\"},
+                    {\"columnName\": \"section\"},
+                    {\"columnName\": \"entry\"},
+                    {\"columnName\": \"act\"},
+                    {\"columnName\": \"entryRelationship\"},
+                    {\"columnName\": \"observation\"},
+                    {\"columnName\": \"code\"},
+                    {\"columnName\": \"codeLabel\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"newColumnName\",
+                \"type\": \"other\",
+                \"value\": \"obsCategory\"
+            },
+            {
+                \"name\": \"transformationCode\",
+                \"type\": \"other\",
+                \"value\": \"if getValue(\\\"codeLabel\\\")!=\\\"\\\":\\n    return \\\"hl7_laboratory_result\\\"\\nelse:\\n    return \\\"\\\"\"
+            },
+            {
+                \"name\": \"errorDefaultValue\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"isJSONOutput\",
+                \"type\": \"other\",
+                \"value\": \"false\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"ClinicalDocument\\\"},{\\\"columnName\\\":\\\"component\\\"},{\\\"columnName\\\":\\\"structuredBody\\\"},{\\\"columnName\\\":\\\"component\\\"},{\\\"columnName\\\":\\\"section\\\"},{\\\"columnName\\\":\\\"entry\\\"},{\\\"columnName\\\":\\\"act\\\"},{\\\"columnName\\\":\\\"entryRelationship\\\"},{\\\"columnName\\\":\\\"observation\\\"},{\\\"columnName\\\":\\\"code\\\"},{\\\"columnName\\\":\\\"codeLabel\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"ClinicalDocument\\\"},{\\\"columnName\\\":\\\"component\\\"},{\\\"columnName\\\":\\\"structuredBody\\\"},{\\\"columnName\\\":\\\"component\\\"},{\\\"columnName\\\":\\\"section\\\"},{\\\"columnName\\\":\\\"entry\\\"},{\\\"columnName\\\":\\\"act\\\"},{\\\"columnName\\\":\\\"entryRelationship\\\"},{\\\"columnName\\\":\\\"observation\\\"},{\\\"columnName\\\":\\\"code\\\"},{\\\"columnName\\\":\\\"obsCategory\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"ExtractConceptsCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"ClinicalDocument\"},
+                    {\"columnName\": \"component\"},
+                    {\"columnName\": \"structuredBody\"},
+                    {\"columnName\": \"component\"},
+                    {\"columnName\": \"section\"},
+                    {\"columnName\": \"entry\"},
+                    {\"columnName\": \"act\"},
+                    {\"columnName\": \"entryRelationship\"},
+                    {\"columnName\": \"observation\"},
+                    {\"columnName\": \"code\"},
+                    {\"columnName\": \"obsCategory\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"extractionURL\",
+                \"type\": \"other\",
+                \"value\": \"http://sweb:8080\"
+            },
+            {
+                \"name\": \"rootConcept\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"rootLocale\",
+                \"type\": \"other\",
+                \"value\": \"Auto Detect\"
+            },
+            {
+                \"name\": \"preferenceLevel\",
+                \"type\": \"other\",
+                \"value\": \"Can Ignore\"
+            },
+            {
+                \"name\": \"pipeline\",
+                \"type\": \"other\",
+                \"value\": \"SingleWordConceptExtractionPipeline\"
+            },
+            {
+                \"name\": \"conceptForTextArray\",
+                \"type\": \"other\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"SubmitPythonTransformationCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"ClinicalDocument\"},
+                    {\"columnName\": \"component\"},
+                    {\"columnName\": \"structuredBody\"},
+                    {\"columnName\": \"component\"},
+                    {\"columnName\": \"section\"},
+                    {\"columnName\": \"entry\"},
+                    {\"columnName\": \"act\"},
+                    {\"columnName\": \"entryRelationship\"},
+                    {\"columnName\": \"observation\"},
+                    {\"columnName\": \"value\"},
+                    {\"columnName\": \"unit\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"newColumnName\",
+                \"type\": \"other\",
+                \"value\": \"unitConcept\"
+            },
+            {
+                \"name\": \"transformationCode\",
+                \"type\": \"other\",
+                \"value\": \"if getValue(\\\"unit\\\")!=\\\"\\\":\\n    if getValue(\\\"unit\\\")==\\\"%\\\":\\n        return \\\"percentage\\\"\\n    else:\\n        return getValue(\\\"unit\\\")\\nelse:\\n    return \\\"\\\"\"
+            },
+            {
+                \"name\": \"errorDefaultValue\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"isJSONOutput\",
+                \"type\": \"other\",
+                \"value\": \"false\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"ClinicalDocument\\\"},{\\\"columnName\\\":\\\"component\\\"},{\\\"columnName\\\":\\\"structuredBody\\\"},{\\\"columnName\\\":\\\"component\\\"},{\\\"columnName\\\":\\\"section\\\"},{\\\"columnName\\\":\\\"entry\\\"},{\\\"columnName\\\":\\\"act\\\"},{\\\"columnName\\\":\\\"entryRelationship\\\"},{\\\"columnName\\\":\\\"observation\\\"},{\\\"columnName\\\":\\\"value\\\"},{\\\"columnName\\\":\\\"unit\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"ClinicalDocument\\\"},{\\\"columnName\\\":\\\"component\\\"},{\\\"columnName\\\":\\\"structuredBody\\\"},{\\\"columnName\\\":\\\"component\\\"},{\\\"columnName\\\":\\\"section\\\"},{\\\"columnName\\\":\\\"entry\\\"},{\\\"columnName\\\":\\\"act\\\"},{\\\"columnName\\\":\\\"entryRelationship\\\"},{\\\"columnName\\\":\\\"observation\\\"},{\\\"columnName\\\":\\\"value\\\"},{\\\"columnName\\\":\\\"unitConcept\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"ExtractConceptsCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"ClinicalDocument\"},
+                    {\"columnName\": \"component\"},
+                    {\"columnName\": \"structuredBody\"},
+                    {\"columnName\": \"component\"},
+                    {\"columnName\": \"section\"},
+                    {\"columnName\": \"entry\"},
+                    {\"columnName\": \"act\"},
+                    {\"columnName\": \"entryRelationship\"},
+                    {\"columnName\": \"observation\"},
+                    {\"columnName\": \"value\"},
+                    {\"columnName\": \"unitConcept\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"extractionURL\",
+                \"type\": \"other\",
+                \"value\": \"http://sweb:8080\"
+            },
+            {
+                \"name\": \"rootConcept\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"rootLocale\",
+                \"type\": \"other\",
+                \"value\": \"eng\"
+            },
+            {
+                \"name\": \"preferenceLevel\",
+                \"type\": \"other\",
+                \"value\": \"Can Ignore\"
+            },
+            {
+                \"name\": \"pipeline\",
+                \"type\": \"other\",
+                \"value\": \"ConceptExtractionPipeline\"
+            },
+            {
+                \"name\": \"conceptForTextArray\",
+                \"type\": \"other\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"SubmitPythonTransformationCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"ClinicalDocument\"},
+                    {\"columnName\": \"effectiveTime\"},
+                    {\"columnName\": \"value\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"newColumnName\",
+                \"type\": \"other\",
+                \"value\": \"value\"
+            },
+            {
+                \"name\": \"transformationCode\",
+                \"type\": \"other\",
+                \"value\": \"return toISODate(getValue(\\\"value\\\"))\"
+            },
+            {
+                \"name\": \"errorDefaultValue\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"isJSONOutput\",
+                \"type\": \"other\",
+                \"value\": \"false\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"ClinicalDocument\\\"},{\\\"columnName\\\":\\\"effectiveTime\\\"},{\\\"columnName\\\":\\\"value\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"ClinicalDocument\\\"},{\\\"columnName\\\":\\\"effectiveTime\\\"},{\\\"columnName\\\":\\\"value\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"SubmitPythonTransformationCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"ClinicalDocument\"},
+                    {\"columnName\": \"setId\"},
+                    {\"columnName\": \"extension\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"newColumnName\",
+                \"type\": \"other\",
+                \"value\": \"extension\"
+            },
+            {
+                \"name\": \"transformationCode\",
+                \"type\": \"other\",
+                \"value\": \"return \\\"DR-imaging-\\\"+getValue(\\\"extension\\\")\"
+            },
+            {
+                \"name\": \"errorDefaultValue\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"isJSONOutput\",
+                \"type\": \"other\",
+                \"value\": \"false\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"ClinicalDocument\\\"},{\\\"columnName\\\":\\\"setId\\\"},{\\\"columnName\\\":\\\"extension\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"ClinicalDocument\\\"},{\\\"columnName\\\":\\\"setId\\\"},{\\\"columnName\\\":\\\"extension\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"ClinicalDocument\"},
+                    {\"columnName\": \"component\"},
+                    {\"columnName\": \"structuredBody\"},
+                    {\"columnName\": \"component\"},
+                    {\"columnName\": \"section\"},
+                    {\"columnName\": \"entry\"},
+                    {\"columnName\": \"act\"},
+                    {\"columnName\": \"entryRelationship\"},
+                    {\"columnName\": \"observation\"},
+                    {\"columnName\": \"code\"},
+                    {\"columnName\": \"mediaId\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#Fhir_media_GID-648392\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#Fhir_media_GID-6483921\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1\",
+                    \"DomainLabel\": \"etype:Fhir_media_GID-6483921 (add)\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"ClinicalDocument\\\"},{\\\"columnName\\\":\\\"component\\\"},{\\\"columnName\\\":\\\"structuredBody\\\"},{\\\"columnName\\\":\\\"component\\\"},{\\\"columnName\\\":\\\"section\\\"},{\\\"columnName\\\":\\\"entry\\\"},{\\\"columnName\\\":\\\"act\\\"},{\\\"columnName\\\":\\\"entryRelationship\\\"},{\\\"columnName\\\":\\\"observation\\\"},{\\\"columnName\\\":\\\"code\\\"},{\\\"columnName\\\":\\\"mediaId\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"ClinicalDocument\\\"},{\\\"columnName\\\":\\\"component\\\"},{\\\"columnName\\\":\\\"structuredBody\\\"},{\\\"columnName\\\":\\\"component\\\"},{\\\"columnName\\\":\\\"section\\\"},{\\\"columnName\\\":\\\"entry\\\"},{\\\"columnName\\\":\\\"act\\\"},{\\\"columnName\\\":\\\"entryRelationship\\\"},{\\\"columnName\\\":\\\"observation\\\"},{\\\"columnName\\\":\\\"code\\\"},{\\\"columnName\\\":\\\"mediaId\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"ClinicalDocument\"},
+                    {\"columnName\": \"component\"},
+                    {\"columnName\": \"structuredBody\"},
+                    {\"columnName\": \"component\"},
+                    {\"columnName\": \"section\"},
+                    {\"columnName\": \"entry\"},
+                    {\"columnName\": \"act\"},
+                    {\"columnName\": \"entryRelationship\"},
+                    {\"columnName\": \"observation\"},
+                    {\"columnName\": \"code\"},
+                    {\"columnName\": \"mediaStatus Concepts\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#Fhir_media_GID-648392\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#Fhir_media_GID-6483921\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#has_fhir_media.status_GID-648385_Type-648392\",
+                    \"DomainLabel\": \"etype:Fhir_media_GID-6483921\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:Concept\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"ClinicalDocument\\\"},{\\\"columnName\\\":\\\"component\\\"},{\\\"columnName\\\":\\\"structuredBody\\\"},{\\\"columnName\\\":\\\"component\\\"},{\\\"columnName\\\":\\\"section\\\"},{\\\"columnName\\\":\\\"entry\\\"},{\\\"columnName\\\":\\\"act\\\"},{\\\"columnName\\\":\\\"entryRelationship\\\"},{\\\"columnName\\\":\\\"observation\\\"},{\\\"columnName\\\":\\\"code\\\"},{\\\"columnName\\\":\\\"mediaStatus Concepts\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"ClinicalDocument\\\"},{\\\"columnName\\\":\\\"component\\\"},{\\\"columnName\\\":\\\"structuredBody\\\"},{\\\"columnName\\\":\\\"component\\\"},{\\\"columnName\\\":\\\"section\\\"},{\\\"columnName\\\":\\\"entry\\\"},{\\\"columnName\\\":\\\"act\\\"},{\\\"columnName\\\":\\\"entryRelationship\\\"},{\\\"columnName\\\":\\\"observation\\\"},{\\\"columnName\\\":\\\"code\\\"},{\\\"columnName\\\":\\\"mediaStatus Concepts\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"ClinicalDocument\"},
+                    {\"columnName\": \"recordTarget\"},
+                    {\"columnName\": \"patientRole\"},
+                    {\"columnName\": \"id\"},
+                    {\"columnName\": \"extension\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#Patient_GID-55936\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#Patient_GID-559361\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1\",
+                    \"DomainLabel\": \"etype:Patient_GID-559361 (add)\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"ClinicalDocument\\\"},{\\\"columnName\\\":\\\"recordTarget\\\"},{\\\"columnName\\\":\\\"patientRole\\\"},{\\\"columnName\\\":\\\"id\\\"},{\\\"columnName\\\":\\\"extension\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"ClinicalDocument\\\"},{\\\"columnName\\\":\\\"recordTarget\\\"},{\\\"columnName\\\":\\\"patientRole\\\"},{\\\"columnName\\\":\\\"id\\\"},{\\\"columnName\\\":\\\"extension\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"ClinicalDocument\"},
+                    {\"columnName\": \"custodian\"},
+                    {\"columnName\": \"assignedCustodian\"},
+                    {\"columnName\": \"representedCustodianOrganization\"},
+                    {\"columnName\": \"id\"},
+                    {\"columnName\": \"root\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#Fhir_organization_GID-641802\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#Fhir_organization_GID-6418021\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1\",
+                    \"DomainLabel\": \"etype:Fhir_organization_GID-6418021 (add)\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"ClinicalDocument\\\"},{\\\"columnName\\\":\\\"custodian\\\"},{\\\"columnName\\\":\\\"assignedCustodian\\\"},{\\\"columnName\\\":\\\"representedCustodianOrganization\\\"},{\\\"columnName\\\":\\\"id\\\"},{\\\"columnName\\\":\\\"root\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"ClinicalDocument\\\"},{\\\"columnName\\\":\\\"custodian\\\"},{\\\"columnName\\\":\\\"assignedCustodian\\\"},{\\\"columnName\\\":\\\"representedCustodianOrganization\\\"},{\\\"columnName\\\":\\\"id\\\"},{\\\"columnName\\\":\\\"root\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"ClinicalDocument\"},
+                    {\"columnName\": \"custodian\"},
+                    {\"columnName\": \"assignedCustodian\"},
+                    {\"columnName\": \"representedCustodianOrganization\"},
+                    {\"columnName\": \"name\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#Fhir_organization_GID-641802\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#Fhir_organization_GID-6418021\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#has_fhir_organization.name_GID-641804_Type-641802\",
+                    \"DomainLabel\": \"etype:Fhir_organization_GID-6418021\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"ClinicalDocument\\\"},{\\\"columnName\\\":\\\"custodian\\\"},{\\\"columnName\\\":\\\"assignedCustodian\\\"},{\\\"columnName\\\":\\\"representedCustodianOrganization\\\"},{\\\"columnName\\\":\\\"name\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"ClinicalDocument\\\"},{\\\"columnName\\\":\\\"custodian\\\"},{\\\"columnName\\\":\\\"assignedCustodian\\\"},{\\\"columnName\\\":\\\"representedCustodianOrganization\\\"},{\\\"columnName\\\":\\\"name\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"ClinicalDocument\"},
+                    {\"columnName\": \"component\"},
+                    {\"columnName\": \"structuredBody\"},
+                    {\"columnName\": \"component\"},
+                    {\"columnName\": \"section\"},
+                    {\"columnName\": \"entry\"},
+                    {\"columnName\": \"act\"},
+                    {\"columnName\": \"entryRelationship\"},
+                    {\"columnName\": \"observation\"},
+                    {\"columnName\": \"value\"},
+                    {\"columnName\": \"mediaContentType\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#Fhir_media_GID-648392\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#Fhir_media_GID-6483921\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#has_fhir_media.content.contenttype_GID-648388_Type-648392\",
+                    \"DomainLabel\": \"etype:Fhir_media_GID-6483921\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"ClinicalDocument\\\"},{\\\"columnName\\\":\\\"component\\\"},{\\\"columnName\\\":\\\"structuredBody\\\"},{\\\"columnName\\\":\\\"component\\\"},{\\\"columnName\\\":\\\"section\\\"},{\\\"columnName\\\":\\\"entry\\\"},{\\\"columnName\\\":\\\"act\\\"},{\\\"columnName\\\":\\\"entryRelationship\\\"},{\\\"columnName\\\":\\\"observation\\\"},{\\\"columnName\\\":\\\"value\\\"},{\\\"columnName\\\":\\\"mediaContentType\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"ClinicalDocument\\\"},{\\\"columnName\\\":\\\"component\\\"},{\\\"columnName\\\":\\\"structuredBody\\\"},{\\\"columnName\\\":\\\"component\\\"},{\\\"columnName\\\":\\\"section\\\"},{\\\"columnName\\\":\\\"entry\\\"},{\\\"columnName\\\":\\\"act\\\"},{\\\"columnName\\\":\\\"entryRelationship\\\"},{\\\"columnName\\\":\\\"observation\\\"},{\\\"columnName\\\":\\\"value\\\"},{\\\"columnName\\\":\\\"mediaContentType\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"ClinicalDocument\"},
+                    {\"columnName\": \"component\"},
+                    {\"columnName\": \"structuredBody\"},
+                    {\"columnName\": \"component\"},
+                    {\"columnName\": \"section\"},
+                    {\"columnName\": \"entry\"},
+                    {\"columnName\": \"act\"},
+                    {\"columnName\": \"entryRelationship\"},
+                    {\"columnName\": \"observation\"},
+                    {\"columnName\": \"value\"},
+                    {\"columnName\": \"content\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#Fhir_media_GID-648392\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#Fhir_media_GID-6483921\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#has_fhir_media.content.data_GID-648389_Type-648392\",
+                    \"DomainLabel\": \"etype:Fhir_media_GID-6483921\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"ClinicalDocument\\\"},{\\\"columnName\\\":\\\"component\\\"},{\\\"columnName\\\":\\\"structuredBody\\\"},{\\\"columnName\\\":\\\"component\\\"},{\\\"columnName\\\":\\\"section\\\"},{\\\"columnName\\\":\\\"entry\\\"},{\\\"columnName\\\":\\\"act\\\"},{\\\"columnName\\\":\\\"entryRelationship\\\"},{\\\"columnName\\\":\\\"observation\\\"},{\\\"columnName\\\":\\\"value\\\"},{\\\"columnName\\\":\\\"content\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"ClinicalDocument\\\"},{\\\"columnName\\\":\\\"component\\\"},{\\\"columnName\\\":\\\"structuredBody\\\"},{\\\"columnName\\\":\\\"component\\\"},{\\\"columnName\\\":\\\"section\\\"},{\\\"columnName\\\":\\\"entry\\\"},{\\\"columnName\\\":\\\"act\\\"},{\\\"columnName\\\":\\\"entryRelationship\\\"},{\\\"columnName\\\":\\\"observation\\\"},{\\\"columnName\\\":\\\"value\\\"},{\\\"columnName\\\":\\\"content\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"ClinicalDocument\"},
+                    {\"columnName\": \"setId\"},
+                    {\"columnName\": \"DRstatus Concepts\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#Fhir_diagnosticreport_GID-200115\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#Fhir_diagnosticreport_GID-2001151\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#has_fhir_diagnosticreport.status_GID-200118_Type-200115\",
+                    \"DomainLabel\": \"etype:Fhir_diagnosticreport_GID-2001151\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:Concept\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"ClinicalDocument\\\"},{\\\"columnName\\\":\\\"setId\\\"},{\\\"columnName\\\":\\\"DRstatus Concepts\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"ClinicalDocument\\\"},{\\\"columnName\\\":\\\"setId\\\"},{\\\"columnName\\\":\\\"DRstatus Concepts\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"ClinicalDocument\"},
+                    {\"columnName\": \"setId\"},
+                    {\"columnName\": \"DRcategory Concepts\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#Fhir_diagnosticreport_GID-200115\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#Fhir_diagnosticreport_GID-2001151\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#has_fhir_diagnosticreport.category_GID-200119_Type-200115\",
+                    \"DomainLabel\": \"etype:Fhir_diagnosticreport_GID-2001151\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:Concept\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"ClinicalDocument\\\"},{\\\"columnName\\\":\\\"setId\\\"},{\\\"columnName\\\":\\\"DRcategory Concepts\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"ClinicalDocument\\\"},{\\\"columnName\\\":\\\"setId\\\"},{\\\"columnName\\\":\\\"DRcategory Concepts\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"ClinicalDocument\"},
+                    {\"columnName\": \"setId\"},
+                    {\"columnName\": \"DR-code Concepts\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#Fhir_diagnosticreport_GID-200115\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#Fhir_diagnosticreport_GID-2001151\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#has_fhir_diagnosticreport.code_GID-200120_Type-200115\",
+                    \"DomainLabel\": \"etype:Fhir_diagnosticreport_GID-2001151\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:Concept\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"ClinicalDocument\\\"},{\\\"columnName\\\":\\\"setId\\\"},{\\\"columnName\\\":\\\"DR-code Concepts\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"ClinicalDocument\\\"},{\\\"columnName\\\":\\\"setId\\\"},{\\\"columnName\\\":\\\"DR-code Concepts\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"ClinicalDocument\"},
+                    {\"columnName\": \"componentOf\"},
+                    {\"columnName\": \"encompassingEncounter\"},
+                    {\"columnName\": \"id\"},
+                    {\"columnName\": \"extension\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#Fhir_encounter_GID-641751\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#Fhir_encounter_GID-6417511\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1\",
+                    \"DomainLabel\": \"etype:Fhir_encounter_GID-6417511 (add)\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"ClinicalDocument\\\"},{\\\"columnName\\\":\\\"componentOf\\\"},{\\\"columnName\\\":\\\"encompassingEncounter\\\"},{\\\"columnName\\\":\\\"id\\\"},{\\\"columnName\\\":\\\"extension\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"ClinicalDocument\\\"},{\\\"columnName\\\":\\\"componentOf\\\"},{\\\"columnName\\\":\\\"encompassingEncounter\\\"},{\\\"columnName\\\":\\\"id\\\"},{\\\"columnName\\\":\\\"extension\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"ClinicalDocument\"},
+                    {\"columnName\": \"author\"},
+                    {\"columnName\": \"assignedAuthor\"},
+                    {\"columnName\": \"id\"},
+                    {\"columnName\": \"extension\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#Fhir_practitioner_GID-641678\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#Fhir_practitioner_GID-6416781\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1\",
+                    \"DomainLabel\": \"etype:Fhir_practitioner_GID-6416781 (add)\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"ClinicalDocument\\\"},{\\\"columnName\\\":\\\"author\\\"},{\\\"columnName\\\":\\\"assignedAuthor\\\"},{\\\"columnName\\\":\\\"id\\\"},{\\\"columnName\\\":\\\"extension\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"ClinicalDocument\\\"},{\\\"columnName\\\":\\\"author\\\"},{\\\"columnName\\\":\\\"assignedAuthor\\\"},{\\\"columnName\\\":\\\"id\\\"},{\\\"columnName\\\":\\\"extension\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"ClinicalDocument\"},
+                    {\"columnName\": \"author\"},
+                    {\"columnName\": \"assignedAuthor\"},
+                    {\"columnName\": \"assignedPerson\"},
+                    {\"columnName\": \"name\"},
+                    {\"columnName\": \"family\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#Fhir_practitioner_GID-641678\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#Fhir_practitioner_GID-6416781\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#has_fhir_practitioner.name.family_GID-641665_Type-641678\",
+                    \"DomainLabel\": \"etype:Fhir_practitioner_GID-6416781\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"ClinicalDocument\\\"},{\\\"columnName\\\":\\\"author\\\"},{\\\"columnName\\\":\\\"assignedAuthor\\\"},{\\\"columnName\\\":\\\"assignedPerson\\\"},{\\\"columnName\\\":\\\"name\\\"},{\\\"columnName\\\":\\\"family\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"ClinicalDocument\\\"},{\\\"columnName\\\":\\\"author\\\"},{\\\"columnName\\\":\\\"assignedAuthor\\\"},{\\\"columnName\\\":\\\"assignedPerson\\\"},{\\\"columnName\\\":\\\"name\\\"},{\\\"columnName\\\":\\\"family\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"ClinicalDocument\"},
+                    {\"columnName\": \"author\"},
+                    {\"columnName\": \"assignedAuthor\"},
+                    {\"columnName\": \"assignedPerson\"},
+                    {\"columnName\": \"name\"},
+                    {\"columnName\": \"given\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#Fhir_practitioner_GID-641678\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#Fhir_practitioner_GID-6416781\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#has_fhir_practitioner.name.given_GID-641664_Type-641678\",
+                    \"DomainLabel\": \"etype:Fhir_practitioner_GID-6416781\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"ClinicalDocument\\\"},{\\\"columnName\\\":\\\"author\\\"},{\\\"columnName\\\":\\\"assignedAuthor\\\"},{\\\"columnName\\\":\\\"assignedPerson\\\"},{\\\"columnName\\\":\\\"name\\\"},{\\\"columnName\\\":\\\"given\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"ClinicalDocument\\\"},{\\\"columnName\\\":\\\"author\\\"},{\\\"columnName\\\":\\\"assignedAuthor\\\"},{\\\"columnName\\\":\\\"assignedPerson\\\"},{\\\"columnName\\\":\\\"name\\\"},{\\\"columnName\\\":\\\"given\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"ClinicalDocument\"},
+                    {\"columnName\": \"component\"},
+                    {\"columnName\": \"structuredBody\"},
+                    {\"columnName\": \"component\"},
+                    {\"columnName\": \"section\"},
+                    {\"columnName\": \"entry\"},
+                    {\"columnName\": \"act\"},
+                    {\"columnName\": \"entryRelationship\"},
+                    {\"columnName\": \"observation\"},
+                    {\"columnName\": \"code\"},
+                    {\"columnName\": \"codeLabel\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#Fhir_observation_GID-200056\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#Fhir_observation_GID-2000561\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1\",
+                    \"DomainLabel\": \"etype:Fhir_observation_GID-2000561 (add)\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"ClinicalDocument\\\"},{\\\"columnName\\\":\\\"component\\\"},{\\\"columnName\\\":\\\"structuredBody\\\"},{\\\"columnName\\\":\\\"component\\\"},{\\\"columnName\\\":\\\"section\\\"},{\\\"columnName\\\":\\\"entry\\\"},{\\\"columnName\\\":\\\"act\\\"},{\\\"columnName\\\":\\\"entryRelationship\\\"},{\\\"columnName\\\":\\\"observation\\\"},{\\\"columnName\\\":\\\"code\\\"},{\\\"columnName\\\":\\\"codeLabel\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"ClinicalDocument\\\"},{\\\"columnName\\\":\\\"component\\\"},{\\\"columnName\\\":\\\"structuredBody\\\"},{\\\"columnName\\\":\\\"component\\\"},{\\\"columnName\\\":\\\"section\\\"},{\\\"columnName\\\":\\\"entry\\\"},{\\\"columnName\\\":\\\"act\\\"},{\\\"columnName\\\":\\\"entryRelationship\\\"},{\\\"columnName\\\":\\\"observation\\\"},{\\\"columnName\\\":\\\"code\\\"},{\\\"columnName\\\":\\\"codeLabel\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"ClinicalDocument\"},
+                    {\"columnName\": \"component\"},
+                    {\"columnName\": \"structuredBody\"},
+                    {\"columnName\": \"component\"},
+                    {\"columnName\": \"section\"},
+                    {\"columnName\": \"entry\"},
+                    {\"columnName\": \"act\"},
+                    {\"columnName\": \"entryRelationship\"},
+                    {\"columnName\": \"observation\"},
+                    {\"columnName\": \"code\"},
+                    {\"columnName\": \"obsCategory Concepts\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#Fhir_observation_GID-200056\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#Fhir_observation_GID-2000561\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#has_fhir_observation.category_GID-200096_Type-200056\",
+                    \"DomainLabel\": \"etype:Fhir_observation_GID-2000561\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:Concept\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"ClinicalDocument\\\"},{\\\"columnName\\\":\\\"component\\\"},{\\\"columnName\\\":\\\"structuredBody\\\"},{\\\"columnName\\\":\\\"component\\\"},{\\\"columnName\\\":\\\"section\\\"},{\\\"columnName\\\":\\\"entry\\\"},{\\\"columnName\\\":\\\"act\\\"},{\\\"columnName\\\":\\\"entryRelationship\\\"},{\\\"columnName\\\":\\\"observation\\\"},{\\\"columnName\\\":\\\"code\\\"},{\\\"columnName\\\":\\\"obsCategory Concepts\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"ClinicalDocument\\\"},{\\\"columnName\\\":\\\"component\\\"},{\\\"columnName\\\":\\\"structuredBody\\\"},{\\\"columnName\\\":\\\"component\\\"},{\\\"columnName\\\":\\\"section\\\"},{\\\"columnName\\\":\\\"entry\\\"},{\\\"columnName\\\":\\\"act\\\"},{\\\"columnName\\\":\\\"entryRelationship\\\"},{\\\"columnName\\\":\\\"observation\\\"},{\\\"columnName\\\":\\\"code\\\"},{\\\"columnName\\\":\\\"obsCategory Concepts\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"ClinicalDocument\"},
+                    {\"columnName\": \"component\"},
+                    {\"columnName\": \"structuredBody\"},
+                    {\"columnName\": \"component\"},
+                    {\"columnName\": \"section\"},
+                    {\"columnName\": \"entry\"},
+                    {\"columnName\": \"act\"},
+                    {\"columnName\": \"entryRelationship\"},
+                    {\"columnName\": \"observation\"},
+                    {\"columnName\": \"code\"},
+                    {\"columnName\": \"codeLabel Concepts\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#Fhir_observation_GID-200056\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#Fhir_observation_GID-2000561\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#has_fhir_observation.code_GID-200097_Type-200056\",
+                    \"DomainLabel\": \"etype:Fhir_observation_GID-2000561\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:Concept\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"ClinicalDocument\\\"},{\\\"columnName\\\":\\\"component\\\"},{\\\"columnName\\\":\\\"structuredBody\\\"},{\\\"columnName\\\":\\\"component\\\"},{\\\"columnName\\\":\\\"section\\\"},{\\\"columnName\\\":\\\"entry\\\"},{\\\"columnName\\\":\\\"act\\\"},{\\\"columnName\\\":\\\"entryRelationship\\\"},{\\\"columnName\\\":\\\"observation\\\"},{\\\"columnName\\\":\\\"code\\\"},{\\\"columnName\\\":\\\"codeLabel Concepts\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"ClinicalDocument\\\"},{\\\"columnName\\\":\\\"component\\\"},{\\\"columnName\\\":\\\"structuredBody\\\"},{\\\"columnName\\\":\\\"component\\\"},{\\\"columnName\\\":\\\"section\\\"},{\\\"columnName\\\":\\\"entry\\\"},{\\\"columnName\\\":\\\"act\\\"},{\\\"columnName\\\":\\\"entryRelationship\\\"},{\\\"columnName\\\":\\\"observation\\\"},{\\\"columnName\\\":\\\"code\\\"},{\\\"columnName\\\":\\\"codeLabel Concepts\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"ClinicalDocument\"},
+                    {\"columnName\": \"effectiveTime\"},
+                    {\"columnName\": \"value\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#Fhir_observation_GID-200056\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#Fhir_observation_GID-2000561\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#has_fhir_observation.effectivedatetime_GID-200063_Type-200056\",
+                    \"DomainLabel\": \"etype:Fhir_observation_GID-2000561\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:dateTime\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"ClinicalDocument\\\"},{\\\"columnName\\\":\\\"effectiveTime\\\"},{\\\"columnName\\\":\\\"value\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"ClinicalDocument\\\"},{\\\"columnName\\\":\\\"effectiveTime\\\"},{\\\"columnName\\\":\\\"value\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"ClinicalDocument\"},
+                    {\"columnName\": \"component\"},
+                    {\"columnName\": \"structuredBody\"},
+                    {\"columnName\": \"component\"},
+                    {\"columnName\": \"section\"},
+                    {\"columnName\": \"entry\"},
+                    {\"columnName\": \"act\"},
+                    {\"columnName\": \"entryRelationship\"},
+                    {\"columnName\": \"observation\"},
+                    {\"columnName\": \"value\"},
+                    {\"columnName\": \"value\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#Fhir_observation_GID-200056\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#Fhir_observation_GID-2000561\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#has_fhir_observation.valuequantity.value_GID-200095_Type-200056\",
+                    \"DomainLabel\": \"etype:Fhir_observation_GID-2000561\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"ClinicalDocument\\\"},{\\\"columnName\\\":\\\"component\\\"},{\\\"columnName\\\":\\\"structuredBody\\\"},{\\\"columnName\\\":\\\"component\\\"},{\\\"columnName\\\":\\\"section\\\"},{\\\"columnName\\\":\\\"entry\\\"},{\\\"columnName\\\":\\\"act\\\"},{\\\"columnName\\\":\\\"entryRelationship\\\"},{\\\"columnName\\\":\\\"observation\\\"},{\\\"columnName\\\":\\\"value\\\"},{\\\"columnName\\\":\\\"value\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"ClinicalDocument\\\"},{\\\"columnName\\\":\\\"component\\\"},{\\\"columnName\\\":\\\"structuredBody\\\"},{\\\"columnName\\\":\\\"component\\\"},{\\\"columnName\\\":\\\"section\\\"},{\\\"columnName\\\":\\\"entry\\\"},{\\\"columnName\\\":\\\"act\\\"},{\\\"columnName\\\":\\\"entryRelationship\\\"},{\\\"columnName\\\":\\\"observation\\\"},{\\\"columnName\\\":\\\"value\\\"},{\\\"columnName\\\":\\\"value\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"ClinicalDocument\"},
+                    {\"columnName\": \"component\"},
+                    {\"columnName\": \"structuredBody\"},
+                    {\"columnName\": \"component\"},
+                    {\"columnName\": \"section\"},
+                    {\"columnName\": \"entry\"},
+                    {\"columnName\": \"act\"},
+                    {\"columnName\": \"entryRelationship\"},
+                    {\"columnName\": \"observation\"},
+                    {\"columnName\": \"value\"},
+                    {\"columnName\": \"unitConcept Concepts\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#Fhir_observation_GID-200056\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#Fhir_observation_GID-2000561\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#has_fhir_observation.valuequantity.unit_GID-200094_Type-200056\",
+                    \"DomainLabel\": \"etype:Fhir_observation_GID-2000561\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:Concept\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"ClinicalDocument\\\"},{\\\"columnName\\\":\\\"component\\\"},{\\\"columnName\\\":\\\"structuredBody\\\"},{\\\"columnName\\\":\\\"component\\\"},{\\\"columnName\\\":\\\"section\\\"},{\\\"columnName\\\":\\\"entry\\\"},{\\\"columnName\\\":\\\"act\\\"},{\\\"columnName\\\":\\\"entryRelationship\\\"},{\\\"columnName\\\":\\\"observation\\\"},{\\\"columnName\\\":\\\"value\\\"},{\\\"columnName\\\":\\\"unitConcept Concepts\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"ClinicalDocument\\\"},{\\\"columnName\\\":\\\"component\\\"},{\\\"columnName\\\":\\\"structuredBody\\\"},{\\\"columnName\\\":\\\"component\\\"},{\\\"columnName\\\":\\\"section\\\"},{\\\"columnName\\\":\\\"entry\\\"},{\\\"columnName\\\":\\\"act\\\"},{\\\"columnName\\\":\\\"entryRelationship\\\"},{\\\"columnName\\\":\\\"observation\\\"},{\\\"columnName\\\":\\\"value\\\"},{\\\"columnName\\\":\\\"unitConcept Concepts\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"ClinicalDocument\"},
+                    {\"columnName\": \"setId\"},
+                    {\"columnName\": \"extension\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#Fhir_diagnosticreport_GID-200115\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#Fhir_diagnosticreport_GID-2001151\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1\",
+                    \"DomainLabel\": \"etype:Fhir_diagnosticreport_GID-2001151\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"ClinicalDocument\\\"},{\\\"columnName\\\":\\\"setId\\\"},{\\\"columnName\\\":\\\"extension\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"ClinicalDocument\\\"},{\\\"columnName\\\":\\\"setId\\\"},{\\\"columnName\\\":\\\"extension\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"AddLinkCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"edge\",
+                \"type\": \"other\",
+                \"value\": {
+                    \"edgeTargetId\": \"http://knowdive.disi.unitn.it/etype#Patient_GID-559361\",
+                    \"edgeId\": \"http://knowdive.disi.unitn.it/etype#has_fhir_media.subject.reference_GID-648386_Type-648392\",
+                    \"edgeTargetUri\": \"http://knowdive.disi.unitn.it/etype#Patient_GID-55936\",
+                    \"edgeSourceId\": \"http://knowdive.disi.unitn.it/etype#Fhir_media_GID-6483921\",
+                    \"edgeSourceUri\": \"http://knowdive.disi.unitn.it/etype#Fhir_media_GID-648392\"
+                }
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Modeling\"]
+    },
+    {
+        \"commandName\": \"AddLinkCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"edge\",
+                \"type\": \"other\",
+                \"value\": {
+                    \"edgeTargetId\": \"http://knowdive.disi.unitn.it/etype#Fhir_organization_GID-6418021\",
+                    \"edgeId\": \"http://knowdive.disi.unitn.it/etype#has_fhir_media.operator.reference_GID-648387_Type-648392\",
+                    \"edgeTargetUri\": \"http://knowdive.disi.unitn.it/etype#Fhir_organization_GID-641802\",
+                    \"edgeSourceId\": \"http://knowdive.disi.unitn.it/etype#Fhir_media_GID-6483921\",
+                    \"edgeSourceUri\": \"http://knowdive.disi.unitn.it/etype#Fhir_media_GID-648392\"
+                }
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Modeling\"]
+    },
+    {
+        \"commandName\": \"AddLinkCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"edge\",
+                \"type\": \"other\",
+                \"value\": {
+                    \"edgeTargetId\": \"http://knowdive.disi.unitn.it/etype#Patient_GID-559361\",
+                    \"edgeId\": \"http://knowdive.disi.unitn.it/etype#has_fhir_diagnosticreport.subject.reference_GID-200121_Type-200115\",
+                    \"edgeTargetUri\": \"http://knowdive.disi.unitn.it/etype#Patient_GID-55936\",
+                    \"edgeSourceId\": \"http://knowdive.disi.unitn.it/etype#Fhir_diagnosticreport_GID-2001151\",
+                    \"edgeSourceUri\": \"http://knowdive.disi.unitn.it/etype#Fhir_diagnosticreport_GID-200115\"
+                }
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Modeling\"]
+    },
+    {
+        \"commandName\": \"AddLinkCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"edge\",
+                \"type\": \"other\",
+                \"value\": {
+                    \"edgeTargetId\": \"http://knowdive.disi.unitn.it/etype#Fhir_encounter_GID-6417511\",
+                    \"edgeId\": \"http://knowdive.disi.unitn.it/etype#has_fhir_diagnosticreport.encounter.reference_GID-641789_Type-200115\",
+                    \"edgeTargetUri\": \"http://knowdive.disi.unitn.it/etype#Fhir_encounter_GID-641751\",
+                    \"edgeSourceId\": \"http://knowdive.disi.unitn.it/etype#Fhir_diagnosticreport_GID-2001151\",
+                    \"edgeSourceUri\": \"http://knowdive.disi.unitn.it/etype#Fhir_diagnosticreport_GID-200115\"
+                }
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Modeling\"]
+    },
+    {
+        \"commandName\": \"AddLinkCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"edge\",
+                \"type\": \"other\",
+                \"value\": {
+                    \"edgeTargetId\": \"http://knowdive.disi.unitn.it/etype#Fhir_practitioner_GID-6416781\",
+                    \"edgeId\": \"http://knowdive.disi.unitn.it/etype#has_fhir_diagnosticreport.performer.reference_GID-200123_Type-200115\",
+                    \"edgeTargetUri\": \"http://knowdive.disi.unitn.it/etype#Fhir_practitioner_GID-641678\",
+                    \"edgeSourceId\": \"http://knowdive.disi.unitn.it/etype#Fhir_diagnosticreport_GID-2001151\",
+                    \"edgeSourceUri\": \"http://knowdive.disi.unitn.it/etype#Fhir_diagnosticreport_GID-200115\"
+                }
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Modeling\"]
+    },
+    {
+        \"commandName\": \"AddLinkCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"edge\",
+                \"type\": \"other\",
+                \"value\": {
+                    \"edgeTargetId\": \"http://knowdive.disi.unitn.it/etype#Fhir_practitioner_GID-6416781\",
+                    \"edgeId\": \"http://knowdive.disi.unitn.it/etype#has_fhir_diagnosticreport.resultsinterpreter.reference_GID-200124_Type-200115\",
+                    \"edgeTargetUri\": \"http://knowdive.disi.unitn.it/etype#Fhir_practitioner_GID-641678\",
+                    \"edgeSourceId\": \"http://knowdive.disi.unitn.it/etype#Fhir_diagnosticreport_GID-2001151\",
+                    \"edgeSourceUri\": \"http://knowdive.disi.unitn.it/etype#Fhir_diagnosticreport_GID-200115\"
+                }
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Modeling\"]
+    },
+    {
+        \"commandName\": \"AddLinkCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"edge\",
+                \"type\": \"other\",
+                \"value\": {
+                    \"edgeTargetId\": \"http://knowdive.disi.unitn.it/etype#Patient_GID-559361\",
+                    \"edgeId\": \"http://knowdive.disi.unitn.it/etype#has_fhir_observation.subject.reference_GID-200093_Type-200056\",
+                    \"edgeTargetUri\": \"http://knowdive.disi.unitn.it/etype#Patient_GID-55936\",
+                    \"edgeSourceId\": \"http://knowdive.disi.unitn.it/etype#Fhir_observation_GID-2000561\",
+                    \"edgeSourceUri\": \"http://knowdive.disi.unitn.it/etype#Fhir_observation_GID-200056\"
+                }
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Modeling\"]
+    },
+    {
+        \"commandName\": \"AddLinkCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"edge\",
+                \"type\": \"other\",
+                \"value\": {
+                    \"edgeTargetId\": \"http://knowdive.disi.unitn.it/etype#Fhir_practitioner_GID-6416781\",
+                    \"edgeId\": \"http://knowdive.disi.unitn.it/etype#has_fhir_observation.performer.reference_GID-641681_Type-200056\",
+                    \"edgeTargetUri\": \"http://knowdive.disi.unitn.it/etype#Fhir_practitioner_GID-641678\",
+                    \"edgeSourceId\": \"http://knowdive.disi.unitn.it/etype#Fhir_observation_GID-2000561\",
+                    \"edgeSourceUri\": \"http://knowdive.disi.unitn.it/etype#Fhir_observation_GID-200056\"
+                }
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Modeling\"]
+    },
+    {
+        \"commandName\": \"AddLinkCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"edge\",
+                \"type\": \"other\",
+                \"value\": {
+                    \"edgeTargetId\": \"http://knowdive.disi.unitn.it/etype#Fhir_observation_GID-2000561\",
+                    \"edgeId\": \"http://knowdive.disi.unitn.it/etype#has_fhir_diagnosticreport.result.reference_GID-200125_Type-200115\",
+                    \"edgeTargetUri\": \"http://knowdive.disi.unitn.it/etype#Fhir_observation_GID-200056\",
+                    \"edgeSourceId\": \"http://knowdive.disi.unitn.it/etype#Fhir_diagnosticreport_GID-2001151\",
+                    \"edgeSourceUri\": \"http://knowdive.disi.unitn.it/etype#Fhir_diagnosticreport_GID-200115\"
+                }
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Modeling\"]
+    },
+    {
+        \"commandName\": \"AddLinkCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"edge\",
+                \"type\": \"other\",
+                \"value\": {
+                    \"edgeTargetId\": \"http://knowdive.disi.unitn.it/etype#Fhir_media_GID-6483921\",
+                    \"edgeId\": \"http://knowdive.disi.unitn.it/etype#has_fhir_diagnosticreport.media.link.reference_GID-648394_Type-200115\",
+                    \"edgeTargetUri\": \"http://knowdive.disi.unitn.it/etype#Fhir_media_GID-648392\",
+                    \"edgeSourceId\": \"http://knowdive.disi.unitn.it/etype#Fhir_diagnosticreport_GID-2001151\",
+                    \"edgeSourceUri\": \"http://knowdive.disi.unitn.it/etype#Fhir_diagnosticreport_GID-200115\"
+                }
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Modeling\"]
+    }
+]""" .
+
+km-dev:TriplesMap_b7b28753-93a2-48e5-b7c2-d2f626f67ac7 a rr:TriplesMap .
+
+_:node1g4d1mmbpx1 km-dev:hasTriplesMap km-dev:TriplesMap_b7b28753-93a2-48e5-b7c2-d2f626f67ac7 .
+
+km-dev:TriplesMap_b7b28753-93a2-48e5-b7c2-d2f626f67ac7 km-dev:isPartOfMapping _:node1g4d1mmbpx1 .
+
+_:node1g4d1mmbpx2 rr:tableName "FTGM10_Visit-noImage.xml" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1g4d1mmbpx1 .
+
+_:node1g4d1mmbpx1 km-dev:hasLogicalTable _:node1g4d1mmbpx2 .
+
+km-dev:TriplesMap_b7b28753-93a2-48e5-b7c2-d2f626f67ac7 rr:logicalTable _:node1g4d1mmbpx2 ;
+	rr:subjectMap _:node1g4d1mmbpx3 .
+
+_:node1g4d1mmbpx1 km-dev:hasSubjectMap _:node1g4d1mmbpx3 .
+
+_:node1g4d1mmbpx3 km-dev:isPartOfMapping _:node1g4d1mmbpx1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://knowdive.disi.unitn.it/etype#Fhir_diagnosticreport_GID-2001151" ;
+	rr:class etype:Fhir_diagnosticreport_GID-200115 ;
+	rr:termType rr:BlankNode ;
+	km-dev:namePrefix "etype:Fhir_diagnosticreport_GID-2001151" ;
+	a km-dev:steinerTreeRootNode .
+
+km-dev:PredicateObjectMap_f9ff8dcf-92a0-4449-96a3-e5fc220b15a8 rr:predicate <http://knowdive.disi.unitn.it/etype#has_fhir_diagnosticreport.encounter.reference_GID-641789_Type-200115> .
+
+km-dev:RefObjectMap_e34b1ad0-6ada-484f-8016-a1a4c380d6a2 a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_35247dc4-8b2a-422f-b40f-52b2a3711dc8 ;
+	km-dev:isPartOfMapping _:node1g4d1mmbpx1 .
+
+_:node1g4d1mmbpx1 km-dev:hasObjectMap km-dev:RefObjectMap_e34b1ad0-6ada-484f-8016-a1a4c380d6a2 .
+
+km-dev:PredicateObjectMap_f9ff8dcf-92a0-4449-96a3-e5fc220b15a8 rr:objectMap km-dev:RefObjectMap_e34b1ad0-6ada-484f-8016-a1a4c380d6a2 .
+
+km-dev:TriplesMap_b7b28753-93a2-48e5-b7c2-d2f626f67ac7 rr:predicateObjectMap km-dev:PredicateObjectMap_f9ff8dcf-92a0-4449-96a3-e5fc220b15a8 .
+
+km-dev:PredicateObjectMap_f9ff8dcf-92a0-4449-96a3-e5fc220b15a8 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1g4d1mmbpx1 .
+
+_:node1g4d1mmbpx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_f9ff8dcf-92a0-4449-96a3-e5fc220b15a8 .
+
+km-dev:PredicateObjectMap_e5646009-fa54-406b-9787-deef505a176f rr:predicate <http://knowdive.disi.unitn.it/etype#has_fhir_diagnosticreport.media.link.reference_GID-648394_Type-200115> .
+
+km-dev:RefObjectMap_dce200b8-d039-4118-bd85-f2df81fb758c a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_7fc04a7a-2287-4e4d-a5ee-84758e3cecfc ;
+	km-dev:isPartOfMapping _:node1g4d1mmbpx1 .
+
+_:node1g4d1mmbpx1 km-dev:hasObjectMap km-dev:RefObjectMap_dce200b8-d039-4118-bd85-f2df81fb758c .
+
+km-dev:PredicateObjectMap_e5646009-fa54-406b-9787-deef505a176f rr:objectMap km-dev:RefObjectMap_dce200b8-d039-4118-bd85-f2df81fb758c .
+
+km-dev:TriplesMap_b7b28753-93a2-48e5-b7c2-d2f626f67ac7 rr:predicateObjectMap km-dev:PredicateObjectMap_e5646009-fa54-406b-9787-deef505a176f .
+
+km-dev:PredicateObjectMap_e5646009-fa54-406b-9787-deef505a176f a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1g4d1mmbpx1 .
+
+_:node1g4d1mmbpx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_e5646009-fa54-406b-9787-deef505a176f .
+
+km-dev:PredicateObjectMap_1b8976dc-b381-4616-806c-663e8e1814a7 rr:predicate <http://knowdive.disi.unitn.it/etype#has_fhir_diagnosticreport.result.reference_GID-200125_Type-200115> .
+
+km-dev:RefObjectMap_3602be93-460d-4071-adfd-86f4a1aaed19 a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_9b396b5e-a8ee-46bc-939d-5d4b99ecdf91 ;
+	km-dev:isPartOfMapping _:node1g4d1mmbpx1 .
+
+_:node1g4d1mmbpx1 km-dev:hasObjectMap km-dev:RefObjectMap_3602be93-460d-4071-adfd-86f4a1aaed19 .
+
+km-dev:PredicateObjectMap_1b8976dc-b381-4616-806c-663e8e1814a7 rr:objectMap km-dev:RefObjectMap_3602be93-460d-4071-adfd-86f4a1aaed19 .
+
+km-dev:TriplesMap_b7b28753-93a2-48e5-b7c2-d2f626f67ac7 rr:predicateObjectMap km-dev:PredicateObjectMap_1b8976dc-b381-4616-806c-663e8e1814a7 .
+
+km-dev:PredicateObjectMap_1b8976dc-b381-4616-806c-663e8e1814a7 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1g4d1mmbpx1 .
+
+_:node1g4d1mmbpx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_1b8976dc-b381-4616-806c-663e8e1814a7 .
+
+km-dev:PredicateObjectMap_9fcc4660-812b-4ab4-974e-308316197cd6 rr:predicate <http://knowdive.disi.unitn.it/etype#has_fhir_diagnosticreport.category_GID-200119_Type-200115> .
+
+_:node1g4d1mmbpx4 rr:column "[\"ClinicalDocument\",\"setId\",\"DRcategory Concepts\"]" ;
+	a rr:ObjectMap ;
+	rr:datatype "http://www.w3.org/2001/XMLSchema#Concept" ;
+	km-dev:isPartOfMapping _:node1g4d1mmbpx1 .
+
+_:node1g4d1mmbpx1 km-dev:hasObjectMap _:node1g4d1mmbpx4 .
+
+km-dev:PredicateObjectMap_9fcc4660-812b-4ab4-974e-308316197cd6 rr:objectMap _:node1g4d1mmbpx4 .
+
+km-dev:TriplesMap_b7b28753-93a2-48e5-b7c2-d2f626f67ac7 rr:predicateObjectMap km-dev:PredicateObjectMap_9fcc4660-812b-4ab4-974e-308316197cd6 .
+
+km-dev:PredicateObjectMap_9fcc4660-812b-4ab4-974e-308316197cd6 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1g4d1mmbpx1 .
+
+_:node1g4d1mmbpx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_9fcc4660-812b-4ab4-974e-308316197cd6 .
+
+km-dev:PredicateObjectMap_6e5db33c-6149-454b-8db5-eed4d10d1f04 rr:predicate <http://knowdive.disi.unitn.it/etype#has_fhir_diagnosticreport.code_GID-200120_Type-200115> .
+
+_:node1g4d1mmbpx5 rr:column "[\"ClinicalDocument\",\"setId\",\"DR-code Concepts\"]" ;
+	a rr:ObjectMap ;
+	rr:datatype "http://www.w3.org/2001/XMLSchema#Concept" ;
+	km-dev:isPartOfMapping _:node1g4d1mmbpx1 .
+
+_:node1g4d1mmbpx1 km-dev:hasObjectMap _:node1g4d1mmbpx5 .
+
+km-dev:PredicateObjectMap_6e5db33c-6149-454b-8db5-eed4d10d1f04 rr:objectMap _:node1g4d1mmbpx5 .
+
+km-dev:TriplesMap_b7b28753-93a2-48e5-b7c2-d2f626f67ac7 rr:predicateObjectMap km-dev:PredicateObjectMap_6e5db33c-6149-454b-8db5-eed4d10d1f04 .
+
+km-dev:PredicateObjectMap_6e5db33c-6149-454b-8db5-eed4d10d1f04 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1g4d1mmbpx1 .
+
+_:node1g4d1mmbpx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_6e5db33c-6149-454b-8db5-eed4d10d1f04 .
+
+km-dev:PredicateObjectMap_7652bcae-5f46-4dfb-8944-2d32aefaf081 rr:predicate etype:has_identifier_GID-39085_Type-1 .
+
+_:node1g4d1mmbpx6 rr:constant "DR-imaging-{[\"ClinicalDocument\",\"setId\",\"extension\"]}" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1g4d1mmbpx1 .
+
+_:node1g4d1mmbpx1 km-dev:hasObjectMap _:node1g4d1mmbpx6 .
+
+km-dev:PredicateObjectMap_7652bcae-5f46-4dfb-8944-2d32aefaf081 rr:objectMap _:node1g4d1mmbpx6 .
+
+km-dev:TriplesMap_b7b28753-93a2-48e5-b7c2-d2f626f67ac7 rr:predicateObjectMap km-dev:PredicateObjectMap_7652bcae-5f46-4dfb-8944-2d32aefaf081 .
+
+km-dev:PredicateObjectMap_7652bcae-5f46-4dfb-8944-2d32aefaf081 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1g4d1mmbpx1 .
+
+_:node1g4d1mmbpx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_7652bcae-5f46-4dfb-8944-2d32aefaf081 .
+
+km-dev:PredicateObjectMap_a5b8b65d-d48e-414e-843f-8c66fda861b9 rr:predicate <http://knowdive.disi.unitn.it/etype#has_fhir_diagnosticreport.status_GID-200118_Type-200115> .
+
+_:node1g4d1mmbpx7 rr:column "[\"ClinicalDocument\",\"setId\",\"DRstatus Concepts\"]" ;
+	a rr:ObjectMap ;
+	rr:datatype "http://www.w3.org/2001/XMLSchema#Concept" ;
+	km-dev:isPartOfMapping _:node1g4d1mmbpx1 .
+
+_:node1g4d1mmbpx1 km-dev:hasObjectMap _:node1g4d1mmbpx7 .
+
+km-dev:PredicateObjectMap_a5b8b65d-d48e-414e-843f-8c66fda861b9 rr:objectMap _:node1g4d1mmbpx7 .
+
+km-dev:TriplesMap_b7b28753-93a2-48e5-b7c2-d2f626f67ac7 rr:predicateObjectMap km-dev:PredicateObjectMap_a5b8b65d-d48e-414e-843f-8c66fda861b9 .
+
+km-dev:PredicateObjectMap_a5b8b65d-d48e-414e-843f-8c66fda861b9 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1g4d1mmbpx1 .
+
+_:node1g4d1mmbpx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_a5b8b65d-d48e-414e-843f-8c66fda861b9 .
+
+km-dev:PredicateObjectMap_0fcaa7e1-dbd6-4c13-8567-a4b16d23115c rr:predicate <http://knowdive.disi.unitn.it/etype#has_fhir_diagnosticreport.performer.reference_GID-200123_Type-200115> .
+
+km-dev:RefObjectMap_9b8eda6e-7325-4e48-99ba-0968ceee2413 a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_88649f78-e043-4c7d-a53a-53afae5b452c ;
+	km-dev:isPartOfMapping _:node1g4d1mmbpx1 .
+
+_:node1g4d1mmbpx1 km-dev:hasObjectMap km-dev:RefObjectMap_9b8eda6e-7325-4e48-99ba-0968ceee2413 .
+
+km-dev:PredicateObjectMap_0fcaa7e1-dbd6-4c13-8567-a4b16d23115c rr:objectMap km-dev:RefObjectMap_9b8eda6e-7325-4e48-99ba-0968ceee2413 .
+
+km-dev:TriplesMap_b7b28753-93a2-48e5-b7c2-d2f626f67ac7 rr:predicateObjectMap km-dev:PredicateObjectMap_0fcaa7e1-dbd6-4c13-8567-a4b16d23115c .
+
+km-dev:PredicateObjectMap_0fcaa7e1-dbd6-4c13-8567-a4b16d23115c a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1g4d1mmbpx1 .
+
+_:node1g4d1mmbpx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_0fcaa7e1-dbd6-4c13-8567-a4b16d23115c .
+
+km-dev:PredicateObjectMap_79541255-a2d2-4b3a-b86d-ccc1fdbd7f09 rr:predicate <http://knowdive.disi.unitn.it/etype#has_fhir_diagnosticreport.subject.reference_GID-200121_Type-200115> .
+
+km-dev:RefObjectMap_851efec8-65f7-4823-9e76-fee04005baa4 a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_fc78fb24-8487-4f26-ac4e-c82cad91bf43 ;
+	km-dev:isPartOfMapping _:node1g4d1mmbpx1 .
+
+_:node1g4d1mmbpx1 km-dev:hasObjectMap km-dev:RefObjectMap_851efec8-65f7-4823-9e76-fee04005baa4 .
+
+km-dev:PredicateObjectMap_79541255-a2d2-4b3a-b86d-ccc1fdbd7f09 rr:objectMap km-dev:RefObjectMap_851efec8-65f7-4823-9e76-fee04005baa4 .
+
+km-dev:TriplesMap_b7b28753-93a2-48e5-b7c2-d2f626f67ac7 rr:predicateObjectMap km-dev:PredicateObjectMap_79541255-a2d2-4b3a-b86d-ccc1fdbd7f09 .
+
+km-dev:PredicateObjectMap_79541255-a2d2-4b3a-b86d-ccc1fdbd7f09 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1g4d1mmbpx1 .
+
+_:node1g4d1mmbpx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_79541255-a2d2-4b3a-b86d-ccc1fdbd7f09 .
+
+km-dev:PredicateObjectMap_5ac3a69d-4d0b-4eee-8dff-aaf8f2dff3a0 rr:predicate <http://knowdive.disi.unitn.it/etype#has_fhir_diagnosticreport.resultsinterpreter.reference_GID-200124_Type-200115> .
+
+km-dev:RefObjectMap_b23085fe-c13b-4e17-bb69-5ac689ef717a a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_88649f78-e043-4c7d-a53a-53afae5b452c ;
+	km-dev:isPartOfMapping _:node1g4d1mmbpx1 .
+
+_:node1g4d1mmbpx1 km-dev:hasObjectMap km-dev:RefObjectMap_b23085fe-c13b-4e17-bb69-5ac689ef717a .
+
+km-dev:PredicateObjectMap_5ac3a69d-4d0b-4eee-8dff-aaf8f2dff3a0 rr:objectMap km-dev:RefObjectMap_b23085fe-c13b-4e17-bb69-5ac689ef717a .
+
+km-dev:TriplesMap_b7b28753-93a2-48e5-b7c2-d2f626f67ac7 rr:predicateObjectMap km-dev:PredicateObjectMap_5ac3a69d-4d0b-4eee-8dff-aaf8f2dff3a0 .
+
+km-dev:PredicateObjectMap_5ac3a69d-4d0b-4eee-8dff-aaf8f2dff3a0 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1g4d1mmbpx1 .
+
+_:node1g4d1mmbpx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_5ac3a69d-4d0b-4eee-8dff-aaf8f2dff3a0 .
+
+km-dev:TriplesMap_35247dc4-8b2a-422f-b40f-52b2a3711dc8 a rr:TriplesMap .
+
+_:node1g4d1mmbpx1 km-dev:hasTriplesMap km-dev:TriplesMap_35247dc4-8b2a-422f-b40f-52b2a3711dc8 .
+
+km-dev:TriplesMap_35247dc4-8b2a-422f-b40f-52b2a3711dc8 km-dev:isPartOfMapping _:node1g4d1mmbpx1 .
+
+_:node1g4d1mmbpx8 rr:tableName "FTGM10_Visit-noImage.xml" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1g4d1mmbpx1 .
+
+_:node1g4d1mmbpx1 km-dev:hasLogicalTable _:node1g4d1mmbpx8 .
+
+km-dev:TriplesMap_35247dc4-8b2a-422f-b40f-52b2a3711dc8 rr:logicalTable _:node1g4d1mmbpx8 ;
+	rr:subjectMap _:node1g4d1mmbpx9 .
+
+_:node1g4d1mmbpx1 km-dev:hasSubjectMap _:node1g4d1mmbpx9 .
+
+_:node1g4d1mmbpx9 km-dev:isPartOfMapping _:node1g4d1mmbpx1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://knowdive.disi.unitn.it/etype#Fhir_encounter_GID-6417511" ;
+	rr:class etype:Fhir_encounter_GID-641751 ;
+	rr:termType rr:BlankNode ;
+	km-dev:namePrefix "etype:Fhir_encounter_GID-6417511" .
+
+km-dev:PredicateObjectMap_8bd630bb-7317-490d-9486-b11521a57360 rr:predicate etype:has_identifier_GID-39085_Type-1 .
+
+_:node1g4d1mmbpx10 rr:column "[\"ClinicalDocument\",\"componentOf\",\"encompassingEncounter\",\"id\",\"extension\"]" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1g4d1mmbpx1 .
+
+_:node1g4d1mmbpx1 km-dev:hasObjectMap _:node1g4d1mmbpx10 .
+
+km-dev:PredicateObjectMap_8bd630bb-7317-490d-9486-b11521a57360 rr:objectMap _:node1g4d1mmbpx10 .
+
+km-dev:TriplesMap_35247dc4-8b2a-422f-b40f-52b2a3711dc8 rr:predicateObjectMap km-dev:PredicateObjectMap_8bd630bb-7317-490d-9486-b11521a57360 .
+
+km-dev:PredicateObjectMap_8bd630bb-7317-490d-9486-b11521a57360 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1g4d1mmbpx1 .
+
+_:node1g4d1mmbpx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_8bd630bb-7317-490d-9486-b11521a57360 .
+
+km-dev:TriplesMap_7fc04a7a-2287-4e4d-a5ee-84758e3cecfc a rr:TriplesMap .
+
+_:node1g4d1mmbpx1 km-dev:hasTriplesMap km-dev:TriplesMap_7fc04a7a-2287-4e4d-a5ee-84758e3cecfc .
+
+km-dev:TriplesMap_7fc04a7a-2287-4e4d-a5ee-84758e3cecfc km-dev:isPartOfMapping _:node1g4d1mmbpx1 .
+
+_:node1g4d1mmbpx11 rr:tableName "FTGM10_Visit-noImage.xml" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1g4d1mmbpx1 .
+
+_:node1g4d1mmbpx1 km-dev:hasLogicalTable _:node1g4d1mmbpx11 .
+
+km-dev:TriplesMap_7fc04a7a-2287-4e4d-a5ee-84758e3cecfc rr:logicalTable _:node1g4d1mmbpx11 ;
+	rr:subjectMap _:node1g4d1mmbpx12 .
+
+_:node1g4d1mmbpx1 km-dev:hasSubjectMap _:node1g4d1mmbpx12 .
+
+_:node1g4d1mmbpx12 km-dev:isPartOfMapping _:node1g4d1mmbpx1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://knowdive.disi.unitn.it/etype#Fhir_media_GID-6483921" ;
+	rr:class etype:Fhir_media_GID-648392 ;
+	rr:termType rr:BlankNode ;
+	km-dev:namePrefix "etype:Fhir_media_GID-6483921" .
+
+km-dev:PredicateObjectMap_87aeed4a-9468-492e-a65a-47a2f261b275 rr:predicate <http://knowdive.disi.unitn.it/etype#has_fhir_media.operator.reference_GID-648387_Type-648392> .
+
+km-dev:RefObjectMap_c00ba664-ed7c-4271-9c1b-7cda1d05bdb7 a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_364cba54-adf7-4f35-9333-6b099d58e7f3 ;
+	km-dev:isPartOfMapping _:node1g4d1mmbpx1 .
+
+_:node1g4d1mmbpx1 km-dev:hasObjectMap km-dev:RefObjectMap_c00ba664-ed7c-4271-9c1b-7cda1d05bdb7 .
+
+km-dev:PredicateObjectMap_87aeed4a-9468-492e-a65a-47a2f261b275 rr:objectMap km-dev:RefObjectMap_c00ba664-ed7c-4271-9c1b-7cda1d05bdb7 .
+
+km-dev:TriplesMap_7fc04a7a-2287-4e4d-a5ee-84758e3cecfc rr:predicateObjectMap km-dev:PredicateObjectMap_87aeed4a-9468-492e-a65a-47a2f261b275 .
+
+km-dev:PredicateObjectMap_87aeed4a-9468-492e-a65a-47a2f261b275 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1g4d1mmbpx1 .
+
+_:node1g4d1mmbpx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_87aeed4a-9468-492e-a65a-47a2f261b275 .
+
+km-dev:PredicateObjectMap_8c761a71-fbf4-4ee2-80fc-e0beee08e5e4 rr:predicate etype:has_identifier_GID-39085_Type-1 .
+
+_:node1g4d1mmbpx13 rr:column "[\"ClinicalDocument\",\"component\",\"structuredBody\",\"component\",\"section\",\"entry\",\"act\",\"entryRelationship\",\"observation\",\"code\",\"mediaId\"]" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1g4d1mmbpx1 .
+
+_:node1g4d1mmbpx1 km-dev:hasObjectMap _:node1g4d1mmbpx13 .
+
+km-dev:PredicateObjectMap_8c761a71-fbf4-4ee2-80fc-e0beee08e5e4 rr:objectMap _:node1g4d1mmbpx13 .
+
+km-dev:TriplesMap_7fc04a7a-2287-4e4d-a5ee-84758e3cecfc rr:predicateObjectMap km-dev:PredicateObjectMap_8c761a71-fbf4-4ee2-80fc-e0beee08e5e4 .
+
+km-dev:PredicateObjectMap_8c761a71-fbf4-4ee2-80fc-e0beee08e5e4 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1g4d1mmbpx1 .
+
+_:node1g4d1mmbpx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_8c761a71-fbf4-4ee2-80fc-e0beee08e5e4 .
+
+km-dev:PredicateObjectMap_910458fc-e981-4382-9cd0-e26d7856888f rr:predicate <http://knowdive.disi.unitn.it/etype#has_fhir_media.status_GID-648385_Type-648392> .
+
+_:node1g4d1mmbpx14 rr:column "[\"ClinicalDocument\",\"component\",\"structuredBody\",\"component\",\"section\",\"entry\",\"act\",\"entryRelationship\",\"observation\",\"code\",\"mediaStatus Concepts\"]" ;
+	a rr:ObjectMap ;
+	rr:datatype "http://www.w3.org/2001/XMLSchema#Concept" ;
+	km-dev:isPartOfMapping _:node1g4d1mmbpx1 .
+
+_:node1g4d1mmbpx1 km-dev:hasObjectMap _:node1g4d1mmbpx14 .
+
+km-dev:PredicateObjectMap_910458fc-e981-4382-9cd0-e26d7856888f rr:objectMap _:node1g4d1mmbpx14 .
+
+km-dev:TriplesMap_7fc04a7a-2287-4e4d-a5ee-84758e3cecfc rr:predicateObjectMap km-dev:PredicateObjectMap_910458fc-e981-4382-9cd0-e26d7856888f .
+
+km-dev:PredicateObjectMap_910458fc-e981-4382-9cd0-e26d7856888f a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1g4d1mmbpx1 .
+
+_:node1g4d1mmbpx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_910458fc-e981-4382-9cd0-e26d7856888f .
+
+km-dev:PredicateObjectMap_d628df1c-49be-41e6-83b4-d647ac7cc970 rr:predicate <http://knowdive.disi.unitn.it/etype#has_fhir_media.content.contenttype_GID-648388_Type-648392> .
+
+_:node1g4d1mmbpx15 rr:column "[\"ClinicalDocument\",\"component\",\"structuredBody\",\"component\",\"section\",\"entry\",\"act\",\"entryRelationship\",\"observation\",\"value\",\"mediaContentType\"]" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1g4d1mmbpx1 .
+
+_:node1g4d1mmbpx1 km-dev:hasObjectMap _:node1g4d1mmbpx15 .
+
+km-dev:PredicateObjectMap_d628df1c-49be-41e6-83b4-d647ac7cc970 rr:objectMap _:node1g4d1mmbpx15 .
+
+km-dev:TriplesMap_7fc04a7a-2287-4e4d-a5ee-84758e3cecfc rr:predicateObjectMap km-dev:PredicateObjectMap_d628df1c-49be-41e6-83b4-d647ac7cc970 .
+
+km-dev:PredicateObjectMap_d628df1c-49be-41e6-83b4-d647ac7cc970 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1g4d1mmbpx1 .
+
+_:node1g4d1mmbpx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_d628df1c-49be-41e6-83b4-d647ac7cc970 .
+
+km-dev:PredicateObjectMap_5b181724-0f79-4adf-953f-186d63e2d8f6 rr:predicate <http://knowdive.disi.unitn.it/etype#has_fhir_media.content.data_GID-648389_Type-648392> .
+
+_:node1g4d1mmbpx16 rr:column "[\"ClinicalDocument\",\"component\",\"structuredBody\",\"component\",\"section\",\"entry\",\"act\",\"entryRelationship\",\"observation\",\"value\",\"content\"]" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1g4d1mmbpx1 .
+
+_:node1g4d1mmbpx1 km-dev:hasObjectMap _:node1g4d1mmbpx16 .
+
+km-dev:PredicateObjectMap_5b181724-0f79-4adf-953f-186d63e2d8f6 rr:objectMap _:node1g4d1mmbpx16 .
+
+km-dev:TriplesMap_7fc04a7a-2287-4e4d-a5ee-84758e3cecfc rr:predicateObjectMap km-dev:PredicateObjectMap_5b181724-0f79-4adf-953f-186d63e2d8f6 .
+
+km-dev:PredicateObjectMap_5b181724-0f79-4adf-953f-186d63e2d8f6 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1g4d1mmbpx1 .
+
+_:node1g4d1mmbpx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_5b181724-0f79-4adf-953f-186d63e2d8f6 .
+
+km-dev:PredicateObjectMap_87294d98-c920-4b45-a4f8-8462c0cc8fd3 rr:predicate <http://knowdive.disi.unitn.it/etype#has_fhir_media.subject.reference_GID-648386_Type-648392> .
+
+km-dev:RefObjectMap_c994f31e-1b62-4040-bc3c-57e5a180ac62 a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_fc78fb24-8487-4f26-ac4e-c82cad91bf43 ;
+	km-dev:isPartOfMapping _:node1g4d1mmbpx1 .
+
+_:node1g4d1mmbpx1 km-dev:hasObjectMap km-dev:RefObjectMap_c994f31e-1b62-4040-bc3c-57e5a180ac62 .
+
+km-dev:PredicateObjectMap_87294d98-c920-4b45-a4f8-8462c0cc8fd3 rr:objectMap km-dev:RefObjectMap_c994f31e-1b62-4040-bc3c-57e5a180ac62 .
+
+km-dev:TriplesMap_7fc04a7a-2287-4e4d-a5ee-84758e3cecfc rr:predicateObjectMap km-dev:PredicateObjectMap_87294d98-c920-4b45-a4f8-8462c0cc8fd3 .
+
+km-dev:PredicateObjectMap_87294d98-c920-4b45-a4f8-8462c0cc8fd3 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1g4d1mmbpx1 .
+
+_:node1g4d1mmbpx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_87294d98-c920-4b45-a4f8-8462c0cc8fd3 .
+
+km-dev:TriplesMap_9b396b5e-a8ee-46bc-939d-5d4b99ecdf91 a rr:TriplesMap .
+
+_:node1g4d1mmbpx1 km-dev:hasTriplesMap km-dev:TriplesMap_9b396b5e-a8ee-46bc-939d-5d4b99ecdf91 .
+
+km-dev:TriplesMap_9b396b5e-a8ee-46bc-939d-5d4b99ecdf91 km-dev:isPartOfMapping _:node1g4d1mmbpx1 .
+
+_:node1g4d1mmbpx17 rr:tableName "FTGM10_Visit-noImage.xml" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1g4d1mmbpx1 .
+
+_:node1g4d1mmbpx1 km-dev:hasLogicalTable _:node1g4d1mmbpx17 .
+
+km-dev:TriplesMap_9b396b5e-a8ee-46bc-939d-5d4b99ecdf91 rr:logicalTable _:node1g4d1mmbpx17 ;
+	rr:subjectMap _:node1g4d1mmbpx18 .
+
+_:node1g4d1mmbpx1 km-dev:hasSubjectMap _:node1g4d1mmbpx18 .
+
+_:node1g4d1mmbpx18 km-dev:isPartOfMapping _:node1g4d1mmbpx1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://knowdive.disi.unitn.it/etype#Fhir_observation_GID-2000561" ;
+	rr:class etype:Fhir_observation_GID-200056 ;
+	rr:termType rr:BlankNode ;
+	km-dev:namePrefix "etype:Fhir_observation_GID-2000561" .
+
+km-dev:PredicateObjectMap_0562d76f-8d7b-4e11-9eb1-0725f89080a1 rr:predicate <http://knowdive.disi.unitn.it/etype#has_fhir_observation.performer.reference_GID-641681_Type-200056> .
+
+km-dev:RefObjectMap_63d49445-2b42-4f94-b8d5-4e196616f536 a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_88649f78-e043-4c7d-a53a-53afae5b452c ;
+	km-dev:isPartOfMapping _:node1g4d1mmbpx1 .
+
+_:node1g4d1mmbpx1 km-dev:hasObjectMap km-dev:RefObjectMap_63d49445-2b42-4f94-b8d5-4e196616f536 .
+
+km-dev:PredicateObjectMap_0562d76f-8d7b-4e11-9eb1-0725f89080a1 rr:objectMap km-dev:RefObjectMap_63d49445-2b42-4f94-b8d5-4e196616f536 .
+
+km-dev:TriplesMap_9b396b5e-a8ee-46bc-939d-5d4b99ecdf91 rr:predicateObjectMap km-dev:PredicateObjectMap_0562d76f-8d7b-4e11-9eb1-0725f89080a1 .
+
+km-dev:PredicateObjectMap_0562d76f-8d7b-4e11-9eb1-0725f89080a1 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1g4d1mmbpx1 .
+
+_:node1g4d1mmbpx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_0562d76f-8d7b-4e11-9eb1-0725f89080a1 .
+
+km-dev:PredicateObjectMap_0a951b7d-a405-4d70-b6e6-4a0416f90c59 rr:predicate <http://knowdive.disi.unitn.it/etype#has_fhir_observation.subject.reference_GID-200093_Type-200056> .
+
+km-dev:RefObjectMap_501c8fdc-8559-490d-b299-5aa614c38210 a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_fc78fb24-8487-4f26-ac4e-c82cad91bf43 ;
+	km-dev:isPartOfMapping _:node1g4d1mmbpx1 .
+
+_:node1g4d1mmbpx1 km-dev:hasObjectMap km-dev:RefObjectMap_501c8fdc-8559-490d-b299-5aa614c38210 .
+
+km-dev:PredicateObjectMap_0a951b7d-a405-4d70-b6e6-4a0416f90c59 rr:objectMap km-dev:RefObjectMap_501c8fdc-8559-490d-b299-5aa614c38210 .
+
+km-dev:TriplesMap_9b396b5e-a8ee-46bc-939d-5d4b99ecdf91 rr:predicateObjectMap km-dev:PredicateObjectMap_0a951b7d-a405-4d70-b6e6-4a0416f90c59 .
+
+km-dev:PredicateObjectMap_0a951b7d-a405-4d70-b6e6-4a0416f90c59 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1g4d1mmbpx1 .
+
+_:node1g4d1mmbpx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_0a951b7d-a405-4d70-b6e6-4a0416f90c59 .
+
+km-dev:PredicateObjectMap_efa7ae3c-e3de-4751-b17b-12a01d792ca7 rr:predicate etype:has_identifier_GID-39085_Type-1 .
+
+_:node1g4d1mmbpx19 rr:column "[\"ClinicalDocument\",\"component\",\"structuredBody\",\"component\",\"section\",\"entry\",\"act\",\"entryRelationship\",\"observation\",\"code\",\"codeLabel\"]" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1g4d1mmbpx1 .
+
+_:node1g4d1mmbpx1 km-dev:hasObjectMap _:node1g4d1mmbpx19 .
+
+km-dev:PredicateObjectMap_efa7ae3c-e3de-4751-b17b-12a01d792ca7 rr:objectMap _:node1g4d1mmbpx19 .
+
+km-dev:TriplesMap_9b396b5e-a8ee-46bc-939d-5d4b99ecdf91 rr:predicateObjectMap km-dev:PredicateObjectMap_efa7ae3c-e3de-4751-b17b-12a01d792ca7 .
+
+km-dev:PredicateObjectMap_efa7ae3c-e3de-4751-b17b-12a01d792ca7 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1g4d1mmbpx1 .
+
+_:node1g4d1mmbpx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_efa7ae3c-e3de-4751-b17b-12a01d792ca7 .
+
+km-dev:PredicateObjectMap_b16dbe3a-8bec-4ed8-a35d-ba0ee3e0b3a3 rr:predicate <http://knowdive.disi.unitn.it/etype#has_fhir_observation.category_GID-200096_Type-200056> .
+
+_:node1g4d1mmbpx20 rr:column "[\"ClinicalDocument\",\"component\",\"structuredBody\",\"component\",\"section\",\"entry\",\"act\",\"entryRelationship\",\"observation\",\"code\",\"obsCategory Concepts\"]" ;
+	a rr:ObjectMap ;
+	rr:datatype "http://www.w3.org/2001/XMLSchema#Concept" ;
+	km-dev:isPartOfMapping _:node1g4d1mmbpx1 .
+
+_:node1g4d1mmbpx1 km-dev:hasObjectMap _:node1g4d1mmbpx20 .
+
+km-dev:PredicateObjectMap_b16dbe3a-8bec-4ed8-a35d-ba0ee3e0b3a3 rr:objectMap _:node1g4d1mmbpx20 .
+
+km-dev:TriplesMap_9b396b5e-a8ee-46bc-939d-5d4b99ecdf91 rr:predicateObjectMap km-dev:PredicateObjectMap_b16dbe3a-8bec-4ed8-a35d-ba0ee3e0b3a3 .
+
+km-dev:PredicateObjectMap_b16dbe3a-8bec-4ed8-a35d-ba0ee3e0b3a3 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1g4d1mmbpx1 .
+
+_:node1g4d1mmbpx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_b16dbe3a-8bec-4ed8-a35d-ba0ee3e0b3a3 .
+
+km-dev:PredicateObjectMap_5847f178-8907-4c15-b9d2-b0ba82d5a636 rr:predicate <http://knowdive.disi.unitn.it/etype#has_fhir_observation.effectivedatetime_GID-200063_Type-200056> .
+
+_:node1g4d1mmbpx21 rr:column "[\"ClinicalDocument\",\"effectiveTime\",\"value\"]" ;
+	a rr:ObjectMap ;
+	rr:datatype "http://www.w3.org/2001/XMLSchema#dateTime" ;
+	km-dev:isPartOfMapping _:node1g4d1mmbpx1 .
+
+_:node1g4d1mmbpx1 km-dev:hasObjectMap _:node1g4d1mmbpx21 .
+
+km-dev:PredicateObjectMap_5847f178-8907-4c15-b9d2-b0ba82d5a636 rr:objectMap _:node1g4d1mmbpx21 .
+
+km-dev:TriplesMap_9b396b5e-a8ee-46bc-939d-5d4b99ecdf91 rr:predicateObjectMap km-dev:PredicateObjectMap_5847f178-8907-4c15-b9d2-b0ba82d5a636 .
+
+km-dev:PredicateObjectMap_5847f178-8907-4c15-b9d2-b0ba82d5a636 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1g4d1mmbpx1 .
+
+_:node1g4d1mmbpx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_5847f178-8907-4c15-b9d2-b0ba82d5a636 .
+
+km-dev:PredicateObjectMap_c78fa7ef-75fb-4639-ad42-3361e42017a3 rr:predicate <http://knowdive.disi.unitn.it/etype#has_fhir_observation.code_GID-200097_Type-200056> .
+
+_:node1g4d1mmbpx22 rr:column "[\"ClinicalDocument\",\"component\",\"structuredBody\",\"component\",\"section\",\"entry\",\"act\",\"entryRelationship\",\"observation\",\"code\",\"codeLabel Concepts\"]" ;
+	a rr:ObjectMap ;
+	rr:datatype "http://www.w3.org/2001/XMLSchema#Concept" ;
+	km-dev:isPartOfMapping _:node1g4d1mmbpx1 .
+
+_:node1g4d1mmbpx1 km-dev:hasObjectMap _:node1g4d1mmbpx22 .
+
+km-dev:PredicateObjectMap_c78fa7ef-75fb-4639-ad42-3361e42017a3 rr:objectMap _:node1g4d1mmbpx22 .
+
+km-dev:TriplesMap_9b396b5e-a8ee-46bc-939d-5d4b99ecdf91 rr:predicateObjectMap km-dev:PredicateObjectMap_c78fa7ef-75fb-4639-ad42-3361e42017a3 .
+
+km-dev:PredicateObjectMap_c78fa7ef-75fb-4639-ad42-3361e42017a3 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1g4d1mmbpx1 .
+
+_:node1g4d1mmbpx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_c78fa7ef-75fb-4639-ad42-3361e42017a3 .
+
+km-dev:PredicateObjectMap_ea1f0fc5-249a-4d7e-91e6-a4e5b2375061 rr:predicate <http://knowdive.disi.unitn.it/etype#has_fhir_observation.valuequantity.unit_GID-200094_Type-200056> .
+
+_:node1g4d1mmbpx23 rr:column "[\"ClinicalDocument\",\"component\",\"structuredBody\",\"component\",\"section\",\"entry\",\"act\",\"entryRelationship\",\"observation\",\"value\",\"unitConcept Concepts\"]" ;
+	a rr:ObjectMap ;
+	rr:datatype "http://www.w3.org/2001/XMLSchema#Concept" ;
+	km-dev:isPartOfMapping _:node1g4d1mmbpx1 .
+
+_:node1g4d1mmbpx1 km-dev:hasObjectMap _:node1g4d1mmbpx23 .
+
+km-dev:PredicateObjectMap_ea1f0fc5-249a-4d7e-91e6-a4e5b2375061 rr:objectMap _:node1g4d1mmbpx23 .
+
+km-dev:TriplesMap_9b396b5e-a8ee-46bc-939d-5d4b99ecdf91 rr:predicateObjectMap km-dev:PredicateObjectMap_ea1f0fc5-249a-4d7e-91e6-a4e5b2375061 .
+
+km-dev:PredicateObjectMap_ea1f0fc5-249a-4d7e-91e6-a4e5b2375061 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1g4d1mmbpx1 .
+
+_:node1g4d1mmbpx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_ea1f0fc5-249a-4d7e-91e6-a4e5b2375061 .
+
+km-dev:PredicateObjectMap_0b4cc9f4-8734-4974-9c8d-ece05849aced rr:predicate <http://knowdive.disi.unitn.it/etype#has_fhir_observation.valuequantity.value_GID-200095_Type-200056> .
+
+_:node1g4d1mmbpx24 rr:column "[\"ClinicalDocument\",\"component\",\"structuredBody\",\"component\",\"section\",\"entry\",\"act\",\"entryRelationship\",\"observation\",\"value\",\"value\"]" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1g4d1mmbpx1 .
+
+_:node1g4d1mmbpx1 km-dev:hasObjectMap _:node1g4d1mmbpx24 .
+
+km-dev:PredicateObjectMap_0b4cc9f4-8734-4974-9c8d-ece05849aced rr:objectMap _:node1g4d1mmbpx24 .
+
+km-dev:TriplesMap_9b396b5e-a8ee-46bc-939d-5d4b99ecdf91 rr:predicateObjectMap km-dev:PredicateObjectMap_0b4cc9f4-8734-4974-9c8d-ece05849aced .
+
+km-dev:PredicateObjectMap_0b4cc9f4-8734-4974-9c8d-ece05849aced a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1g4d1mmbpx1 .
+
+_:node1g4d1mmbpx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_0b4cc9f4-8734-4974-9c8d-ece05849aced .
+
+km-dev:TriplesMap_364cba54-adf7-4f35-9333-6b099d58e7f3 a rr:TriplesMap .
+
+_:node1g4d1mmbpx1 km-dev:hasTriplesMap km-dev:TriplesMap_364cba54-adf7-4f35-9333-6b099d58e7f3 .
+
+km-dev:TriplesMap_364cba54-adf7-4f35-9333-6b099d58e7f3 km-dev:isPartOfMapping _:node1g4d1mmbpx1 .
+
+_:node1g4d1mmbpx25 rr:tableName "FTGM10_Visit-noImage.xml" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1g4d1mmbpx1 .
+
+_:node1g4d1mmbpx1 km-dev:hasLogicalTable _:node1g4d1mmbpx25 .
+
+km-dev:TriplesMap_364cba54-adf7-4f35-9333-6b099d58e7f3 rr:logicalTable _:node1g4d1mmbpx25 ;
+	rr:subjectMap _:node1g4d1mmbpx26 .
+
+_:node1g4d1mmbpx1 km-dev:hasSubjectMap _:node1g4d1mmbpx26 .
+
+_:node1g4d1mmbpx26 km-dev:isPartOfMapping _:node1g4d1mmbpx1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://knowdive.disi.unitn.it/etype#Fhir_organization_GID-6418021" ;
+	rr:class etype:Fhir_organization_GID-641802 ;
+	rr:termType rr:BlankNode ;
+	km-dev:namePrefix "etype:Fhir_organization_GID-6418021" .
+
+km-dev:PredicateObjectMap_231a2ff3-a239-40d3-9c3d-7f62e73f2dc0 rr:predicate etype:has_identifier_GID-39085_Type-1 .
+
+_:node1g4d1mmbpx27 rr:column "[\"ClinicalDocument\",\"custodian\",\"assignedCustodian\",\"representedCustodianOrganization\",\"id\",\"root\"]" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1g4d1mmbpx1 .
+
+_:node1g4d1mmbpx1 km-dev:hasObjectMap _:node1g4d1mmbpx27 .
+
+km-dev:PredicateObjectMap_231a2ff3-a239-40d3-9c3d-7f62e73f2dc0 rr:objectMap _:node1g4d1mmbpx27 .
+
+km-dev:TriplesMap_364cba54-adf7-4f35-9333-6b099d58e7f3 rr:predicateObjectMap km-dev:PredicateObjectMap_231a2ff3-a239-40d3-9c3d-7f62e73f2dc0 .
+
+km-dev:PredicateObjectMap_231a2ff3-a239-40d3-9c3d-7f62e73f2dc0 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1g4d1mmbpx1 .
+
+_:node1g4d1mmbpx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_231a2ff3-a239-40d3-9c3d-7f62e73f2dc0 .
+
+km-dev:PredicateObjectMap_aa630ded-7064-40cc-9f81-3bdc67eadb7e rr:predicate <http://knowdive.disi.unitn.it/etype#has_fhir_organization.name_GID-641804_Type-641802> .
+
+_:node1g4d1mmbpx28 rr:column "[\"ClinicalDocument\",\"custodian\",\"assignedCustodian\",\"representedCustodianOrganization\",\"name\"]" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1g4d1mmbpx1 .
+
+_:node1g4d1mmbpx1 km-dev:hasObjectMap _:node1g4d1mmbpx28 .
+
+km-dev:PredicateObjectMap_aa630ded-7064-40cc-9f81-3bdc67eadb7e rr:objectMap _:node1g4d1mmbpx28 .
+
+km-dev:TriplesMap_364cba54-adf7-4f35-9333-6b099d58e7f3 rr:predicateObjectMap km-dev:PredicateObjectMap_aa630ded-7064-40cc-9f81-3bdc67eadb7e .
+
+km-dev:PredicateObjectMap_aa630ded-7064-40cc-9f81-3bdc67eadb7e a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1g4d1mmbpx1 .
+
+_:node1g4d1mmbpx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_aa630ded-7064-40cc-9f81-3bdc67eadb7e .
+
+km-dev:TriplesMap_88649f78-e043-4c7d-a53a-53afae5b452c a rr:TriplesMap .
+
+_:node1g4d1mmbpx1 km-dev:hasTriplesMap km-dev:TriplesMap_88649f78-e043-4c7d-a53a-53afae5b452c .
+
+km-dev:TriplesMap_88649f78-e043-4c7d-a53a-53afae5b452c km-dev:isPartOfMapping _:node1g4d1mmbpx1 .
+
+_:node1g4d1mmbpx29 rr:tableName "FTGM10_Visit-noImage.xml" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1g4d1mmbpx1 .
+
+_:node1g4d1mmbpx1 km-dev:hasLogicalTable _:node1g4d1mmbpx29 .
+
+km-dev:TriplesMap_88649f78-e043-4c7d-a53a-53afae5b452c rr:logicalTable _:node1g4d1mmbpx29 ;
+	rr:subjectMap _:node1g4d1mmbpx30 .
+
+_:node1g4d1mmbpx1 km-dev:hasSubjectMap _:node1g4d1mmbpx30 .
+
+_:node1g4d1mmbpx30 km-dev:isPartOfMapping _:node1g4d1mmbpx1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://knowdive.disi.unitn.it/etype#Fhir_practitioner_GID-6416781" ;
+	rr:class etype:Fhir_practitioner_GID-641678 ;
+	rr:termType rr:BlankNode ;
+	km-dev:namePrefix "etype:Fhir_practitioner_GID-6416781" .
+
+km-dev:PredicateObjectMap_6a95fd0b-3869-4001-b659-0822f2120d3e rr:predicate <http://knowdive.disi.unitn.it/etype#has_fhir_practitioner.name.family_GID-641665_Type-641678> .
+
+_:node1g4d1mmbpx31 rr:column "[\"ClinicalDocument\",\"author\",\"assignedAuthor\",\"assignedPerson\",\"name\",\"family\"]" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1g4d1mmbpx1 .
+
+_:node1g4d1mmbpx1 km-dev:hasObjectMap _:node1g4d1mmbpx31 .
+
+km-dev:PredicateObjectMap_6a95fd0b-3869-4001-b659-0822f2120d3e rr:objectMap _:node1g4d1mmbpx31 .
+
+km-dev:TriplesMap_88649f78-e043-4c7d-a53a-53afae5b452c rr:predicateObjectMap km-dev:PredicateObjectMap_6a95fd0b-3869-4001-b659-0822f2120d3e .
+
+km-dev:PredicateObjectMap_6a95fd0b-3869-4001-b659-0822f2120d3e a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1g4d1mmbpx1 .
+
+_:node1g4d1mmbpx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_6a95fd0b-3869-4001-b659-0822f2120d3e .
+
+km-dev:PredicateObjectMap_0a9d3f5a-784a-4b49-a773-e9af627195f7 rr:predicate etype:has_identifier_GID-39085_Type-1 .
+
+_:node1g4d1mmbpx32 rr:column "[\"ClinicalDocument\",\"author\",\"assignedAuthor\",\"id\",\"extension\"]" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1g4d1mmbpx1 .
+
+_:node1g4d1mmbpx1 km-dev:hasObjectMap _:node1g4d1mmbpx32 .
+
+km-dev:PredicateObjectMap_0a9d3f5a-784a-4b49-a773-e9af627195f7 rr:objectMap _:node1g4d1mmbpx32 .
+
+km-dev:TriplesMap_88649f78-e043-4c7d-a53a-53afae5b452c rr:predicateObjectMap km-dev:PredicateObjectMap_0a9d3f5a-784a-4b49-a773-e9af627195f7 .
+
+km-dev:PredicateObjectMap_0a9d3f5a-784a-4b49-a773-e9af627195f7 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1g4d1mmbpx1 .
+
+_:node1g4d1mmbpx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_0a9d3f5a-784a-4b49-a773-e9af627195f7 .
+
+km-dev:PredicateObjectMap_e29312b3-fb0c-4daf-af82-6b27ed434cec rr:predicate <http://knowdive.disi.unitn.it/etype#has_fhir_practitioner.name.given_GID-641664_Type-641678> .
+
+_:node1g4d1mmbpx33 rr:column "[\"ClinicalDocument\",\"author\",\"assignedAuthor\",\"assignedPerson\",\"name\",\"given\"]" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1g4d1mmbpx1 .
+
+_:node1g4d1mmbpx1 km-dev:hasObjectMap _:node1g4d1mmbpx33 .
+
+km-dev:PredicateObjectMap_e29312b3-fb0c-4daf-af82-6b27ed434cec rr:objectMap _:node1g4d1mmbpx33 .
+
+km-dev:TriplesMap_88649f78-e043-4c7d-a53a-53afae5b452c rr:predicateObjectMap km-dev:PredicateObjectMap_e29312b3-fb0c-4daf-af82-6b27ed434cec .
+
+km-dev:PredicateObjectMap_e29312b3-fb0c-4daf-af82-6b27ed434cec a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1g4d1mmbpx1 .
+
+_:node1g4d1mmbpx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_e29312b3-fb0c-4daf-af82-6b27ed434cec .
+
+km-dev:TriplesMap_fc78fb24-8487-4f26-ac4e-c82cad91bf43 a rr:TriplesMap .
+
+_:node1g4d1mmbpx1 km-dev:hasTriplesMap km-dev:TriplesMap_fc78fb24-8487-4f26-ac4e-c82cad91bf43 .
+
+km-dev:TriplesMap_fc78fb24-8487-4f26-ac4e-c82cad91bf43 km-dev:isPartOfMapping _:node1g4d1mmbpx1 .
+
+_:node1g4d1mmbpx34 rr:tableName "FTGM10_Visit-noImage.xml" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1g4d1mmbpx1 .
+
+_:node1g4d1mmbpx1 km-dev:hasLogicalTable _:node1g4d1mmbpx34 .
+
+km-dev:TriplesMap_fc78fb24-8487-4f26-ac4e-c82cad91bf43 rr:logicalTable _:node1g4d1mmbpx34 ;
+	rr:subjectMap _:node1g4d1mmbpx35 .
+
+_:node1g4d1mmbpx1 km-dev:hasSubjectMap _:node1g4d1mmbpx35 .
+
+_:node1g4d1mmbpx35 km-dev:isPartOfMapping _:node1g4d1mmbpx1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://knowdive.disi.unitn.it/etype#Patient_GID-559361" ;
+	rr:class etype:Patient_GID-55936 ;
+	rr:termType rr:BlankNode ;
+	km-dev:namePrefix "etype:Patient_GID-559361" .
+
+km-dev:PredicateObjectMap_7492d775-6cee-4e3a-ace1-64c780097d0f rr:predicate etype:has_identifier_GID-39085_Type-1 .
+
+_:node1g4d1mmbpx36 rr:column "[\"ClinicalDocument\",\"recordTarget\",\"patientRole\",\"id\",\"extension\"]" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1g4d1mmbpx1 .
+
+_:node1g4d1mmbpx1 km-dev:hasObjectMap _:node1g4d1mmbpx36 .
+
+km-dev:PredicateObjectMap_7492d775-6cee-4e3a-ace1-64c780097d0f rr:objectMap _:node1g4d1mmbpx36 .
+
+km-dev:TriplesMap_fc78fb24-8487-4f26-ac4e-c82cad91bf43 rr:predicateObjectMap km-dev:PredicateObjectMap_7492d775-6cee-4e3a-ace1-64c780097d0f .
+
+km-dev:PredicateObjectMap_7492d775-6cee-4e3a-ace1-64c780097d0f a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1g4d1mmbpx1 .
+
+_:node1g4d1mmbpx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_7492d775-6cee-4e3a-ace1-64c780097d0f .

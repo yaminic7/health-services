@@ -1,0 +1,1748 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix etype: <http://knowdive.disi.unitn.it/etype#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix km-dev: <http://isi.edu/integration/karma/dev#> .
+
+_:node1g4crf965x1 a km-dev:R2RMLMapping ;
+	km-dev:sourceName "sumehr.xml" ;
+	km-dev:modelPublicationTime "1653993874631"^^xsd:long ;
+	km-dev:modelVersion "1.7" ;
+	km-dev:hasInputColumns "[[{\"columnName\":\"kmehrmessage\"},{\"columnName\":\"folder\"},{\"columnName\":\"transaction\"},{\"columnName\":\"item\"},{\"columnName\":\"posology\"},{\"columnName\":\"text\"},{\"columnName\":\"Prescr:PeriodUnit_1\"}],[{\"columnName\":\"kmehrmessage\"},{\"columnName\":\"folder\"},{\"columnName\":\"transaction\"},{\"columnName\":\"item\"},{\"columnName\":\"posology\"},{\"columnName\":\"text\"},{\"columnName\":\"Prescr:Dosage_1\"}],[{\"columnName\":\"kmehrmessage\"},{\"columnName\":\"folder\"},{\"columnName\":\"patient\"},{\"columnName\":\"id\"},{\"columnName\":\"content\"}],[{\"columnName\":\"kmehrmessage\"},{\"columnName\":\"folder\"},{\"columnName\":\"transaction\"},{\"columnName\":\"item\"},{\"columnName\":\"posology\"},{\"columnName\":\"text\"},{\"columnName\":\"Prescr:Frequency_1\"}],[{\"columnName\":\"kmehrmessage\"},{\"columnName\":\"folder\"},{\"columnName\":\"transaction\"},{\"columnName\":\"item\"},{\"columnName\":\"id\"},{\"columnName\":\"content\"}],[{\"columnName\":\"kmehrmessage\"},{\"columnName\":\"folder\"},{\"columnName\":\"transaction\"},{\"columnName\":\"item\"},{\"columnName\":\"beginmoment\"},{\"columnName\":\"date\"}],[{\"columnName\":\"kmehrmessage\"},{\"columnName\":\"folder\"},{\"columnName\":\"transaction\"},{\"columnName\":\"item\"},{\"columnName\":\"content\"},{\"columnName\":\"cd\"},{\"columnName\":\"content\"}],[{\"columnName\":\"kmehrmessage\"},{\"columnName\":\"folder\"},{\"columnName\":\"transaction\"},{\"columnName\":\"item\"},{\"columnName\":\"posology\"},{\"columnName\":\"text\"},{\"columnName\":\"content\"}],[{\"columnName\":\"kmehrmessage\"},{\"columnName\":\"folder\"},{\"columnName\":\"transaction\"},{\"columnName\":\"item\"},{\"columnName\":\"posology\"},{\"columnName\":\"text\"},{\"columnName\":\"Prescr:Form_1_cleaned Concepts\"}],[{\"columnName\":\"kmehrmessage\"},{\"columnName\":\"folder\"},{\"columnName\":\"transaction\"},{\"columnName\":\"item\"},{\"columnName\":\"lifecycle\"},{\"columnName\":\"cd\"},{\"columnName\":\"content Concepts\"}],[{\"columnName\":\"kmehrmessage\"},{\"columnName\":\"folder\"},{\"columnName\":\"transaction\"},{\"columnName\":\"item\"},{\"columnName\":\"content\"},{\"columnName\":\"cd\"},{\"columnName\":\"atc_codes Concepts\"}]]" ;
+	km-dev:hasOutputColumns "[[{\"columnName\":\"kmehrmessage\"},{\"columnName\":\"folder\"},{\"columnName\":\"patient\"},{\"columnName\":\"id\"},{\"columnName\":\"S\"}],[{\"columnName\":\"kmehrmessage\"},{\"columnName\":\"folder\"},{\"columnName\":\"transaction\"},{\"columnName\":\"item\"},{\"columnName\":\"posology\"},{\"columnName\":\"text\"},{\"columnName\":\"Prescr:PeriodUnit_1_cleaned\"}],[{\"columnName\":\"kmehrmessage\"},{\"columnName\":\"folder\"},{\"columnName\":\"transaction\"},{\"columnName\":\"item\"},{\"columnName\":\"lifecycle\"},{\"columnName\":\"cd\"},{\"columnName\":\"content Concepts\"}],[{\"columnName\":\"kmehrmessage\"},{\"columnName\":\"folder\"},{\"columnName\":\"transaction\"},{\"columnName\":\"item\"},{\"columnName\":\"content\"},{\"columnName\":\"cd\"},{\"columnName\":\"atc_codes Concepts\"}],[{\"columnName\":\"kmehrmessage\"},{\"columnName\":\"folder\"},{\"columnName\":\"transaction\"},{\"columnName\":\"item\"},{\"columnName\":\"posology\"},{\"columnName\":\"text\"},{\"columnName\":\"Prescr:Dosage_1\"}],[{\"columnName\":\"kmehrmessage\"},{\"columnName\":\"folder\"},{\"columnName\":\"patient\"},{\"columnName\":\"id\"},{\"columnName\":\"content\"}],[{\"columnName\":\"kmehrmessage\"},{\"columnName\":\"folder\"},{\"columnName\":\"transaction\"},{\"columnName\":\"item\"},{\"columnName\":\"posology\"},{\"columnName\":\"text\"},{\"columnName\":\"Prescr:Form_1_cleaned\"}],[{\"columnName\":\"kmehrmessage\"},{\"columnName\":\"folder\"},{\"columnName\":\"transaction\"},{\"columnName\":\"item\"},{\"columnName\":\"posology\"},{\"columnName\":\"text\"},{\"columnName\":\"Prescr:Frequency_1\"}],[{\"columnName\":\"kmehrmessage\"},{\"columnName\":\"folder\"},{\"columnName\":\"transaction\"},{\"columnName\":\"item\"},{\"columnName\":\"id\"},{\"columnName\":\"content\"}],[{\"columnName\":\"kmehrmessage\"},{\"columnName\":\"folder\"},{\"columnName\":\"transaction\"},{\"columnName\":\"item\"},{\"columnName\":\"beginmoment\"},{\"columnName\":\"date\"}],[{\"columnName\":\"kmehrmessage\"},{\"columnName\":\"folder\"},{\"columnName\":\"transaction\"},{\"columnName\":\"item\"},{\"columnName\":\"cd\"},{\"columnName\":\"content\"}],[{\"columnName\":\"kmehrmessage\"},{\"columnName\":\"folder\"},{\"columnName\":\"transaction\"},{\"columnName\":\"item\"},{\"columnName\":\"content\"},{\"columnName\":\"cd\"},{\"columnName\":\"content\"}],[{\"columnName\":\"kmehrmessage\"},{\"columnName\":\"folder\"},{\"columnName\":\"transaction\"},{\"columnName\":\"item\"},{\"columnName\":\"content\"},{\"columnName\":\"cd\"},{\"columnName\":\"atc_codes\"}],[{\"columnName\":\"kmehrmessage\"},{\"columnName\":\"folder\"},{\"columnName\":\"transaction\"},{\"columnName\":\"item\"},{\"columnName\":\"posology\"},{\"columnName\":\"text\"},{\"columnName\":\"content\"}],[{\"columnName\":\"kmehrmessage\"},{\"columnName\":\"folder\"},{\"columnName\":\"transaction\"},{\"columnName\":\"item\"},{\"columnName\":\"posology\"},{\"columnName\":\"text\"},{\"columnName\":\"Prescr:Form_1_cleaned Concepts\"}]]" ;
+	km-dev:hasModelLabel "sumehr.xml" ;
+	km-dev:hasBaseURI "http://localhost:8080/source/" ;
+	km-dev:hasWorksheetHistory """[
+    {
+        \"commandName\": \"SubmitPythonTransformationCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"kmehrmessage\"},
+                    {\"columnName\": \"folder\"},
+                    {\"columnName\": \"transaction\"},
+                    {\"columnName\": \"item\"},
+                    {\"columnName\": \"content\"},
+                    {\"columnName\": \"cd\"},
+                    {\"columnName\": \"content\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"newColumnName\",
+                \"type\": \"other\",
+                \"value\": \"atc_codes\"
+            },
+            {
+                \"name\": \"transformationCode\",
+                \"type\": \"other\",
+                \"value\": \"return \\\"atc_\\\" + getValue(\\\"content\\\").lower()\"
+            },
+            {
+                \"name\": \"errorDefaultValue\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"isJSONOutput\",
+                \"type\": \"other\",
+                \"value\": \"false\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"kmehrmessage\\\"},{\\\"columnName\\\":\\\"folder\\\"},{\\\"columnName\\\":\\\"transaction\\\"},{\\\"columnName\\\":\\\"item\\\"},{\\\"columnName\\\":\\\"content\\\"},{\\\"columnName\\\":\\\"cd\\\"},{\\\"columnName\\\":\\\"content\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"kmehrmessage\\\"},{\\\"columnName\\\":\\\"folder\\\"},{\\\"columnName\\\":\\\"transaction\\\"},{\\\"columnName\\\":\\\"item\\\"},{\\\"columnName\\\":\\\"content\\\"},{\\\"columnName\\\":\\\"cd\\\"},{\\\"columnName\\\":\\\"atc_codes\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"ExtractConceptsCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"kmehrmessage\"},
+                    {\"columnName\": \"folder\"},
+                    {\"columnName\": \"transaction\"},
+                    {\"columnName\": \"item\"},
+                    {\"columnName\": \"content\"},
+                    {\"columnName\": \"cd\"},
+                    {\"columnName\": \"atc_codes\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"extractionURL\",
+                \"type\": \"other\",
+                \"value\": \"http://sweb:8080\"
+            },
+            {
+                \"name\": \"rootConcept\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"rootLocale\",
+                \"type\": \"other\",
+                \"value\": \"ita\"
+            },
+            {
+                \"name\": \"preferenceLevel\",
+                \"type\": \"other\",
+                \"value\": \"Can Ignore\"
+            },
+            {
+                \"name\": \"pipeline\",
+                \"type\": \"other\",
+                \"value\": \"ConceptExtractionPipeline\"
+            },
+            {
+                \"name\": \"conceptForTextArray\",
+                \"type\": \"other\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"ExtractStructureCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"kmehrmessage\"},
+                    {\"columnName\": \"folder\"},
+                    {\"columnName\": \"transaction\"},
+                    {\"columnName\": \"item\"},
+                    {\"columnName\": \"posology\"},
+                    {\"columnName\": \"text\"},
+                    {\"columnName\": \"content\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"rootLocale\",
+                \"type\": \"other\",
+                \"value\": \"fra\"
+            },
+            {
+                \"name\": \"pipeline\",
+                \"type\": \"other\",
+                \"value\": \"IEPrescriptionPipeline\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"SubmitPythonTransformationCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"kmehrmessage\"},
+                    {\"columnName\": \"folder\"},
+                    {\"columnName\": \"transaction\"},
+                    {\"columnName\": \"item\"},
+                    {\"columnName\": \"posology\"},
+                    {\"columnName\": \"text\"},
+                    {\"columnName\": \"Prescr:Form_1\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"newColumnName\",
+                \"type\": \"other\",
+                \"value\": \"Prescr:Form_1_cleaned\"
+            },
+            {
+                \"name\": \"transformationCode\",
+                \"type\": \"other\",
+                \"value\": \"return cleanForms(\\\"Prescr:Form_1\\\")\"
+            },
+            {
+                \"name\": \"errorDefaultValue\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"isJSONOutput\",
+                \"type\": \"other\",
+                \"value\": \"false\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"kmehrmessage\\\"},{\\\"columnName\\\":\\\"folder\\\"},{\\\"columnName\\\":\\\"transaction\\\"},{\\\"columnName\\\":\\\"item\\\"},{\\\"columnName\\\":\\\"posology\\\"},{\\\"columnName\\\":\\\"text\\\"},{\\\"columnName\\\":\\\"Prescr:Form_1\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"kmehrmessage\\\"},{\\\"columnName\\\":\\\"folder\\\"},{\\\"columnName\\\":\\\"transaction\\\"},{\\\"columnName\\\":\\\"item\\\"},{\\\"columnName\\\":\\\"posology\\\"},{\\\"columnName\\\":\\\"text\\\"},{\\\"columnName\\\":\\\"Prescr:Form_1_cleaned\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"SubmitPythonTransformationCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"kmehrmessage\"},
+                    {\"columnName\": \"folder\"},
+                    {\"columnName\": \"transaction\"},
+                    {\"columnName\": \"item\"},
+                    {\"columnName\": \"posology\"},
+                    {\"columnName\": \"text\"},
+                    {\"columnName\": \"Prescr:PeriodUnit_1\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"newColumnName\",
+                \"type\": \"other\",
+                \"value\": \"Prescr:PeriodUnit_1_cleaned\"
+            },
+            {
+                \"name\": \"transformationCode\",
+                \"type\": \"other\",
+                \"value\": \"return cleanPeriodUnits(\\\"Prescr:PeriodUnit_1\\\")\"
+            },
+            {
+                \"name\": \"errorDefaultValue\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"isJSONOutput\",
+                \"type\": \"other\",
+                \"value\": \"false\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"kmehrmessage\\\"},{\\\"columnName\\\":\\\"folder\\\"},{\\\"columnName\\\":\\\"transaction\\\"},{\\\"columnName\\\":\\\"item\\\"},{\\\"columnName\\\":\\\"posology\\\"},{\\\"columnName\\\":\\\"text\\\"},{\\\"columnName\\\":\\\"Prescr:PeriodUnit_1\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"kmehrmessage\\\"},{\\\"columnName\\\":\\\"folder\\\"},{\\\"columnName\\\":\\\"transaction\\\"},{\\\"columnName\\\":\\\"item\\\"},{\\\"columnName\\\":\\\"posology\\\"},{\\\"columnName\\\":\\\"text\\\"},{\\\"columnName\\\":\\\"Prescr:PeriodUnit_1_cleaned\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"ExtractConceptsCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"kmehrmessage\"},
+                    {\"columnName\": \"folder\"},
+                    {\"columnName\": \"transaction\"},
+                    {\"columnName\": \"item\"},
+                    {\"columnName\": \"lifecycle\"},
+                    {\"columnName\": \"cd\"},
+                    {\"columnName\": \"content\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"extractionURL\",
+                \"type\": \"other\",
+                \"value\": \"http://sweb:8080\"
+            },
+            {
+                \"name\": \"rootConcept\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"rootLocale\",
+                \"type\": \"other\",
+                \"value\": \"Auto Detect\"
+            },
+            {
+                \"name\": \"preferenceLevel\",
+                \"type\": \"other\",
+                \"value\": \"Can Ignore\"
+            },
+            {
+                \"name\": \"pipeline\",
+                \"type\": \"other\",
+                \"value\": \"ConceptExtractionPipeline\"
+            },
+            {
+                \"name\": \"conceptForTextArray\",
+                \"type\": \"other\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"SubmitPythonTransformationCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"kmehrmessage\"},
+                    {\"columnName\": \"folder\"},
+                    {\"columnName\": \"transaction\"},
+                    {\"columnName\": \"item\"},
+                    {\"columnName\": \"beginmoment\"},
+                    {\"columnName\": \"date\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"newColumnName\",
+                \"type\": \"other\",
+                \"value\": \"date\"
+            },
+            {
+                \"name\": \"transformationCode\",
+                \"type\": \"other\",
+                \"value\": \"return toISODate(getValue(\\\"date\\\"))\"
+            },
+            {
+                \"name\": \"errorDefaultValue\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"isJSONOutput\",
+                \"type\": \"other\",
+                \"value\": \"false\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"kmehrmessage\\\"},{\\\"columnName\\\":\\\"folder\\\"},{\\\"columnName\\\":\\\"transaction\\\"},{\\\"columnName\\\":\\\"item\\\"},{\\\"columnName\\\":\\\"beginmoment\\\"},{\\\"columnName\\\":\\\"date\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"kmehrmessage\\\"},{\\\"columnName\\\":\\\"folder\\\"},{\\\"columnName\\\":\\\"transaction\\\"},{\\\"columnName\\\":\\\"item\\\"},{\\\"columnName\\\":\\\"beginmoment\\\"},{\\\"columnName\\\":\\\"date\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"ExtractConceptsCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"kmehrmessage\"},
+                    {\"columnName\": \"folder\"},
+                    {\"columnName\": \"transaction\"},
+                    {\"columnName\": \"item\"},
+                    {\"columnName\": \"posology\"},
+                    {\"columnName\": \"text\"},
+                    {\"columnName\": \"Prescr:Form_1_cleaned\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"extractionURL\",
+                \"type\": \"other\",
+                \"value\": \"http://sweb:8080\"
+            },
+            {
+                \"name\": \"rootConcept\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"rootLocale\",
+                \"type\": \"other\",
+                \"value\": \"fra\"
+            },
+            {
+                \"name\": \"preferenceLevel\",
+                \"type\": \"other\",
+                \"value\": \"Can Ignore\"
+            },
+            {
+                \"name\": \"pipeline\",
+                \"type\": \"other\",
+                \"value\": \"ConceptExtractionPipeline\"
+            },
+            {
+                \"name\": \"conceptForTextArray\",
+                \"type\": \"other\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"OperateSelectionCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"kmehrmessage\"},
+                    {\"columnName\": \"folder\"},
+                    {\"columnName\": \"transaction\"},
+                    {\"columnName\": \"item\"},
+                    {\"columnName\": \"id\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"pythonCode\",
+                \"type\": \"other\",
+                \"value\": \"return getValueFromNestedColumnByIndex(\\\"cd\\\", \\\"content\\\", 0) != \\\"medication\\\"\"
+            },
+            {
+                \"name\": \"operation\",
+                \"type\": \"other\",
+                \"value\": \"Union\"
+            },
+            {
+                \"name\": \"onError\",
+                \"type\": \"other\",
+                \"value\": \"true\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"kmehrmessage\\\"},{\\\"columnName\\\":\\\"folder\\\"},{\\\"columnName\\\":\\\"transaction\\\"},{\\\"columnName\\\":\\\"item\\\"},{\\\"columnName\\\":\\\"cd\\\"},{\\\"columnName\\\":\\\"content\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"Selection\"]
+    },
+    {
+        \"commandName\": \"OperateSelectionCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"kmehrmessage\"},
+                    {\"columnName\": \"folder\"},
+                    {\"columnName\": \"patient\"},
+                    {\"columnName\": \"id\"},
+                    {\"columnName\": \"S\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"pythonCode\",
+                \"type\": \"other\",
+                \"value\": \"return getValue(\\\"S\\\") != \\\"ID-PATIENT\\\"\"
+            },
+            {
+                \"name\": \"operation\",
+                \"type\": \"other\",
+                \"value\": \"Union\"
+            },
+            {
+                \"name\": \"onError\",
+                \"type\": \"other\",
+                \"value\": \"true\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"kmehrmessage\\\"},{\\\"columnName\\\":\\\"folder\\\"},{\\\"columnName\\\":\\\"patient\\\"},{\\\"columnName\\\":\\\"id\\\"},{\\\"columnName\\\":\\\"S\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"Selection\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"kmehrmessage\"},
+                    {\"columnName\": \"folder\"},
+                    {\"columnName\": \"transaction\"},
+                    {\"columnName\": \"item\"},
+                    {\"columnName\": \"beginmoment\"},
+                    {\"columnName\": \"date\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#Fhir_medicationstatement_GID-641724\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#Fhir_medicationstatement_GID-6417241\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#has_fhir_medicationstatement.effectivedatetime_GID-641725_Type-641724\",
+                    \"DomainLabel\": \"etype:Fhir_medicationstatement_GID-6417241\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:dateTime\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"kmehrmessage\\\"},{\\\"columnName\\\":\\\"folder\\\"},{\\\"columnName\\\":\\\"transaction\\\"},{\\\"columnName\\\":\\\"item\\\"},{\\\"columnName\\\":\\\"beginmoment\\\"},{\\\"columnName\\\":\\\"date\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"kmehrmessage\\\"},{\\\"columnName\\\":\\\"folder\\\"},{\\\"columnName\\\":\\\"transaction\\\"},{\\\"columnName\\\":\\\"item\\\"},{\\\"columnName\\\":\\\"beginmoment\\\"},{\\\"columnName\\\":\\\"date\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"kmehrmessage\"},
+                    {\"columnName\": \"folder\"},
+                    {\"columnName\": \"transaction\"},
+                    {\"columnName\": \"item\"},
+                    {\"columnName\": \"content\"},
+                    {\"columnName\": \"cd\"},
+                    {\"columnName\": \"atc_codes Concepts\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [
+                    {
+                        \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#Fhir_medication_GID-641750\",
+                        \"DomainId\": \"http://knowdive.disi.unitn.it/etype#Fhir_medication_GID-6417501\",
+                        \"isPrimary\": true,
+                        \"isProvenance\": false,
+                        \"FullType\": \"http://knowdive.disi.unitn.it/etype#has_fhir_medication.code_GID-641736_Type-641750\",
+                        \"DomainLabel\": \"etype:Fhir_medication_GID-6417501\"
+                    },
+                    {
+                        \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#Fhir_medication_GID-641750\",
+                        \"DomainId\": \"http://knowdive.disi.unitn.it/etype#Fhir_medication_GID-6417501\",
+                        \"isPrimary\": false,
+                        \"isProvenance\": false,
+                        \"FullType\": \"http://knowdive.disi.unitn.it/etype#has_fhir_medication.ingredient.itemcodeableconcept_GID-648396_Type-641750\",
+                        \"DomainLabel\": \"etype:Fhir_medication_GID-6417501\"
+                    }
+                ]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:Concept\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"kmehrmessage\\\"},{\\\"columnName\\\":\\\"folder\\\"},{\\\"columnName\\\":\\\"transaction\\\"},{\\\"columnName\\\":\\\"item\\\"},{\\\"columnName\\\":\\\"content\\\"},{\\\"columnName\\\":\\\"cd\\\"},{\\\"columnName\\\":\\\"atc_codes Concepts\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"kmehrmessage\\\"},{\\\"columnName\\\":\\\"folder\\\"},{\\\"columnName\\\":\\\"transaction\\\"},{\\\"columnName\\\":\\\"item\\\"},{\\\"columnName\\\":\\\"content\\\"},{\\\"columnName\\\":\\\"cd\\\"},{\\\"columnName\\\":\\\"atc_codes Concepts\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"kmehrmessage\"},
+                    {\"columnName\": \"folder\"},
+                    {\"columnName\": \"transaction\"},
+                    {\"columnName\": \"item\"},
+                    {\"columnName\": \"posology\"},
+                    {\"columnName\": \"text\"},
+                    {\"columnName\": \"content\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#Fhir_medicationstatement_GID-641724\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#Fhir_medicationstatement_GID-6417241\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#has_fhir_medicationstatement.dosage.text_GID-648357_Type-641724\",
+                    \"DomainLabel\": \"etype:Fhir_medicationstatement_GID-6417241\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"kmehrmessage\\\"},{\\\"columnName\\\":\\\"folder\\\"},{\\\"columnName\\\":\\\"transaction\\\"},{\\\"columnName\\\":\\\"item\\\"},{\\\"columnName\\\":\\\"posology\\\"},{\\\"columnName\\\":\\\"text\\\"},{\\\"columnName\\\":\\\"content\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"kmehrmessage\\\"},{\\\"columnName\\\":\\\"folder\\\"},{\\\"columnName\\\":\\\"transaction\\\"},{\\\"columnName\\\":\\\"item\\\"},{\\\"columnName\\\":\\\"posology\\\"},{\\\"columnName\\\":\\\"text\\\"},{\\\"columnName\\\":\\\"content\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"kmehrmessage\"},
+                    {\"columnName\": \"folder\"},
+                    {\"columnName\": \"transaction\"},
+                    {\"columnName\": \"item\"},
+                    {\"columnName\": \"posology\"},
+                    {\"columnName\": \"text\"},
+                    {\"columnName\": \"Prescr:Dosage_1\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#Fhir_medicationstatement_GID-641724\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#Fhir_medicationstatement_GID-6417241\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#has_fhir_medicationstatement.dosage.doseandrate.dosequantity.value_GID-648395_Type-641724\",
+                    \"DomainLabel\": \"etype:Fhir_medicationstatement_GID-6417241\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"kmehrmessage\\\"},{\\\"columnName\\\":\\\"folder\\\"},{\\\"columnName\\\":\\\"transaction\\\"},{\\\"columnName\\\":\\\"item\\\"},{\\\"columnName\\\":\\\"posology\\\"},{\\\"columnName\\\":\\\"text\\\"},{\\\"columnName\\\":\\\"Prescr:Dosage_1\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"kmehrmessage\\\"},{\\\"columnName\\\":\\\"folder\\\"},{\\\"columnName\\\":\\\"transaction\\\"},{\\\"columnName\\\":\\\"item\\\"},{\\\"columnName\\\":\\\"posology\\\"},{\\\"columnName\\\":\\\"text\\\"},{\\\"columnName\\\":\\\"Prescr:Dosage_1\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"kmehrmessage\"},
+                    {\"columnName\": \"folder\"},
+                    {\"columnName\": \"transaction\"},
+                    {\"columnName\": \"item\"},
+                    {\"columnName\": \"posology\"},
+                    {\"columnName\": \"text\"},
+                    {\"columnName\": \"Prescr:Frequency_1\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#Fhir_medicationstatement_GID-641724\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#Fhir_medicationstatement_GID-6417241\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#has_fhir_medicationstatement.dosage.timing.repeat.frequency_GID-648358_Type-641724\",
+                    \"DomainLabel\": \"etype:Fhir_medicationstatement_GID-6417241\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"kmehrmessage\\\"},{\\\"columnName\\\":\\\"folder\\\"},{\\\"columnName\\\":\\\"transaction\\\"},{\\\"columnName\\\":\\\"item\\\"},{\\\"columnName\\\":\\\"posology\\\"},{\\\"columnName\\\":\\\"text\\\"},{\\\"columnName\\\":\\\"Prescr:Frequency_1\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"kmehrmessage\\\"},{\\\"columnName\\\":\\\"folder\\\"},{\\\"columnName\\\":\\\"transaction\\\"},{\\\"columnName\\\":\\\"item\\\"},{\\\"columnName\\\":\\\"posology\\\"},{\\\"columnName\\\":\\\"text\\\"},{\\\"columnName\\\":\\\"Prescr:Frequency_1\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"kmehrmessage\"},
+                    {\"columnName\": \"folder\"},
+                    {\"columnName\": \"transaction\"},
+                    {\"columnName\": \"item\"},
+                    {\"columnName\": \"posology\"},
+                    {\"columnName\": \"text\"},
+                    {\"columnName\": \"Prescr:PeriodUnit_1_cleaned\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#Fhir_medicationstatement_GID-641724\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#Fhir_medicationstatement_GID-6417241\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#has_fhir_medicationstatement.dosage.timing.repeat.periodunit_GID-648360_Type-641724\",
+                    \"DomainLabel\": \"etype:Fhir_medicationstatement_GID-6417241\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"kmehrmessage\\\"},{\\\"columnName\\\":\\\"folder\\\"},{\\\"columnName\\\":\\\"transaction\\\"},{\\\"columnName\\\":\\\"item\\\"},{\\\"columnName\\\":\\\"posology\\\"},{\\\"columnName\\\":\\\"text\\\"},{\\\"columnName\\\":\\\"Prescr:PeriodUnit_1_cleaned\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"kmehrmessage\\\"},{\\\"columnName\\\":\\\"folder\\\"},{\\\"columnName\\\":\\\"transaction\\\"},{\\\"columnName\\\":\\\"item\\\"},{\\\"columnName\\\":\\\"posology\\\"},{\\\"columnName\\\":\\\"text\\\"},{\\\"columnName\\\":\\\"Prescr:PeriodUnit_1_cleaned\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"kmehrmessage\"},
+                    {\"columnName\": \"folder\"},
+                    {\"columnName\": \"transaction\"},
+                    {\"columnName\": \"item\"},
+                    {\"columnName\": \"id\"},
+                    {\"columnName\": \"content\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#Fhir_medicationstatement_GID-641724\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#Fhir_medicationstatement_GID-6417241\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1\",
+                    \"DomainLabel\": \"etype:Fhir_medicationstatement_GID-6417241\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"kmehrmessage\\\"},{\\\"columnName\\\":\\\"folder\\\"},{\\\"columnName\\\":\\\"transaction\\\"},{\\\"columnName\\\":\\\"item\\\"},{\\\"columnName\\\":\\\"id\\\"},{\\\"columnName\\\":\\\"content\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"kmehrmessage\\\"},{\\\"columnName\\\":\\\"folder\\\"},{\\\"columnName\\\":\\\"transaction\\\"},{\\\"columnName\\\":\\\"item\\\"},{\\\"columnName\\\":\\\"id\\\"},{\\\"columnName\\\":\\\"content\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"kmehrmessage\"},
+                    {\"columnName\": \"folder\"},
+                    {\"columnName\": \"transaction\"},
+                    {\"columnName\": \"item\"},
+                    {\"columnName\": \"content\"},
+                    {\"columnName\": \"cd\"},
+                    {\"columnName\": \"content\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#Fhir_medication_GID-641750\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#Fhir_medication_GID-6417501\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1\",
+                    \"DomainLabel\": \"etype:Fhir_medication_GID-6417501\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"kmehrmessage\\\"},{\\\"columnName\\\":\\\"folder\\\"},{\\\"columnName\\\":\\\"transaction\\\"},{\\\"columnName\\\":\\\"item\\\"},{\\\"columnName\\\":\\\"content\\\"},{\\\"columnName\\\":\\\"cd\\\"},{\\\"columnName\\\":\\\"content\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"kmehrmessage\\\"},{\\\"columnName\\\":\\\"folder\\\"},{\\\"columnName\\\":\\\"transaction\\\"},{\\\"columnName\\\":\\\"item\\\"},{\\\"columnName\\\":\\\"content\\\"},{\\\"columnName\\\":\\\"cd\\\"},{\\\"columnName\\\":\\\"content\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"kmehrmessage\"},
+                    {\"columnName\": \"folder\"},
+                    {\"columnName\": \"patient\"},
+                    {\"columnName\": \"id\"},
+                    {\"columnName\": \"content\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#Patient_GID-55936\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#Patient_GID-559361\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1\",
+                    \"DomainLabel\": \"etype:Patient_GID-559361 (add)\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"kmehrmessage\\\"},{\\\"columnName\\\":\\\"folder\\\"},{\\\"columnName\\\":\\\"patient\\\"},{\\\"columnName\\\":\\\"id\\\"},{\\\"columnName\\\":\\\"content\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"kmehrmessage\\\"},{\\\"columnName\\\":\\\"folder\\\"},{\\\"columnName\\\":\\\"patient\\\"},{\\\"columnName\\\":\\\"id\\\"},{\\\"columnName\\\":\\\"content\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"kmehrmessage\"},
+                    {\"columnName\": \"folder\"},
+                    {\"columnName\": \"transaction\"},
+                    {\"columnName\": \"item\"},
+                    {\"columnName\": \"lifecycle\"},
+                    {\"columnName\": \"cd\"},
+                    {\"columnName\": \"content Concepts\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#Fhir_medicationstatement_GID-641724\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#Fhir_medicationstatement_GID-6417241\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#has_fhir_medicationstatement.status_GID-641727_Type-641724\",
+                    \"DomainLabel\": \"etype:Fhir_medicationstatement_GID-6417241\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:Concept\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"kmehrmessage\\\"},{\\\"columnName\\\":\\\"folder\\\"},{\\\"columnName\\\":\\\"transaction\\\"},{\\\"columnName\\\":\\\"item\\\"},{\\\"columnName\\\":\\\"lifecycle\\\"},{\\\"columnName\\\":\\\"cd\\\"},{\\\"columnName\\\":\\\"content Concepts\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"kmehrmessage\\\"},{\\\"columnName\\\":\\\"folder\\\"},{\\\"columnName\\\":\\\"transaction\\\"},{\\\"columnName\\\":\\\"item\\\"},{\\\"columnName\\\":\\\"lifecycle\\\"},{\\\"columnName\\\":\\\"cd\\\"},{\\\"columnName\\\":\\\"content Concepts\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"kmehrmessage\"},
+                    {\"columnName\": \"folder\"},
+                    {\"columnName\": \"transaction\"},
+                    {\"columnName\": \"item\"},
+                    {\"columnName\": \"posology\"},
+                    {\"columnName\": \"text\"},
+                    {\"columnName\": \"Prescr:Form_1_cleaned Concepts\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#Fhir_medication_GID-641750\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#Fhir_medication_GID-6417501\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#has_fhir_medication.form_GID-648363_Type-641750\",
+                    \"DomainLabel\": \"etype:Fhir_medication_GID-6417501\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:Concept\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"kmehrmessage\\\"},{\\\"columnName\\\":\\\"folder\\\"},{\\\"columnName\\\":\\\"transaction\\\"},{\\\"columnName\\\":\\\"item\\\"},{\\\"columnName\\\":\\\"posology\\\"},{\\\"columnName\\\":\\\"text\\\"},{\\\"columnName\\\":\\\"Prescr:Form_1_cleaned Concepts\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"kmehrmessage\\\"},{\\\"columnName\\\":\\\"folder\\\"},{\\\"columnName\\\":\\\"transaction\\\"},{\\\"columnName\\\":\\\"item\\\"},{\\\"columnName\\\":\\\"posology\\\"},{\\\"columnName\\\":\\\"text\\\"},{\\\"columnName\\\":\\\"Prescr:Form_1_cleaned Concepts\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"AddLinkCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"edge\",
+                \"type\": \"other\",
+                \"value\": {
+                    \"edgeTargetId\": \"http://knowdive.disi.unitn.it/etype#Fhir_medication_GID-6417501\",
+                    \"edgeId\": \"http://knowdive.disi.unitn.it/etype#has_fhir_medicationstatement.medicationreference.reference_GID-641753_Type-641724\",
+                    \"edgeTargetUri\": \"http://knowdive.disi.unitn.it/etype#Fhir_medication_GID-641750\",
+                    \"edgeSourceId\": \"http://knowdive.disi.unitn.it/etype#Fhir_medicationstatement_GID-6417241\",
+                    \"edgeSourceUri\": \"http://knowdive.disi.unitn.it/etype#Fhir_medicationstatement_GID-641724\"
+                }
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Modeling\"]
+    },
+    {
+        \"commandName\": \"AddLinkCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"edge\",
+                \"type\": \"other\",
+                \"value\": {
+                    \"edgeTargetId\": \"http://knowdive.disi.unitn.it/etype#Patient_GID-559361\",
+                    \"edgeId\": \"http://knowdive.disi.unitn.it/etype#has_fhir_medicationstatement.subject.reference_GID-641752_Type-641724\",
+                    \"edgeTargetUri\": \"http://knowdive.disi.unitn.it/etype#Patient_GID-55936\",
+                    \"edgeSourceId\": \"http://knowdive.disi.unitn.it/etype#Fhir_medicationstatement_GID-6417241\",
+                    \"edgeSourceUri\": \"http://knowdive.disi.unitn.it/etype#Fhir_medicationstatement_GID-641724\"
+                }
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Modeling\"]
+    }
+]""" .
+
+km-dev:TriplesMap_2903879a-ce66-46c3-8ee0-66daaad45425 a rr:TriplesMap .
+
+_:node1g4crf965x1 km-dev:hasTriplesMap km-dev:TriplesMap_2903879a-ce66-46c3-8ee0-66daaad45425 .
+
+km-dev:TriplesMap_2903879a-ce66-46c3-8ee0-66daaad45425 km-dev:isPartOfMapping _:node1g4crf965x1 .
+
+_:node1g4crf965x2 rr:tableName "sumehr.xml" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1g4crf965x1 .
+
+_:node1g4crf965x1 km-dev:hasLogicalTable _:node1g4crf965x2 .
+
+km-dev:TriplesMap_2903879a-ce66-46c3-8ee0-66daaad45425 rr:logicalTable _:node1g4crf965x2 ;
+	rr:subjectMap _:node1g4crf965x3 .
+
+_:node1g4crf965x1 km-dev:hasSubjectMap _:node1g4crf965x3 .
+
+_:node1g4crf965x3 km-dev:isPartOfMapping _:node1g4crf965x1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://knowdive.disi.unitn.it/etype#Fhir_medicationstatement_GID-6417241" ;
+	rr:class etype:Fhir_medicationstatement_GID-641724 ;
+	rr:termType rr:BlankNode ;
+	km-dev:namePrefix "etype:Fhir_medicationstatement_GID-6417241" ;
+	a km-dev:steinerTreeRootNode .
+
+km-dev:PredicateObjectMap_c83d5b7d-db18-4441-9580-dd4983a257be rr:predicate <http://knowdive.disi.unitn.it/etype#has_fhir_medicationstatement.medicationreference.reference_GID-641753_Type-641724> .
+
+km-dev:RefObjectMap_c4067a76-c336-4bcd-8a18-fd1bf559a01c a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_b385104f-f864-4968-8746-4664153e8ab4 ;
+	km-dev:isPartOfMapping _:node1g4crf965x1 .
+
+_:node1g4crf965x1 km-dev:hasObjectMap km-dev:RefObjectMap_c4067a76-c336-4bcd-8a18-fd1bf559a01c .
+
+km-dev:PredicateObjectMap_c83d5b7d-db18-4441-9580-dd4983a257be rr:objectMap km-dev:RefObjectMap_c4067a76-c336-4bcd-8a18-fd1bf559a01c .
+
+km-dev:TriplesMap_2903879a-ce66-46c3-8ee0-66daaad45425 rr:predicateObjectMap km-dev:PredicateObjectMap_c83d5b7d-db18-4441-9580-dd4983a257be .
+
+km-dev:PredicateObjectMap_c83d5b7d-db18-4441-9580-dd4983a257be a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1g4crf965x1 .
+
+_:node1g4crf965x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_c83d5b7d-db18-4441-9580-dd4983a257be .
+
+km-dev:PredicateObjectMap_098ef573-cd29-4383-8b96-2aed3c1eae77 rr:predicate <http://knowdive.disi.unitn.it/etype#has_fhir_medicationstatement.subject.reference_GID-641752_Type-641724> .
+
+km-dev:RefObjectMap_5e2e8570-a562-41f5-9061-b3c396a487ab a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_da2ef097-9f1e-43df-9cf6-4fa95ccde66d ;
+	km-dev:isPartOfMapping _:node1g4crf965x1 .
+
+_:node1g4crf965x1 km-dev:hasObjectMap km-dev:RefObjectMap_5e2e8570-a562-41f5-9061-b3c396a487ab .
+
+km-dev:PredicateObjectMap_098ef573-cd29-4383-8b96-2aed3c1eae77 rr:objectMap km-dev:RefObjectMap_5e2e8570-a562-41f5-9061-b3c396a487ab .
+
+km-dev:TriplesMap_2903879a-ce66-46c3-8ee0-66daaad45425 rr:predicateObjectMap km-dev:PredicateObjectMap_098ef573-cd29-4383-8b96-2aed3c1eae77 .
+
+km-dev:PredicateObjectMap_098ef573-cd29-4383-8b96-2aed3c1eae77 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1g4crf965x1 .
+
+_:node1g4crf965x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_098ef573-cd29-4383-8b96-2aed3c1eae77 .
+
+km-dev:PredicateObjectMap_a8a9acb7-7edd-46e3-b414-840de8437392 rr:predicate <http://knowdive.disi.unitn.it/etype#has_fhir_medicationstatement.dosage.doseandrate.dosequantity.value_GID-648395_Type-641724> .
+
+_:node1g4crf965x4 rr:column "[\"kmehrmessage\",\"folder\",\"transaction\",\"item\",\"posology\",\"text\",\"Prescr:Dosage_1\"]" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1g4crf965x1 .
+
+_:node1g4crf965x1 km-dev:hasObjectMap _:node1g4crf965x4 .
+
+km-dev:PredicateObjectMap_a8a9acb7-7edd-46e3-b414-840de8437392 rr:objectMap _:node1g4crf965x4 .
+
+km-dev:TriplesMap_2903879a-ce66-46c3-8ee0-66daaad45425 rr:predicateObjectMap km-dev:PredicateObjectMap_a8a9acb7-7edd-46e3-b414-840de8437392 .
+
+km-dev:PredicateObjectMap_a8a9acb7-7edd-46e3-b414-840de8437392 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1g4crf965x1 .
+
+_:node1g4crf965x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_a8a9acb7-7edd-46e3-b414-840de8437392 .
+
+km-dev:PredicateObjectMap_20584cbf-0ba7-47ac-a384-bebfb80a7dab rr:predicate <http://knowdive.disi.unitn.it/etype#has_fhir_medicationstatement.dosage.timing.repeat.frequency_GID-648358_Type-641724> .
+
+_:node1g4crf965x5 rr:column "[\"kmehrmessage\",\"folder\",\"transaction\",\"item\",\"posology\",\"text\",\"Prescr:Frequency_1\"]" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1g4crf965x1 .
+
+_:node1g4crf965x1 km-dev:hasObjectMap _:node1g4crf965x5 .
+
+km-dev:PredicateObjectMap_20584cbf-0ba7-47ac-a384-bebfb80a7dab rr:objectMap _:node1g4crf965x5 .
+
+km-dev:TriplesMap_2903879a-ce66-46c3-8ee0-66daaad45425 rr:predicateObjectMap km-dev:PredicateObjectMap_20584cbf-0ba7-47ac-a384-bebfb80a7dab .
+
+km-dev:PredicateObjectMap_20584cbf-0ba7-47ac-a384-bebfb80a7dab a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1g4crf965x1 .
+
+_:node1g4crf965x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_20584cbf-0ba7-47ac-a384-bebfb80a7dab .
+
+km-dev:PredicateObjectMap_31cf2b81-7be9-4ba7-a1d6-31ba28e59551 rr:predicate etype:has_identifier_GID-39085_Type-1 .
+
+_:node1g4crf965x6 rr:column "[\"kmehrmessage\",\"folder\",\"transaction\",\"item\",\"id\",\"content\"]" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1g4crf965x1 .
+
+_:node1g4crf965x1 km-dev:hasObjectMap _:node1g4crf965x6 .
+
+km-dev:PredicateObjectMap_31cf2b81-7be9-4ba7-a1d6-31ba28e59551 rr:objectMap _:node1g4crf965x6 .
+
+km-dev:TriplesMap_2903879a-ce66-46c3-8ee0-66daaad45425 rr:predicateObjectMap km-dev:PredicateObjectMap_31cf2b81-7be9-4ba7-a1d6-31ba28e59551 .
+
+km-dev:PredicateObjectMap_31cf2b81-7be9-4ba7-a1d6-31ba28e59551 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1g4crf965x1 .
+
+_:node1g4crf965x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_31cf2b81-7be9-4ba7-a1d6-31ba28e59551 .
+
+km-dev:PredicateObjectMap_8ce86d53-c02e-4796-b88f-d955d1ea675c rr:predicate <http://knowdive.disi.unitn.it/etype#has_fhir_medicationstatement.effectivedatetime_GID-641725_Type-641724> .
+
+_:node1g4crf965x7 rr:column "[\"kmehrmessage\",\"folder\",\"transaction\",\"item\",\"beginmoment\",\"date\"]" ;
+	a rr:ObjectMap ;
+	rr:datatype "http://www.w3.org/2001/XMLSchema#dateTime" ;
+	km-dev:isPartOfMapping _:node1g4crf965x1 .
+
+_:node1g4crf965x1 km-dev:hasObjectMap _:node1g4crf965x7 .
+
+km-dev:PredicateObjectMap_8ce86d53-c02e-4796-b88f-d955d1ea675c rr:objectMap _:node1g4crf965x7 .
+
+km-dev:TriplesMap_2903879a-ce66-46c3-8ee0-66daaad45425 rr:predicateObjectMap km-dev:PredicateObjectMap_8ce86d53-c02e-4796-b88f-d955d1ea675c .
+
+km-dev:PredicateObjectMap_8ce86d53-c02e-4796-b88f-d955d1ea675c a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1g4crf965x1 .
+
+_:node1g4crf965x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_8ce86d53-c02e-4796-b88f-d955d1ea675c .
+
+km-dev:PredicateObjectMap_0b318ad9-0b8c-464e-9b56-57e27e025a1f rr:predicate <http://knowdive.disi.unitn.it/etype#has_fhir_medicationstatement.dosage.text_GID-648357_Type-641724> .
+
+_:node1g4crf965x8 rr:column "[\"kmehrmessage\",\"folder\",\"transaction\",\"item\",\"posology\",\"text\",\"content\"]" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1g4crf965x1 .
+
+_:node1g4crf965x1 km-dev:hasObjectMap _:node1g4crf965x8 .
+
+km-dev:PredicateObjectMap_0b318ad9-0b8c-464e-9b56-57e27e025a1f rr:objectMap _:node1g4crf965x8 .
+
+km-dev:TriplesMap_2903879a-ce66-46c3-8ee0-66daaad45425 rr:predicateObjectMap km-dev:PredicateObjectMap_0b318ad9-0b8c-464e-9b56-57e27e025a1f .
+
+km-dev:PredicateObjectMap_0b318ad9-0b8c-464e-9b56-57e27e025a1f a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1g4crf965x1 .
+
+_:node1g4crf965x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_0b318ad9-0b8c-464e-9b56-57e27e025a1f .
+
+km-dev:PredicateObjectMap_a0e78b29-2208-4b00-9e3e-8e154dc9e2c0 rr:predicate <http://knowdive.disi.unitn.it/etype#has_fhir_medicationstatement.dosage.timing.repeat.periodunit_GID-648360_Type-641724> .
+
+_:node1g4crf965x9 rr:column "[\"kmehrmessage\",\"folder\",\"transaction\",\"item\",\"posology\",\"text\",\"Prescr:PeriodUnit_1_cleaned\"]" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1g4crf965x1 .
+
+_:node1g4crf965x1 km-dev:hasObjectMap _:node1g4crf965x9 .
+
+km-dev:PredicateObjectMap_a0e78b29-2208-4b00-9e3e-8e154dc9e2c0 rr:objectMap _:node1g4crf965x9 .
+
+km-dev:TriplesMap_2903879a-ce66-46c3-8ee0-66daaad45425 rr:predicateObjectMap km-dev:PredicateObjectMap_a0e78b29-2208-4b00-9e3e-8e154dc9e2c0 .
+
+km-dev:PredicateObjectMap_a0e78b29-2208-4b00-9e3e-8e154dc9e2c0 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1g4crf965x1 .
+
+_:node1g4crf965x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_a0e78b29-2208-4b00-9e3e-8e154dc9e2c0 .
+
+km-dev:PredicateObjectMap_0e8aaef4-e146-4c3a-954f-e131aa122249 rr:predicate <http://knowdive.disi.unitn.it/etype#has_fhir_medicationstatement.status_GID-641727_Type-641724> .
+
+_:node1g4crf965x10 rr:column "[\"kmehrmessage\",\"folder\",\"transaction\",\"item\",\"lifecycle\",\"cd\",\"content Concepts\"]" ;
+	a rr:ObjectMap ;
+	rr:datatype "http://www.w3.org/2001/XMLSchema#Concept" ;
+	km-dev:isPartOfMapping _:node1g4crf965x1 .
+
+_:node1g4crf965x1 km-dev:hasObjectMap _:node1g4crf965x10 .
+
+km-dev:PredicateObjectMap_0e8aaef4-e146-4c3a-954f-e131aa122249 rr:objectMap _:node1g4crf965x10 .
+
+km-dev:TriplesMap_2903879a-ce66-46c3-8ee0-66daaad45425 rr:predicateObjectMap km-dev:PredicateObjectMap_0e8aaef4-e146-4c3a-954f-e131aa122249 .
+
+km-dev:PredicateObjectMap_0e8aaef4-e146-4c3a-954f-e131aa122249 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1g4crf965x1 .
+
+_:node1g4crf965x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_0e8aaef4-e146-4c3a-954f-e131aa122249 .
+
+km-dev:TriplesMap_b385104f-f864-4968-8746-4664153e8ab4 a rr:TriplesMap .
+
+_:node1g4crf965x1 km-dev:hasTriplesMap km-dev:TriplesMap_b385104f-f864-4968-8746-4664153e8ab4 .
+
+km-dev:TriplesMap_b385104f-f864-4968-8746-4664153e8ab4 km-dev:isPartOfMapping _:node1g4crf965x1 .
+
+_:node1g4crf965x11 rr:tableName "sumehr.xml" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1g4crf965x1 .
+
+_:node1g4crf965x1 km-dev:hasLogicalTable _:node1g4crf965x11 .
+
+km-dev:TriplesMap_b385104f-f864-4968-8746-4664153e8ab4 rr:logicalTable _:node1g4crf965x11 ;
+	rr:subjectMap _:node1g4crf965x12 .
+
+_:node1g4crf965x1 km-dev:hasSubjectMap _:node1g4crf965x12 .
+
+_:node1g4crf965x12 km-dev:isPartOfMapping _:node1g4crf965x1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://knowdive.disi.unitn.it/etype#Fhir_medication_GID-6417501" ;
+	rr:class etype:Fhir_medication_GID-641750 ;
+	rr:termType rr:BlankNode ;
+	km-dev:namePrefix "etype:Fhir_medication_GID-6417501" .
+
+km-dev:PredicateObjectMap_2f8a0514-7c98-438c-aea3-532aea22e3ec rr:predicate etype:has_identifier_GID-39085_Type-1 .
+
+_:node1g4crf965x13 rr:column "[\"kmehrmessage\",\"folder\",\"transaction\",\"item\",\"content\",\"cd\",\"content\"]" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1g4crf965x1 .
+
+_:node1g4crf965x1 km-dev:hasObjectMap _:node1g4crf965x13 .
+
+km-dev:PredicateObjectMap_2f8a0514-7c98-438c-aea3-532aea22e3ec rr:objectMap _:node1g4crf965x13 .
+
+km-dev:TriplesMap_b385104f-f864-4968-8746-4664153e8ab4 rr:predicateObjectMap km-dev:PredicateObjectMap_2f8a0514-7c98-438c-aea3-532aea22e3ec .
+
+km-dev:PredicateObjectMap_2f8a0514-7c98-438c-aea3-532aea22e3ec a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1g4crf965x1 .
+
+_:node1g4crf965x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_2f8a0514-7c98-438c-aea3-532aea22e3ec .
+
+km-dev:PredicateObjectMap_80dc3778-992e-4b1e-b045-810d276906c8 rr:predicate <http://knowdive.disi.unitn.it/etype#has_fhir_medication.form_GID-648363_Type-641750> .
+
+_:node1g4crf965x14 rr:column "[\"kmehrmessage\",\"folder\",\"transaction\",\"item\",\"posology\",\"text\",\"Prescr:Form_1_cleaned Concepts\"]" ;
+	a rr:ObjectMap ;
+	rr:datatype "http://www.w3.org/2001/XMLSchema#Concept" ;
+	km-dev:isPartOfMapping _:node1g4crf965x1 .
+
+_:node1g4crf965x1 km-dev:hasObjectMap _:node1g4crf965x14 .
+
+km-dev:PredicateObjectMap_80dc3778-992e-4b1e-b045-810d276906c8 rr:objectMap _:node1g4crf965x14 .
+
+km-dev:TriplesMap_b385104f-f864-4968-8746-4664153e8ab4 rr:predicateObjectMap km-dev:PredicateObjectMap_80dc3778-992e-4b1e-b045-810d276906c8 .
+
+km-dev:PredicateObjectMap_80dc3778-992e-4b1e-b045-810d276906c8 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1g4crf965x1 .
+
+_:node1g4crf965x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_80dc3778-992e-4b1e-b045-810d276906c8 .
+
+km-dev:PredicateObjectMap_ef50138b-141b-45e3-9234-a397cec5b903 rr:predicate <http://knowdive.disi.unitn.it/etype#has_fhir_medication.code_GID-641736_Type-641750> .
+
+_:node1g4crf965x15 rr:column "[\"kmehrmessage\",\"folder\",\"transaction\",\"item\",\"content\",\"cd\",\"atc_codes Concepts\"]" ;
+	a rr:ObjectMap ;
+	rr:datatype "http://www.w3.org/2001/XMLSchema#Concept" ;
+	km-dev:isPartOfMapping _:node1g4crf965x1 .
+
+_:node1g4crf965x1 km-dev:hasObjectMap _:node1g4crf965x15 .
+
+km-dev:PredicateObjectMap_ef50138b-141b-45e3-9234-a397cec5b903 rr:objectMap _:node1g4crf965x15 .
+
+km-dev:TriplesMap_b385104f-f864-4968-8746-4664153e8ab4 rr:predicateObjectMap km-dev:PredicateObjectMap_ef50138b-141b-45e3-9234-a397cec5b903 .
+
+km-dev:PredicateObjectMap_ef50138b-141b-45e3-9234-a397cec5b903 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1g4crf965x1 .
+
+_:node1g4crf965x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_ef50138b-141b-45e3-9234-a397cec5b903 .
+
+km-dev:PredicateObjectMap_8dbf3e1c-08de-4844-8a10-dd8e001f55de rr:predicate <http://knowdive.disi.unitn.it/etype#has_fhir_medication.ingredient.itemcodeableconcept_GID-648396_Type-641750> .
+
+_:node1g4crf965x16 rr:column "[\"kmehrmessage\",\"folder\",\"transaction\",\"item\",\"content\",\"cd\",\"atc_codes Concepts\"]" ;
+	a rr:ObjectMap ;
+	rr:datatype "http://www.w3.org/2001/XMLSchema#Concept" ;
+	km-dev:isPartOfMapping _:node1g4crf965x1 .
+
+_:node1g4crf965x1 km-dev:hasObjectMap _:node1g4crf965x16 .
+
+km-dev:PredicateObjectMap_8dbf3e1c-08de-4844-8a10-dd8e001f55de rr:objectMap _:node1g4crf965x16 .
+
+km-dev:TriplesMap_b385104f-f864-4968-8746-4664153e8ab4 rr:predicateObjectMap km-dev:PredicateObjectMap_8dbf3e1c-08de-4844-8a10-dd8e001f55de .
+
+km-dev:PredicateObjectMap_8dbf3e1c-08de-4844-8a10-dd8e001f55de a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1g4crf965x1 .
+
+_:node1g4crf965x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_8dbf3e1c-08de-4844-8a10-dd8e001f55de .
+
+km-dev:TriplesMap_da2ef097-9f1e-43df-9cf6-4fa95ccde66d a rr:TriplesMap .
+
+_:node1g4crf965x1 km-dev:hasTriplesMap km-dev:TriplesMap_da2ef097-9f1e-43df-9cf6-4fa95ccde66d .
+
+km-dev:TriplesMap_da2ef097-9f1e-43df-9cf6-4fa95ccde66d km-dev:isPartOfMapping _:node1g4crf965x1 .
+
+_:node1g4crf965x17 rr:tableName "sumehr.xml" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1g4crf965x1 .
+
+_:node1g4crf965x1 km-dev:hasLogicalTable _:node1g4crf965x17 .
+
+km-dev:TriplesMap_da2ef097-9f1e-43df-9cf6-4fa95ccde66d rr:logicalTable _:node1g4crf965x17 ;
+	rr:subjectMap _:node1g4crf965x18 .
+
+_:node1g4crf965x1 km-dev:hasSubjectMap _:node1g4crf965x18 .
+
+_:node1g4crf965x18 km-dev:isPartOfMapping _:node1g4crf965x1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://knowdive.disi.unitn.it/etype#Patient_GID-559361" ;
+	rr:class etype:Patient_GID-55936 ;
+	rr:termType rr:BlankNode ;
+	km-dev:namePrefix "etype:Patient_GID-559361" .
+
+km-dev:PredicateObjectMap_a06f3fb1-4b14-4b5f-9207-88b449c4046d rr:predicate etype:has_identifier_GID-39085_Type-1 .
+
+_:node1g4crf965x19 rr:column "[\"kmehrmessage\",\"folder\",\"patient\",\"id\",\"content\"]" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1g4crf965x1 .
+
+_:node1g4crf965x1 km-dev:hasObjectMap _:node1g4crf965x19 .
+
+km-dev:PredicateObjectMap_a06f3fb1-4b14-4b5f-9207-88b449c4046d rr:objectMap _:node1g4crf965x19 .
+
+km-dev:TriplesMap_da2ef097-9f1e-43df-9cf6-4fa95ccde66d rr:predicateObjectMap km-dev:PredicateObjectMap_a06f3fb1-4b14-4b5f-9207-88b449c4046d .
+
+km-dev:PredicateObjectMap_a06f3fb1-4b14-4b5f-9207-88b449c4046d a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1g4crf965x1 .
+
+_:node1g4crf965x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_a06f3fb1-4b14-4b5f-9207-88b449c4046d .

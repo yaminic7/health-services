@@ -1,0 +1,1141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kmehrmessage xmlns="http://www.ehealth.fgov.be/standards/kmehr/schema/v1">
+  <header>
+    <standard>
+      <cd S="CD-STANDARD" SV="1.0">20161201</cd>
+    </standard>
+    <id S="ID-KMEHR" SV="1.0">83c4900f13d75fda15f7793f8919f84b5bb71159b27e20fd9cdd9ceed4071a1d</id>
+    <date>2022-07-18</date>
+    <time>15:20:12</time>
+    <sender>
+      <hcparty>
+        <id S="ID-HCPARTY" SV="1.0">16808516734</id>
+        <id S="INSS" SV="1.0">83102121201</id>
+        <cd S="CD-HCPARTY" SV="1.6">persphysician</cd>
+        <firstname>Arnaud</firstname>
+        <familyname>Ancion</familyname>
+        <address>
+          <cd S="CD-ADDRESS" SV="1.0">work</cd>
+          <country>
+            <cd S="CD-FED-COUNTRY" SV="1.0">be</cd>
+          </country>
+          <zip>4000</zip>
+          <city>Liège</city>
+          <street>Avenue de l'hôpital</street>
+          <housenumber>1</housenumber>
+          <postboxnumber></postboxnumber>
+        </address>
+        <telecom>
+          <cd S="CD-ADDRESS" SV="1.0">work</cd>
+          <cd S="CD-TELECOM" SV="1.0">phone</cd>
+          <telecomnumber>003242844313</telecomnumber>
+        </telecom>
+        <telecom>
+          <cd S="CD-ADDRESS" SV="1.0">work</cd>
+          <cd S="CD-TELECOM" SV="1.0">email</cd>
+          <telecomnumber>A.Ancion@chuliege.be</telecomnumber>
+        </telecom>
+      </hcparty>
+      <hcparty>
+        <id S="LOCAL" SV="4.7">OmniPro</id>
+        <cd S="CD-HCPARTY" SV="1.0">application</cd>
+        <name>OmniPro</name>
+      </hcparty>
+    </sender>
+    <recipient>
+      <hcparty>
+        <cd S="CD-HCPARTY" SV="1.0">orgpublichealth</cd>
+        <name>default</name>
+      </hcparty>
+    </recipient>
+  </header>
+  <folder>
+    <id S="ID-KMEHR" SV="1.0">1</id>
+    <patient>
+      <id S="ID-PATIENT" SV="1.2">11111111111</id>
+      <id S="LOCAL" SV="1.0">61fb84d7bd5e34e389460d9a5c36d19e06668edf2f8c888a44b35cd42096e74a</id>
+      <firstname>iehrchu01</firstname>
+      <familyname>iehrchu01</familyname>
+      <birthdate>
+        <date>2022-07-18</date>
+      </birthdate>
+      <sex>
+        <cd S="CD-SEX" SV="1.0">female</cd>
+      </sex>
+      <address>
+        <cd S="CD-ADDRESS" SV="1.0">home</cd>
+        <country>
+          <cd S="CD-FED-COUNTRY" SV="1.0">be</cd>
+        </country>
+        <zip>4444</zip>
+        <city>CITY</city>
+        <street>Rue XXXXXXXXXX</street>
+        <housenumber>11</housenumber>
+        <postboxnumber></postboxnumber>
+      </address>
+      <telecom>
+        <cd S="CD-ADDRESS" SV="1.0">home</cd>
+        <cd S="CD-TELECOM" SV="1.0">phone</cd>
+        <telecomnumber>04/xx.xx.xx</telecomnumber>
+      </telecom>
+      <telecom>
+        <cd S="CD-ADDRESS" SV="1.0">home</cd>
+        <cd S="CD-TELECOM" SV="1.0">mobile</cd>
+        <telecomnumber>0497/xx.xx.xx</telecomnumber>
+      </telecom>
+      <telecom>
+        <cd S="CD-ADDRESS" SV="1.0">home</cd>
+        <cd S="CD-TELECOM" SV="1.0">email</cd>
+        <telecomnumber>xxxxxx@mail.com</telecomnumber>
+      </telecom>
+      <usuallanguage>fr-BE</usuallanguage>
+    </patient>
+    <transaction>
+      <id S="ID-KMEHR" SV="1.0">1</id>
+      <id S="LOCAL" SV="1.0">83c4900f13d75fda15f7793f8919f84b5bb71159b27e20fd9cdd9ceed4071a1d</id>
+      <cd S="CD-TRANSACTION" SV="1.5">sumehr</cd>
+      <date>2022-07-18</date>
+      <time>15:20:12</time>
+      <author>
+        <hcparty>
+          <id S="ID-HCPARTY" SV="1.0">71070712</id>
+          <id S="INSS" SV="1.0">83102121201</id>
+          <cd S="CD-HCPARTY" SV="1.6">persphysician</cd>
+          <firstname>Arnaud</firstname>
+          <familyname>Ancion</familyname>
+          <address>
+            <cd S="CD-ADDRESS" SV="1.0">work</cd>
+            <country>
+              <cd S="CD-FED-COUNTRY" SV="1.0">be</cd>
+            </country>
+            <zip>4000</zip>
+            <city>Liège</city>
+            <street>Avenue de l'hôpital</street>
+            <housenumber>1</housenumber>
+            <postboxnumber></postboxnumber>
+          </address>
+          <telecom>
+            <cd S="CD-ADDRESS" SV="1.0">work</cd>
+            <cd S="CD-TELECOM" SV="1.0">phone</cd>
+            <telecomnumber>003242844313</telecomnumber>
+          </telecom>
+          <telecom>
+            <cd S="CD-ADDRESS" SV="1.0">work</cd>
+            <cd S="CD-TELECOM" SV="1.0">email</cd>
+            <telecomnumber>A.Ancion@chuliege.be</telecomnumber>
+          </telecom>
+        </hcparty>
+      </author>
+      <iscomplete>true</iscomplete>
+      <isvalidated>true</isvalidated>
+      <item>
+        <id S="ID-KMEHR" SV="1.0">2</id>
+        <cd S="CD-ITEM" SV="1.6">problem</cd>
+        <content>
+          <text L="fr">POLYPE DE LA CAVITE UTERINE</text>
+        </content>
+        <content>
+          <cd S="ICD" SV="9">6210</cd>
+        </content>
+        <beginmoment>
+          <date>2022-01-01</date>
+        </beginmoment>
+        <lifecycle>
+          <cd S="CD-LIFECYCLE" SV="1.6">active</cd>
+        </lifecycle>
+        <isrelevant>true</isrelevant>
+      </item>
+      <item>
+        <id S="ID-KMEHR" SV="1.0">3</id>
+        <cd S="CD-ITEM" SV="1.6">problem</cd>
+        <content>
+          <text L="fr">NEVRITE OPTIQUE, SANS AUTRE PRECISION</text>
+        </content>
+        <content>
+          <cd S="ICD" SV="9">37730</cd>
+        </content>
+        <beginmoment>
+          <date>2022-01-01</date>
+        </beginmoment>
+        <lifecycle>
+          <cd S="CD-LIFECYCLE" SV="1.6">active</cd>
+        </lifecycle>
+        <isrelevant>true</isrelevant>
+      </item>
+      <item>
+        <id S="ID-KMEHR" SV="1.0">4</id>
+        <cd S="CD-ITEM" SV="1.6">problem</cd>
+        <content>
+          <text L="fr">réaction secondaire aux d'autres antiépileptiques, sédatifs et hypnotiques, contact initial</text>
+        </content>
+        <content>
+          <cd S="ICD" SV="10">T426X5A</cd>
+        </content>
+        <beginmoment>
+          <date>2022-01-01</date>
+        </beginmoment>
+        <lifecycle>
+          <cd S="CD-LIFECYCLE" SV="1.6">active</cd>
+        </lifecycle>
+        <isrelevant>true</isrelevant>
+      </item>
+      <item>
+        <id S="ID-KMEHR" SV="1.0">5</id>
+        <cd S="CD-ITEM" SV="1.6">problem</cd>
+        <content>
+          <text L="fr">épilepsie et syndromes épileptiques généralisés idiopathiques, sans mention d'épilepsie intraitable, sans état de mal épileptique</text>
+        </content>
+        <content>
+          <cd S="ICD" SV="10">G40309</cd>
+        </content>
+        <beginmoment>
+          <date>2022-01-01</date>
+        </beginmoment>
+        <lifecycle>
+          <cd S="CD-LIFECYCLE" SV="1.6">active</cd>
+        </lifecycle>
+        <isrelevant>true</isrelevant>
+      </item>
+      <item>
+        <id S="ID-KMEHR" SV="1.0">6</id>
+        <cd S="CD-ITEM" SV="1.6">problem</cd>
+        <content>
+          <text L="fr">dysarthrie et anarthrie</text>
+        </content>
+        <content>
+          <cd S="ICD" SV="10">R471</cd>
+        </content>
+        <beginmoment>
+          <date>2022-01-01</date>
+        </beginmoment>
+        <lifecycle>
+          <cd S="CD-LIFECYCLE" SV="1.6">active</cd>
+        </lifecycle>
+        <isrelevant>true</isrelevant>
+      </item>
+      <item>
+        <id S="ID-KMEHR" SV="1.0">7</id>
+        <cd S="CD-ITEM" SV="1.6">problem</cd>
+        <content>
+          <text L="fr">exposition à la chaleur excessive naturelle, contact initial</text>
+        </content>
+        <content>
+          <cd S="ICD" SV="10">X30XXXA</cd>
+        </content>
+        <beginmoment>
+          <date>2022-01-01</date>
+        </beginmoment>
+        <lifecycle>
+          <cd S="CD-LIFECYCLE" SV="1.6">active</cd>
+        </lifecycle>
+        <isrelevant>true</isrelevant>
+      </item>
+      <item>
+        <id S="ID-KMEHR" SV="1.0">8</id>
+        <cd S="CD-ITEM" SV="1.6">problem</cd>
+        <content>
+          <text L="fr">ataxie, non spécifiée</text>
+        </content>
+        <content>
+          <cd S="ICD" SV="10">R270</cd>
+        </content>
+        <beginmoment>
+          <date>2022-01-01</date>
+        </beginmoment>
+        <lifecycle>
+          <cd S="CD-LIFECYCLE" SV="1.6">active</cd>
+        </lifecycle>
+        <isrelevant>true</isrelevant>
+      </item>
+      <item>
+        <id S="ID-KMEHR" SV="1.0">9</id>
+        <cd S="CD-ITEM" SV="1.6">problem</cd>
+        <content>
+          <text L="fr">indice de masse corporelle (IMC) 27,0 à 27.9 , adulte</text>
+        </content>
+        <content>
+          <cd S="ICD" SV="10">Z6827</cd>
+        </content>
+        <beginmoment>
+          <date>2022-01-01</date>
+        </beginmoment>
+        <lifecycle>
+          <cd S="CD-LIFECYCLE" SV="1.6">inactive</cd>
+        </lifecycle>
+        <isrelevant>true</isrelevant>
+      </item>
+      <item>
+        <id S="ID-KMEHR" SV="1.0">10</id>
+        <cd S="CD-ITEM" SV="1.6">problem</cd>
+        <content>
+          <text L="fr">sclérose en plaques</text>
+        </content>
+        <content>
+          <cd S="ICD" SV="10">G35</cd>
+        </content>
+        <beginmoment>
+          <date>2022-01-01</date>
+        </beginmoment>
+        <lifecycle>
+          <cd S="CD-LIFECYCLE" SV="1.6">active</cd>
+        </lifecycle>
+        <isrelevant>true</isrelevant>
+      </item>
+      <item>
+        <id S="ID-KMEHR" SV="1.0">11</id>
+        <cd S="CD-ITEM" SV="1.6">problem</cd>
+        <content>
+          <text L="fr">hypertension essentielle (primitive)</text>
+        </content>
+        <content>
+          <cd S="ICD" SV="10">I10</cd>
+        </content>
+        <beginmoment>
+          <date>2022-01-01</date>
+        </beginmoment>
+        <lifecycle>
+          <cd S="CD-LIFECYCLE" SV="1.6">active</cd>
+        </lifecycle>
+        <isrelevant>true</isrelevant>
+      </item>
+      <item>
+        <id S="ID-KMEHR" SV="1.0">12</id>
+        <cd S="CD-ITEM" SV="1.6">problem</cd>
+        <content>
+          <text L="fr">hypertrophie mammaire</text>
+        </content>
+        <content>
+          <cd S="ICD" SV="10">N62</cd>
+        </content>
+        <beginmoment>
+          <date>2022-01-01</date>
+        </beginmoment>
+        <lifecycle>
+          <cd S="CD-LIFECYCLE" SV="1.6">active</cd>
+        </lifecycle>
+        <isrelevant>true</isrelevant>
+      </item>
+      <item>
+        <id S="ID-KMEHR" SV="1.0">13</id>
+        <cd S="CD-ITEM" SV="1.6">problem</cd>
+        <content>
+          <text L="fr">ataxie cérébelleuse au cours de maladies classées ailleurs</text>
+        </content>
+        <content>
+          <cd S="ICD" SV="10">G3281</cd>
+        </content>
+        <beginmoment>
+          <date>2022-01-01</date>
+        </beginmoment>
+        <lifecycle>
+          <cd S="CD-LIFECYCLE" SV="1.6">active</cd>
+        </lifecycle>
+        <isrelevant>true</isrelevant>
+      </item>
+      <item>
+        <id S="ID-KMEHR" SV="1.0">14</id>
+        <cd S="CD-ITEM" SV="1.6">problem</cd>
+        <content>
+          <text L="fr">récepteurs oestrogéniques négatifs [ER-]</text>
+        </content>
+        <content>
+          <cd S="ICD" SV="10">Z171</cd>
+        </content>
+        <beginmoment>
+          <date>2022-01-01</date>
+        </beginmoment>
+        <lifecycle>
+          <cd S="CD-LIFECYCLE" SV="1.6">inactive</cd>
+        </lifecycle>
+        <isrelevant>true</isrelevant>
+      </item>
+      <item>
+        <id S="ID-KMEHR" SV="1.0">15</id>
+        <cd S="CD-ITEM" SV="1.6">problem</cd>
+        <content>
+          <text L="fr">ANTECEDENT PERSONNEL D'ALLERGIE A LA PENICILLINE</text>
+        </content>
+        <content>
+          <cd S="ICD" SV="9">V140</cd>
+        </content>
+        <beginmoment>
+          <date>2022-01-01</date>
+        </beginmoment>
+        <lifecycle>
+          <cd S="CD-LIFECYCLE" SV="1.6">active</cd>
+        </lifecycle>
+        <isrelevant>true</isrelevant>
+      </item>
+      <item>
+        <id S="ID-KMEHR" SV="1.0">16</id>
+        <cd S="CD-ITEM" SV="1.6">problem</cd>
+        <content>
+          <text L="fr">déshydratation</text>
+        </content>
+        <content>
+          <cd S="ICD" SV="10">E860</cd>
+        </content>
+        <beginmoment>
+          <date>2022-01-01</date>
+        </beginmoment>
+        <lifecycle>
+          <cd S="CD-LIFECYCLE" SV="1.6">active</cd>
+        </lifecycle>
+        <isrelevant>true</isrelevant>
+      </item>
+      <item>
+        <id S="ID-KMEHR" SV="1.0">17</id>
+        <cd S="CD-ITEM" SV="1.6">problem</cd>
+        <content>
+          <text L="fr">antécédent personnel de dépendance à la nicotine</text>
+        </content>
+        <content>
+          <cd S="ICD" SV="10">Z87891</cd>
+        </content>
+        <beginmoment>
+          <date>2022-01-01</date>
+        </beginmoment>
+        <lifecycle>
+          <cd S="CD-LIFECYCLE" SV="1.6">inactive</cd>
+        </lifecycle>
+        <isrelevant>true</isrelevant>
+      </item>
+      <item>
+        <id S="ID-KMEHR" SV="1.0">18</id>
+        <cd S="CD-ITEM" SV="1.6">problem</cd>
+        <content>
+          <text L="fr">hyperosmolalité et hypernatrémie</text>
+        </content>
+        <content>
+          <cd S="ICD" SV="10">E870</cd>
+        </content>
+        <beginmoment>
+          <date>2022-01-01</date>
+        </beginmoment>
+        <lifecycle>
+          <cd S="CD-LIFECYCLE" SV="1.6">active</cd>
+        </lifecycle>
+        <isrelevant>true</isrelevant>
+      </item>
+      <item>
+        <id S="ID-KMEHR" SV="1.0">19</id>
+        <cd S="CD-ITEM" SV="1.6">problem</cd>
+        <content>
+          <text L="fr">INCISIE VAN BORSTKAS EN PLEURA</text>
+        </content>
+        <content>
+          <cd S="ICD" SV="9">340</cd>
+        </content>
+        <beginmoment>
+          <date>2022-01-01</date>
+        </beginmoment>
+        <lifecycle>
+          <cd S="CD-LIFECYCLE" SV="1.6">active</cd>
+        </lifecycle>
+        <isrelevant>true</isrelevant>
+      </item>
+      <item>
+        <id S="ID-KMEHR" SV="1.0">20</id>
+        <cd S="CD-ITEM" SV="1.6">problem</cd>
+        <content>
+          <text L="fr">ANTECEDENTS D'USAGE DE TABAC</text>
+        </content>
+        <content>
+          <cd S="ICD" SV="9">V1582</cd>
+        </content>
+        <beginmoment>
+          <date>2022-01-01</date>
+        </beginmoment>
+        <lifecycle>
+          <cd S="CD-LIFECYCLE" SV="1.6">active</cd>
+        </lifecycle>
+        <isrelevant>true</isrelevant>
+      </item>
+      <item>
+        <id S="ID-KMEHR" SV="1.0">21</id>
+        <cd S="CD-ITEM" SV="1.6">problem</cd>
+        <content>
+          <text L="fr">léiomyome de l'utérus, non spécifié</text>
+        </content>
+        <content>
+          <cd S="ICD" SV="10">D259</cd>
+        </content>
+        <beginmoment>
+          <date>2022-01-01</date>
+        </beginmoment>
+        <lifecycle>
+          <cd S="CD-LIFECYCLE" SV="1.6">active</cd>
+        </lifecycle>
+        <isrelevant>true</isrelevant>
+      </item>
+      <item>
+        <id S="ID-KMEHR" SV="1.0">22</id>
+        <cd S="CD-ITEM" SV="1.6">problem</cd>
+        <content>
+          <text L="fr">autre nystagmus</text>
+        </content>
+        <content>
+          <cd S="ICD" SV="10">H5509</cd>
+        </content>
+        <beginmoment>
+          <date>2022-01-01</date>
+        </beginmoment>
+        <lifecycle>
+          <cd S="CD-LIFECYCLE" SV="1.6">active</cd>
+        </lifecycle>
+        <isrelevant>true</isrelevant>
+      </item>
+      <item>
+        <id S="ID-KMEHR" SV="1.0">23</id>
+        <cd S="CD-ITEM" SV="1.6">problem</cd>
+        <content>
+          <text L="fr">néoplasme malin du quadrant inféro-externe du sein féminin gauche</text>
+        </content>
+        <content>
+          <cd S="ICD" SV="10">C50512</cd>
+        </content>
+        <beginmoment>
+          <date>2022-01-01</date>
+        </beginmoment>
+        <lifecycle>
+          <cd S="CD-LIFECYCLE" SV="1.6">active</cd>
+        </lifecycle>
+        <isrelevant>true</isrelevant>
+      </item>
+      <item>
+        <id S="ID-KMEHR" SV="1.0">24</id>
+        <cd S="CD-ITEM" SV="1.6">allergy</cd>
+        <content>
+          <text L="fr">Pénicilline (urticaire)</text>
+        </content>
+        <beginmoment>
+          <date>2022-01-01</date>
+        </beginmoment>
+        <lifecycle>
+          <cd S="CD-LIFECYCLE" SV="1.6">active</cd>
+        </lifecycle>
+        <isrelevant>true</isrelevant>
+      </item>
+      <item>
+        <id S="ID-KMEHR" SV="1.0">25</id>
+        <cd S="CD-ITEM" SV="1.6">allergy</cd>
+        <content>
+          <text L="fr">§Pas d'allergies connues.</text>
+        </content>
+        <beginmoment>
+          <date>2022-01-01</date>
+        </beginmoment>
+        <lifecycle>
+          <cd S="CD-LIFECYCLE" SV="1.6">active</cd>
+        </lifecycle>
+        <isrelevant>true</isrelevant>
+      </item>
+      <item>
+        <id S="ID-KMEHR" SV="1.0">26</id>
+        <cd S="CD-ITEM" SV="1.6">medication</cd>
+        <content>
+          <text L="fr">Dafalgan compr. pellic. (séc.) Forte 10x 1g</text>
+        </content>
+        <content>
+          <medicinalproduct>
+            <intendedcd S="CD-DRUG-CNK" SV="20100701">1799121</intendedcd>
+            <intendedname>Dafalgan compr. pellic. (séc.) Forte 10x 1g</intendedname>
+          </medicinalproduct>
+        </content>
+        <content>
+          <cd S="CD-ATC" SV="2021">N02BE01</cd>
+        </content>
+        <beginmoment>
+          <date>2022-01-01</date>
+        </beginmoment>
+        <lifecycle>
+          <cd S="CD-LIFECYCLE" SV="1.6">active</cd>
+        </lifecycle>
+        <isrelevant>true</isrelevant>
+        <posology>
+          <text L="fr">1 comp.(s) - max: 4 comp.(s)/24h. - interval: 4h.</text>
+        </posology>
+      </item>
+      <item>
+        <id S="ID-KMEHR" SV="1.0">27</id>
+        <cd S="CD-ITEM" SV="1.6">medication</cd>
+        <content>
+          <text L="fr">Clexane sol. inj. i.v./s.c. [ser. préremplie] 10x 4000UI anti-Xa/0,4ml</text>
+        </content>
+        <content>
+          <medicinalproduct>
+            <intendedcd S="CD-DRUG-CNK" SV="20100701">278192</intendedcd>
+            <intendedname>Clexane sol. inj. i.v./s.c. [ser. préremplie] 10x 4000UI anti-Xa/0,4ml</intendedname>
+          </medicinalproduct>
+        </content>
+        <content>
+          <cd S="CD-ATC" SV="2021">B01AB05</cd>
+        </content>
+        <beginmoment>
+          <date>2022-01-01</date>
+        </beginmoment>
+        <lifecycle>
+          <cd S="CD-LIFECYCLE" SV="1.6">active</cd>
+        </lifecycle>
+        <isrelevant>true</isrelevant>
+        <posology>
+          <text L="fr">1 amp. ser. 1 x par j. (Soir)</text>
+        </posology>
+      </item>
+      <item>
+        <id S="ID-KMEHR" SV="1.0">28</id>
+        <cd S="CD-ITEM" SV="1.6">medication</cd>
+        <content>
+          <text L="fr">Tradonal compr. orodisp. Odis 30x 50mg</text>
+        </content>
+        <content>
+          <medicinalproduct>
+            <intendedcd S="CD-DRUG-CNK" SV="20100701">2214906</intendedcd>
+            <intendedname>Tradonal compr. orodisp. Odis 30x 50mg</intendedname>
+          </medicinalproduct>
+        </content>
+        <content>
+          <cd S="CD-ATC" SV="2021">N02AX02</cd>
+        </content>
+        <beginmoment>
+          <date>2022-01-01</date>
+        </beginmoment>
+        <lifecycle>
+          <cd S="CD-LIFECYCLE" SV="1.6">active</cd>
+        </lifecycle>
+        <isrelevant>true</isrelevant>
+        <posology>
+          <text L="fr">1 comp.(s) - max: 4 comp.(s)/24h. - interval: 6h.</text>
+        </posology>
+      </item>
+      <item>
+        <id S="ID-KMEHR" SV="1.0">29</id>
+        <cd S="CD-ITEM" SV="1.6">medication</cd>
+        <content>
+          <text L="fr">Movicol sol. (pdr, sachet) Neutral 20x</text>
+        </content>
+        <content>
+          <medicinalproduct>
+            <intendedcd S="CD-DRUG-CNK" SV="20100701">2573152</intendedcd>
+            <intendedname>Movicol sol. (pdr, sachet) Neutral 20x</intendedname>
+          </medicinalproduct>
+        </content>
+        <content>
+          <cd S="CD-ATC" SV="2021">A06AD65</cd>
+        </content>
+        <beginmoment>
+          <date>2022-01-01</date>
+        </beginmoment>
+        <lifecycle>
+          <cd S="CD-LIFECYCLE" SV="1.6">active</cd>
+        </lifecycle>
+        <isrelevant>true</isrelevant>
+        <posology>
+          <text L="fr">13,9 gr. 1 x par j. (Matin)</text>
+        </posology>
+      </item>
+      <item>
+        <id S="ID-KMEHR" SV="1.0">30</id>
+        <cd S="CD-ITEM" SV="1.6">medication</cd>
+        <content>
+          <text L="fr">Keppra sirop sol. 150ml 100mg/1ml [ser. doseuse 1ml]</text>
+        </content>
+        <content>
+          <medicinalproduct>
+            <intendedcd S="CD-DRUG-CNK" SV="20100701">2155000</intendedcd>
+            <intendedname>Keppra sirop sol. 150ml 100mg/1ml [ser. doseuse 1ml]</intendedname>
+          </medicinalproduct>
+        </content>
+        <content>
+          <cd S="CD-ATC" SV="2021">N03AX14</cd>
+        </content>
+        <beginmoment>
+          <date>2022-01-01</date>
+        </beginmoment>
+        <lifecycle>
+          <cd S="CD-LIFECYCLE" SV="1.6">active</cd>
+        </lifecycle>
+        <isrelevant>true</isrelevant>
+        <posology>
+          <text L="fr">Matin: 5 ml - 18h: 8 ml
+</text>
+        </posology>
+      </item>
+      <item>
+        <id S="ID-KMEHR" SV="1.0">31</id>
+        <cd S="CD-ITEM" SV="1.6">medication</cd>
+        <content>
+          <text L="fr">Losec compr. gastro-résist. disp. Mups 28x 20mg</text>
+        </content>
+        <content>
+          <medicinalproduct>
+            <intendedcd S="CD-DRUG-CNK" SV="20100701">1523679</intendedcd>
+            <intendedname>Losec compr. gastro-résist. disp. Mups 28x 20mg</intendedname>
+          </medicinalproduct>
+        </content>
+        <content>
+          <cd S="CD-ATC" SV="2021">A02BC01</cd>
+        </content>
+        <beginmoment>
+          <date>2022-01-01</date>
+        </beginmoment>
+        <lifecycle>
+          <cd S="CD-LIFECYCLE" SV="1.6">active</cd>
+        </lifecycle>
+        <isrelevant>true</isrelevant>
+        <posology>
+          <text L="fr">1 comp. 1 x par j. (Matin)</text>
+        </posology>
+      </item>
+      <item>
+        <id S="ID-KMEHR" SV="1.0">32</id>
+        <cd S="CD-ITEM" SV="1.6">medication</cd>
+        <content>
+          <text L="fr">Coversyl compr. pellic. (séc.) 30x 5mg</text>
+        </content>
+        <content>
+          <medicinalproduct>
+            <intendedcd S="CD-DRUG-CNK" SV="20100701">2509412</intendedcd>
+            <intendedname>Coversyl compr. pellic. (séc.) 30x 5mg</intendedname>
+          </medicinalproduct>
+        </content>
+        <content>
+          <cd S="CD-ATC" SV="2021">C09AA04</cd>
+        </content>
+        <beginmoment>
+          <date>2022-01-01</date>
+        </beginmoment>
+        <lifecycle>
+          <cd S="CD-LIFECYCLE" SV="1.6">active</cd>
+        </lifecycle>
+        <isrelevant>true</isrelevant>
+        <posology>
+          <text L="fr">1 comp. 1 x par j. (Matin)</text>
+        </posology>
+      </item>
+      <item>
+        <id S="ID-KMEHR" SV="1.0">33</id>
+        <cd S="CD-ITEM" SV="1.6">medication</cd>
+        <content>
+          <text L="fr">Lamotrigine EG compr. disp. 90x 100mg</text>
+        </content>
+        <content>
+          <medicinalproduct>
+            <intendedcd S="CD-DRUG-CNK" SV="20100701">2274215</intendedcd>
+            <intendedname>Lamotrigine EG compr. disp. 90x 100mg</intendedname>
+          </medicinalproduct>
+        </content>
+        <content>
+          <cd S="CD-ATC" SV="2021">N03AX09</cd>
+        </content>
+        <beginmoment>
+          <date>2022-01-01</date>
+        </beginmoment>
+        <lifecycle>
+          <cd S="CD-LIFECYCLE" SV="1.6">active</cd>
+        </lifecycle>
+        <isrelevant>true</isrelevant>
+        <posology>
+          <text L="fr">2 comp. 2 x par jour (Matin - 18h)
+</text>
+        </posology>
+      </item>
+      <item>
+        <id S="ID-KMEHR" SV="1.0">34</id>
+        <cd S="CD-ITEM" SV="1.6">medication</cd>
+        <content>
+          <text L="fr">Keppra compr. pellic. (séc.) 100x 1g</text>
+        </content>
+        <content>
+          <medicinalproduct>
+            <intendedcd S="CD-DRUG-CNK" SV="20100701">0</intendedcd>
+            <intendedname>Keppra compr. pellic. (séc.) 100x 1g</intendedname>
+          </medicinalproduct>
+        </content>
+        <content>
+          <cd S="CD-ATC" SV="2021">N03AX14</cd>
+        </content>
+        <beginmoment>
+          <date>2022-01-01</date>
+        </beginmoment>
+        <lifecycle>
+          <cd S="CD-LIFECYCLE" SV="1.6">active</cd>
+        </lifecycle>
+        <isrelevant>true</isrelevant>
+        <posology>
+          <text L="fr">1 comp. 2 x par j. (Matin - Soir)</text>
+        </posology>
+      </item>
+      <item>
+        <id S="ID-KMEHR" SV="1.0">35</id>
+        <cd S="CD-ITEM" SV="1.6">medication</cd>
+        <content>
+          <text L="fr">Lamictal compr. à croquer/disp. 30x 25mg</text>
+        </content>
+        <content>
+          <medicinalproduct>
+            <intendedcd S="CD-DRUG-CNK" SV="20100701">1487362</intendedcd>
+            <intendedname>Lamictal compr. à croquer/disp. 30x 25mg</intendedname>
+          </medicinalproduct>
+        </content>
+        <content>
+          <cd S="CD-ATC" SV="2021">N03AX09</cd>
+        </content>
+        <beginmoment>
+          <date>2022-01-01</date>
+        </beginmoment>
+        <lifecycle>
+          <cd S="CD-LIFECYCLE" SV="1.6">active</cd>
+        </lifecycle>
+        <isrelevant>true</isrelevant>
+        <posology>
+          <text L="fr">1 comp. 2 x par jour (Matin - Soir)
+</text>
+        </posology>
+      </item>
+      <item>
+        <id S="ID-KMEHR" SV="1.0">36</id>
+        <cd S="CD-ITEM" SV="1.6">medication</cd>
+        <content>
+          <text L="fr">Lamictal compr. à croquer/disp. 90x 50mg</text>
+        </content>
+        <content>
+          <medicinalproduct>
+            <intendedcd S="CD-DRUG-CNK" SV="20100701">1487370</intendedcd>
+            <intendedname>Lamictal compr. à croquer/disp. 90x 50mg</intendedname>
+          </medicinalproduct>
+        </content>
+        <content>
+          <cd S="CD-ATC" SV="2021">N03AX09</cd>
+        </content>
+        <beginmoment>
+          <date>2022-01-01</date>
+        </beginmoment>
+        <lifecycle>
+          <cd S="CD-LIFECYCLE" SV="1.6">active</cd>
+        </lifecycle>
+        <isrelevant>true</isrelevant>
+        <posology>
+          <text L="fr">1 comp. 2 x par jour (Matin - Soir)
+</text>
+        </posology>
+      </item>
+      <item>
+        <id S="ID-KMEHR" SV="1.0">37</id>
+        <cd S="CD-ITEM" SV="1.6">medication</cd>
+        <content>
+          <text L="fr">Monuril sol. (gran., sachet) 1x 3g</text>
+        </content>
+        <content>
+          <medicinalproduct>
+            <intendedcd S="CD-DRUG-CNK" SV="20100701">639880</intendedcd>
+            <intendedname>Monuril sol. (gran., sachet) 1x 3g</intendedname>
+          </medicinalproduct>
+        </content>
+        <content>
+          <cd S="CD-ATC" SV="2021">J01XX01</cd>
+        </content>
+        <beginmoment>
+          <date>2022-01-01</date>
+        </beginmoment>
+        <endmoment>
+          <date>2022-02-01</date>
+        </endmoment>
+        <lifecycle>
+          <cd S="CD-LIFECYCLE" SV="1.6">inactive</cd>
+        </lifecycle>
+        <isrelevant>true</isrelevant>
+        <posology>
+          <text L="fr">1 x 1 sach.s (immédiatement)</text>
+        </posology>
+      </item>
+      <item>
+        <id S="ID-KMEHR" SV="1.0">38</id>
+        <cd S="CD-ITEM" SV="1.6">medication</cd>
+        <content>
+          <text L="fr">Oxybutynine EG compr. (séc.) 100x 5mg</text>
+        </content>
+        <content>
+          <medicinalproduct>
+            <intendedcd S="CD-DRUG-CNK" SV="20100701">1625664</intendedcd>
+            <intendedname>Oxybutynine EG compr. (séc.) 100x 5mg</intendedname>
+          </medicinalproduct>
+        </content>
+        <content>
+          <cd S="CD-ATC" SV="2021">G04BD04</cd>
+        </content>
+        <beginmoment>
+          <date>2022-01-01</date>
+        </beginmoment>
+        <lifecycle>
+          <cd S="CD-LIFECYCLE" SV="1.6">active</cd>
+        </lifecycle>
+        <isrelevant>true</isrelevant>
+        <posology>
+          <text L="fr">1 comp. 2 x par jour (Matin - Midi)
+</text>
+        </posology>
+      </item>
+      <item>
+        <id S="ID-KMEHR" SV="1.0">39</id>
+        <cd S="CD-ITEM" SV="1.6">medication</cd>
+        <content>
+          <text L="fr">Movicol sol. à diluer Liquide Goût orange 500ml</text>
+        </content>
+        <content>
+          <medicinalproduct>
+            <intendedcd S="CD-DRUG-CNK" SV="20100701">2837508</intendedcd>
+            <intendedname>Movicol sol. à diluer Liquide Goût orange 500ml</intendedname>
+          </medicinalproduct>
+        </content>
+        <content>
+          <cd S="CD-ATC" SV="2021">A06AD65</cd>
+        </content>
+        <beginmoment>
+          <date>2022-01-01</date>
+        </beginmoment>
+        <lifecycle>
+          <cd S="CD-LIFECYCLE" SV="1.6">active</cd>
+        </lifecycle>
+        <isrelevant>true</isrelevant>
+        <posology>
+          <text L="fr">25 ml(s) - max: 200 ml(s)/24h. - interval: 1h.</text>
+        </posology>
+      </item>
+      <item>
+        <id S="ID-KMEHR" SV="1.0">40</id>
+        <cd S="CD-ITEM" SV="1.6">medication</cd>
+        <content>
+          <text L="fr">Fuca compr. enr. 30x 10mg</text>
+        </content>
+        <content>
+          <medicinalproduct>
+            <intendedcd S="CD-DRUG-CNK" SV="20100701">668509</intendedcd>
+            <intendedname>Fuca compr. enr. 30x 10mg</intendedname>
+          </medicinalproduct>
+        </content>
+        <content>
+          <cd S="CD-ATC" SV="2021">A06AB06</cd>
+        </content>
+        <beginmoment>
+          <date>2022-01-01</date>
+        </beginmoment>
+        <lifecycle>
+          <cd S="CD-LIFECYCLE" SV="1.6">active</cd>
+        </lifecycle>
+        <isrelevant>true</isrelevant>
+        <posology>
+          <text L="fr">2 drag. 1 x par j. (Soir)</text>
+        </posology>
+      </item>
+      <item>
+        <id S="ID-KMEHR" SV="1.0">41</id>
+        <cd S="CD-ITEM" SV="1.6">medication</cd>
+        <content>
+          <text L="fr">Toviaz compr. lib. prol. 28x 4mg</text>
+        </content>
+        <content>
+          <medicinalproduct>
+            <intendedcd S="CD-DRUG-CNK" SV="20100701">2493195</intendedcd>
+            <intendedname>Toviaz compr. lib. prol. 28x 4mg</intendedname>
+          </medicinalproduct>
+        </content>
+        <content>
+          <cd S="CD-ATC" SV="2021">G04BD11</cd>
+        </content>
+        <beginmoment>
+          <date>2022-01-01</date>
+        </beginmoment>
+        <lifecycle>
+          <cd S="CD-LIFECYCLE" SV="1.6">active</cd>
+        </lifecycle>
+        <isrelevant>true</isrelevant>
+        <posology>
+          <text L="fr">1 comp. 1 x par jour (Matin)
+</text>
+        </posology>
+      </item>
+      <item>
+        <id S="ID-KMEHR" SV="1.0">42</id>
+        <cd S="CD-ITEM" SV="1.6">treatment</cd>
+        <content>
+          <text L="fr">ABLATION ENDOMETRIALE</text>
+        </content>
+        <content>
+          <cd S="ICD" SV="9">6823</cd>
+        </content>
+        <beginmoment>
+          <date>2022-01-01</date>
+        </beginmoment>
+        <endmoment>
+          <date>2022-01-01</date>
+        </endmoment>
+        <lifecycle>
+          <cd S="CD-LIFECYCLE" SV="1.6">inactive</cd>
+        </lifecycle>
+        <isrelevant>true</isrelevant>
+      </item>
+      <item>
+        <id S="ID-KMEHR" SV="1.0">43</id>
+        <cd S="CD-ITEM" SV="1.6">treatment</cd>
+        <content>
+          <text L="fr">PHLEGMON, ABCES, LYMPHANGITE AIGUE DE MEMBRE SUPERIEUR</text>
+        </content>
+        <content>
+          <cd S="ICD" SV="9">6823</cd>
+        </content>
+        <beginmoment>
+          <date>2022-01-01</date>
+        </beginmoment>
+        <endmoment>
+          <date>2022-01-01</date>
+        </endmoment>
+        <lifecycle>
+          <cd S="CD-LIFECYCLE" SV="1.6">inactive</cd>
+        </lifecycle>
+        <isrelevant>true</isrelevant>
+      </item>
+      <item>
+        <id S="ID-KMEHR" SV="1.0">44</id>
+        <cd S="CD-ITEM" SV="1.6">treatment</cd>
+        <content>
+          <text L="fr">PERFUSION, AUTRE</text>
+        </content>
+        <content>
+          <cd S="ICD" SV="9">3997</cd>
+        </content>
+        <beginmoment>
+          <date>2022-01-01</date>
+        </beginmoment>
+        <endmoment>
+          <date>2022-01-01</date>
+        </endmoment>
+        <lifecycle>
+          <cd S="CD-LIFECYCLE" SV="1.6">inactive</cd>
+        </lifecycle>
+        <isrelevant>true</isrelevant>
+      </item>
+      <item>
+        <id S="ID-KMEHR" SV="1.0">45</id>
+        <cd S="CD-ITEM" SV="1.6">treatment</cd>
+        <content>
+          <text L="fr">INJECTION DE STEROIDE</text>
+        </content>
+        <content>
+          <cd S="ICD" SV="9">9923</cd>
+        </content>
+        <beginmoment>
+          <date>2022-01-01</date>
+        </beginmoment>
+        <endmoment>
+          <date>2022-01-01</date>
+        </endmoment>
+        <lifecycle>
+          <cd S="CD-LIFECYCLE" SV="1.6">inactive</cd>
+        </lifecycle>
+        <isrelevant>true</isrelevant>
+      </item>
+      <item>
+        <id S="ID-KMEHR" SV="1.0">46</id>
+        <cd S="CD-ITEM" SV="1.6">treatment</cd>
+        <content>
+          <text L="fr">EPUISEMENT DU A LA CHALEUR ET A LA PERTE HYDRIQUE</text>
+        </content>
+        <content>
+          <cd S="ICD" SV="9">9923</cd>
+        </content>
+        <beginmoment>
+          <date>2022-01-01</date>
+        </beginmoment>
+        <endmoment>
+          <date>2022-01-01</date>
+        </endmoment>
+        <lifecycle>
+          <cd S="CD-LIFECYCLE" SV="1.6">inactive</cd>
+        </lifecycle>
+        <isrelevant>true</isrelevant>
+      </item>
+      <item>
+        <id S="ID-KMEHR" SV="1.0">47</id>
+        <cd S="CD-ITEM" SV="1.6">treatment</cd>
+        <content>
+          <text L="fr">excision, sein, bilatéral, ouvert, pas de dispositif, pas de qualificateur</text>
+        </content>
+        <content>
+          <cd S="ICD" SV="10">0HBV0ZZ</cd>
+        </content>
+        <beginmoment>
+          <date>2022-01-01</date>
+        </beginmoment>
+        <endmoment>
+          <date>2022-01-01</date>
+        </endmoment>
+        <lifecycle>
+          <cd S="CD-LIFECYCLE" SV="1.6">inactive</cd>
+        </lifecycle>
+        <isrelevant>true</isrelevant>
+      </item>
+      <item>
+        <id S="ID-KMEHR" SV="1.0">48</id>
+        <cd S="CD-ITEM" SV="1.6">treatment</cd>
+        <content>
+          <text L="fr">drainage, canal spinal, percutané, pas de dispositif, diagnostique</text>
+        </content>
+        <content>
+          <cd S="ICD" SV="10">009U3ZX</cd>
+        </content>
+        <beginmoment>
+          <date>2022-01-01</date>
+        </beginmoment>
+        <endmoment>
+          <date>2022-01-01</date>
+        </endmoment>
+        <lifecycle>
+          <cd S="CD-LIFECYCLE" SV="1.6">inactive</cd>
+        </lifecycle>
+        <isrelevant>true</isrelevant>
+      </item>
+      <item>
+        <id S="ID-KMEHR" SV="1.0">49</id>
+        <cd S="CD-ITEM" SV="1.6">treatment</cd>
+        <content>
+          <text L="fr">excision, vaisseau lymphatique, aisselle gauche, ouvert, pas de dispositif, diagnostique</text>
+        </content>
+        <content>
+          <cd S="ICD" SV="10">07B60ZX</cd>
+        </content>
+        <beginmoment>
+          <date>2022-01-01</date>
+        </beginmoment>
+        <endmoment>
+          <date>2022-01-01</date>
+        </endmoment>
+        <lifecycle>
+          <cd S="CD-LIFECYCLE" SV="1.6">inactive</cd>
+        </lifecycle>
+        <isrelevant>true</isrelevant>
+      </item>
+      <item>
+        <id S="ID-KMEHR" SV="1.0">50</id>
+        <cd S="CD-ITEM" SV="1.6">treatment</cd>
+        <content>
+          <text L="fr">résection, sein, gauche, ouvert, pas de dispositif, pas de qualificateur</text>
+        </content>
+        <content>
+          <cd S="ICD" SV="10">0HTU0ZZ</cd>
+        </content>
+        <beginmoment>
+          <date>2022-01-01</date>
+        </beginmoment>
+        <endmoment>
+          <date>2022-01-01</date>
+        </endmoment>
+        <lifecycle>
+          <cd S="CD-LIFECYCLE" SV="1.6">inactive</cd>
+        </lifecycle>
+        <isrelevant>true</isrelevant>
+      </item>
+      <text L="fr">Ce SumEHR est uniquement valable dans le contexte du projet InteropEHRate</text>
+    </transaction>
+  </folder>
+</kmehrmessage>

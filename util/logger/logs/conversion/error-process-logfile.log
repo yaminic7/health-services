@@ -1,0 +1,2970 @@
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8952]',
+  level: 'error',
+  timestamp: '2022-06-13T09:14:53.766Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8952]',
+  level: 'error',
+  timestamp: '2022-06-13T09:14:53.867Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8873]',
+  level: 'error',
+  timestamp: '2022-06-13T09:14:53.971Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9cm - CODE:2720]',
+  level: 'error',
+  timestamp: '2022-06-13T09:14:54.075Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9cm - CODE:4011]',
+  level: 'error',
+  timestamp: '2022-06-13T09:14:54.167Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8952 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-13T09:23:46.008Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8952 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-13T09:23:46.109Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8873 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-13T09:23:46.178Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9cm - CODE:2720 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-13T09:23:46.262Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9cm - CODE:4011 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-13T09:23:46.341Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-13T13:49:01.548Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-13T13:51:31.026Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-13T13:51:53.536Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-13T13:57:41.708Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-13T13:58:08.961Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-13T14:01:57.536Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-13T14:02:13.399Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-16T08:16:22.297Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-16T08:17:08.381Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-16T08:20:47.524Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-16T08:21:22.762Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-16T09:05:11.415Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-16T09:05:38.259Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-16T09:13:45.285Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-16T09:14:09.334Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-16T09:20:34.577Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-16T09:21:02.988Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-16T09:26:29.379Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-16T09:26:50.286Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-16T12:07:51.724Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-16T12:08:09.268Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-16T12:23:17.476Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-16T12:23:30.763Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-16T12:29:04.217Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-16T12:29:19.125Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-16T12:31:31.676Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-16T12:31:44.743Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-16T12:35:09.799Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-16T12:35:22.779Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-16T12:51:45.071Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-16T12:53:44.598Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-16T13:13:00.180Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-16T13:13:56.738Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-16T13:18:13.741Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-16T13:18:47.455Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-16T13:19:37.029Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-16T13:42:37.643Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-16T13:44:43.018Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-16T13:52:10.940Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-16T13:53:08.417Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-16T16:07:27.236Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-16T16:07:52.391Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-16T16:13:11.389Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-16T16:13:29.519Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-16T16:56:53.993Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-16T16:57:11.023Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-16T16:57:19.553Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-16T16:57:31.961Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-16T16:57:41.416Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-16T16:57:49.573Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-16T16:58:01.962Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-16T16:58:20.517Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-16T16:58:37.555Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-16T16:59:21.751Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-16T16:59:31.679Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-16T16:59:40.421Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-16T16:59:49.022Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-16T16:59:50.862Z'
+}
+{
+  message: "RDF2EML import error reading RDF file - Error: ENOENT: no such file or directory, open './resources/rdf/.rdf'",
+  level: 'error',
+  timestamp: '2022-06-16T16:59:50.864Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-16T17:00:55.451Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-16T17:01:17.282Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-16T17:01:28.752Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-16T17:01:47.874Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-16T17:01:58.588Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-16T17:02:07.794Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-16T17:02:23.222Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-16T17:02:45.251Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-16T17:03:04.720Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-16T17:03:41.226Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-16T17:03:50.526Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-16T17:03:58.803Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-16T17:04:07.546Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8952 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-16T17:58:30.397Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8952 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-16T17:58:30.466Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8873 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-16T17:58:30.902Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9cm - CODE:4011 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-16T17:58:31.202Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9cm - CODE:2720 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-16T17:58:31.496Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8952 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-16T18:07:06.748Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8952 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-16T18:07:06.805Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8873 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-16T18:07:06.862Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9cm - CODE:4011 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-16T18:07:06.932Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9cm - CODE:2720 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-16T18:07:06.999Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8952 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-16T21:43:48.391Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8952 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-16T21:43:48.477Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8873 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-16T21:43:48.831Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9cm - CODE:4011 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-16T21:43:49.126Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9cm - CODE:2720 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-16T21:43:49.424Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8952 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-16T21:46:49.436Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8952 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-16T21:46:49.525Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8873 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-16T21:46:49.603Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9cm - CODE:4011 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-16T21:46:49.684Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9cm - CODE:2720 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-16T21:46:49.752Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8952 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-16T21:56:01.742Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8952 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-16T21:56:01.817Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8873 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-16T21:56:01.868Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9cm - CODE:4011 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-16T21:56:01.919Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9cm - CODE:2720 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-16T21:56:01.968Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8952 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-16T22:15:25.688Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8952 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-16T22:15:25.738Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8873 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-16T22:15:25.786Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9cm - CODE:4011 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-16T22:15:25.869Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9cm - CODE:2720 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-16T22:15:25.961Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8952 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-16T22:16:21.872Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8952 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-16T22:16:21.920Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8873 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-16T22:16:21.984Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9cm - CODE:4011 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-16T22:16:22.040Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9cm - CODE:2720 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-16T22:16:22.119Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8952 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-16T22:17:27.551Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8952 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-16T22:17:27.643Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8873 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-16T22:17:27.727Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9cm - CODE:4011 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-16T22:17:27.795Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9cm - CODE:2720 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-16T22:17:27.847Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8952 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-16T22:18:39.630Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8952 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-16T22:18:39.685Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8873 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-16T22:18:39.754Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9cm - CODE:4011 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-16T22:18:39.837Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9cm - CODE:2720 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-16T22:18:39.905Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8952 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-16T22:22:27.897Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8952 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-16T22:22:28.031Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8873 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-16T22:22:28.114Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9cm - CODE:4011 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-16T22:22:28.181Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9cm - CODE:2720 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-16T22:22:28.233Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8952 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-16T22:23:22.841Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8952 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-16T22:23:22.937Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8873 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-16T22:23:23.002Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9cm - CODE:4011 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-16T22:23:23.080Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9cm - CODE:2720 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-16T22:23:23.124Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8952 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-16T22:24:09.145Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8952 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-16T22:24:09.223Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8873 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-16T22:24:09.274Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9cm - CODE:4011 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-16T22:24:09.321Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9cm - CODE:2720 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-16T22:24:09.365Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8952 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-16T22:25:18.043Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8952 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-16T22:25:18.112Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8873 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-16T22:25:18.180Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9cm - CODE:4011 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-16T22:25:18.237Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9cm - CODE:2720 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-16T22:25:18.298Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8952 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-16T22:29:25.229Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8952 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-16T22:29:25.277Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8873 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-16T22:29:25.345Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9cm - CODE:4011 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-16T22:29:25.398Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9cm - CODE:2720 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-16T22:29:25.458Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8952 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-16T22:34:10.042Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8952 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-16T22:34:10.164Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8873 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-16T22:34:10.233Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9cm - CODE:4011 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-16T22:34:10.295Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9cm - CODE:2720 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-16T22:34:10.371Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8952 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-16T22:42:26.076Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8952 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-16T22:42:26.143Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8873 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-16T22:42:26.206Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9cm - CODE:4011 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-16T22:42:26.256Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9cm - CODE:2720 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-16T22:42:26.303Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8952 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-17T07:27:19.308Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8952 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-17T07:27:19.379Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8873 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-17T07:27:19.750Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9cm - CODE:4011 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-17T07:27:20.118Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9cm - CODE:2720 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-17T07:27:20.437Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8952 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-17T07:37:28.737Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8952 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-17T07:37:28.813Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8873 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-17T07:37:28.878Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9cm - CODE:4011 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-17T07:37:28.940Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9cm - CODE:2720 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-17T07:37:29.013Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8952 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-17T07:40:18.556Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8952 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-17T07:40:18.631Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8873 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-17T07:40:18.706Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9cm - CODE:4011 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-17T07:40:18.772Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9cm - CODE:2720 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-17T07:40:18.837Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8952 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-17T07:42:30.334Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8952 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-17T07:42:30.428Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8873 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-17T07:42:30.480Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9cm - CODE:4011 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-17T07:42:30.545Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9cm - CODE:2720 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-17T07:42:30.602Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8952 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-17T07:44:48.852Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8952 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-17T07:44:48.928Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8873 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-17T07:44:48.992Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9cm - CODE:4011 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-17T07:44:49.070Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9cm - CODE:2720 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-17T07:44:49.118Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8952 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-17T07:47:13.400Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8952 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-17T07:47:13.463Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8873 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-17T07:47:13.547Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9cm - CODE:4011 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-17T07:47:13.644Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9cm - CODE:2720 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-17T07:47:13.714Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8952 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-17T07:48:18.597Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8952 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-17T07:48:18.690Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8873 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-17T07:48:18.753Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9cm - CODE:4011 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-17T07:48:18.824Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9cm - CODE:2720 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-17T07:48:18.885Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8952 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-17T07:49:17.615Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8952 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-17T07:49:17.688Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8873 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-17T07:49:17.767Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9cm - CODE:4011 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-17T07:49:17.839Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9cm - CODE:2720 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-17T07:49:17.936Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8952 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-17T07:51:12.500Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8952 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-17T07:51:12.607Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8873 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-17T07:51:12.725Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9cm - CODE:4011 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-17T07:51:12.836Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9cm - CODE:2720 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-17T07:51:12.955Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8952 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-17T07:59:47.619Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8952 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-17T07:59:47.718Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8873 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-17T07:59:47.910Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9cm - CODE:4011 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-17T07:59:48.021Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9cm - CODE:2720 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-17T07:59:48.150Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-17T12:20:17.185Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-17T12:20:40.602Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-17T12:20:50.784Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-17T12:21:07.707Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-17T12:21:16.883Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-17T12:21:24.688Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-17T12:21:36.938Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-17T12:21:55.561Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-17T12:22:12.649Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-17T12:22:52.413Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-17T12:23:04.147Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-17T12:23:13.517Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-17T12:23:22.481Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8952 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-17T12:24:48.936Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8952 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-17T12:24:49.033Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8873 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-17T12:24:49.640Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9cm - CODE:4011 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-17T12:24:49.991Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9cm - CODE:2720 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-17T12:24:50.405Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-17T12:33:52.573Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-17T12:34:12.360Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-17T12:34:20.104Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-17T12:34:31.075Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-17T12:34:39.361Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-17T12:34:46.397Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-17T12:34:57.363Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-17T12:35:14.705Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-17T12:35:29.796Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-17T12:36:00.845Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-17T12:36:09.051Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-17T12:36:16.512Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-17T12:36:24.571Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8952 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-17T12:53:10.587Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8952 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-17T12:53:10.641Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8873 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-17T12:53:10.979Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9cm - CODE:2720 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-17T12:53:11.307Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9cm - CODE:4011 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-17T12:53:11.659Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8952 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-17T12:55:41.970Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8952 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-17T12:55:42.042Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8873 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-17T12:55:42.097Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9cm - CODE:2720 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-17T12:55:42.160Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9cm - CODE:4011 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-17T12:55:42.227Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-18T14:10:29.863Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-18T14:11:02.696Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8952 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-18T14:12:53.568Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8952 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-18T14:12:53.666Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8873 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-18T14:12:54.083Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9cm - CODE:2720 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-18T14:12:54.437Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9cm - CODE:4011 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-18T14:12:54.803Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-19T10:16:53.691Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-19T10:17:21.838Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-19T10:17:42.433Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-19T10:18:01.844Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-19T10:18:12.491Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-19T10:18:21.889Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-19T10:18:36.500Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-19T10:18:44.976Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-19T10:18:54.140Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-19T10:19:02.582Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-19T10:19:10.627Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-19T10:19:45.077Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-19T10:47:23.754Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-19T10:47:40.838Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-19T10:47:55.389Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-19T10:48:12.433Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-19T10:48:25.856Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-19T10:48:37.423Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-19T10:48:45.020Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-19T10:48:52.069Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-19T10:48:58.740Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-19T10:49:05.309Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-19T10:49:12.442Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-19T10:49:41.464Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-20T11:48:50.433Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-20T11:49:15.420Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-20T11:49:31.762Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-20T11:49:50.315Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-20T11:50:01.297Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-20T11:50:10.035Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-20T11:50:17.625Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-20T11:50:25.333Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-20T11:50:32.789Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-20T11:50:40.339Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-20T11:50:47.850Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-20T11:51:15.553Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8952 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-20T11:53:43.692Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8952 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-20T11:53:43.760Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8873 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-20T11:53:44.079Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8872 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-20T11:53:44.374Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9cm - CODE:2720 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-20T11:53:44.675Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9cm - CODE:4011 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-20T11:53:44.976Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8952 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-20T11:54:28.811Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8952 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-20T11:54:28.885Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8873 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-20T11:54:28.976Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8872 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-20T11:54:29.059Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9cm - CODE:2720 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-20T11:54:29.144Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9cm - CODE:4011 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-20T11:54:29.241Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-20T12:12:06.124Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-20T12:12:26.637Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-20T12:12:41.869Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-20T12:12:58.072Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8872 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-20T12:13:32.784Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8872 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-20T12:13:32.847Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8952 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-20T12:13:33.172Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8952 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-20T12:13:33.235Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9cm - CODE:2720 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-20T12:13:33.537Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9cm - CODE:4011 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-20T12:13:33.872Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8872 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-20T12:50:38.647Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8872 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-20T12:50:38.722Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8952 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-20T12:50:38.812Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8952 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-20T12:50:38.931Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9cm - CODE:2720 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-20T12:50:39.029Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9cm - CODE:4011 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-20T12:50:39.106Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8872 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-20T12:53:58.313Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8872 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-20T12:53:58.426Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8952 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-20T12:53:58.510Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8952 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-20T12:53:58.629Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9cm - CODE:2720 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-20T12:53:58.763Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9cm - CODE:4011 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-20T12:53:58.833Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8872 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-20T12:57:14.736Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8872 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-20T12:57:14.792Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8952 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-20T12:57:14.874Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8952 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-20T12:57:14.952Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9cm - CODE:2720 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-20T12:57:15.023Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9cm - CODE:4011 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-20T12:57:15.092Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-22T12:37:41.245Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-22T12:38:23.441Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-22T12:38:49.139Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-22T12:39:21.788Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-22T12:39:35.901Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-22T12:39:52.457Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-22T12:40:04.917Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-22T12:40:16.560Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-22T12:40:27.197Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-22T12:40:38.193Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-22T12:40:48.493Z'
+}
+{
+  message: 'RDF2EML error - Error: connect ECONNREFUSED 127.0.0.1:6000',
+  level: 'error',
+  timestamp: '2022-06-22T12:40:48.496Z'
+}
+{
+  message: 'KOS error - Error: socket hang up',
+  level: 'error',
+  timestamp: '2022-06-22T12:40:51.287Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-22T12:42:10.088Z'
+}
+{
+  message: 'RDF2EML error - Error: connect ECONNREFUSED 127.0.0.1:6000',
+  level: 'error',
+  timestamp: '2022-06-22T12:42:10.091Z'
+}
+{
+  message: 'KOS error - Error: socket hang up',
+  level: 'error',
+  timestamp: '2022-06-22T12:42:11.418Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-22T12:47:21.644Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-22T12:47:49.273Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-22T12:48:07.563Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-22T12:48:24.375Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-22T12:48:35.206Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-22T12:48:44.966Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-22T12:48:53.325Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-22T12:49:01.549Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-22T12:49:09.335Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-22T12:49:17.485Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-22T12:49:25.532Z'
+}
+{
+  message: 'KOS error - Error: Request failed with status code 500',
+  level: 'error',
+  timestamp: '2022-06-22T12:49:25.801Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-22T12:49:39.536Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8872 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-22T12:51:51.798Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8872 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-22T12:51:51.886Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8872 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-22T13:09:01.622Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8872 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-22T13:09:01.766Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-22T13:16:30.318Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-22T13:17:15.028Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-22T13:26:40.085Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-22T13:27:29.258Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-22T13:28:36.721Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-22T13:29:16.552Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-22T13:29:56.758Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-22T13:31:15.560Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-22T13:31:59.350Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-22T13:37:40.169Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-22T13:38:17.129Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-22T13:39:27.912Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-22T13:39:56.340Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-22T13:41:58.863Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-22T13:42:45.503Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-22T13:44:38.992Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-22T13:45:28.078Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-22T13:45:55.117Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-22T13:49:36.331Z'
+}
+{
+  message: 'Data Mapper error - {"type":"Buffer","data":[]}',
+  level: 'error',
+  timestamp: '2022-06-22T13:50:05.522Z'
+}
+{
+  message: 'Data Mapper error - ""',
+  level: 'error',
+  timestamp: '2022-06-22T13:51:19.717Z'
+}
+{
+  message: 'Data Mapper error - ""',
+  level: 'error',
+  timestamp: '2022-06-22T13:51:47.507Z'
+}
+{
+  message: 'Data Mapper error - ""',
+  level: 'error',
+  timestamp: '2022-06-22T14:02:10.229Z'
+}
+{
+  message: 'Data Mapper error - ""',
+  level: 'error',
+  timestamp: '2022-06-22T14:03:04.966Z'
+}
+{
+  message: 'Data Mapper error - ""',
+  level: 'error',
+  timestamp: '2022-06-23T08:41:06.551Z'
+}
+{
+  message: 'Data Mapper error - ""',
+  level: 'error',
+  timestamp: '2022-06-23T08:41:45.357Z'
+}
+{
+  message: 'Data Mapper error - ""',
+  level: 'error',
+  timestamp: '2022-06-23T13:51:21.608Z'
+}
+{
+  message: 'Data Mapper error - ""',
+  level: 'error',
+  timestamp: '2022-06-23T13:51:56.935Z'
+}
+{
+  message: 'Data Mapper error - ""',
+  level: 'error',
+  timestamp: '2022-06-23T13:52:20.700Z'
+}
+{
+  message: 'Data Mapper error - ""',
+  level: 'error',
+  timestamp: '2022-06-23T13:52:37.182Z'
+}
+{
+  message: 'Data Mapper error - ""',
+  level: 'error',
+  timestamp: '2022-06-23T13:52:46.991Z'
+}
+{
+  message: 'Data Mapper error - ""',
+  level: 'error',
+  timestamp: '2022-06-23T13:52:58.643Z'
+}
+{
+  message: 'Data Mapper error - ""',
+  level: 'error',
+  timestamp: '2022-06-23T13:53:06.083Z'
+}
+{
+  message: 'Data Mapper error - ""',
+  level: 'error',
+  timestamp: '2022-06-23T13:53:14.206Z'
+}
+{
+  message: 'Data Mapper error - ""',
+  level: 'error',
+  timestamp: '2022-06-23T13:53:23.568Z'
+}
+{
+  message: 'Data Mapper error - ""',
+  level: 'error',
+  timestamp: '2022-06-23T13:53:33.046Z'
+}
+{
+  message: 'Data Mapper error - ""',
+  level: 'error',
+  timestamp: '2022-06-23T13:53:40.207Z'
+}
+{
+  message: 'KOS error - Error: Request failed with status code 500',
+  level: 'error',
+  timestamp: '2022-06-23T13:53:40.440Z'
+}
+{
+  message: 'Data Mapper error - ""',
+  level: 'error',
+  timestamp: '2022-06-23T13:54:15.226Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8872 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-23T14:06:23.889Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8872 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-23T14:06:23.981Z'
+}
+{
+  message: 'Data Mapper error - [null,""," INFO [main] (WorksheetR2RMLJenaModelParser.java:219) - Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/./resources/models/DiagnosticReport-LabResult.ttl\\n INFO [main] (ServletContextParameterMap.java:122) - KARMA_USER_HOME not set.  Defaulting to /home/simone/karma\\n INFO [main] (ServletContextParameterMap.java:132) - Karma home: /home/simone/karma/\\n INFO [main] (KarmaUserMetadata.java:31) - Set parameter: USER_PREFERENCES_DIRECTORY -> /home/simone/karma/user-preferences/\\n INFO [main] (KarmaUserMetadata.java:31) - Set parameter: USER_CONFIG_DIRECTORY -> /home/simone/karma/config/\\n INFO [main] (KarmaUserMetadata.java:31) - Set parameter: USER_PYTHON_SCRIPTS_DIRECTORY -> /home/simone/karma/python/\\n INFO [MainThread] (KarmaUserMetadata.java:31) - Set parameter: USER_CATALOG_DOWNLOAD_DIRECTORY -> /home/simone/karma/catalog-download/\\n INFO [MainThread] (ModelingConfiguration.java:319) - Load modeling.properties: /home/simone/karma/config/modeling.properties:true\\n INFO [MainThread] (KnowDiveServicesConfiguration.java:87) - KnowDiveConfiguration:/home/simone/karma/config/knowdive.properties\\n INFO [MainThread] (KnowDiveServicesConfiguration.java:119) - set SCROLL_SERVICE_URL=http://localhost:8081 from /home/simone/karma/config/knowdive.properties\\n INFO [MainThread] (KnowDiveServicesConfiguration.java:134) - set EML_SERVICE_URL= from /home/simone/karma/config/knowdive.properties\\n INFO [MainThread] (KnowDiveServicesConfiguration.java:149) - set KOS_SERVICE_URL= from /home/simone/karma/config/knowdive.properties\\n INFO [MainThread] (KnowDiveServicesConfiguration.java:164) - set KG_IMPORTER_URL= from /home/simone/karma/config/knowdive.properties\\n INFO [MainThread] (KnowDiveServicesConfiguration.java:179) - set CATALOG_BASE_URL= from /home/simone/karma/config/knowdive.properties\\n INFO [MainThread] (KnowDiveServicesConfiguration.java:194) - set CATALOG_INSTANCE_API_KEY= from /home/simone/karma/config/knowdive.properties\\n INFO [MainThread] (KnowDiveServicesConfiguration.java:282) - Write Property: SCROLL_SERVICE_URL=http://localhost:8081\\n INFO [MainThread] (WorksheetR2RMLJenaModelParser.java:219) - Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/./resources/models/DiagnosticReport-LabResult.ttl\\n INFO [MainThread] (Reflections.java:229) - Reflections took 208 ms to scan 1 urls, producing 105 keys and 847 values \\n INFO [MainThread] (Reflections.java:229) - Reflections took 121 ms to scan 1 urls, producing 105 keys and 847 values \\n INFO [MainThread] (ExecutionController.java:93) - Loaded 110 possible commands\\n INFO [MainThread] (UIConfiguration.java:73) - UICOnfiguration:/home/simone/karma/config/\\n INFO [MainThread] (UIConfiguration.java:85) - Load File:/home/simone/karma/config//ui.properties\\n INFO [MainThread] (UIConfiguration.java:73) - UICOnfiguration:/home/simone/karma/config/\\n INFO [MainThread] (UIConfiguration.java:85) - Load File:/home/simone/karma/config//ui.properties\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:229) - Total number of http request: 1\\n INFO [pool-1-thread-1] (ExtractConceptsCommand.java:154) - httpBody: {\\"nlpParameters\\": {\\"nlp.conceptConstraint\\": null}}\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:247) - Time to end all http Requests and deSerialize: 0.14sec\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:143) - Command executed successfully\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:229) - Total number of http request: 1\\n INFO [pool-2-thread-1] (ExtractConceptsCommand.java:154) - httpBody: {\\"nlpParameters\\": {\\"nlp.conceptConstraint\\": null}}\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:247) - Time to end all http Requests and deSerialize: 0.15sec\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:143) - Command executed successfully\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:229) - Total number of http request: 1\\n INFO [pool-3-thread-1] (ExtractConceptsCommand.java:154) - httpBody: {\\"nlpParameters\\": {\\"nlp.conceptConstraint\\": null}}\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:247) - Time to end all http Requests and deSerialize: 0.251sec\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:143) - Command executed successfully\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:229) - Total number of http request: 1\\n INFO [pool-4-thread-1] (ExtractConceptsCommand.java:154) - httpBody: {\\"nlpParameters\\": {\\"nlp.conceptConstraint\\": null}}\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:247) - Time to end all http Requests and deSerialize: 0.188sec\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:143) - Command executed successfully\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:229) - Total number of http request: 1\\n INFO [pool-5-thread-1] (ExtractConceptsCommand.java:154) - httpBody: {\\"nlpParameters\\": {\\"nlp.conceptConstraint\\": null}}\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:247) - Time to end all http Requests and deSerialize: 0.071sec\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:143) - Command executed successfully\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:229) - Total number of http request: 1\\n INFO [pool-6-thread-1] (ExtractConceptsCommand.java:154) - httpBody: {\\"nlpParameters\\": {\\"nlp.conceptConstraint\\": null}}\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:247) - Time to end all http Requests and deSerialize: 0.176sec\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:143) - Command executed successfully\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:229) - Total number of http request: 1\\n INFO [pool-7-thread-1] (ExtractConceptsCommand.java:154) - httpBody: {\\"nlpParameters\\": {\\"nlp.conceptConstraint\\": null}}\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:247) - Time to end all http Requests and deSerialize: 0.039sec\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:143) - Command executed successfully\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:229) - Total number of http request: 1\\n INFO [pool-8-thread-1] (ExtractConceptsCommand.java:154) - httpBody: {\\"nlpParameters\\": {\\"nlp.conceptConstraint\\": null}}\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:247) - Time to end all http Requests and deSerialize: 0.016sec\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:143) - Command executed successfully\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:229) - Total number of http request: 1\\n INFO [pool-9-thread-1] (ExtractConceptsCommand.java:154) - httpBody: {\\"nlpParameters\\": {\\"nlp.conceptConstraint\\": null}}\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:247) - Time to end all http Requests and deSerialize: 0.032sec\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:143) - Command executed successfully\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:229) - Total number of http request: 1\\n INFO [pool-10-thread-1] (ExtractConceptsCommand.java:154) - httpBody: {\\"nlpParameters\\": {\\"nlp.conceptConstraint\\": null}}\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:247) - Time to end all http Requests and deSerialize: 0.02sec\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:143) - Command executed successfully\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:229) - Total number of http request: 1\\n INFO [pool-11-thread-1] (ExtractConceptsCommand.java:154) - httpBody: {\\"nlpParameters\\": {\\"nlp.conceptConstraint\\": null}}\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:247) - Time to end all http Requests and deSerialize: 0.044sec\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:143) - Command executed successfully\\n INFO [MainThread] (OfflineRdfGenerator.java:705) - generate rdf from file completed\\n INFO [MainThread] (OfflineRdfGenerator.java:197) - done after 2561\\n INFO [MainThread] (OfflineRdfGenerator.java:200) - RDF published at: ./resources/rdf/DiagnosticReport-LabResult.rdf\\n INFO [MainThread] (OfflineRdfGenerator.java:162) - Time to generate RDF:0.09768333 mins\\n"]',
+  level: 'error',
+  timestamp: '2022-06-23T14:28:10.794Z'
+}
+{
+  message: 'Data Mapper error - [null,""," INFO [main] (WorksheetR2RMLJenaModelParser.java:219) - Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/./resources/models/Condition.ttl\\n INFO [main] (ServletContextParameterMap.java:122) - KARMA_USER_HOME not set.  Defaulting to /home/simone/karma\\n INFO [main] (ServletContextParameterMap.java:132) - Karma home: /home/simone/karma/\\n INFO [main] (KarmaUserMetadata.java:31) - Set parameter: USER_PREFERENCES_DIRECTORY -> /home/simone/karma/user-preferences/\\n INFO [main] (KarmaUserMetadata.java:31) - Set parameter: USER_CONFIG_DIRECTORY -> /home/simone/karma/config/\\n INFO [main] (KarmaUserMetadata.java:31) - Set parameter: USER_PYTHON_SCRIPTS_DIRECTORY -> /home/simone/karma/python/\\n INFO [MainThread] (KarmaUserMetadata.java:31) - Set parameter: USER_CATALOG_DOWNLOAD_DIRECTORY -> /home/simone/karma/catalog-download/\\n INFO [MainThread] (ModelingConfiguration.java:319) - Load modeling.properties: /home/simone/karma/config/modeling.properties:true\\n INFO [MainThread] (KnowDiveServicesConfiguration.java:87) - KnowDiveConfiguration:/home/simone/karma/config/knowdive.properties\\n INFO [MainThread] (KnowDiveServicesConfiguration.java:119) - set SCROLL_SERVICE_URL=http://localhost:8081 from /home/simone/karma/config/knowdive.properties\\n INFO [MainThread] (KnowDiveServicesConfiguration.java:134) - set EML_SERVICE_URL= from /home/simone/karma/config/knowdive.properties\\n INFO [MainThread] (KnowDiveServicesConfiguration.java:149) - set KOS_SERVICE_URL= from /home/simone/karma/config/knowdive.properties\\n INFO [MainThread] (KnowDiveServicesConfiguration.java:164) - set KG_IMPORTER_URL= from /home/simone/karma/config/knowdive.properties\\n INFO [MainThread] (KnowDiveServicesConfiguration.java:179) - set CATALOG_BASE_URL= from /home/simone/karma/config/knowdive.properties\\n INFO [MainThread] (KnowDiveServicesConfiguration.java:194) - set CATALOG_INSTANCE_API_KEY= from /home/simone/karma/config/knowdive.properties\\n INFO [MainThread] (KnowDiveServicesConfiguration.java:282) - Write Property: SCROLL_SERVICE_URL=http://localhost:8081\\n INFO [MainThread] (WorksheetR2RMLJenaModelParser.java:219) - Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/./resources/models/Condition.ttl\\n INFO [MainThread] (Reflections.java:229) - Reflections took 187 ms to scan 1 urls, producing 105 keys and 847 values \\n INFO [MainThread] (Reflections.java:229) - Reflections took 131 ms to scan 1 urls, producing 105 keys and 847 values \\n INFO [MainThread] (ExecutionController.java:93) - Loaded 110 possible commands\\n INFO [MainThread] (UIConfiguration.java:73) - UICOnfiguration:/home/simone/karma/config/\\n INFO [MainThread] (UIConfiguration.java:85) - Load File:/home/simone/karma/config//ui.properties\\n INFO [MainThread] (UIConfiguration.java:73) - UICOnfiguration:/home/simone/karma/config/\\n INFO [MainThread] (UIConfiguration.java:85) - Load File:/home/simone/karma/config//ui.properties\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:229) - Total number of http request: 1\\n INFO [pool-1-thread-1] (ExtractConceptsCommand.java:154) - httpBody: {\\"nlpParameters\\": {\\"nlp.conceptConstraint\\": null}}\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:247) - Time to end all http Requests and deSerialize: 1.395sec\\nERROR [MainThread] (SWEBNLPExtractionCommand.java:147) - Error in Command: java.lang.Exception: No Information Found\\nERROR [MainThread] (Util.java:69) - java.lang.Exception: No Information Found\\n\\tat edu.isi.karma.controller.command.worksheet.SWEBNLPExtractionCommand.doIt(SWEBNLPExtractionCommand.java:125)\\n\\tat edu.isi.karma.controller.history.CommandHistory.doCommand(CommandHistory.java:232)\\n\\tat edu.isi.karma.controller.history.WorksheetCommandHistoryExecutor.executeCommand(WorksheetCommandHistoryExecutor.java:119)\\n\\tat edu.isi.karma.controller.history.WorksheetCommandHistoryExecutor.executeAllCommands(WorksheetCommandHistoryExecutor.java:84)\\n\\tat edu.isi.karma.controller.history.WorksheetCommandHistoryExecutor.executeCommandsByTags(WorksheetCommandHistoryExecutor.java:73)\\n\\tat edu.isi.karma.rdf.RdfGenerator.applyHistoryToWorksheet(RdfGenerator.java:84)\\n\\tat edu.isi.karma.rdf.GenericRDFGenerator.generateRDF(GenericRDFGenerator.java:139)\\n\\tat edu.isi.karma.rdf.GenericRDFGenerator.generateRDF(GenericRDFGenerator.java:87)\\n\\tat edu.isi.karma.rdf.GenericRDFGenerator.generateRDF(GenericRDFGenerator.java:174)\\n\\tat edu.isi.karma.rdf.OfflineRdfGenerator.generateRdfFromFile(OfflineRdfGenerator.java:704)\\n\\tat edu.isi.karma.rdf.OfflineRdfGenerator.generateRDF(OfflineRdfGenerator.java:194)\\n\\tat edu.isi.karma.rdf.OfflineRdfGenerator.generate(OfflineRdfGenerator.java:173)\\n\\tat edu.isi.karma.rdf.OfflineRdfGenerator.main(OfflineRdfGenerator.java:159)\\n\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:229) - Total number of http request: 1\\n INFO [pool-2-thread-1] (ExtractConceptsCommand.java:154) - httpBody: {\\"nlpParameters\\": {\\"nlp.conceptConstraint\\": null}}\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:247) - Time to end all http Requests and deSerialize: 0.531sec\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:143) - Command executed successfully\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:229) - Total number of http request: 1\\n INFO [pool-3-thread-1] (ExtractConceptsCommand.java:154) - httpBody: {\\"nlpParameters\\": {\\"nlp.conceptConstraint\\": null}}\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:247) - Time to end all http Requests and deSerialize: 0.519sec\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:143) - Command executed successfully\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:229) - Total number of http request: 1\\n INFO [pool-4-thread-1] (ExtractConceptsCommand.java:154) - httpBody: {\\"nlpParameters\\": {\\"nlp.conceptConstraint\\": null}}\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:247) - Time to end all http Requests and deSerialize: 0.437sec\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:143) - Command executed successfully\\nERROR [MainThread] (KR2RMLMappingColumnNameHNodeTranslator.java:146) - Error retrieving column: condition-code Concepts\\n INFO [MainThread] (OfflineRdfGenerator.java:705) - generate rdf from file completed\\n INFO [MainThread] (OfflineRdfGenerator.java:197) - done after 4201\\n INFO [MainThread] (OfflineRdfGenerator.java:200) - RDF published at: ./resources/rdf/Condition.rdf\\n INFO [MainThread] (OfflineRdfGenerator.java:162) - Time to generate RDF:0.13801667 mins\\n"]',
+  level: 'error',
+  timestamp: '2022-06-23T14:28:28.224Z'
+}
+{
+  message: 'Data Mapper error - [null,""," INFO [main] (WorksheetR2RMLJenaModelParser.java:219) - Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/./resources/models/DiagnosticReport-Imaging-ecg.ttl\\n INFO [main] (ServletContextParameterMap.java:122) - KARMA_USER_HOME not set.  Defaulting to /home/simone/karma\\n INFO [main] (ServletContextParameterMap.java:132) - Karma home: /home/simone/karma/\\n INFO [main] (KarmaUserMetadata.java:31) - Set parameter: USER_PREFERENCES_DIRECTORY -> /home/simone/karma/user-preferences/\\n INFO [main] (KarmaUserMetadata.java:31) - Set parameter: USER_CONFIG_DIRECTORY -> /home/simone/karma/config/\\n INFO [main] (KarmaUserMetadata.java:31) - Set parameter: USER_PYTHON_SCRIPTS_DIRECTORY -> /home/simone/karma/python/\\n INFO [MainThread] (KarmaUserMetadata.java:31) - Set parameter: USER_CATALOG_DOWNLOAD_DIRECTORY -> /home/simone/karma/catalog-download/\\n INFO [MainThread] (ModelingConfiguration.java:319) - Load modeling.properties: /home/simone/karma/config/modeling.properties:true\\n INFO [MainThread] (KnowDiveServicesConfiguration.java:87) - KnowDiveConfiguration:/home/simone/karma/config/knowdive.properties\\n INFO [MainThread] (KnowDiveServicesConfiguration.java:119) - set SCROLL_SERVICE_URL=http://localhost:8081 from /home/simone/karma/config/knowdive.properties\\n INFO [MainThread] (KnowDiveServicesConfiguration.java:134) - set EML_SERVICE_URL= from /home/simone/karma/config/knowdive.properties\\n INFO [MainThread] (KnowDiveServicesConfiguration.java:149) - set KOS_SERVICE_URL= from /home/simone/karma/config/knowdive.properties\\n INFO [MainThread] (KnowDiveServicesConfiguration.java:164) - set KG_IMPORTER_URL= from /home/simone/karma/config/knowdive.properties\\n INFO [MainThread] (KnowDiveServicesConfiguration.java:179) - set CATALOG_BASE_URL= from /home/simone/karma/config/knowdive.properties\\n INFO [MainThread] (KnowDiveServicesConfiguration.java:194) - set CATALOG_INSTANCE_API_KEY= from /home/simone/karma/config/knowdive.properties\\n INFO [MainThread] (KnowDiveServicesConfiguration.java:282) - Write Property: SCROLL_SERVICE_URL=http://localhost:8081\\n INFO [MainThread] (WorksheetR2RMLJenaModelParser.java:219) - Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/./resources/models/DiagnosticReport-Imaging-ecg.ttl\\n INFO [MainThread] (Reflections.java:229) - Reflections took 230 ms to scan 1 urls, producing 105 keys and 847 values \\n INFO [MainThread] (Reflections.java:229) - Reflections took 113 ms to scan 1 urls, producing 105 keys and 847 values \\n INFO [MainThread] (ExecutionController.java:93) - Loaded 110 possible commands\\n INFO [MainThread] (UIConfiguration.java:73) - UICOnfiguration:/home/simone/karma/config/\\n INFO [MainThread] (UIConfiguration.java:85) - Load File:/home/simone/karma/config//ui.properties\\n INFO [MainThread] (UIConfiguration.java:73) - UICOnfiguration:/home/simone/karma/config/\\n INFO [MainThread] (UIConfiguration.java:85) - Load File:/home/simone/karma/config//ui.properties\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:229) - Total number of http request: 1\\n INFO [pool-1-thread-1] (ExtractConceptsCommand.java:154) - httpBody: {\\"nlpParameters\\": {\\"nlp.conceptConstraint\\": null}}\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:247) - Time to end all http Requests and deSerialize: 0.943sec\\nERROR [MainThread] (SWEBNLPExtractionCommand.java:147) - Error in Command: java.lang.Exception: No Information Found\\nERROR [MainThread] (Util.java:69) - java.lang.Exception: No Information Found\\n\\tat edu.isi.karma.controller.command.worksheet.SWEBNLPExtractionCommand.doIt(SWEBNLPExtractionCommand.java:125)\\n\\tat edu.isi.karma.controller.history.CommandHistory.doCommand(CommandHistory.java:232)\\n\\tat edu.isi.karma.controller.history.WorksheetCommandHistoryExecutor.executeCommand(WorksheetCommandHistoryExecutor.java:119)\\n\\tat edu.isi.karma.controller.history.WorksheetCommandHistoryExecutor.executeAllCommands(WorksheetCommandHistoryExecutor.java:84)\\n\\tat edu.isi.karma.controller.history.WorksheetCommandHistoryExecutor.executeCommandsByTags(WorksheetCommandHistoryExecutor.java:73)\\n\\tat edu.isi.karma.rdf.RdfGenerator.applyHistoryToWorksheet(RdfGenerator.java:84)\\n\\tat edu.isi.karma.rdf.GenericRDFGenerator.generateRDF(GenericRDFGenerator.java:139)\\n\\tat edu.isi.karma.rdf.GenericRDFGenerator.generateRDF(GenericRDFGenerator.java:87)\\n\\tat edu.isi.karma.rdf.GenericRDFGenerator.generateRDF(GenericRDFGenerator.java:174)\\n\\tat edu.isi.karma.rdf.OfflineRdfGenerator.generateRdfFromFile(OfflineRdfGenerator.java:704)\\n\\tat edu.isi.karma.rdf.OfflineRdfGenerator.generateRDF(OfflineRdfGenerator.java:194)\\n\\tat edu.isi.karma.rdf.OfflineRdfGenerator.generate(OfflineRdfGenerator.java:173)\\n\\tat edu.isi.karma.rdf.OfflineRdfGenerator.main(OfflineRdfGenerator.java:159)\\n\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:229) - Total number of http request: 1\\n INFO [pool-2-thread-1] (ExtractConceptsCommand.java:154) - httpBody: {\\"nlpParameters\\": {\\"nlp.conceptConstraint\\": null}}\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:247) - Time to end all http Requests and deSerialize: 0.137sec\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:143) - Command executed successfully\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:229) - Total number of http request: 1\\n INFO [pool-3-thread-1] (ExtractConceptsCommand.java:154) - httpBody: {\\"nlpParameters\\": {\\"nlp.conceptConstraint\\": null}}\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:247) - Time to end all http Requests and deSerialize: 2.65sec\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:143) - Command executed successfully\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:229) - Total number of http request: 1\\n INFO [pool-4-thread-1] (ExtractConceptsCommand.java:154) - httpBody: {\\"nlpParameters\\": {\\"nlp.conceptConstraint\\": null}}\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:247) - Time to end all http Requests and deSerialize: 0.629sec\\nERROR [MainThread] (SWEBNLPExtractionCommand.java:147) - Error in Command: java.lang.Exception: No Information Found\\nERROR [MainThread] (Util.java:69) - java.lang.Exception: No Information Found\\n\\tat edu.isi.karma.controller.command.worksheet.SWEBNLPExtractionCommand.doIt(SWEBNLPExtractionCommand.java:125)\\n\\tat edu.isi.karma.controller.history.CommandHistory.doCommand(CommandHistory.java:232)\\n\\tat edu.isi.karma.controller.history.WorksheetCommandHistoryExecutor.executeCommand(WorksheetCommandHistoryExecutor.java:119)\\n\\tat edu.isi.karma.controller.history.WorksheetCommandHistoryExecutor.executeAllCommands(WorksheetCommandHistoryExecutor.java:84)\\n\\tat edu.isi.karma.controller.history.WorksheetCommandHistoryExecutor.executeCommandsByTags(WorksheetCommandHistoryExecutor.java:73)\\n\\tat edu.isi.karma.rdf.RdfGenerator.applyHistoryToWorksheet(RdfGenerator.java:84)\\n\\tat edu.isi.karma.rdf.GenericRDFGenerator.generateRDF(GenericRDFGenerator.java:139)\\n\\tat edu.isi.karma.rdf.GenericRDFGenerator.generateRDF(GenericRDFGenerator.java:87)\\n\\tat edu.isi.karma.rdf.GenericRDFGenerator.generateRDF(GenericRDFGenerator.java:174)\\n\\tat edu.isi.karma.rdf.OfflineRdfGenerator.generateRdfFromFile(OfflineRdfGenerator.java:704)\\n\\tat edu.isi.karma.rdf.OfflineRdfGenerator.generateRDF(OfflineRdfGenerator.java:194)\\n\\tat edu.isi.karma.rdf.OfflineRdfGenerator.generate(OfflineRdfGenerator.java:173)\\n\\tat edu.isi.karma.rdf.OfflineRdfGenerator.main(OfflineRdfGenerator.java:159)\\n\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:229) - Total number of http request: 1\\n INFO [pool-5-thread-1] (ExtractConceptsCommand.java:154) - httpBody: {\\"nlpParameters\\": {\\"nlp.conceptConstraint\\": null}}\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:247) - Time to end all http Requests and deSerialize: 1.453sec\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:143) - Command executed successfully\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:229) - Total number of http request: 1\\n INFO [pool-6-thread-1] (ExtractConceptsCommand.java:154) - httpBody: {\\"nlpParameters\\": {\\"nlp.conceptConstraint\\": null}}\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:247) - Time to end all http Requests and deSerialize: 0.083sec\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:143) - Command executed successfully\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:229) - Total number of http request: 1\\n INFO [pool-7-thread-1] (ExtractConceptsCommand.java:154) - httpBody: {\\"nlpParameters\\": {\\"nlp.conceptConstraint\\": null}}\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:247) - Time to end all http Requests and deSerialize: 0.074sec\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:143) - Command executed successfully\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:229) - Total number of http request: 1\\n INFO [pool-8-thread-1] (ExtractConceptsCommand.java:154) - httpBody: {\\"nlpParameters\\": {\\"nlp.conceptConstraint\\": null}}\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:247) - Time to end all http Requests and deSerialize: 0.536sec\\nERROR [MainThread] (SWEBNLPExtractionCommand.java:147) - Error in Command: java.lang.Exception: No Information Found\\nERROR [MainThread] (Util.java:69) - java.lang.Exception: No Information Found\\n\\tat edu.isi.karma.controller.command.worksheet.SWEBNLPExtractionCommand.doIt(SWEBNLPExtractionCommand.java:125)\\n\\tat edu.isi.karma.controller.history.CommandHistory.doCommand(CommandHistory.java:232)\\n\\tat edu.isi.karma.controller.history.WorksheetCommandHistoryExecutor.executeCommand(WorksheetCommandHistoryExecutor.java:119)\\n\\tat edu.isi.karma.controller.history.WorksheetCommandHistoryExecutor.executeAllCommands(WorksheetCommandHistoryExecutor.java:84)\\n\\tat edu.isi.karma.controller.history.WorksheetCommandHistoryExecutor.executeCommandsByTags(WorksheetCommandHistoryExecutor.java:73)\\n\\tat edu.isi.karma.rdf.RdfGenerator.applyHistoryToWorksheet(RdfGenerator.java:84)\\n\\tat edu.isi.karma.rdf.GenericRDFGenerator.generateRDF(GenericRDFGenerator.java:139)\\n\\tat edu.isi.karma.r'... 1216 more characters,
+  level: 'error',
+  timestamp: '2022-06-23T14:28:41.489Z'
+}
+{
+  message: 'Data Mapper error - [null,""," INFO [main] (WorksheetR2RMLJenaModelParser.java:219) - Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/./resources/models/DiagnosticReport-Imaging-echo.ttl\\n INFO [main] (ServletContextParameterMap.java:122) - KARMA_USER_HOME not set.  Defaulting to /home/simone/karma\\n INFO [main] (ServletContextParameterMap.java:132) - Karma home: /home/simone/karma/\\n INFO [main] (KarmaUserMetadata.java:31) - Set parameter: USER_PREFERENCES_DIRECTORY -> /home/simone/karma/user-preferences/\\n INFO [main] (KarmaUserMetadata.java:31) - Set parameter: USER_CONFIG_DIRECTORY -> /home/simone/karma/config/\\n INFO [main] (KarmaUserMetadata.java:31) - Set parameter: USER_PYTHON_SCRIPTS_DIRECTORY -> /home/simone/karma/python/\\n INFO [MainThread] (KarmaUserMetadata.java:31) - Set parameter: USER_CATALOG_DOWNLOAD_DIRECTORY -> /home/simone/karma/catalog-download/\\n INFO [MainThread] (ModelingConfiguration.java:319) - Load modeling.properties: /home/simone/karma/config/modeling.properties:true\\n INFO [MainThread] (KnowDiveServicesConfiguration.java:87) - KnowDiveConfiguration:/home/simone/karma/config/knowdive.properties\\n INFO [MainThread] (KnowDiveServicesConfiguration.java:119) - set SCROLL_SERVICE_URL=http://localhost:8081 from /home/simone/karma/config/knowdive.properties\\n INFO [MainThread] (KnowDiveServicesConfiguration.java:134) - set EML_SERVICE_URL= from /home/simone/karma/config/knowdive.properties\\n INFO [MainThread] (KnowDiveServicesConfiguration.java:149) - set KOS_SERVICE_URL= from /home/simone/karma/config/knowdive.properties\\n INFO [MainThread] (KnowDiveServicesConfiguration.java:164) - set KG_IMPORTER_URL= from /home/simone/karma/config/knowdive.properties\\n INFO [MainThread] (KnowDiveServicesConfiguration.java:179) - set CATALOG_BASE_URL= from /home/simone/karma/config/knowdive.properties\\n INFO [MainThread] (KnowDiveServicesConfiguration.java:194) - set CATALOG_INSTANCE_API_KEY= from /home/simone/karma/config/knowdive.properties\\n INFO [MainThread] (KnowDiveServicesConfiguration.java:282) - Write Property: SCROLL_SERVICE_URL=http://localhost:8081\\n INFO [MainThread] (WorksheetR2RMLJenaModelParser.java:219) - Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/./resources/models/DiagnosticReport-Imaging-echo.ttl\\n INFO [MainThread] (Reflections.java:229) - Reflections took 471 ms to scan 1 urls, producing 105 keys and 847 values \\n INFO [MainThread] (Reflections.java:229) - Reflections took 230 ms to scan 1 urls, producing 105 keys and 847 values \\n INFO [MainThread] (ExecutionController.java:93) - Loaded 110 possible commands\\n INFO [MainThread] (UIConfiguration.java:73) - UICOnfiguration:/home/simone/karma/config/\\n INFO [MainThread] (UIConfiguration.java:85) - Load File:/home/simone/karma/config//ui.properties\\n INFO [MainThread] (UIConfiguration.java:73) - UICOnfiguration:/home/simone/karma/config/\\n INFO [MainThread] (UIConfiguration.java:85) - Load File:/home/simone/karma/config//ui.properties\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:229) - Total number of http request: 1\\n INFO [pool-1-thread-1] (ExtractConceptsCommand.java:154) - httpBody: {\\"nlpParameters\\": {\\"nlp.conceptConstraint\\": null}}\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:247) - Time to end all http Requests and deSerialize: 0.743sec\\nERROR [MainThread] (SWEBNLPExtractionCommand.java:147) - Error in Command: java.lang.Exception: No Information Found\\nERROR [MainThread] (Util.java:69) - java.lang.Exception: No Information Found\\n\\tat edu.isi.karma.controller.command.worksheet.SWEBNLPExtractionCommand.doIt(SWEBNLPExtractionCommand.java:125)\\n\\tat edu.isi.karma.controller.history.CommandHistory.doCommand(CommandHistory.java:232)\\n\\tat edu.isi.karma.controller.history.WorksheetCommandHistoryExecutor.executeCommand(WorksheetCommandHistoryExecutor.java:119)\\n\\tat edu.isi.karma.controller.history.WorksheetCommandHistoryExecutor.executeAllCommands(WorksheetCommandHistoryExecutor.java:84)\\n\\tat edu.isi.karma.controller.history.WorksheetCommandHistoryExecutor.executeCommandsByTags(WorksheetCommandHistoryExecutor.java:73)\\n\\tat edu.isi.karma.rdf.RdfGenerator.applyHistoryToWorksheet(RdfGenerator.java:84)\\n\\tat edu.isi.karma.rdf.GenericRDFGenerator.generateRDF(GenericRDFGenerator.java:139)\\n\\tat edu.isi.karma.rdf.GenericRDFGenerator.generateRDF(GenericRDFGenerator.java:87)\\n\\tat edu.isi.karma.rdf.GenericRDFGenerator.generateRDF(GenericRDFGenerator.java:174)\\n\\tat edu.isi.karma.rdf.OfflineRdfGenerator.generateRdfFromFile(OfflineRdfGenerator.java:704)\\n\\tat edu.isi.karma.rdf.OfflineRdfGenerator.generateRDF(OfflineRdfGenerator.java:194)\\n\\tat edu.isi.karma.rdf.OfflineRdfGenerator.generate(OfflineRdfGenerator.java:173)\\n\\tat edu.isi.karma.rdf.OfflineRdfGenerator.main(OfflineRdfGenerator.java:159)\\n\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:229) - Total number of http request: 1\\n INFO [pool-2-thread-1] (ExtractConceptsCommand.java:154) - httpBody: {\\"nlpParameters\\": {\\"nlp.conceptConstraint\\": null}}\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:247) - Time to end all http Requests and deSerialize: 0.467sec\\nERROR [MainThread] (SWEBNLPExtractionCommand.java:147) - Error in Command: java.lang.Exception: No Information Found\\nERROR [MainThread] (Util.java:69) - java.lang.Exception: No Information Found\\n\\tat edu.isi.karma.controller.command.worksheet.SWEBNLPExtractionCommand.doIt(SWEBNLPExtractionCommand.java:125)\\n\\tat edu.isi.karma.controller.history.CommandHistory.doCommand(CommandHistory.java:232)\\n\\tat edu.isi.karma.controller.history.WorksheetCommandHistoryExecutor.executeCommand(WorksheetCommandHistoryExecutor.java:119)\\n\\tat edu.isi.karma.controller.history.WorksheetCommandHistoryExecutor.executeAllCommands(WorksheetCommandHistoryExecutor.java:84)\\n\\tat edu.isi.karma.controller.history.WorksheetCommandHistoryExecutor.executeCommandsByTags(WorksheetCommandHistoryExecutor.java:73)\\n\\tat edu.isi.karma.rdf.RdfGenerator.applyHistoryToWorksheet(RdfGenerator.java:84)\\n\\tat edu.isi.karma.rdf.GenericRDFGenerator.generateRDF(GenericRDFGenerator.java:139)\\n\\tat edu.isi.karma.rdf.GenericRDFGenerator.generateRDF(GenericRDFGenerator.java:87)\\n\\tat edu.isi.karma.rdf.GenericRDFGenerator.generateRDF(GenericRDFGenerator.java:174)\\n\\tat edu.isi.karma.rdf.OfflineRdfGenerator.generateRdfFromFile(OfflineRdfGenerator.java:704)\\n\\tat edu.isi.karma.rdf.OfflineRdfGenerator.generateRDF(OfflineRdfGenerator.java:194)\\n\\tat edu.isi.karma.rdf.OfflineRdfGenerator.generate(OfflineRdfGenerator.java:173)\\n\\tat edu.isi.karma.rdf.OfflineRdfGenerator.main(OfflineRdfGenerator.java:159)\\n\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:229) - Total number of http request: 1\\n INFO [pool-3-thread-1] (ExtractConceptsCommand.java:154) - httpBody: {\\"nlpParameters\\": {\\"nlp.conceptConstraint\\": null}}\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:247) - Time to end all http Requests and deSerialize: 0.131sec\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:143) - Command executed successfully\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:229) - Total number of http request: 1\\n INFO [pool-4-thread-1] (ExtractConceptsCommand.java:154) - httpBody: {\\"nlpParameters\\": {\\"nlp.conceptConstraint\\": null}}\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:247) - Time to end all http Requests and deSerialize: 2.428sec\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:143) - Command executed successfully\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:229) - Total number of http request: 1\\n INFO [pool-5-thread-1] (ExtractConceptsCommand.java:154) - httpBody: {\\"nlpParameters\\": {\\"nlp.conceptConstraint\\": null}}\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:247) - Time to end all http Requests and deSerialize: 1.62sec\\nERROR [MainThread] (SWEBNLPExtractionCommand.java:147) - Error in Command: java.lang.Exception: No Information Found\\nERROR [MainThread] (Util.java:69) - java.lang.Exception: No Information Found\\n\\tat edu.isi.karma.controller.command.worksheet.SWEBNLPExtractionCommand.doIt(SWEBNLPExtractionCommand.java:125)\\n\\tat edu.isi.karma.controller.history.CommandHistory.doCommand(CommandHistory.java:232)\\n\\tat edu.isi.karma.controller.history.WorksheetCommandHistoryExecutor.executeCommand(WorksheetCommandHistoryExecutor.java:119)\\n\\tat edu.isi.karma.controller.history.WorksheetCommandHistoryExecutor.executeAllCommands(WorksheetCommandHistoryExecutor.java:84)\\n\\tat edu.isi.karma.controller.history.WorksheetCommandHistoryExecutor.executeCommandsByTags(WorksheetCommandHistoryExecutor.java:73)\\n\\tat edu.isi.karma.rdf.RdfGenerator.applyHistoryToWorksheet(RdfGenerator.java:84)\\n\\tat edu.isi.karma.rdf.GenericRDFGenerator.generateRDF(GenericRDFGenerator.java:139)\\n\\tat edu.isi.karma.rdf.GenericRDFGenerator.generateRDF(GenericRDFGenerator.java:87)\\n\\tat edu.isi.karma.rdf.GenericRDFGenerator.generateRDF(GenericRDFGenerator.java:174)\\n\\tat edu.isi.karma.rdf.OfflineRdfGenerator.generateRdfFromFile(OfflineRdfGenerator.java:704)\\n\\tat edu.isi.karma.rdf.OfflineRdfGenerator.generateRDF(OfflineRdfGenerator.java:194)\\n\\tat edu.isi.karma.rdf.OfflineRdfGenerator.generate(OfflineRdfGenerator.java:173)\\n\\tat edu.isi.karma.rdf.OfflineRdfGenerator.main(OfflineRdfGenerator.java:159)\\n\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:229) - Total number of http request: 1\\n INFO [pool-6-thread-1] (ExtractConceptsCommand.java:154) - httpBody: {\\"nlpParameters\\": {\\"nlp.conceptConstraint\\": null}}\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:247) - Time to end all http Requests and deSerialize: 3.524sec\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:143) - Command executed successfully\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:229) - Total number of http request: 1\\n INFO [pool-7-thread-1] (ExtractConceptsCommand.java:154) - httpBody: {\\"nlpParameters\\": {\\"nlp.conceptConstraint\\": null}}\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:247) - Time to end all http Requests and deSerialize: 0.093sec\\n INFO [Ma'... 2363 more characters,
+  level: 'error',
+  timestamp: '2022-06-23T14:28:59.341Z'
+}
+{
+  message: 'Data Mapper error - [null,""," INFO [main] (WorksheetR2RMLJenaModelParser.java:219) - Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/./resources/models/Observation-VitalSign.ttl\\n INFO [main] (ServletContextParameterMap.java:122) - KARMA_USER_HOME not set.  Defaulting to /home/simone/karma\\n INFO [main] (ServletContextParameterMap.java:132) - Karma home: /home/simone/karma/\\n INFO [main] (KarmaUserMetadata.java:31) - Set parameter: USER_PREFERENCES_DIRECTORY -> /home/simone/karma/user-preferences/\\n INFO [main] (KarmaUserMetadata.java:31) - Set parameter: USER_CONFIG_DIRECTORY -> /home/simone/karma/config/\\n INFO [main] (KarmaUserMetadata.java:31) - Set parameter: USER_PYTHON_SCRIPTS_DIRECTORY -> /home/simone/karma/python/\\n INFO [MainThread] (KarmaUserMetadata.java:31) - Set parameter: USER_CATALOG_DOWNLOAD_DIRECTORY -> /home/simone/karma/catalog-download/\\n INFO [MainThread] (ModelingConfiguration.java:319) - Load modeling.properties: /home/simone/karma/config/modeling.properties:true\\n INFO [MainThread] (KnowDiveServicesConfiguration.java:87) - KnowDiveConfiguration:/home/simone/karma/config/knowdive.properties\\n INFO [MainThread] (KnowDiveServicesConfiguration.java:119) - set SCROLL_SERVICE_URL=http://localhost:8081 from /home/simone/karma/config/knowdive.properties\\n INFO [MainThread] (KnowDiveServicesConfiguration.java:134) - set EML_SERVICE_URL= from /home/simone/karma/config/knowdive.properties\\n INFO [MainThread] (KnowDiveServicesConfiguration.java:149) - set KOS_SERVICE_URL= from /home/simone/karma/config/knowdive.properties\\n INFO [MainThread] (KnowDiveServicesConfiguration.java:164) - set KG_IMPORTER_URL= from /home/simone/karma/config/knowdive.properties\\n INFO [MainThread] (KnowDiveServicesConfiguration.java:179) - set CATALOG_BASE_URL= from /home/simone/karma/config/knowdive.properties\\n INFO [MainThread] (KnowDiveServicesConfiguration.java:194) - set CATALOG_INSTANCE_API_KEY= from /home/simone/karma/config/knowdive.properties\\n INFO [MainThread] (KnowDiveServicesConfiguration.java:282) - Write Property: SCROLL_SERVICE_URL=http://localhost:8081\\n INFO [MainThread] (WorksheetR2RMLJenaModelParser.java:219) - Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/./resources/models/Observation-VitalSign.ttl\\n INFO [MainThread] (Reflections.java:229) - Reflections took 237 ms to scan 1 urls, producing 105 keys and 847 values \\n INFO [MainThread] (Reflections.java:229) - Reflections took 153 ms to scan 1 urls, producing 105 keys and 847 values \\n INFO [MainThread] (ExecutionController.java:93) - Loaded 110 possible commands\\n INFO [MainThread] (UIConfiguration.java:73) - UICOnfiguration:/home/simone/karma/config/\\n INFO [MainThread] (UIConfiguration.java:85) - Load File:/home/simone/karma/config//ui.properties\\n INFO [MainThread] (UIConfiguration.java:73) - UICOnfiguration:/home/simone/karma/config/\\n INFO [MainThread] (UIConfiguration.java:85) - Load File:/home/simone/karma/config//ui.properties\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:229) - Total number of http request: 1\\n INFO [pool-1-thread-1] (ExtractConceptsCommand.java:154) - httpBody: {\\"nlpParameters\\": {\\"nlp.conceptConstraint\\": null}}\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:247) - Time to end all http Requests and deSerialize: 0.363sec\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:143) - Command executed successfully\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:229) - Total number of http request: 1\\n INFO [pool-2-thread-1] (ExtractConceptsCommand.java:154) - httpBody: {\\"nlpParameters\\": {\\"nlp.conceptConstraint\\": null}}\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:247) - Time to end all http Requests and deSerialize: 0.386sec\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:143) - Command executed successfully\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:229) - Total number of http request: 1\\n INFO [pool-3-thread-1] (ExtractConceptsCommand.java:154) - httpBody: {\\"nlpParameters\\": {\\"nlp.conceptConstraint\\": null}}\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:247) - Time to end all http Requests and deSerialize: 0.075sec\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:143) - Command executed successfully\\n INFO [MainThread] (OfflineRdfGenerator.java:705) - generate rdf from file completed\\n INFO [MainThread] (OfflineRdfGenerator.java:197) - done after 2229\\n INFO [MainThread] (OfflineRdfGenerator.java:200) - RDF published at: ./resources/rdf/Observation-VitalSign.rdf\\n INFO [MainThread] (OfflineRdfGenerator.java:162) - Time to generate RDF:0.1141 mins\\n"]',
+  level: 'error',
+  timestamp: '2022-06-23T14:29:09.099Z'
+}
+{
+  message: 'Data Mapper error - [null,""," INFO [main] (WorksheetR2RMLJenaModelParser.java:219) - Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/./resources/models/Condition-An.ttl\\n INFO [main] (ServletContextParameterMap.java:122) - KARMA_USER_HOME not set.  Defaulting to /home/simone/karma\\n INFO [main] (ServletContextParameterMap.java:132) - Karma home: /home/simone/karma/\\n INFO [main] (KarmaUserMetadata.java:31) - Set parameter: USER_PREFERENCES_DIRECTORY -> /home/simone/karma/user-preferences/\\n INFO [main] (KarmaUserMetadata.java:31) - Set parameter: USER_CONFIG_DIRECTORY -> /home/simone/karma/config/\\n INFO [main] (KarmaUserMetadata.java:31) - Set parameter: USER_PYTHON_SCRIPTS_DIRECTORY -> /home/simone/karma/python/\\n INFO [MainThread] (KarmaUserMetadata.java:31) - Set parameter: USER_CATALOG_DOWNLOAD_DIRECTORY -> /home/simone/karma/catalog-download/\\n INFO [MainThread] (ModelingConfiguration.java:319) - Load modeling.properties: /home/simone/karma/config/modeling.properties:true\\n INFO [MainThread] (KnowDiveServicesConfiguration.java:87) - KnowDiveConfiguration:/home/simone/karma/config/knowdive.properties\\n INFO [MainThread] (KnowDiveServicesConfiguration.java:119) - set SCROLL_SERVICE_URL=http://localhost:8081 from /home/simone/karma/config/knowdive.properties\\n INFO [MainThread] (KnowDiveServicesConfiguration.java:134) - set EML_SERVICE_URL= from /home/simone/karma/config/knowdive.properties\\n INFO [MainThread] (KnowDiveServicesConfiguration.java:149) - set KOS_SERVICE_URL= from /home/simone/karma/config/knowdive.properties\\n INFO [MainThread] (KnowDiveServicesConfiguration.java:164) - set KG_IMPORTER_URL= from /home/simone/karma/config/knowdive.properties\\n INFO [MainThread] (KnowDiveServicesConfiguration.java:179) - set CATALOG_BASE_URL= from /home/simone/karma/config/knowdive.properties\\n INFO [MainThread] (KnowDiveServicesConfiguration.java:194) - set CATALOG_INSTANCE_API_KEY= from /home/simone/karma/config/knowdive.properties\\n INFO [MainThread] (KnowDiveServicesConfiguration.java:282) - Write Property: SCROLL_SERVICE_URL=http://localhost:8081\\n INFO [MainThread] (WorksheetR2RMLJenaModelParser.java:219) - Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/./resources/models/Condition-An.ttl\\n INFO [MainThread] (Reflections.java:229) - Reflections took 256 ms to scan 1 urls, producing 105 keys and 847 values \\n INFO [MainThread] (Reflections.java:229) - Reflections took 168 ms to scan 1 urls, producing 105 keys and 847 values \\n INFO [MainThread] (ExecutionController.java:93) - Loaded 110 possible commands\\n INFO [MainThread] (UIConfiguration.java:73) - UICOnfiguration:/home/simone/karma/config/\\n INFO [MainThread] (UIConfiguration.java:85) - Load File:/home/simone/karma/config//ui.properties\\n INFO [MainThread] (UIConfiguration.java:73) - UICOnfiguration:/home/simone/karma/config/\\n INFO [MainThread] (UIConfiguration.java:85) - Load File:/home/simone/karma/config//ui.properties\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:229) - Total number of http request: 1\\n INFO [pool-1-thread-1] (ExtractConceptsCommand.java:154) - httpBody: {\\"nlpParameters\\": {\\"nlp.conceptConstraint\\": null}}\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:247) - Time to end all http Requests and deSerialize: 0.105sec\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:143) - Command executed successfully\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:229) - Total number of http request: 1\\n INFO [pool-2-thread-1] (ExtractConceptsCommand.java:154) - httpBody: {\\"nlpParameters\\": {\\"nlp.conceptConstraint\\": null}}\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:247) - Time to end all http Requests and deSerialize: 0.031sec\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:143) - Command executed successfully\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:229) - Total number of http request: 1\\n INFO [pool-3-thread-1] (ExtractConceptsCommand.java:154) - httpBody: {\\"nlpParameters\\": {\\"nlp.conceptConstraint\\": null}}\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:247) - Time to end all http Requests and deSerialize: 0.247sec\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:143) - Command executed successfully\\n INFO [MainThread] (OfflineRdfGenerator.java:705) - generate rdf from file completed\\n INFO [MainThread] (OfflineRdfGenerator.java:197) - done after 1667\\n INFO [MainThread] (OfflineRdfGenerator.java:200) - RDF published at: ./resources/rdf/Condition-An.rdf\\n INFO [MainThread] (OfflineRdfGenerator.java:162) - Time to generate RDF:0.120516665 mins\\n"]',
+  level: 'error',
+  timestamp: '2022-06-23T14:29:18.237Z'
+}
+{
+  message: 'Data Mapper error - [null,""," INFO [main] (WorksheetR2RMLJenaModelParser.java:219) - Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/./resources/models/Observation-Eo.ttl\\n INFO [main] (ServletContextParameterMap.java:122) - KARMA_USER_HOME not set.  Defaulting to /home/simone/karma\\n INFO [main] (ServletContextParameterMap.java:132) - Karma home: /home/simone/karma/\\n INFO [main] (KarmaUserMetadata.java:31) - Set parameter: USER_PREFERENCES_DIRECTORY -> /home/simone/karma/user-preferences/\\n INFO [main] (KarmaUserMetadata.java:31) - Set parameter: USER_CONFIG_DIRECTORY -> /home/simone/karma/config/\\n INFO [main] (KarmaUserMetadata.java:31) - Set parameter: USER_PYTHON_SCRIPTS_DIRECTORY -> /home/simone/karma/python/\\n INFO [MainThread] (KarmaUserMetadata.java:31) - Set parameter: USER_CATALOG_DOWNLOAD_DIRECTORY -> /home/simone/karma/catalog-download/\\n INFO [MainThread] (ModelingConfiguration.java:319) - Load modeling.properties: /home/simone/karma/config/modeling.properties:true\\n INFO [MainThread] (KnowDiveServicesConfiguration.java:87) - KnowDiveConfiguration:/home/simone/karma/config/knowdive.properties\\n INFO [MainThread] (KnowDiveServicesConfiguration.java:119) - set SCROLL_SERVICE_URL=http://localhost:8081 from /home/simone/karma/config/knowdive.properties\\n INFO [MainThread] (KnowDiveServicesConfiguration.java:134) - set EML_SERVICE_URL= from /home/simone/karma/config/knowdive.properties\\n INFO [MainThread] (KnowDiveServicesConfiguration.java:149) - set KOS_SERVICE_URL= from /home/simone/karma/config/knowdive.properties\\n INFO [MainThread] (KnowDiveServicesConfiguration.java:164) - set KG_IMPORTER_URL= from /home/simone/karma/config/knowdive.properties\\n INFO [MainThread] (KnowDiveServicesConfiguration.java:179) - set CATALOG_BASE_URL= from /home/simone/karma/config/knowdive.properties\\n INFO [MainThread] (KnowDiveServicesConfiguration.java:194) - set CATALOG_INSTANCE_API_KEY= from /home/simone/karma/config/knowdive.properties\\n INFO [MainThread] (KnowDiveServicesConfiguration.java:282) - Write Property: SCROLL_SERVICE_URL=http://localhost:8081\\n INFO [MainThread] (WorksheetR2RMLJenaModelParser.java:219) - Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/./resources/models/Observation-Eo.ttl\\n INFO [MainThread] (Reflections.java:229) - Reflections took 215 ms to scan 1 urls, producing 105 keys and 847 values \\n INFO [MainThread] (Reflections.java:229) - Reflections took 135 ms to scan 1 urls, producing 105 keys and 847 values \\n INFO [MainThread] (ExecutionController.java:93) - Loaded 110 possible commands\\n INFO [MainThread] (UIConfiguration.java:73) - UICOnfiguration:/home/simone/karma/config/\\n INFO [MainThread] (UIConfiguration.java:85) - Load File:/home/simone/karma/config//ui.properties\\n INFO [MainThread] (UIConfiguration.java:73) - UICOnfiguration:/home/simone/karma/config/\\n INFO [MainThread] (UIConfiguration.java:85) - Load File:/home/simone/karma/config//ui.properties\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:229) - Total number of http request: 1\\n INFO [pool-1-thread-1] (ExtractConceptsCommand.java:154) - httpBody: {\\"nlpParameters\\": {\\"nlp.conceptConstraint\\": null}}\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:247) - Time to end all http Requests and deSerialize: 0.355sec\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:143) - Command executed successfully\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:229) - Total number of http request: 1\\n INFO [pool-2-thread-1] (ExtractConceptsCommand.java:154) - httpBody: {\\"nlpParameters\\": {\\"nlp.conceptConstraint\\": null}}\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:247) - Time to end all http Requests and deSerialize: 0.105sec\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:143) - Command executed successfully\\n INFO [MainThread] (OfflineRdfGenerator.java:705) - generate rdf from file completed\\n INFO [MainThread] (OfflineRdfGenerator.java:197) - done after 1764\\n INFO [MainThread] (OfflineRdfGenerator.java:200) - RDF published at: ./resources/rdf/Observation-Eo.rdf\\n INFO [MainThread] (OfflineRdfGenerator.java:162) - Time to generate RDF:0.08838333 mins\\n"]',
+  level: 'error',
+  timestamp: '2022-06-23T14:29:24.615Z'
+}
+{
+  message: 'Data Mapper error - [null,""," INFO [main] (WorksheetR2RMLJenaModelParser.java:219) - Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/./resources/models/Observation-Reason.ttl\\n INFO [main] (ServletContextParameterMap.java:122) - KARMA_USER_HOME not set.  Defaulting to /home/simone/karma\\n INFO [main] (ServletContextParameterMap.java:132) - Karma home: /home/simone/karma/\\n INFO [main] (KarmaUserMetadata.java:31) - Set parameter: USER_PREFERENCES_DIRECTORY -> /home/simone/karma/user-preferences/\\n INFO [main] (KarmaUserMetadata.java:31) - Set parameter: USER_CONFIG_DIRECTORY -> /home/simone/karma/config/\\n INFO [main] (KarmaUserMetadata.java:31) - Set parameter: USER_PYTHON_SCRIPTS_DIRECTORY -> /home/simone/karma/python/\\n INFO [MainThread] (KarmaUserMetadata.java:31) - Set parameter: USER_CATALOG_DOWNLOAD_DIRECTORY -> /home/simone/karma/catalog-download/\\n INFO [MainThread] (ModelingConfiguration.java:319) - Load modeling.properties: /home/simone/karma/config/modeling.properties:true\\n INFO [MainThread] (KnowDiveServicesConfiguration.java:87) - KnowDiveConfiguration:/home/simone/karma/config/knowdive.properties\\n INFO [MainThread] (KnowDiveServicesConfiguration.java:119) - set SCROLL_SERVICE_URL=http://localhost:8081 from /home/simone/karma/config/knowdive.properties\\n INFO [MainThread] (KnowDiveServicesConfiguration.java:134) - set EML_SERVICE_URL= from /home/simone/karma/config/knowdive.properties\\n INFO [MainThread] (KnowDiveServicesConfiguration.java:149) - set KOS_SERVICE_URL= from /home/simone/karma/config/knowdive.properties\\n INFO [MainThread] (KnowDiveServicesConfiguration.java:164) - set KG_IMPORTER_URL= from /home/simone/karma/config/knowdive.properties\\n INFO [MainThread] (KnowDiveServicesConfiguration.java:179) - set CATALOG_BASE_URL= from /home/simone/karma/config/knowdive.properties\\n INFO [MainThread] (KnowDiveServicesConfiguration.java:194) - set CATALOG_INSTANCE_API_KEY= from /home/simone/karma/config/knowdive.properties\\n INFO [MainThread] (KnowDiveServicesConfiguration.java:282) - Write Property: SCROLL_SERVICE_URL=http://localhost:8081\\n INFO [MainThread] (WorksheetR2RMLJenaModelParser.java:219) - Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/./resources/models/Observation-Reason.ttl\\n INFO [MainThread] (Reflections.java:229) - Reflections took 262 ms to scan 1 urls, producing 105 keys and 847 values \\n INFO [MainThread] (Reflections.java:229) - Reflections took 189 ms to scan 1 urls, producing 105 keys and 847 values \\n INFO [MainThread] (ExecutionController.java:93) - Loaded 110 possible commands\\n INFO [MainThread] (UIConfiguration.java:73) - UICOnfiguration:/home/simone/karma/config/\\n INFO [MainThread] (UIConfiguration.java:85) - Load File:/home/simone/karma/config//ui.properties\\n INFO [MainThread] (UIConfiguration.java:73) - UICOnfiguration:/home/simone/karma/config/\\n INFO [MainThread] (UIConfiguration.java:85) - Load File:/home/simone/karma/config//ui.properties\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:229) - Total number of http request: 1\\n INFO [pool-1-thread-1] (ExtractConceptsCommand.java:154) - httpBody: {\\"nlpParameters\\": {\\"nlp.conceptConstraint\\": null}}\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:247) - Time to end all http Requests and deSerialize: 0.323sec\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:143) - Command executed successfully\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:229) - Total number of http request: 1\\n INFO [pool-2-thread-1] (ExtractConceptsCommand.java:154) - httpBody: {\\"nlpParameters\\": {\\"nlp.conceptConstraint\\": null}}\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:247) - Time to end all http Requests and deSerialize: 0.068sec\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:143) - Command executed successfully\\n INFO [MainThread] (OfflineRdfGenerator.java:705) - generate rdf from file completed\\n INFO [MainThread] (OfflineRdfGenerator.java:197) - done after 1778\\n INFO [MainThread] (OfflineRdfGenerator.java:200) - RDF published at: ./resources/rdf/Observation-Reason.rdf\\n INFO [MainThread] (OfflineRdfGenerator.java:162) - Time to generate RDF:0.12346666 mins\\n"]',
+  level: 'error',
+  timestamp: '2022-06-23T14:29:33.976Z'
+}
+{
+  message: 'Data Mapper error - [null,""," INFO [main] (WorksheetR2RMLJenaModelParser.java:219) - Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/./resources/models/AllergyIntolerance.ttl\\n INFO [main] (ServletContextParameterMap.java:122) - KARMA_USER_HOME not set.  Defaulting to /home/simone/karma\\n INFO [main] (ServletContextParameterMap.java:132) - Karma home: /home/simone/karma/\\n INFO [main] (KarmaUserMetadata.java:31) - Set parameter: USER_PREFERENCES_DIRECTORY -> /home/simone/karma/user-preferences/\\n INFO [main] (KarmaUserMetadata.java:31) - Set parameter: USER_CONFIG_DIRECTORY -> /home/simone/karma/config/\\n INFO [main] (KarmaUserMetadata.java:31) - Set parameter: USER_PYTHON_SCRIPTS_DIRECTORY -> /home/simone/karma/python/\\n INFO [MainThread] (KarmaUserMetadata.java:31) - Set parameter: USER_CATALOG_DOWNLOAD_DIRECTORY -> /home/simone/karma/catalog-download/\\n INFO [MainThread] (ModelingConfiguration.java:319) - Load modeling.properties: /home/simone/karma/config/modeling.properties:true\\n INFO [MainThread] (KnowDiveServicesConfiguration.java:87) - KnowDiveConfiguration:/home/simone/karma/config/knowdive.properties\\n INFO [MainThread] (KnowDiveServicesConfiguration.java:119) - set SCROLL_SERVICE_URL=http://localhost:8081 from /home/simone/karma/config/knowdive.properties\\n INFO [MainThread] (KnowDiveServicesConfiguration.java:134) - set EML_SERVICE_URL= from /home/simone/karma/config/knowdive.properties\\n INFO [MainThread] (KnowDiveServicesConfiguration.java:149) - set KOS_SERVICE_URL= from /home/simone/karma/config/knowdive.properties\\n INFO [MainThread] (KnowDiveServicesConfiguration.java:164) - set KG_IMPORTER_URL= from /home/simone/karma/config/knowdive.properties\\n INFO [MainThread] (KnowDiveServicesConfiguration.java:179) - set CATALOG_BASE_URL= from /home/simone/karma/config/knowdive.properties\\n INFO [MainThread] (KnowDiveServicesConfiguration.java:194) - set CATALOG_INSTANCE_API_KEY= from /home/simone/karma/config/knowdive.properties\\n INFO [MainThread] (KnowDiveServicesConfiguration.java:282) - Write Property: SCROLL_SERVICE_URL=http://localhost:8081\\n INFO [MainThread] (WorksheetR2RMLJenaModelParser.java:219) - Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/./resources/models/AllergyIntolerance.ttl\\n INFO [MainThread] (Reflections.java:229) - Reflections took 264 ms to scan 1 urls, producing 105 keys and 847 values \\n INFO [MainThread] (Reflections.java:229) - Reflections took 142 ms to scan 1 urls, producing 105 keys and 847 values \\n INFO [MainThread] (ExecutionController.java:93) - Loaded 110 possible commands\\n INFO [MainThread] (UIConfiguration.java:73) - UICOnfiguration:/home/simone/karma/config/\\n INFO [MainThread] (UIConfiguration.java:85) - Load File:/home/simone/karma/config//ui.properties\\n INFO [MainThread] (UIConfiguration.java:73) - UICOnfiguration:/home/simone/karma/config/\\n INFO [MainThread] (UIConfiguration.java:85) - Load File:/home/simone/karma/config//ui.properties\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:229) - Total number of http request: 1\\n INFO [pool-1-thread-1] (ExtractConceptsCommand.java:154) - httpBody: {\\"nlpParameters\\": {\\"nlp.conceptConstraint\\": null}}\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:247) - Time to end all http Requests and deSerialize: 0.317sec\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:143) - Command executed successfully\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:229) - Total number of http request: 1\\n INFO [pool-2-thread-1] (ExtractConceptsCommand.java:154) - httpBody: {\\"nlpParameters\\": {\\"nlp.conceptConstraint\\": null}}\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:247) - Time to end all http Requests and deSerialize: 0.027sec\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:143) - Command executed successfully\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:229) - Total number of http request: 1\\n INFO [pool-3-thread-1] (ExtractConceptsCommand.java:154) - httpBody: {\\"nlpParameters\\": {\\"nlp.conceptConstraint\\": null}}\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:247) - Time to end all http Requests and deSerialize: 0.022sec\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:143) - Command executed successfully\\n INFO [MainThread] (OfflineRdfGenerator.java:705) - generate rdf from file completed\\n INFO [MainThread] (OfflineRdfGenerator.java:197) - done after 1808\\n INFO [MainThread] (OfflineRdfGenerator.java:200) - RDF published at: ./resources/rdf/AllergyIntolerance.rdf\\n INFO [MainThread] (OfflineRdfGenerator.java:162) - Time to generate RDF:0.1179 mins\\n"]',
+  level: 'error',
+  timestamp: '2022-06-23T14:29:41.633Z'
+}
+{
+  message: 'Data Mapper error - [null,""," INFO [main] (WorksheetR2RMLJenaModelParser.java:219) - Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/./resources/models/Condition-Con.ttl\\n INFO [main] (ServletContextParameterMap.java:122) - KARMA_USER_HOME not set.  Defaulting to /home/simone/karma\\n INFO [main] (ServletContextParameterMap.java:132) - Karma home: /home/simone/karma/\\n INFO [main] (KarmaUserMetadata.java:31) - Set parameter: USER_PREFERENCES_DIRECTORY -> /home/simone/karma/user-preferences/\\n INFO [main] (KarmaUserMetadata.java:31) - Set parameter: USER_CONFIG_DIRECTORY -> /home/simone/karma/config/\\n INFO [main] (KarmaUserMetadata.java:31) - Set parameter: USER_PYTHON_SCRIPTS_DIRECTORY -> /home/simone/karma/python/\\n INFO [MainThread] (KarmaUserMetadata.java:31) - Set parameter: USER_CATALOG_DOWNLOAD_DIRECTORY -> /home/simone/karma/catalog-download/\\n INFO [MainThread] (ModelingConfiguration.java:319) - Load modeling.properties: /home/simone/karma/config/modeling.properties:true\\n INFO [MainThread] (KnowDiveServicesConfiguration.java:87) - KnowDiveConfiguration:/home/simone/karma/config/knowdive.properties\\n INFO [MainThread] (KnowDiveServicesConfiguration.java:119) - set SCROLL_SERVICE_URL=http://localhost:8081 from /home/simone/karma/config/knowdive.properties\\n INFO [MainThread] (KnowDiveServicesConfiguration.java:134) - set EML_SERVICE_URL= from /home/simone/karma/config/knowdive.properties\\n INFO [MainThread] (KnowDiveServicesConfiguration.java:149) - set KOS_SERVICE_URL= from /home/simone/karma/config/knowdive.properties\\n INFO [MainThread] (KnowDiveServicesConfiguration.java:164) - set KG_IMPORTER_URL= from /home/simone/karma/config/knowdive.properties\\n INFO [MainThread] (KnowDiveServicesConfiguration.java:179) - set CATALOG_BASE_URL= from /home/simone/karma/config/knowdive.properties\\n INFO [MainThread] (KnowDiveServicesConfiguration.java:194) - set CATALOG_INSTANCE_API_KEY= from /home/simone/karma/config/knowdive.properties\\n INFO [MainThread] (KnowDiveServicesConfiguration.java:282) - Write Property: SCROLL_SERVICE_URL=http://localhost:8081\\n INFO [MainThread] (WorksheetR2RMLJenaModelParser.java:219) - Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/./resources/models/Condition-Con.ttl\\n INFO [MainThread] (Reflections.java:229) - Reflections took 229 ms to scan 1 urls, producing 105 keys and 847 values \\n INFO [MainThread] (Reflections.java:229) - Reflections took 103 ms to scan 1 urls, producing 105 keys and 847 values \\n INFO [MainThread] (ExecutionController.java:93) - Loaded 110 possible commands\\n INFO [MainThread] (UIConfiguration.java:73) - UICOnfiguration:/home/simone/karma/config/\\n INFO [MainThread] (UIConfiguration.java:85) - Load File:/home/simone/karma/config//ui.properties\\n INFO [MainThread] (UIConfiguration.java:73) - UICOnfiguration:/home/simone/karma/config/\\n INFO [MainThread] (UIConfiguration.java:85) - Load File:/home/simone/karma/config//ui.properties\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:229) - Total number of http request: 1\\n INFO [pool-1-thread-1] (ExtractConceptsCommand.java:154) - httpBody: {\\"nlpParameters\\": {\\"nlp.conceptConstraint\\": null}}\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:247) - Time to end all http Requests and deSerialize: 0.571sec\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:143) - Command executed successfully\\n INFO [MainThread] (OfflineRdfGenerator.java:705) - generate rdf from file completed\\n INFO [MainThread] (OfflineRdfGenerator.java:197) - done after 1792\\n INFO [MainThread] (OfflineRdfGenerator.java:200) - RDF published at: ./resources/rdf/Condition-Con.rdf\\n INFO [MainThread] (OfflineRdfGenerator.java:162) - Time to generate RDF:0.08648334 mins\\n"]',
+  level: 'error',
+  timestamp: '2022-06-23T14:29:48.516Z'
+}
+{
+  message: 'Data Mapper error - [null,""," INFO [main] (WorksheetR2RMLJenaModelParser.java:219) - Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/./resources/models/CarePlan.ttl\\n INFO [main] (ServletContextParameterMap.java:122) - KARMA_USER_HOME not set.  Defaulting to /home/simone/karma\\n INFO [main] (ServletContextParameterMap.java:132) - Karma home: /home/simone/karma/\\n INFO [main] (KarmaUserMetadata.java:31) - Set parameter: USER_PREFERENCES_DIRECTORY -> /home/simone/karma/user-preferences/\\n INFO [main] (KarmaUserMetadata.java:31) - Set parameter: USER_CONFIG_DIRECTORY -> /home/simone/karma/config/\\n INFO [main] (KarmaUserMetadata.java:31) - Set parameter: USER_PYTHON_SCRIPTS_DIRECTORY -> /home/simone/karma/python/\\n INFO [MainThread] (KarmaUserMetadata.java:31) - Set parameter: USER_CATALOG_DOWNLOAD_DIRECTORY -> /home/simone/karma/catalog-download/\\n INFO [MainThread] (ModelingConfiguration.java:319) - Load modeling.properties: /home/simone/karma/config/modeling.properties:true\\n INFO [MainThread] (KnowDiveServicesConfiguration.java:87) - KnowDiveConfiguration:/home/simone/karma/config/knowdive.properties\\n INFO [MainThread] (KnowDiveServicesConfiguration.java:119) - set SCROLL_SERVICE_URL=http://localhost:8081 from /home/simone/karma/config/knowdive.properties\\n INFO [MainThread] (KnowDiveServicesConfiguration.java:134) - set EML_SERVICE_URL= from /home/simone/karma/config/knowdive.properties\\n INFO [MainThread] (KnowDiveServicesConfiguration.java:149) - set KOS_SERVICE_URL= from /home/simone/karma/config/knowdive.properties\\n INFO [MainThread] (KnowDiveServicesConfiguration.java:164) - set KG_IMPORTER_URL= from /home/simone/karma/config/knowdive.properties\\n INFO [MainThread] (KnowDiveServicesConfiguration.java:179) - set CATALOG_BASE_URL= from /home/simone/karma/config/knowdive.properties\\n INFO [MainThread] (KnowDiveServicesConfiguration.java:194) - set CATALOG_INSTANCE_API_KEY= from /home/simone/karma/config/knowdive.properties\\n INFO [MainThread] (KnowDiveServicesConfiguration.java:282) - Write Property: SCROLL_SERVICE_URL=http://localhost:8081\\n INFO [MainThread] (WorksheetR2RMLJenaModelParser.java:219) - Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/./resources/models/CarePlan.ttl\\n INFO [MainThread] (Reflections.java:229) - Reflections took 260 ms to scan 1 urls, producing 105 keys and 847 values \\n INFO [MainThread] (Reflections.java:229) - Reflections took 158 ms to scan 1 urls, producing 105 keys and 847 values \\n INFO [MainThread] (ExecutionController.java:93) - Loaded 110 possible commands\\n INFO [MainThread] (UIConfiguration.java:73) - UICOnfiguration:/home/simone/karma/config/\\n INFO [MainThread] (UIConfiguration.java:85) - Load File:/home/simone/karma/config//ui.properties\\n INFO [MainThread] (UIConfiguration.java:73) - UICOnfiguration:/home/simone/karma/config/\\n INFO [MainThread] (UIConfiguration.java:85) - Load File:/home/simone/karma/config//ui.properties\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:229) - Total number of http request: 1\\n INFO [pool-1-thread-1] (ExtractConceptsCommand.java:154) - httpBody: {\\"nlpParameters\\": {\\"nlp.conceptConstraint\\": null}}\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:247) - Time to end all http Requests and deSerialize: 0.356sec\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:143) - Command executed successfully\\n INFO [MainThread] (OfflineRdfGenerator.java:705) - generate rdf from file completed\\n INFO [MainThread] (OfflineRdfGenerator.java:197) - done after 1660\\n INFO [MainThread] (OfflineRdfGenerator.java:200) - RDF published at: ./resources/rdf/CarePlan.rdf\\n INFO [MainThread] (OfflineRdfGenerator.java:162) - Time to generate RDF:0.0879 mins\\n"]',
+  level: 'error',
+  timestamp: '2022-06-23T14:29:54.947Z'
+}
+{
+  message: 'KOS error - Error: Request failed with status code 500',
+  level: 'error',
+  timestamp: '2022-06-23T14:29:55.061Z'
+}
+{
+  message: 'Data Mapper error - [null,""," INFO [main] (WorksheetR2RMLJenaModelParser.java:219) - Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/./resources/models/MedicationStatement.ttl\\n INFO [main] (ServletContextParameterMap.java:122) - KARMA_USER_HOME not set.  Defaulting to /home/simone/karma\\n INFO [main] (ServletContextParameterMap.java:132) - Karma home: /home/simone/karma/\\n INFO [main] (KarmaUserMetadata.java:31) - Set parameter: USER_PREFERENCES_DIRECTORY -> /home/simone/karma/user-preferences/\\n INFO [main] (KarmaUserMetadata.java:31) - Set parameter: USER_CONFIG_DIRECTORY -> /home/simone/karma/config/\\n INFO [main] (KarmaUserMetadata.java:31) - Set parameter: USER_PYTHON_SCRIPTS_DIRECTORY -> /home/simone/karma/python/\\n INFO [MainThread] (KarmaUserMetadata.java:31) - Set parameter: USER_CATALOG_DOWNLOAD_DIRECTORY -> /home/simone/karma/catalog-download/\\n INFO [MainThread] (ModelingConfiguration.java:319) - Load modeling.properties: /home/simone/karma/config/modeling.properties:true\\n INFO [MainThread] (KnowDiveServicesConfiguration.java:87) - KnowDiveConfiguration:/home/simone/karma/config/knowdive.properties\\n INFO [MainThread] (KnowDiveServicesConfiguration.java:119) - set SCROLL_SERVICE_URL=http://localhost:8081 from /home/simone/karma/config/knowdive.properties\\n INFO [MainThread] (KnowDiveServicesConfiguration.java:134) - set EML_SERVICE_URL= from /home/simone/karma/config/knowdive.properties\\n INFO [MainThread] (KnowDiveServicesConfiguration.java:149) - set KOS_SERVICE_URL= from /home/simone/karma/config/knowdive.properties\\n INFO [MainThread] (KnowDiveServicesConfiguration.java:164) - set KG_IMPORTER_URL= from /home/simone/karma/config/knowdive.properties\\n INFO [MainThread] (KnowDiveServicesConfiguration.java:179) - set CATALOG_BASE_URL= from /home/simone/karma/config/knowdive.properties\\n INFO [MainThread] (KnowDiveServicesConfiguration.java:194) - set CATALOG_INSTANCE_API_KEY= from /home/simone/karma/config/knowdive.properties\\n INFO [MainThread] (KnowDiveServicesConfiguration.java:282) - Write Property: SCROLL_SERVICE_URL=http://localhost:8081\\n INFO [MainThread] (WorksheetR2RMLJenaModelParser.java:219) - Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/./resources/models/MedicationStatement.ttl\\n INFO [MainThread] (Reflections.java:229) - Reflections took 244 ms to scan 1 urls, producing 105 keys and 847 values \\n INFO [MainThread] (Reflections.java:229) - Reflections took 152 ms to scan 1 urls, producing 105 keys and 847 values \\n INFO [MainThread] (ExecutionController.java:93) - Loaded 110 possible commands\\n INFO [MainThread] (UIConfiguration.java:73) - UICOnfiguration:/home/simone/karma/config/\\n INFO [MainThread] (UIConfiguration.java:85) - Load File:/home/simone/karma/config//ui.properties\\n INFO [MainThread] (UIConfiguration.java:73) - UICOnfiguration:/home/simone/karma/config/\\n INFO [MainThread] (UIConfiguration.java:85) - Load File:/home/simone/karma/config//ui.properties\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:229) - Total number of http request: 1\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:247) - Time to end all http Requests and deSerialize: 5.172sec\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:143) - Command executed successfully\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:229) - Total number of http request: 1\\n INFO [pool-2-thread-1] (ExtractConceptsCommand.java:154) - httpBody: {\\"nlpParameters\\": {\\"nlp.conceptConstraint\\": null}}\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:247) - Time to end all http Requests and deSerialize: 0.221sec\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:143) - Command executed successfully\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:229) - Total number of http request: 1\\n INFO [pool-3-thread-1] (ExtractConceptsCommand.java:154) - httpBody: {\\"nlpParameters\\": {\\"nlp.conceptConstraint\\": null}}\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:247) - Time to end all http Requests and deSerialize: 0.384sec\\n INFO [MainThread] (SWEBNLPExtractionCommand.java:143) - Command executed successfully\\n INFO [MainThread] (OfflineRdfGenerator.java:705) - generate rdf from file completed\\n INFO [MainThread] (OfflineRdfGenerator.java:197) - done after 23293\\n INFO [MainThread] (OfflineRdfGenerator.java:200) - RDF published at: ./resources/rdf/MedicationStatement.rdf\\n INFO [MainThread] (OfflineRdfGenerator.java:162) - Time to generate RDF:0.45906666 mins\\n"]',
+  level: 'error',
+  timestamp: '2022-06-23T14:30:23.053Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8952 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-23T15:04:18.919Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8952 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-23T15:04:19.022Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8872 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-23T15:04:19.314Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8872 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-23T15:04:19.398Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9cm - CODE:4011 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-23T15:04:19.692Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9cm - CODE:2720 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-23T15:04:19.975Z'
+}
+{
+  message: 'KOS error - Error: Request failed with status code 500',
+  level: 'error',
+  timestamp: '2022-06-23T15:49:33.283Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8872 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-23T15:58:57.012Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8872 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-23T15:58:57.095Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8872 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-23T18:38:53.273Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8872 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-23T18:38:53.415Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8872 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-23T19:00:17.490Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8872 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-23T19:00:17.549Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8872 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-24T08:15:26.497Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8872 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-24T08:15:26.614Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8872 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-24T08:27:59.699Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8872 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-24T08:27:59.798Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8872 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-24T09:46:43.209Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8872 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-24T09:46:43.280Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8872 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-24T12:24:10.856Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8872 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-24T12:24:10.955Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8872 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-24T12:31:05.576Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8872 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-24T12:31:05.715Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8872 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-24T13:26:29.225Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8872 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-24T13:26:29.304Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8872 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-24T13:42:07.455Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8872 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-24T13:42:07.509Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8872 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-24T13:48:04.688Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8872 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-24T13:48:04.781Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8872 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-24T13:50:30.404Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8872 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-24T13:50:30.492Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8872 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-24T13:52:36.140Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8872 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-24T13:52:36.236Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8872 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-24T13:54:04.424Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8872 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-24T13:54:04.530Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8872 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-24T13:56:39.925Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8872 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-24T13:56:40.113Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8872 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-24T13:58:48.710Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8872 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-24T13:58:48.812Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8872 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-24T13:59:37.157Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8872 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-24T13:59:37.229Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8872 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-24T14:01:40.264Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8872 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-24T14:01:40.353Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8872 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-24T14:03:22.001Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8872 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-24T14:03:22.113Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8872 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-24T14:04:58.001Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8872 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-24T14:04:58.166Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8872 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-24T14:11:14.342Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8872 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-24T14:11:14.459Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8872 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-24T14:14:58.664Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8872 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-24T14:14:58.759Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8872 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-24T14:18:24.935Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8872 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-24T14:18:25.010Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8872 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-24T14:22:40.004Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8872 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-24T14:22:40.081Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8872 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-24T14:26:25.517Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8872 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-24T14:26:25.619Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8872 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-24T14:54:38.414Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8872 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-24T14:54:38.544Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8872 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-28T13:21:10.870Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8872 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-28T13:21:11.017Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8872 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-28T15:03:29.040Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8872 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-28T15:03:29.212Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8872 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-28T15:05:00.906Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8872 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-28T15:05:00.986Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8872 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-28T20:25:46.256Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8872 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-28T20:25:46.340Z'
+}
+{
+  message: 'KOS error - Error: Request failed with status code 500',
+  level: 'error',
+  timestamp: '2022-06-29T13:14:13.800Z'
+}
+{
+  message: 'KOS error - Error: Request failed with status code 500',
+  level: 'error',
+  timestamp: '2022-06-29T13:25:16.229Z'
+}
+{
+  message: 'KOS error - Error: Request failed with status code 500',
+  level: 'error',
+  timestamp: '2022-06-29T13:32:18.655Z'
+}
+{
+  message: 'KOS error - Error: Request failed with status code 500',
+  level: 'error',
+  timestamp: '2022-06-29T13:37:14.573Z'
+}
+{
+  message: 'KOS error - Error: Request failed with status code 500',
+  level: 'error',
+  timestamp: '2022-06-29T13:59:03.460Z'
+}
+{
+  message: 'KOS error - Error: Request failed with status code 500',
+  level: 'error',
+  timestamp: '2022-06-29T13:59:31.605Z'
+}
+{
+  message: 'KOS error - Error: Request failed with status code 500',
+  level: 'error',
+  timestamp: '2022-06-29T15:06:13.535Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8872 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-30T10:56:26.715Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8872 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-30T10:56:26.797Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8872 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-30T11:01:02.693Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8872 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-30T11:01:02.790Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8872 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-30T11:13:44.520Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8872 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-30T11:13:44.590Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8872 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-30T11:16:43.743Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8872 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-06-30T11:16:43.845Z'
+}
+{
+  message: 'KOS error - Error: Request failed with status code 500',
+  level: 'error',
+  timestamp: '2022-07-07T13:24:41.446Z'
+}
+{
+  message: 'KOS error - Error: Request failed with status code 500',
+  level: 'error',
+  timestamp: '2022-07-08T12:18:59.751Z'
+}
+{
+  message: 'KOS error - Error: Request failed with status code 500',
+  level: 'error',
+  timestamp: '2022-07-08T12:53:13.342Z'
+}
+{
+  message: 'KOS error - Error: Request failed with status code 500',
+  level: 'error',
+  timestamp: '2022-07-08T13:21:00.707Z'
+}
+{
+  message: 'RDF2EML error - Error: Request failed with status code 400',
+  level: 'error',
+  timestamp: '2022-07-08T13:58:02.682Z'
+}
+{
+  message: "KOS import error reading EML file - Error: ENOENT: no such file or directory, open './resources/eml/CHU-VitalSigns-OBS-DIASTOLIC.eml'",
+  level: 'error',
+  timestamp: '2022-07-08T13:58:02.696Z'
+}
+{
+  message: 'RDF2EML error - Error: Request failed with status code 400',
+  level: 'error',
+  timestamp: '2022-07-08T14:00:18.239Z'
+}
+{
+  message: "KOS import error reading EML file - Error: ENOENT: no such file or directory, open './resources/eml/CHU-VitalSigns-OBS-DIASTOLIC.eml'",
+  level: 'error',
+  timestamp: '2022-07-08T14:00:18.251Z'
+}
+{
+  message: 'RDF2EML error - Error: Request failed with status code 400',
+  level: 'error',
+  timestamp: '2022-07-08T14:03:26.655Z'
+}
+{
+  message: "KOS import error reading EML file - Error: ENOENT: no such file or directory, open './resources/eml/CHU-VitalSigns-OBS-DIASTOLIC.eml'",
+  level: 'error',
+  timestamp: '2022-07-08T14:03:26.657Z'
+}
+{
+  message: 'RDF2EML error - Error: Request failed with status code 400',
+  level: 'error',
+  timestamp: '2022-07-08T14:05:45.970Z'
+}
+{
+  message: "KOS import error reading EML file - Error: ENOENT: no such file or directory, open './resources/eml/CHU-VitalSigns-OBS-HEIGHT-WEIGHT.eml'",
+  level: 'error',
+  timestamp: '2022-07-08T14:05:45.972Z'
+}
+{
+  message: "RDF2EML import error reading RDF file - Error: ENOENT: no such file or directory, open './resources/rdf/CHU-VitalSigns-OBS-SYSTOLIC.rdf'",
+  level: 'error',
+  timestamp: '2022-07-11T11:01:46.596Z'
+}
+{
+  message: 'RDF2EML error - Error: Request failed with status code 400',
+  level: 'error',
+  timestamp: '2022-07-11T11:01:47.047Z'
+}
+{
+  message: "KOS import error reading EML file - Error: ENOENT: no such file or directory, open './resources/eml/CHU-VitalSigns-OBS-HEIGHT-WEIGHT.eml'",
+  level: 'error',
+  timestamp: '2022-07-11T11:01:47.050Z'
+}
+{
+  message: 'RDF2EML error - Error: Request failed with status code 400',
+  level: 'error',
+  timestamp: '2022-07-11T11:01:47.506Z'
+}
+{
+  message: "KOS import error reading EML file - Error: ENOENT: no such file or directory, open './resources/eml/CHU-VitalSigns-OBS-DIASTOLIC.eml'",
+  level: 'error',
+  timestamp: '2022-07-11T11:01:47.507Z'
+}
+{
+  message: 'KOS error - Error: Request failed with status code 500',
+  level: 'error',
+  timestamp: '2022-07-18T16:31:59.246Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8872 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-07-20T12:51:30.006Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8872 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-07-20T12:51:30.106Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8872 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-07-20T13:08:20.384Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8872 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-07-20T13:08:20.441Z'
+}
+{
+  message: "RDF2EML import error reading RDF file - Error: ENOENT: no such file or directory, open './resources/rdf/CHU-Patient-Practitioner.rdf'",
+  level: 'error',
+  timestamp: '2022-07-20T15:51:56.362Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8872 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-07-21T12:01:19.387Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8872 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-07-21T12:03:07.783Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8872 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-07-21T12:16:13.674Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8872 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-07-25T11:27:21.306Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8872 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-07-25T11:29:00.048Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8872 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-07-26T13:48:35.639Z'
+}
+{
+  message: 'Code Concept Missing Error - [SYS:icd9 - CODE:8872 - TARGET SYS:icd10]',
+  level: 'error',
+  timestamp: '2022-07-28T09:15:32.403Z'
+}
+{
+  message: 'KOS error - Error: Request failed with status code 500',
+  level: 'error',
+  timestamp: '2022-08-16T10:51:03.087Z'
+}
+{
+  message: 'KOS error - Error: Request failed with status code 500',
+  level: 'error',
+  timestamp: '2022-08-16T10:52:20.778Z'
+}
+{
+  message: 'KOS error - Error: Request failed with status code 500',
+  level: 'error',
+  timestamp: '2022-08-16T11:12:45.090Z'
+}
+{
+  message: 'KOS error - Error: Request failed with status code 500',
+  level: 'error',
+  timestamp: '2022-08-16T11:14:54.401Z'
+}
+{
+  message: 'KOS error - Error: Request failed with status code 500',
+  level: 'error',
+  timestamp: '2022-08-16T11:16:40.853Z'
+}
+{
+  message: 'KOS error - Error: Request failed with status code 500',
+  level: 'error',
+  timestamp: '2022-08-16T11:21:25.966Z'
+}
+{
+  message: 'KOS error - Error: Request failed with status code 500',
+  level: 'error',
+  timestamp: '2022-08-16T11:21:30.224Z'
+}
+{
+  message: 'KOS error - Error: Request failed with status code 500',
+  level: 'error',
+  timestamp: '2022-08-16T11:24:27.379Z'
+}
+{
+  message: 'KOS error - Error: Request failed with status code 500',
+  level: 'error',
+  timestamp: '2022-08-16T11:25:14.558Z'
+}
+{
+  message: 'KOS error - Error: Request failed with status code 500',
+  level: 'error',
+  timestamp: '2022-08-16T13:07:08.326Z'
+}
+{
+  message: 'KOS error - Error: Request failed with status code 500',
+  level: 'error',
+  timestamp: '2022-08-16T13:07:13.737Z'
+}
+{
+  message: 'KOS error - Error: Request failed with status code 500',
+  level: 'error',
+  timestamp: '2022-08-16T13:07:57.752Z'
+}
+{
+  message: 'KOS error - Error: Request failed with status code 500',
+  level: 'error',
+  timestamp: '2022-08-16T13:08:02.831Z'
+}
+{
+  message: 'KOS error - Error: Request failed with status code 500',
+  level: 'error',
+  timestamp: '2022-08-16T13:08:40.613Z'
+}
+{
+  message: 'KOS error - Error: Request failed with status code 500',
+  level: 'error',
+  timestamp: '2022-08-16T13:08:47.547Z'
+}
+{
+  message: 'KOS error - Error: Request failed with status code 500',
+  level: 'error',
+  timestamp: '2022-08-16T13:34:47.849Z'
+}
+{
+  message: 'KOS error - Error: Request failed with status code 500',
+  level: 'error',
+  timestamp: '2022-08-16T13:34:53.844Z'
+}
+{
+  message: 'KOS error - Error: Request failed with status code 500',
+  level: 'error',
+  timestamp: '2022-08-16T14:31:16.083Z'
+}
+{
+  message: 'KOS error - Error: Request failed with status code 500',
+  level: 'error',
+  timestamp: '2022-08-16T14:31:21.813Z'
+}
+{
+  message: 'KOS error - Error: Request failed with status code 500',
+  level: 'error',
+  timestamp: '2022-08-16T14:31:45.579Z'
+}
+{
+  message: 'KOS error - Error: Request failed with status code 500',
+  level: 'error',
+  timestamp: '2022-08-16T14:31:51.750Z'
+}
+{
+  message: 'KOS error - Error: Request failed with status code 500',
+  level: 'error',
+  timestamp: '2022-08-18T08:27:41.684Z'
+}
+{
+  message: 'KOS error - Error: Request failed with status code 500',
+  level: 'error',
+  timestamp: '2022-08-18T08:27:48.137Z'
+}
+{
+  message: 'KOS error - Error: Request failed with status code 500',
+  level: 'error',
+  timestamp: '2022-08-18T08:30:04.253Z'
+}
+{
+  message: 'KOS error - Error: Request failed with status code 500',
+  level: 'error',
+  timestamp: '2022-08-18T08:30:09.519Z'
+}
+{
+  message: 'KOS error - Error: Request failed with status code 500',
+  level: 'error',
+  timestamp: '2022-08-18T08:46:35.763Z'
+}
+{
+  message: 'KOS error - Error: Request failed with status code 500',
+  level: 'error',
+  timestamp: '2022-08-18T08:46:40.160Z'
+}
+{
+  message: 'KOS error - Error: Request failed with status code 500',
+  level: 'error',
+  timestamp: '2022-08-18T08:49:32.780Z'
+}
+{
+  message: 'KOS error - Error: Request failed with status code 500',
+  level: 'error',
+  timestamp: '2022-08-18T08:49:37.038Z'
+}
+{
+  message: 'KOS error - Error: Request failed with status code 500',
+  level: 'error',
+  timestamp: '2022-08-18T08:49:57.580Z'
+}
+{
+  message: 'KOS error - Error: Request failed with status code 500',
+  level: 'error',
+  timestamp: '2022-08-18T08:50:02.970Z'
+}
+{
+  message: 'KOS error - Error: Request failed with status code 500',
+  level: 'error',
+  timestamp: '2022-08-18T09:08:35.651Z'
+}
+{
+  message: 'KOS error - Error: Request failed with status code 500',
+  level: 'error',
+  timestamp: '2022-08-18T09:08:40.405Z'
+}
+{
+  message: 'KOS error - Error: Request failed with status code 500',
+  level: 'error',
+  timestamp: '2022-08-18T09:50:57.192Z'
+}
+{
+  message: 'KOS error - Error: Request failed with status code 500',
+  level: 'error',
+  timestamp: '2022-08-18T09:51:02.236Z'
+}
+{
+  message: 'KOS error - Error: Request failed with status code 500',
+  level: 'error',
+  timestamp: '2022-08-18T09:56:46.320Z'
+}
+{
+  message: 'KOS error - Error: Request failed with status code 500',
+  level: 'error',
+  timestamp: '2022-08-18T09:56:53.085Z'
+}
+{
+  message: 'KOS error - Error: Request failed with status code 500',
+  level: 'error',
+  timestamp: '2022-08-18T09:58:14.386Z'
+}
+{
+  message: 'KOS error - Error: Request failed with status code 500',
+  level: 'error',
+  timestamp: '2022-08-18T09:58:19.537Z'
+}
+{
+  message: 'KOS error - Error: Request failed with status code 500',
+  level: 'error',
+  timestamp: '2022-08-18T10:08:04.187Z'
+}
+{
+  message: 'KOS error - Error: Request failed with status code 500',
+  level: 'error',
+  timestamp: '2022-08-18T10:08:10.379Z'
+}
+{
+  message: 'KOS error - Error: Request failed with status code 500',
+  level: 'error',
+  timestamp: '2022-08-18T10:09:31.514Z'
+}
+{
+  message: 'KOS error - Error: Request failed with status code 500',
+  level: 'error',
+  timestamp: '2022-08-18T10:09:38.801Z'
+}
+{
+  message: 'KOS error - Error: Request failed with status code 500',
+  level: 'error',
+  timestamp: '2022-08-18T10:18:49.873Z'
+}
+{
+  message: 'KOS error - Error: Request failed with status code 500',
+  level: 'error',
+  timestamp: '2022-08-18T10:18:55.063Z'
+}
+{
+  message: 'KOS error - Error: Request failed with status code 500',
+  level: 'error',
+  timestamp: '2022-08-22T15:10:08.507Z'
+}
+{
+  message: 'KOS error - Error: Request failed with status code 500',
+  level: 'error',
+  timestamp: '2022-08-22T15:10:14.372Z'
+}
+{
+  message: 'KOS error - Error: Request failed with status code 500',
+  level: 'error',
+  timestamp: '2022-08-22T15:15:04.094Z'
+}
+{
+  message: 'KOS error - Error: Request failed with status code 500',
+  level: 'error',
+  timestamp: '2022-08-22T15:15:09.754Z'
+}
+{
+  message: 'KOS error - Error: Request failed with status code 500',
+  level: 'error',
+  timestamp: '2022-08-22T15:16:21.941Z'
+}
+{
+  message: 'KOS error - Error: Request failed with status code 500',
+  level: 'error',
+  timestamp: '2022-08-22T15:16:28.022Z'
+}
+{
+  message: 'KOS error - Error: Request failed with status code 500',
+  level: 'error',
+  timestamp: '2022-08-22T15:19:33.778Z'
+}
+{
+  message: 'KOS error - Error: Request failed with status code 500',
+  level: 'error',
+  timestamp: '2022-08-22T15:19:39.212Z'
+}
+{
+  message: 'KOS error - Error: Request failed with status code 500',
+  level: 'error',
+  timestamp: '2022-08-22T17:35:06.311Z'
+}
+{
+  message: 'KOS error - Error: Request failed with status code 500',
+  level: 'error',
+  timestamp: '2022-08-22T17:35:11.708Z'
+}
+{
+  message: 'KOS error - Error: Request failed with status code 500',
+  level: 'error',
+  timestamp: '2022-08-22T17:35:54.197Z'
+}
+{
+  message: 'KOS error - Error: Request failed with status code 500',
+  level: 'error',
+  timestamp: '2022-08-22T17:35:58.857Z'
+}
+{
+  message: 'KOS error - Error: Request failed with status code 500',
+  level: 'error',
+  timestamp: '2022-08-22T17:39:08.132Z'
+}
+{
+  message: 'KOS error - Error: Request failed with status code 500',
+  level: 'error',
+  timestamp: '2022-08-22T17:39:12.905Z'
+}

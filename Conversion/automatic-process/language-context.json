@@ -1,0 +1,11 @@
+{"@context": {
+    "Fhir_practitioner_GID-641678": {
+        "@type": "@id",
+        "@id": "http://knowdive.disi.unitn.it/etype#Fhir_practitioner_GID-641678"
+    },
+    "a": "@type",
+    "has_identifier_GID-39085_Type-1": {"@id": "http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1"},
+    "has_fhir_practitioner.name.given_GID-641664_Type-641678": {"@id": "http://knowdive.disi.unitn.it/etype#has_fhir_practitioner.name.given_GID-641664_Type-641678"},
+    "has_fhir_practitioner.name.family_GID-641665_Type-641678": {"@id": "http://knowdive.disi.unitn.it/etype#has_fhir_practitioner.name.family_GID-641665_Type-641678"},
+    "uri": "@id"
+}}

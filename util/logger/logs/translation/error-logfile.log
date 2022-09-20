@@ -1,0 +1,6351 @@
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd9_425.4',
+  level: 'error',
+  timestamp: '2022-02-09T15:12:02.874Z'
+}
+{
+  message: 'Machine translation error : No translation for [sdfwr4rf] for language [en]',
+  level: 'error',
+  timestamp: '2022-02-11T08:26:25.783Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd9_491.22',
+  level: 'error',
+  timestamp: '2022-03-09T09:49:55.155Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd9_491.22',
+  level: 'error',
+  timestamp: '2022-03-09T09:50:19.177Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd9_425.4',
+  level: 'error',
+  timestamp: '2022-03-09T09:50:19.265Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:atc_c07ag02',
+  level: 'error',
+  timestamp: '2022-03-09T09:50:48.273Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:atc_s01ec01',
+  level: 'error',
+  timestamp: '2022-03-09T09:50:52.884Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:atc_r05da04',
+  level: 'error',
+  timestamp: '2022-03-09T09:50:57.569Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:atc_c09aa09',
+  level: 'error',
+  timestamp: '2022-03-09T09:51:02.088Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:atc_c03da01',
+  level: 'error',
+  timestamp: '2022-03-09T09:51:06.745Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:atc_c10aa01',
+  level: 'error',
+  timestamp: '2022-03-09T09:51:11.426Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-03-09T11:40:13.977Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-03-09T11:40:13.984Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:atc_ubstance a02bc03',
+  level: 'error',
+  timestamp: '2022-03-22T18:16:49.765Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:atc_ubstance c03ca01',
+  level: 'error',
+  timestamp: '2022-03-22T18:16:50.600Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:atc_ubstance g04be03',
+  level: 'error',
+  timestamp: '2022-03-22T18:16:51.137Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:atc_ubstance a02bc03',
+  level: 'error',
+  timestamp: '2022-03-22T18:18:30.044Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:atc_ubstance c03ca01',
+  level: 'error',
+  timestamp: '2022-03-22T18:18:30.073Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:atc_ubstance g04be03',
+  level: 'error',
+  timestamp: '2022-03-22T18:18:30.087Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_20570-8',
+  level: 'error',
+  timestamp: '2022-03-29T18:05:18.114Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2160-0',
+  level: 'error',
+  timestamp: '2022-04-04T15:36:59.548Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_11579-0',
+  level: 'error',
+  timestamp: '2022-04-04T15:37:00.244Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_3091-6',
+  level: 'error',
+  timestamp: '2022-04-04T15:37:01.887Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2823-3',
+  level: 'error',
+  timestamp: '2022-04-04T15:37:02.565Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_20570-8',
+  level: 'error',
+  timestamp: '2022-04-04T15:37:03.248Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2951-2',
+  level: 'error',
+  timestamp: '2022-04-04T15:37:03.903Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8462-4',
+  level: 'error',
+  timestamp: '2022-04-29T09:59:00.281Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_29299-5',
+  level: 'error',
+  timestamp: '2022-04-29T09:59:02.949Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_1975-2',
+  level: 'error',
+  timestamp: '2022-04-29T09:59:03.641Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_1742-6',
+  level: 'error',
+  timestamp: '2022-04-29T09:59:04.335Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2324-2',
+  level: 'error',
+  timestamp: '2022-04-29T09:59:05.640Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2160-0',
+  level: 'error',
+  timestamp: '2022-04-29T09:59:06.338Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8462-4',
+  level: 'error',
+  timestamp: '2022-04-29T09:59:06.343Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_29548-5',
+  level: 'error',
+  timestamp: '2022-04-29T09:59:07.689Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_29548-5',
+  level: 'error',
+  timestamp: '2022-04-29T09:59:11.088Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_11329-0',
+  level: 'error',
+  timestamp: '2022-04-29T09:59:11.762Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_1742-6',
+  level: 'error',
+  timestamp: '2022-04-29T09:59:11.783Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_29545-1',
+  level: 'error',
+  timestamp: '2022-04-29T09:59:12.486Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2324-2',
+  level: 'error',
+  timestamp: '2022-04-29T09:59:12.490Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2160-0',
+  level: 'error',
+  timestamp: '2022-04-29T09:59:12.529Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2160-0',
+  level: 'error',
+  timestamp: '2022-04-29T10:15:04.421Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_62387-6',
+  level: 'error',
+  timestamp: '2022-04-29T10:15:05.111Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_62387-6',
+  level: 'error',
+  timestamp: '2022-04-29T10:15:05.113Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8462-4',
+  level: 'error',
+  timestamp: '2022-04-29T10:15:06.747Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_29299-5',
+  level: 'error',
+  timestamp: '2022-04-29T10:15:07.994Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_1742-6',
+  level: 'error',
+  timestamp: '2022-04-29T10:15:09.300Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2324-2',
+  level: 'error',
+  timestamp: '2022-04-29T10:15:11.191Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2160-0',
+  level: 'error',
+  timestamp: '2022-04-29T10:25:08.370Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_62387-6',
+  level: 'error',
+  timestamp: '2022-04-29T10:25:08.379Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_62387-6',
+  level: 'error',
+  timestamp: '2022-04-29T10:25:08.391Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8462-4',
+  level: 'error',
+  timestamp: '2022-04-29T10:25:08.411Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_29299-5',
+  level: 'error',
+  timestamp: '2022-04-29T10:25:08.435Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_1742-6',
+  level: 'error',
+  timestamp: '2022-04-29T10:25:08.473Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2324-2',
+  level: 'error',
+  timestamp: '2022-04-29T10:25:08.511Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2160-0',
+  level: 'error',
+  timestamp: '2022-04-29T15:26:06.214Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_62387-6',
+  level: 'error',
+  timestamp: '2022-04-29T15:26:06.866Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_62387-6',
+  level: 'error',
+  timestamp: '2022-04-29T15:26:06.869Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8462-4',
+  level: 'error',
+  timestamp: '2022-04-29T15:26:08.440Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_29299-5',
+  level: 'error',
+  timestamp: '2022-04-29T15:26:10.031Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_1742-6',
+  level: 'error',
+  timestamp: '2022-04-29T15:26:11.351Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2324-2',
+  level: 'error',
+  timestamp: '2022-04-29T15:26:12.942Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2160-0',
+  level: 'error',
+  timestamp: '2022-04-29T15:28:12.553Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_62387-6',
+  level: 'error',
+  timestamp: '2022-04-29T15:28:12.569Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_62387-6',
+  level: 'error',
+  timestamp: '2022-04-29T15:28:12.594Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8462-4',
+  level: 'error',
+  timestamp: '2022-04-29T15:28:12.607Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_29299-5',
+  level: 'error',
+  timestamp: '2022-04-29T15:28:12.637Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_1742-6',
+  level: 'error',
+  timestamp: '2022-04-29T15:28:12.698Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2324-2',
+  level: 'error',
+  timestamp: '2022-04-29T15:28:12.776Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2160-0',
+  level: 'error',
+  timestamp: '2022-04-29T15:29:55.999Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_62387-6',
+  level: 'error',
+  timestamp: '2022-04-29T15:29:56.039Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_62387-6',
+  level: 'error',
+  timestamp: '2022-04-29T15:29:56.065Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8462-4',
+  level: 'error',
+  timestamp: '2022-04-29T15:29:56.092Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_29299-5',
+  level: 'error',
+  timestamp: '2022-04-29T15:29:56.128Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_1742-6',
+  level: 'error',
+  timestamp: '2022-04-29T15:29:56.167Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2324-2',
+  level: 'error',
+  timestamp: '2022-04-29T15:29:56.216Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2160-0',
+  level: 'error',
+  timestamp: '2022-04-29T15:31:16.599Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_62387-6',
+  level: 'error',
+  timestamp: '2022-04-29T15:31:16.617Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_62387-6',
+  level: 'error',
+  timestamp: '2022-04-29T15:31:16.629Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8462-4',
+  level: 'error',
+  timestamp: '2022-04-29T15:31:16.643Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_29299-5',
+  level: 'error',
+  timestamp: '2022-04-29T15:31:16.670Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_1742-6',
+  level: 'error',
+  timestamp: '2022-04-29T15:31:16.701Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2324-2',
+  level: 'error',
+  timestamp: '2022-04-29T15:31:16.741Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2160-0',
+  level: 'error',
+  timestamp: '2022-04-29T15:36:38.738Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_62387-6',
+  level: 'error',
+  timestamp: '2022-04-29T15:36:38.747Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_62387-6',
+  level: 'error',
+  timestamp: '2022-04-29T15:36:38.751Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8462-4',
+  level: 'error',
+  timestamp: '2022-04-29T15:36:38.768Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_29299-5',
+  level: 'error',
+  timestamp: '2022-04-29T15:36:38.781Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_1742-6',
+  level: 'error',
+  timestamp: '2022-04-29T15:36:38.848Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2324-2',
+  level: 'error',
+  timestamp: '2022-04-29T15:36:38.895Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8462-4',
+  level: 'error',
+  timestamp: '2022-04-29T15:51:50.352Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_62387-6',
+  level: 'error',
+  timestamp: '2022-04-29T15:51:50.958Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_1742-6',
+  level: 'error',
+  timestamp: '2022-04-29T15:51:53.490Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_29299-5',
+  level: 'error',
+  timestamp: '2022-04-29T15:51:54.091Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2324-2',
+  level: 'error',
+  timestamp: '2022-04-29T15:51:54.748Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2160-0',
+  level: 'error',
+  timestamp: '2022-04-29T15:51:55.380Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_1742-6',
+  level: 'error',
+  timestamp: '2022-05-02T13:05:59.175Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2324-2',
+  level: 'error',
+  timestamp: '2022-05-02T13:06:01.801Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2160-0',
+  level: 'error',
+  timestamp: '2022-05-02T13:06:03.013Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8462-4',
+  level: 'error',
+  timestamp: '2022-05-02T13:06:03.701Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_1742-6',
+  level: 'error',
+  timestamp: '2022-05-02T13:14:36.977Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2324-2',
+  level: 'error',
+  timestamp: '2022-05-02T13:14:37.029Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2160-0',
+  level: 'error',
+  timestamp: '2022-05-02T13:14:37.055Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8462-4',
+  level: 'error',
+  timestamp: '2022-05-02T13:14:37.079Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2324-2',
+  level: 'error',
+  timestamp: '2022-05-02T13:28:26.745Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2160-0',
+  level: 'error',
+  timestamp: '2022-05-02T13:28:27.368Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8462-4',
+  level: 'error',
+  timestamp: '2022-05-02T13:28:27.962Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_1742-6',
+  level: 'error',
+  timestamp: '2022-05-02T13:28:28.599Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2324-2',
+  level: 'error',
+  timestamp: '2022-05-02T13:52:25.994Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2160-0',
+  level: 'error',
+  timestamp: '2022-05-02T13:52:26.007Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8462-4',
+  level: 'error',
+  timestamp: '2022-05-02T13:52:26.020Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_1742-6',
+  level: 'error',
+  timestamp: '2022-05-02T13:52:26.028Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_1742-6',
+  level: 'error',
+  timestamp: '2022-05-12T16:17:12.088Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8462-4',
+  level: 'error',
+  timestamp: '2022-05-12T16:17:12.712Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2324-2',
+  level: 'error',
+  timestamp: '2022-05-12T16:17:14.401Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2160-0',
+  level: 'error',
+  timestamp: '2022-05-12T16:17:15.133Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_1742-6',
+  level: 'error',
+  timestamp: '2022-05-12T16:39:14.566Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8462-4',
+  level: 'error',
+  timestamp: '2022-05-12T16:39:14.592Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2324-2',
+  level: 'error',
+  timestamp: '2022-05-12T16:39:14.624Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2160-0',
+  level: 'error',
+  timestamp: '2022-05-12T16:39:14.634Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_1742-6',
+  level: 'error',
+  timestamp: '2022-05-12T16:44:39.086Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8462-4',
+  level: 'error',
+  timestamp: '2022-05-12T16:44:39.099Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2324-2',
+  level: 'error',
+  timestamp: '2022-05-12T16:44:39.112Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2160-0',
+  level: 'error',
+  timestamp: '2022-05-12T16:44:39.116Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_1742-6',
+  level: 'error',
+  timestamp: '2022-05-13T14:46:17.509Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8462-4',
+  level: 'error',
+  timestamp: '2022-05-13T14:46:18.245Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2324-2',
+  level: 'error',
+  timestamp: '2022-05-13T14:46:20.034Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2160-0',
+  level: 'error',
+  timestamp: '2022-05-13T14:46:20.795Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_1742-6',
+  level: 'error',
+  timestamp: '2022-05-13T14:49:54.301Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8462-4',
+  level: 'error',
+  timestamp: '2022-05-13T14:49:54.351Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2324-2',
+  level: 'error',
+  timestamp: '2022-05-13T14:49:54.442Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2160-0',
+  level: 'error',
+  timestamp: '2022-05-13T14:49:54.490Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_1742-6',
+  level: 'error',
+  timestamp: '2022-05-13T14:53:01.293Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8462-4',
+  level: 'error',
+  timestamp: '2022-05-13T14:53:01.314Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2324-2',
+  level: 'error',
+  timestamp: '2022-05-13T14:53:01.323Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2160-0',
+  level: 'error',
+  timestamp: '2022-05-13T14:53:01.329Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_1742-6',
+  level: 'error',
+  timestamp: '2022-05-13T14:53:30.400Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8462-4',
+  level: 'error',
+  timestamp: '2022-05-13T14:53:30.413Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2324-2',
+  level: 'error',
+  timestamp: '2022-05-13T14:53:30.439Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2160-0',
+  level: 'error',
+  timestamp: '2022-05-13T14:53:30.448Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_1742-6',
+  level: 'error',
+  timestamp: '2022-05-13T14:54:39.781Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8462-4',
+  level: 'error',
+  timestamp: '2022-05-13T14:54:39.811Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2324-2',
+  level: 'error',
+  timestamp: '2022-05-13T14:54:39.876Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2160-0',
+  level: 'error',
+  timestamp: '2022-05-13T14:54:39.883Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_1742-6',
+  level: 'error',
+  timestamp: '2022-05-13T14:55:53.778Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8462-4',
+  level: 'error',
+  timestamp: '2022-05-13T14:55:53.807Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2324-2',
+  level: 'error',
+  timestamp: '2022-05-13T14:55:53.830Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2160-0',
+  level: 'error',
+  timestamp: '2022-05-13T14:55:53.845Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_1742-6',
+  level: 'error',
+  timestamp: '2022-05-13T14:59:26.633Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8462-4',
+  level: 'error',
+  timestamp: '2022-05-13T14:59:26.654Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2324-2',
+  level: 'error',
+  timestamp: '2022-05-13T14:59:26.675Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2160-0',
+  level: 'error',
+  timestamp: '2022-05-13T14:59:26.686Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_1742-6',
+  level: 'error',
+  timestamp: '2022-05-13T15:22:53.154Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8462-4',
+  level: 'error',
+  timestamp: '2022-05-13T15:22:53.173Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2324-2',
+  level: 'error',
+  timestamp: '2022-05-13T15:22:53.208Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2160-0',
+  level: 'error',
+  timestamp: '2022-05-13T15:22:53.223Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_1742-6',
+  level: 'error',
+  timestamp: '2022-05-13T15:23:16.329Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8462-4',
+  level: 'error',
+  timestamp: '2022-05-13T15:23:16.347Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2324-2',
+  level: 'error',
+  timestamp: '2022-05-13T15:23:16.364Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2160-0',
+  level: 'error',
+  timestamp: '2022-05-13T15:23:16.375Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_1742-6',
+  level: 'error',
+  timestamp: '2022-05-13T15:25:24.937Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8462-4',
+  level: 'error',
+  timestamp: '2022-05-13T15:25:24.957Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2324-2',
+  level: 'error',
+  timestamp: '2022-05-13T15:25:25.000Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2160-0',
+  level: 'error',
+  timestamp: '2022-05-13T15:25:25.010Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_1742-6',
+  level: 'error',
+  timestamp: '2022-05-13T15:26:17.271Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8462-4',
+  level: 'error',
+  timestamp: '2022-05-13T15:26:17.284Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2324-2',
+  level: 'error',
+  timestamp: '2022-05-13T15:26:17.309Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2160-0',
+  level: 'error',
+  timestamp: '2022-05-13T15:26:17.313Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_1742-6',
+  level: 'error',
+  timestamp: '2022-05-13T15:28:37.415Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8462-4',
+  level: 'error',
+  timestamp: '2022-05-13T15:28:37.434Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2324-2',
+  level: 'error',
+  timestamp: '2022-05-13T15:28:37.445Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2160-0',
+  level: 'error',
+  timestamp: '2022-05-13T15:28:37.458Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_1742-6',
+  level: 'error',
+  timestamp: '2022-05-13T15:29:47.487Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8462-4',
+  level: 'error',
+  timestamp: '2022-05-13T15:29:47.506Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2324-2',
+  level: 'error',
+  timestamp: '2022-05-13T15:29:47.526Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2160-0',
+  level: 'error',
+  timestamp: '2022-05-13T15:29:47.535Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_1742-6',
+  level: 'error',
+  timestamp: '2022-05-13T15:31:03.738Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8462-4',
+  level: 'error',
+  timestamp: '2022-05-13T15:31:03.776Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2324-2',
+  level: 'error',
+  timestamp: '2022-05-13T15:31:03.825Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2160-0',
+  level: 'error',
+  timestamp: '2022-05-13T15:31:03.839Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2324-2',
+  level: 'error',
+  timestamp: '2022-05-13T15:40:17.872Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_1742-6',
+  level: 'error',
+  timestamp: '2022-05-13T15:40:23.259Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8462-4',
+  level: 'error',
+  timestamp: '2022-05-13T15:40:26.022Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2160-0',
+  level: 'error',
+  timestamp: '2022-05-13T15:40:26.672Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_1742-6',
+  level: 'error',
+  timestamp: '2022-05-24T10:12:20.325Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8462-4',
+  level: 'error',
+  timestamp: '2022-05-24T10:12:21.165Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2160-0',
+  level: 'error',
+  timestamp: '2022-05-24T10:12:21.948Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2324-2',
+  level: 'error',
+  timestamp: '2022-05-24T10:12:22.733Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_10230-1',
+  level: 'error',
+  timestamp: '2022-05-24T10:29:19.387Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_29430-6',
+  level: 'error',
+  timestamp: '2022-05-24T10:29:20.425Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_10230-1',
+  level: 'error',
+  timestamp: '2022-05-24T10:40:02.226Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_29430-6',
+  level: 'error',
+  timestamp: '2022-05-24T10:40:04.667Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_10230-1',
+  level: 'error',
+  timestamp: '2022-05-25T08:09:40.408Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_29430-6',
+  level: 'error',
+  timestamp: '2022-05-25T08:09:42.092Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_10230-1',
+  level: 'error',
+  timestamp: '2022-05-25T08:25:16.116Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_29430-6',
+  level: 'error',
+  timestamp: '2022-05-25T08:25:16.127Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_10230-1',
+  level: 'error',
+  timestamp: '2022-05-25T08:42:40.007Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_10230-1',
+  level: 'error',
+  timestamp: '2022-05-25T09:09:17.872Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_1742-6',
+  level: 'error',
+  timestamp: '2022-05-25T09:43:17.952Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2324-2',
+  level: 'error',
+  timestamp: '2022-05-25T09:43:19.422Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_1742-6',
+  level: 'error',
+  timestamp: '2022-05-25T09:55:06.374Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2324-2',
+  level: 'error',
+  timestamp: '2022-05-25T09:55:06.394Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_1742-6',
+  level: 'error',
+  timestamp: '2022-05-25T09:56:31.350Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2324-2',
+  level: 'error',
+  timestamp: '2022-05-25T09:56:31.384Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_1742-6',
+  level: 'error',
+  timestamp: '2022-05-25T09:58:35.508Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2324-2',
+  level: 'error',
+  timestamp: '2022-05-25T09:58:35.523Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_1742-6',
+  level: 'error',
+  timestamp: '2022-05-25T10:07:17.447Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2324-2',
+  level: 'error',
+  timestamp: '2022-05-25T10:07:18.896Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_1742-6',
+  level: 'error',
+  timestamp: '2022-05-25T12:26:39.833Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2324-2',
+  level: 'error',
+  timestamp: '2022-05-25T12:26:39.857Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8462-4',
+  level: 'error',
+  timestamp: '2022-05-25T12:29:44.704Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2160-0',
+  level: 'error',
+  timestamp: '2022-05-25T12:29:48.202Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8462-4',
+  level: 'error',
+  timestamp: '2022-05-25T12:34:51.774Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2160-0',
+  level: 'error',
+  timestamp: '2022-05-25T12:34:51.813Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_29430-6',
+  level: 'error',
+  timestamp: '2022-05-25T12:47:11.204Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_29430-6',
+  level: 'error',
+  timestamp: '2022-05-25T12:53:55.018Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_29430-6',
+  level: 'error',
+  timestamp: '2022-05-25T12:58:35.701Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_29430-6',
+  level: 'error',
+  timestamp: '2022-05-25T13:03:59.897Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_29430-6',
+  level: 'error',
+  timestamp: '2022-05-25T13:15:29.980Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_29430-6',
+  level: 'error',
+  timestamp: '2022-05-25T13:32:48.659Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_29430-6',
+  level: 'error',
+  timestamp: '2022-05-25T13:52:57.477Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_29430-6',
+  level: 'error',
+  timestamp: '2022-05-25T13:54:49.592Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_29430-6',
+  level: 'error',
+  timestamp: '2022-05-25T13:59:43.352Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_29430-6',
+  level: 'error',
+  timestamp: '2022-05-25T14:01:29.082Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_29430-6',
+  level: 'error',
+  timestamp: '2022-05-25T14:05:30.279Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_29430-6',
+  level: 'error',
+  timestamp: '2022-05-25T14:07:03.323Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_29430-6',
+  level: 'error',
+  timestamp: '2022-05-25T14:08:14.211Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_29430-6',
+  level: 'error',
+  timestamp: '2022-05-25T14:09:08.124Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_29430-6',
+  level: 'error',
+  timestamp: '2022-05-25T14:28:26.094Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_29430-6',
+  level: 'error',
+  timestamp: '2022-05-25T14:58:02.291Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_29430-6',
+  level: 'error',
+  timestamp: '2022-05-25T15:01:23.045Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_29430-6',
+  level: 'error',
+  timestamp: '2022-05-25T15:04:18.024Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_29430-6',
+  level: 'error',
+  timestamp: '2022-05-25T15:15:32.500Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_10230-1',
+  level: 'error',
+  timestamp: '2022-05-25T15:26:51.699Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_29430-6',
+  level: 'error',
+  timestamp: '2022-05-25T15:26:52.364Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_10230-1',
+  level: 'error',
+  timestamp: '2022-05-25T15:29:54.239Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_29430-6',
+  level: 'error',
+  timestamp: '2022-05-25T15:29:54.255Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_10230-1',
+  level: 'error',
+  timestamp: '2022-05-25T15:32:23.824Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_29430-6',
+  level: 'error',
+  timestamp: '2022-05-25T15:32:23.853Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_10230-1',
+  level: 'error',
+  timestamp: '2022-05-25T15:34:04.857Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_29430-6',
+  level: 'error',
+  timestamp: '2022-05-25T15:34:04.869Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_10230-1',
+  level: 'error',
+  timestamp: '2022-05-25T15:39:01.187Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_29430-6',
+  level: 'error',
+  timestamp: '2022-05-25T15:39:01.202Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_10230-1',
+  level: 'error',
+  timestamp: '2022-05-25T15:48:45.793Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_29430-6',
+  level: 'error',
+  timestamp: '2022-05-25T15:48:45.805Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_10230-1',
+  level: 'error',
+  timestamp: '2022-05-25T15:50:13.375Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_29430-6',
+  level: 'error',
+  timestamp: '2022-05-25T15:50:13.383Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_10230-1',
+  level: 'error',
+  timestamp: '2022-05-25T15:52:42.081Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_29430-6',
+  level: 'error',
+  timestamp: '2022-05-25T15:52:42.120Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2324-2',
+  level: 'error',
+  timestamp: '2022-05-27T07:51:25.365Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8462-4',
+  level: 'error',
+  timestamp: '2022-05-27T07:51:27.447Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2160-0',
+  level: 'error',
+  timestamp: '2022-05-27T07:51:27.979Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_1742-6',
+  level: 'error',
+  timestamp: '2022-05-27T07:51:29.391Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_1742-6',
+  level: 'error',
+  timestamp: '2022-05-30T07:32:23.834Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2324-2',
+  level: 'error',
+  timestamp: '2022-05-30T07:32:26.090Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8462-4',
+  level: 'error',
+  timestamp: '2022-05-30T07:32:26.596Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2160-0',
+  level: 'error',
+  timestamp: '2022-05-30T07:32:29.258Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2160-0',
+  level: 'error',
+  timestamp: '2022-05-30T10:07:53.727Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_1742-6',
+  level: 'error',
+  timestamp: '2022-05-30T10:07:58.266Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8462-4',
+  level: 'error',
+  timestamp: '2022-05-30T10:07:58.896Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2324-2',
+  level: 'error',
+  timestamp: '2022-05-30T10:08:00.406Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8462-4',
+  level: 'error',
+  timestamp: '2022-05-30T18:09:16.573Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2324-2',
+  level: 'error',
+  timestamp: '2022-05-30T18:09:19.166Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2160-0',
+  level: 'error',
+  timestamp: '2022-05-30T18:09:19.832Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_1742-6',
+  level: 'error',
+  timestamp: '2022-05-30T18:09:21.480Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_1742-6',
+  level: 'error',
+  timestamp: '2022-05-31T11:59:55.112Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8462-4',
+  level: 'error',
+  timestamp: '2022-05-31T11:59:56.149Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2160-0',
+  level: 'error',
+  timestamp: '2022-05-31T11:59:58.569Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2324-2',
+  level: 'error',
+  timestamp: '2022-05-31T12:00:00.164Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_1742-6',
+  level: 'error',
+  timestamp: '2022-05-31T12:08:59.216Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8462-4',
+  level: 'error',
+  timestamp: '2022-05-31T12:08:59.247Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2160-0',
+  level: 'error',
+  timestamp: '2022-05-31T12:08:59.269Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2324-2',
+  level: 'error',
+  timestamp: '2022-05-31T12:08:59.310Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8462-4',
+  level: 'error',
+  timestamp: '2022-05-31T12:19:27.284Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2160-0',
+  level: 'error',
+  timestamp: '2022-05-31T12:19:29.586Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2324-2',
+  level: 'error',
+  timestamp: '2022-05-31T12:19:30.170Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_1742-6',
+  level: 'error',
+  timestamp: '2022-05-31T12:19:30.750Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2324-2',
+  level: 'error',
+  timestamp: '2022-05-31T12:36:40.309Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2160-0',
+  level: 'error',
+  timestamp: '2022-05-31T12:36:40.957Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_1742-6',
+  level: 'error',
+  timestamp: '2022-05-31T12:36:41.663Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8462-4',
+  level: 'error',
+  timestamp: '2022-05-31T12:36:43.386Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_10230-1',
+  level: 'error',
+  timestamp: '2022-05-31T12:36:48.019Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_29430-6',
+  level: 'error',
+  timestamp: '2022-05-31T12:36:48.664Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2160-0',
+  level: 'error',
+  timestamp: '2022-05-31T12:50:06.670Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_1742-6',
+  level: 'error',
+  timestamp: '2022-05-31T12:50:11.210Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8462-4',
+  level: 'error',
+  timestamp: '2022-05-31T12:50:11.812Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2324-2',
+  level: 'error',
+  timestamp: '2022-05-31T12:50:12.500Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_10230-1',
+  level: 'error',
+  timestamp: '2022-05-31T12:50:15.176Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_29430-6',
+  level: 'error',
+  timestamp: '2022-05-31T12:50:15.780Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_30954-2',
+  level: 'error',
+  timestamp: '2022-06-01T10:06:41.452Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2324-2',
+  level: 'error',
+  timestamp: '2022-06-01T10:06:42.192Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8462-4',
+  level: 'error',
+  timestamp: '2022-06-01T10:06:42.870Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_789-8',
+  level: 'error',
+  timestamp: '2022-06-01T10:06:43.539Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_777-3',
+  level: 'error',
+  timestamp: '2022-06-01T10:06:44.181Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_4544-3',
+  level: 'error',
+  timestamp: '2022-06-01T10:06:44.800Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2160-0',
+  level: 'error',
+  timestamp: '2022-06-01T10:06:45.512Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8867-4',
+  level: 'error',
+  timestamp: '2022-06-01T10:06:46.221Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_1742-6',
+  level: 'error',
+  timestamp: '2022-06-01T10:06:46.942Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8480-6',
+  level: 'error',
+  timestamp: '2022-06-01T10:06:47.643Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_718-7',
+  level: 'error',
+  timestamp: '2022-06-01T10:06:48.297Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_30954-2',
+  level: 'error',
+  timestamp: '2022-06-02T20:15:30.890Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_718-7',
+  level: 'error',
+  timestamp: '2022-06-02T20:15:31.227Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8480-6',
+  level: 'error',
+  timestamp: '2022-06-02T20:15:31.580Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_4544-3',
+  level: 'error',
+  timestamp: '2022-06-02T20:15:32.024Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8867-4',
+  level: 'error',
+  timestamp: '2022-06-02T20:15:32.364Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2160-0',
+  level: 'error',
+  timestamp: '2022-06-02T20:15:32.707Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8462-4',
+  level: 'error',
+  timestamp: '2022-06-02T20:15:33.083Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_777-3',
+  level: 'error',
+  timestamp: '2022-06-02T20:15:33.421Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2324-2',
+  level: 'error',
+  timestamp: '2022-06-02T20:15:33.767Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_789-8',
+  level: 'error',
+  timestamp: '2022-06-02T20:15:34.191Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_1742-6',
+  level: 'error',
+  timestamp: '2022-06-02T20:15:35.020Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_30954-2',
+  level: 'error',
+  timestamp: '2022-06-02T20:25:38.460Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8480-6',
+  level: 'error',
+  timestamp: '2022-06-02T20:25:39.124Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_718-7',
+  level: 'error',
+  timestamp: '2022-06-02T20:25:39.765Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8462-4',
+  level: 'error',
+  timestamp: '2022-06-02T20:25:40.187Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_4544-3',
+  level: 'error',
+  timestamp: '2022-06-02T20:25:40.607Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_789-8',
+  level: 'error',
+  timestamp: '2022-06-02T20:25:41.028Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2160-0',
+  level: 'error',
+  timestamp: '2022-06-02T20:25:42.113Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8867-4',
+  level: 'error',
+  timestamp: '2022-06-02T20:25:42.625Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2324-2',
+  level: 'error',
+  timestamp: '2022-06-02T20:25:43.073Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_1742-6',
+  level: 'error',
+  timestamp: '2022-06-02T20:25:43.842Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_777-3',
+  level: 'error',
+  timestamp: '2022-06-02T20:25:44.489Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_30954-2',
+  level: 'error',
+  timestamp: '2022-06-02T20:44:06.960Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8480-6',
+  level: 'error',
+  timestamp: '2022-06-02T20:44:06.968Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_718-7',
+  level: 'error',
+  timestamp: '2022-06-02T20:44:06.972Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8462-4',
+  level: 'error',
+  timestamp: '2022-06-02T20:44:06.974Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_4544-3',
+  level: 'error',
+  timestamp: '2022-06-02T20:44:06.977Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_789-8',
+  level: 'error',
+  timestamp: '2022-06-02T20:44:06.981Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2160-0',
+  level: 'error',
+  timestamp: '2022-06-02T20:44:06.986Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8867-4',
+  level: 'error',
+  timestamp: '2022-06-02T20:44:06.989Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2324-2',
+  level: 'error',
+  timestamp: '2022-06-02T20:44:06.992Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_1742-6',
+  level: 'error',
+  timestamp: '2022-06-02T20:44:06.995Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_777-3',
+  level: 'error',
+  timestamp: '2022-06-02T20:44:07.000Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_30954-2',
+  level: 'error',
+  timestamp: '2022-06-02T20:45:17.582Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8480-6',
+  level: 'error',
+  timestamp: '2022-06-02T20:45:17.595Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_718-7',
+  level: 'error',
+  timestamp: '2022-06-02T20:45:17.603Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8462-4',
+  level: 'error',
+  timestamp: '2022-06-02T20:45:17.614Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_4544-3',
+  level: 'error',
+  timestamp: '2022-06-02T20:45:17.625Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_789-8',
+  level: 'error',
+  timestamp: '2022-06-02T20:45:17.631Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2160-0',
+  level: 'error',
+  timestamp: '2022-06-02T20:45:17.641Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8867-4',
+  level: 'error',
+  timestamp: '2022-06-02T20:45:17.649Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2324-2',
+  level: 'error',
+  timestamp: '2022-06-02T20:45:17.654Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_1742-6',
+  level: 'error',
+  timestamp: '2022-06-02T20:45:17.663Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_777-3',
+  level: 'error',
+  timestamp: '2022-06-02T20:45:17.673Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_30954-2',
+  level: 'error',
+  timestamp: '2022-06-02T21:09:40.474Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8480-6',
+  level: 'error',
+  timestamp: '2022-06-02T21:09:40.489Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_718-7',
+  level: 'error',
+  timestamp: '2022-06-02T21:09:40.495Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8462-4',
+  level: 'error',
+  timestamp: '2022-06-02T21:09:40.501Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_4544-3',
+  level: 'error',
+  timestamp: '2022-06-02T21:09:40.513Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_789-8',
+  level: 'error',
+  timestamp: '2022-06-02T21:09:40.517Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2160-0',
+  level: 'error',
+  timestamp: '2022-06-02T21:09:40.524Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8867-4',
+  level: 'error',
+  timestamp: '2022-06-02T21:09:40.533Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2324-2',
+  level: 'error',
+  timestamp: '2022-06-02T21:09:40.537Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_1742-6',
+  level: 'error',
+  timestamp: '2022-06-02T21:09:40.550Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_777-3',
+  level: 'error',
+  timestamp: '2022-06-02T21:09:40.554Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_30954-2',
+  level: 'error',
+  timestamp: '2022-06-02T21:11:57.163Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8480-6',
+  level: 'error',
+  timestamp: '2022-06-02T21:11:57.179Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_718-7',
+  level: 'error',
+  timestamp: '2022-06-02T21:11:57.182Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8462-4',
+  level: 'error',
+  timestamp: '2022-06-02T21:11:57.187Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_4544-3',
+  level: 'error',
+  timestamp: '2022-06-02T21:11:57.200Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_789-8',
+  level: 'error',
+  timestamp: '2022-06-02T21:11:57.205Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2160-0',
+  level: 'error',
+  timestamp: '2022-06-02T21:11:57.213Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8867-4',
+  level: 'error',
+  timestamp: '2022-06-02T21:11:57.228Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2324-2',
+  level: 'error',
+  timestamp: '2022-06-02T21:11:57.238Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_1742-6',
+  level: 'error',
+  timestamp: '2022-06-02T21:11:57.255Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_777-3',
+  level: 'error',
+  timestamp: '2022-06-02T21:11:57.261Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_30954-2',
+  level: 'error',
+  timestamp: '2022-06-02T21:49:03.053Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8480-6',
+  level: 'error',
+  timestamp: '2022-06-02T21:49:03.072Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_718-7',
+  level: 'error',
+  timestamp: '2022-06-02T21:49:03.075Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8462-4',
+  level: 'error',
+  timestamp: '2022-06-02T21:49:03.089Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_4544-3',
+  level: 'error',
+  timestamp: '2022-06-02T21:49:03.094Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_789-8',
+  level: 'error',
+  timestamp: '2022-06-02T21:49:03.097Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2160-0',
+  level: 'error',
+  timestamp: '2022-06-02T21:49:03.111Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8867-4',
+  level: 'error',
+  timestamp: '2022-06-02T21:49:03.115Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2324-2',
+  level: 'error',
+  timestamp: '2022-06-02T21:49:03.129Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_1742-6',
+  level: 'error',
+  timestamp: '2022-06-02T21:49:03.138Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_777-3',
+  level: 'error',
+  timestamp: '2022-06-02T21:49:03.156Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_30954-2',
+  level: 'error',
+  timestamp: '2022-06-02T21:50:09.305Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8480-6',
+  level: 'error',
+  timestamp: '2022-06-02T21:50:09.325Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_718-7',
+  level: 'error',
+  timestamp: '2022-06-02T21:50:09.334Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8462-4',
+  level: 'error',
+  timestamp: '2022-06-02T21:50:09.343Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_4544-3',
+  level: 'error',
+  timestamp: '2022-06-02T21:50:09.357Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_789-8',
+  level: 'error',
+  timestamp: '2022-06-02T21:50:09.369Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2160-0',
+  level: 'error',
+  timestamp: '2022-06-02T21:50:09.372Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8867-4',
+  level: 'error',
+  timestamp: '2022-06-02T21:50:09.376Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2324-2',
+  level: 'error',
+  timestamp: '2022-06-02T21:50:09.381Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_1742-6',
+  level: 'error',
+  timestamp: '2022-06-02T21:50:09.399Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_777-3',
+  level: 'error',
+  timestamp: '2022-06-02T21:50:09.408Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_30954-2',
+  level: 'error',
+  timestamp: '2022-06-03T07:44:17.975Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8480-6',
+  level: 'error',
+  timestamp: '2022-06-03T07:44:19.522Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_718-7',
+  level: 'error',
+  timestamp: '2022-06-03T07:44:20.206Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8462-4',
+  level: 'error',
+  timestamp: '2022-06-03T07:44:21.105Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_4544-3',
+  level: 'error',
+  timestamp: '2022-06-03T07:44:21.732Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_789-8',
+  level: 'error',
+  timestamp: '2022-06-03T07:44:22.880Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2160-0',
+  level: 'error',
+  timestamp: '2022-06-03T07:44:23.614Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8867-4',
+  level: 'error',
+  timestamp: '2022-06-03T07:44:24.289Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2324-2',
+  level: 'error',
+  timestamp: '2022-06-03T07:44:25.127Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_1742-6',
+  level: 'error',
+  timestamp: '2022-06-03T07:44:25.769Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_777-3',
+  level: 'error',
+  timestamp: '2022-06-03T07:44:26.589Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_30954-2',
+  level: 'error',
+  timestamp: '2022-06-03T07:46:07.459Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8480-6',
+  level: 'error',
+  timestamp: '2022-06-03T07:46:07.465Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_718-7',
+  level: 'error',
+  timestamp: '2022-06-03T07:46:07.469Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8462-4',
+  level: 'error',
+  timestamp: '2022-06-03T07:46:07.472Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_4544-3',
+  level: 'error',
+  timestamp: '2022-06-03T07:46:07.476Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_789-8',
+  level: 'error',
+  timestamp: '2022-06-03T07:46:07.482Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2160-0',
+  level: 'error',
+  timestamp: '2022-06-03T07:46:07.491Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8867-4',
+  level: 'error',
+  timestamp: '2022-06-03T07:46:07.502Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2324-2',
+  level: 'error',
+  timestamp: '2022-06-03T07:46:07.516Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_1742-6',
+  level: 'error',
+  timestamp: '2022-06-03T07:46:07.527Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_777-3',
+  level: 'error',
+  timestamp: '2022-06-03T07:46:07.538Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_718-7',
+  level: 'error',
+  timestamp: '2022-06-03T09:50:41.287Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_30954-2',
+  level: 'error',
+  timestamp: '2022-06-03T09:50:41.836Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_4544-3',
+  level: 'error',
+  timestamp: '2022-06-03T09:50:42.352Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8480-6',
+  level: 'error',
+  timestamp: '2022-06-03T09:50:42.888Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2345-7',
+  level: 'error',
+  timestamp: '2022-06-03T09:50:43.374Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_1742-6',
+  level: 'error',
+  timestamp: '2022-06-03T09:50:43.879Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_777-3',
+  level: 'error',
+  timestamp: '2022-06-03T09:50:44.372Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2324-2',
+  level: 'error',
+  timestamp: '2022-06-03T09:50:44.869Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_1975-2',
+  level: 'error',
+  timestamp: '2022-06-03T09:50:45.351Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_789-8',
+  level: 'error',
+  timestamp: '2022-06-03T09:50:45.849Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_33762-6',
+  level: 'error',
+  timestamp: '2022-06-03T09:50:46.351Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8867-4',
+  level: 'error',
+  timestamp: '2022-06-03T09:50:46.847Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8462-4',
+  level: 'error',
+  timestamp: '2022-06-03T09:50:47.340Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_10230-1',
+  level: 'error',
+  timestamp: '2022-06-03T09:50:47.842Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_30954-2',
+  level: 'error',
+  timestamp: '2022-06-03T09:50:47.844Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_29430-6',
+  level: 'error',
+  timestamp: '2022-06-03T09:50:48.335Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8867-4',
+  level: 'error',
+  timestamp: '2022-06-03T09:50:48.337Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_30954-2',
+  level: 'error',
+  timestamp: '2022-06-03T10:03:59.972Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8480-6',
+  level: 'error',
+  timestamp: '2022-06-03T10:04:00.587Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_718-7',
+  level: 'error',
+  timestamp: '2022-06-03T10:04:01.320Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_1742-6',
+  level: 'error',
+  timestamp: '2022-06-03T10:04:01.877Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_4544-3',
+  level: 'error',
+  timestamp: '2022-06-03T10:04:02.576Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8462-4',
+  level: 'error',
+  timestamp: '2022-06-03T10:04:03.209Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2324-2',
+  level: 'error',
+  timestamp: '2022-06-03T10:04:04.044Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_789-8',
+  level: 'error',
+  timestamp: '2022-06-03T10:04:04.964Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_777-3',
+  level: 'error',
+  timestamp: '2022-06-03T10:04:05.670Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2160-0',
+  level: 'error',
+  timestamp: '2022-06-03T10:04:06.391Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8867-4',
+  level: 'error',
+  timestamp: '2022-06-03T10:04:06.927Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_30954-2',
+  level: 'error',
+  timestamp: '2022-06-03T10:04:06.930Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8867-4',
+  level: 'error',
+  timestamp: '2022-06-03T10:04:06.932Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_29430-6',
+  level: 'error',
+  timestamp: '2022-06-03T10:04:07.492Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_10230-1',
+  level: 'error',
+  timestamp: '2022-06-03T10:04:07.976Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_30954-2',
+  level: 'error',
+  timestamp: '2022-06-05T11:12:46.407Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8480-6',
+  level: 'error',
+  timestamp: '2022-06-05T11:12:46.758Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_789-8',
+  level: 'error',
+  timestamp: '2022-06-05T11:12:47.127Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2160-0',
+  level: 'error',
+  timestamp: '2022-06-05T11:12:47.493Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2324-2',
+  level: 'error',
+  timestamp: '2022-06-05T11:12:48.002Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8462-4',
+  level: 'error',
+  timestamp: '2022-06-05T11:12:48.381Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_1742-6',
+  level: 'error',
+  timestamp: '2022-06-05T11:12:48.759Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8867-4',
+  level: 'error',
+  timestamp: '2022-06-05T11:12:49.128Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_4544-3',
+  level: 'error',
+  timestamp: '2022-06-05T11:12:49.486Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_777-3',
+  level: 'error',
+  timestamp: '2022-06-05T11:12:49.837Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_718-7',
+  level: 'error',
+  timestamp: '2022-06-05T11:12:50.185Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_30954-2',
+  level: 'error',
+  timestamp: '2022-06-05T11:12:50.188Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_29430-6',
+  level: 'error',
+  timestamp: '2022-06-05T11:12:50.536Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8867-4',
+  level: 'error',
+  timestamp: '2022-06-05T11:12:50.539Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_10230-1',
+  level: 'error',
+  timestamp: '2022-06-05T11:12:50.886Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_30954-2',
+  level: 'error',
+  timestamp: '2022-06-05T11:24:52.720Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8867-4',
+  level: 'error',
+  timestamp: '2022-06-05T11:24:53.062Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_30954-2',
+  level: 'error',
+  timestamp: '2022-06-05T11:50:53.696Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8867-4',
+  level: 'error',
+  timestamp: '2022-06-05T11:50:54.143Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_30954-2',
+  level: 'error',
+  timestamp: '2022-06-05T11:57:57.946Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_10230-1',
+  level: 'error',
+  timestamp: '2022-06-05T11:57:58.443Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_29430-6',
+  level: 'error',
+  timestamp: '2022-06-05T11:57:58.872Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_30954-2',
+  level: 'error',
+  timestamp: '2022-06-05T12:36:32.447Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_10230-1',
+  level: 'error',
+  timestamp: '2022-06-05T12:36:33.116Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_30954-2',
+  level: 'error',
+  timestamp: '2022-06-05T12:36:33.119Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_29430-6',
+  level: 'error',
+  timestamp: '2022-06-05T12:36:33.954Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8867-4',
+  level: 'error',
+  timestamp: '2022-06-05T12:36:34.436Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_30954-2',
+  level: 'error',
+  timestamp: '2022-06-05T12:42:34.211Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_10230-1',
+  level: 'error',
+  timestamp: '2022-06-05T12:42:34.637Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_30954-2',
+  level: 'error',
+  timestamp: '2022-06-05T12:42:34.640Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8867-4',
+  level: 'error',
+  timestamp: '2022-06-05T12:42:35.077Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_29430-6',
+  level: 'error',
+  timestamp: '2022-06-05T12:42:35.529Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_29430-6',
+  level: 'error',
+  timestamp: '2022-06-05T15:05:30.556Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_10230-1',
+  level: 'error',
+  timestamp: '2022-06-05T15:05:30.989Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8867-4',
+  level: 'error',
+  timestamp: '2022-06-05T15:05:31.402Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_10230-1',
+  level: 'error',
+  timestamp: '2022-06-05T15:20:38.421Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8867-4',
+  level: 'error',
+  timestamp: '2022-06-05T15:20:38.841Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_29430-6',
+  level: 'error',
+  timestamp: '2022-06-05T15:20:39.268Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_30954-2',
+  level: 'error',
+  timestamp: '2022-06-05T15:20:39.681Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_1742-6',
+  level: 'error',
+  timestamp: '2022-06-05T15:20:40.075Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_777-3',
+  level: 'error',
+  timestamp: '2022-06-05T15:20:40.484Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2160-0',
+  level: 'error',
+  timestamp: '2022-06-05T15:20:40.880Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8867-4',
+  level: 'error',
+  timestamp: '2022-06-05T15:20:40.884Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8462-4',
+  level: 'error',
+  timestamp: '2022-06-05T15:20:41.281Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_789-8',
+  level: 'error',
+  timestamp: '2022-06-05T15:20:41.709Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_4544-3',
+  level: 'error',
+  timestamp: '2022-06-05T15:20:42.138Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2324-2',
+  level: 'error',
+  timestamp: '2022-06-05T15:20:42.527Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_718-7',
+  level: 'error',
+  timestamp: '2022-06-05T15:20:42.939Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8480-6',
+  level: 'error',
+  timestamp: '2022-06-05T15:20:43.341Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-06-05T21:36:38.259Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-06-05T21:36:38.262Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_30954-2',
+  level: 'error',
+  timestamp: '2022-06-05T22:42:23.108Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_4544-3',
+  level: 'error',
+  timestamp: '2022-06-05T22:42:23.615Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_1742-6',
+  level: 'error',
+  timestamp: '2022-06-05T22:42:24.113Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2324-2',
+  level: 'error',
+  timestamp: '2022-06-05T22:42:24.660Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_789-8',
+  level: 'error',
+  timestamp: '2022-06-05T22:42:25.142Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2160-0',
+  level: 'error',
+  timestamp: '2022-06-05T22:42:25.565Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_777-3',
+  level: 'error',
+  timestamp: '2022-06-05T22:42:26.010Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8867-4',
+  level: 'error',
+  timestamp: '2022-06-05T22:42:26.446Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8462-4',
+  level: 'error',
+  timestamp: '2022-06-05T22:42:26.837Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_718-7',
+  level: 'error',
+  timestamp: '2022-06-05T22:42:27.237Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8480-6',
+  level: 'error',
+  timestamp: '2022-06-05T22:42:27.646Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8867-4',
+  level: 'error',
+  timestamp: '2022-06-05T22:42:27.649Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_29430-6',
+  level: 'error',
+  timestamp: '2022-06-05T22:42:28.043Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_10230-1',
+  level: 'error',
+  timestamp: '2022-06-05T22:42:28.431Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-06-05T22:42:28.841Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-06-05T22:42:28.842Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_30954-2',
+  level: 'error',
+  timestamp: '2022-06-06T07:47:51.357Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8480-6',
+  level: 'error',
+  timestamp: '2022-06-06T07:47:51.707Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_718-7',
+  level: 'error',
+  timestamp: '2022-06-06T07:47:52.187Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_777-3',
+  level: 'error',
+  timestamp: '2022-06-06T07:47:52.649Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_789-8',
+  level: 'error',
+  timestamp: '2022-06-06T07:47:53.174Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8867-4',
+  level: 'error',
+  timestamp: '2022-06-06T07:47:53.525Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8462-4',
+  level: 'error',
+  timestamp: '2022-06-06T07:47:53.903Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_1742-6',
+  level: 'error',
+  timestamp: '2022-06-06T07:47:54.837Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2160-0',
+  level: 'error',
+  timestamp: '2022-06-06T07:47:55.755Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_4544-3',
+  level: 'error',
+  timestamp: '2022-06-06T07:47:56.644Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2324-2',
+  level: 'error',
+  timestamp: '2022-06-06T07:47:57.608Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8867-4',
+  level: 'error',
+  timestamp: '2022-06-06T07:47:57.612Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_29430-6',
+  level: 'error',
+  timestamp: '2022-06-06T07:47:58.750Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_10230-1',
+  level: 'error',
+  timestamp: '2022-06-06T07:47:59.815Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-06-06T07:48:01.029Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-06-06T07:48:01.034Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8867-4',
+  level: 'error',
+  timestamp: '2022-06-06T16:19:14.345Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8867-4',
+  level: 'error',
+  timestamp: '2022-06-06T16:41:49.255Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8867-4',
+  level: 'error',
+  timestamp: '2022-06-06T16:56:09.089Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8867-4',
+  level: 'error',
+  timestamp: '2022-06-06T17:00:06.247Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8867-4',
+  level: 'error',
+  timestamp: '2022-06-06T17:36:58.072Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_10230-1',
+  level: 'error',
+  timestamp: '2022-06-06T18:10:15.583Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_29430-6',
+  level: 'error',
+  timestamp: '2022-06-06T18:10:15.847Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8867-4',
+  level: 'error',
+  timestamp: '2022-06-06T18:38:50.470Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8867-4',
+  level: 'error',
+  timestamp: '2022-06-06T18:38:50.473Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_10230-1',
+  level: 'error',
+  timestamp: '2022-06-06T18:38:50.759Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_29430-6',
+  level: 'error',
+  timestamp: '2022-06-06T18:38:51.003Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_10230-1',
+  level: 'error',
+  timestamp: '2022-06-07T07:34:37.193Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_29430-6',
+  level: 'error',
+  timestamp: '2022-06-07T07:34:37.470Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8867-4',
+  level: 'error',
+  timestamp: '2022-06-07T07:34:37.731Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_30954-2',
+  level: 'error',
+  timestamp: '2022-06-07T12:45:57.003Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2345-7',
+  level: 'error',
+  timestamp: '2022-06-07T12:45:57.320Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2324-2',
+  level: 'error',
+  timestamp: '2022-06-07T12:45:57.601Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_777-3',
+  level: 'error',
+  timestamp: '2022-06-07T12:45:57.976Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_1742-6',
+  level: 'error',
+  timestamp: '2022-06-07T12:45:58.223Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_789-8',
+  level: 'error',
+  timestamp: '2022-06-07T12:45:58.496Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2160-0',
+  level: 'error',
+  timestamp: '2022-06-07T12:45:58.798Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_718-7',
+  level: 'error',
+  timestamp: '2022-06-07T12:45:59.048Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_4544-3',
+  level: 'error',
+  timestamp: '2022-06-07T12:45:59.297Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8867-4',
+  level: 'error',
+  timestamp: '2022-06-07T12:45:59.550Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_29430-6',
+  level: 'error',
+  timestamp: '2022-06-07T12:45:59.910Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_10230-1',
+  level: 'error',
+  timestamp: '2022-06-07T12:46:00.178Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-06-07T12:46:00.436Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-06-07T12:46:00.439Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_30954-2',
+  level: 'error',
+  timestamp: '2022-06-08T09:53:19.932Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2345-7',
+  level: 'error',
+  timestamp: '2022-06-08T09:53:20.198Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_718-7',
+  level: 'error',
+  timestamp: '2022-06-08T09:53:20.442Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_4544-3',
+  level: 'error',
+  timestamp: '2022-06-08T09:53:20.733Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2324-2',
+  level: 'error',
+  timestamp: '2022-06-08T09:53:21.007Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_1742-6',
+  level: 'error',
+  timestamp: '2022-06-08T09:53:21.254Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_777-3',
+  level: 'error',
+  timestamp: '2022-06-08T09:53:21.515Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_789-8',
+  level: 'error',
+  timestamp: '2022-06-08T09:53:21.787Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2160-0',
+  level: 'error',
+  timestamp: '2022-06-08T09:53:22.053Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8867-4',
+  level: 'error',
+  timestamp: '2022-06-08T09:53:22.299Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_29430-6',
+  level: 'error',
+  timestamp: '2022-06-08T09:53:22.574Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_10230-1',
+  level: 'error',
+  timestamp: '2022-06-08T09:53:22.827Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-06-08T09:53:23.081Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-06-08T09:53:23.083Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_30954-2',
+  level: 'error',
+  timestamp: '2022-06-08T10:05:26.579Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_789-8',
+  level: 'error',
+  timestamp: '2022-06-08T10:05:26.821Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_777-3',
+  level: 'error',
+  timestamp: '2022-06-08T10:05:27.075Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_718-7',
+  level: 'error',
+  timestamp: '2022-06-08T10:05:27.354Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2345-7',
+  level: 'error',
+  timestamp: '2022-06-08T10:05:27.598Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_4544-3',
+  level: 'error',
+  timestamp: '2022-06-08T10:05:27.843Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2160-0',
+  level: 'error',
+  timestamp: '2022-06-08T10:05:28.089Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_1742-6',
+  level: 'error',
+  timestamp: '2022-06-08T10:05:28.384Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2324-2',
+  level: 'error',
+  timestamp: '2022-06-08T10:05:28.629Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8867-4',
+  level: 'error',
+  timestamp: '2022-06-08T10:05:28.871Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_10230-1',
+  level: 'error',
+  timestamp: '2022-06-08T10:05:29.151Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_29430-6',
+  level: 'error',
+  timestamp: '2022-06-08T10:05:29.431Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-06-08T10:05:29.676Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-06-08T10:05:29.678Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_30954-2',
+  level: 'error',
+  timestamp: '2022-06-08T10:09:01.879Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2324-2',
+  level: 'error',
+  timestamp: '2022-06-08T10:09:02.121Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_1742-6',
+  level: 'error',
+  timestamp: '2022-06-08T10:09:02.380Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_4544-3',
+  level: 'error',
+  timestamp: '2022-06-08T10:09:02.619Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_718-7',
+  level: 'error',
+  timestamp: '2022-06-08T10:09:02.914Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_777-3',
+  level: 'error',
+  timestamp: '2022-06-08T10:09:03.168Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2160-0',
+  level: 'error',
+  timestamp: '2022-06-08T10:09:03.606Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_789-8',
+  level: 'error',
+  timestamp: '2022-06-08T10:09:04.164Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2345-7',
+  level: 'error',
+  timestamp: '2022-06-08T10:09:04.760Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8867-4',
+  level: 'error',
+  timestamp: '2022-06-08T10:09:05.485Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_29430-6',
+  level: 'error',
+  timestamp: '2022-06-08T10:09:06.174Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_10230-1',
+  level: 'error',
+  timestamp: '2022-06-08T10:09:06.673Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-06-08T10:09:07.175Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-06-08T10:09:07.186Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_30954-2',
+  level: 'error',
+  timestamp: '2022-06-08T10:11:51.232Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2160-0',
+  level: 'error',
+  timestamp: '2022-06-08T10:11:51.473Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_4544-3',
+  level: 'error',
+  timestamp: '2022-06-08T10:11:51.755Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_1742-6',
+  level: 'error',
+  timestamp: '2022-06-08T10:11:52.018Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2345-7',
+  level: 'error',
+  timestamp: '2022-06-08T10:11:52.269Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2324-2',
+  level: 'error',
+  timestamp: '2022-06-08T10:11:52.502Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_718-7',
+  level: 'error',
+  timestamp: '2022-06-08T10:11:52.800Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_789-8',
+  level: 'error',
+  timestamp: '2022-06-08T10:11:53.047Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_777-3',
+  level: 'error',
+  timestamp: '2022-06-08T10:11:53.291Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8867-4',
+  level: 'error',
+  timestamp: '2022-06-08T10:11:53.539Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_30954-2',
+  level: 'error',
+  timestamp: '2022-06-08T10:18:37.211Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_789-8',
+  level: 'error',
+  timestamp: '2022-06-08T10:18:37.489Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_718-7',
+  level: 'error',
+  timestamp: '2022-06-08T10:18:37.739Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_1742-6',
+  level: 'error',
+  timestamp: '2022-06-08T10:18:37.989Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_777-3',
+  level: 'error',
+  timestamp: '2022-06-08T10:18:38.289Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2345-7',
+  level: 'error',
+  timestamp: '2022-06-08T10:18:38.541Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2324-2',
+  level: 'error',
+  timestamp: '2022-06-08T10:18:38.795Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2160-0',
+  level: 'error',
+  timestamp: '2022-06-08T10:18:39.047Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_4544-3',
+  level: 'error',
+  timestamp: '2022-06-08T10:18:39.344Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8867-4',
+  level: 'error',
+  timestamp: '2022-06-08T10:18:39.596Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_30954-2',
+  level: 'error',
+  timestamp: '2022-06-08T10:20:38.945Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_718-7',
+  level: 'error',
+  timestamp: '2022-06-08T10:20:39.199Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2324-2',
+  level: 'error',
+  timestamp: '2022-06-08T10:20:39.499Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_1742-6',
+  level: 'error',
+  timestamp: '2022-06-08T10:20:39.749Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2345-7',
+  level: 'error',
+  timestamp: '2022-06-08T10:20:40.001Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_4544-3',
+  level: 'error',
+  timestamp: '2022-06-08T10:20:40.250Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2160-0',
+  level: 'error',
+  timestamp: '2022-06-08T10:20:40.553Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_777-3',
+  level: 'error',
+  timestamp: '2022-06-08T10:20:40.805Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_789-8',
+  level: 'error',
+  timestamp: '2022-06-08T10:20:41.056Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_30954-2',
+  level: 'error',
+  timestamp: '2022-06-08T10:23:26.759Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_718-7',
+  level: 'error',
+  timestamp: '2022-06-08T10:23:26.776Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2324-2',
+  level: 'error',
+  timestamp: '2022-06-08T10:23:26.791Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_1742-6',
+  level: 'error',
+  timestamp: '2022-06-08T10:23:26.796Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2345-7',
+  level: 'error',
+  timestamp: '2022-06-08T10:23:26.800Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_4544-3',
+  level: 'error',
+  timestamp: '2022-06-08T10:23:26.821Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2160-0',
+  level: 'error',
+  timestamp: '2022-06-08T10:23:26.866Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_777-3',
+  level: 'error',
+  timestamp: '2022-06-08T10:23:26.881Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_789-8',
+  level: 'error',
+  timestamp: '2022-06-08T10:23:26.926Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8867-4',
+  level: 'error',
+  timestamp: '2022-06-08T10:23:27.276Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_30954-2',
+  level: 'error',
+  timestamp: '2022-06-08T10:24:27.938Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_718-7',
+  level: 'error',
+  timestamp: '2022-06-08T10:24:27.943Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2324-2',
+  level: 'error',
+  timestamp: '2022-06-08T10:24:27.946Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_1742-6',
+  level: 'error',
+  timestamp: '2022-06-08T10:24:27.949Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2345-7',
+  level: 'error',
+  timestamp: '2022-06-08T10:24:27.952Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_4544-3',
+  level: 'error',
+  timestamp: '2022-06-08T10:24:27.964Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2160-0',
+  level: 'error',
+  timestamp: '2022-06-08T10:24:27.969Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_777-3',
+  level: 'error',
+  timestamp: '2022-06-08T10:24:27.972Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_789-8',
+  level: 'error',
+  timestamp: '2022-06-08T10:24:27.984Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_30954-2',
+  level: 'error',
+  timestamp: '2022-06-08T10:25:42.337Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_718-7',
+  level: 'error',
+  timestamp: '2022-06-08T10:25:42.343Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2324-2',
+  level: 'error',
+  timestamp: '2022-06-08T10:25:42.347Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_1742-6',
+  level: 'error',
+  timestamp: '2022-06-08T10:25:42.350Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2345-7',
+  level: 'error',
+  timestamp: '2022-06-08T10:25:42.358Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_4544-3',
+  level: 'error',
+  timestamp: '2022-06-08T10:25:42.371Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2160-0',
+  level: 'error',
+  timestamp: '2022-06-08T10:25:42.390Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_777-3',
+  level: 'error',
+  timestamp: '2022-06-08T10:25:42.401Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_789-8',
+  level: 'error',
+  timestamp: '2022-06-08T10:25:42.425Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8867-4',
+  level: 'error',
+  timestamp: '2022-06-08T10:25:42.450Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8462-4',
+  level: 'error',
+  timestamp: '2022-06-08T12:58:14.638Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8867-4',
+  level: 'error',
+  timestamp: '2022-06-08T12:58:14.934Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8480-6',
+  level: 'error',
+  timestamp: '2022-06-08T12:58:15.235Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8867-4',
+  level: 'error',
+  timestamp: '2022-06-08T13:00:35.888Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8462-4',
+  level: 'error',
+  timestamp: '2022-06-08T13:00:36.154Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8480-6',
+  level: 'error',
+  timestamp: '2022-06-08T13:00:36.441Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8462-4',
+  level: 'error',
+  timestamp: '2022-06-08T13:08:15.828Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8480-6',
+  level: 'error',
+  timestamp: '2022-06-08T13:08:16.115Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8867-4',
+  level: 'error',
+  timestamp: '2022-06-08T13:08:16.389Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8867-4',
+  level: 'error',
+  timestamp: '2022-06-08T13:19:48.662Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8480-6',
+  level: 'error',
+  timestamp: '2022-06-08T13:19:48.865Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8462-4',
+  level: 'error',
+  timestamp: '2022-06-08T13:19:49.066Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8867-4',
+  level: 'error',
+  timestamp: '2022-06-08T13:22:30.727Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8462-4',
+  level: 'error',
+  timestamp: '2022-06-08T13:22:31.026Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8480-6',
+  level: 'error',
+  timestamp: '2022-06-08T13:22:31.267Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8480-6',
+  level: 'error',
+  timestamp: '2022-06-08T13:24:52.796Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8462-4',
+  level: 'error',
+  timestamp: '2022-06-08T13:24:53.100Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8867-4',
+  level: 'error',
+  timestamp: '2022-06-08T13:24:53.341Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_30954-2',
+  level: 'error',
+  timestamp: '2022-06-08T13:28:42.078Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2160-0',
+  level: 'error',
+  timestamp: '2022-06-08T13:28:42.317Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_718-7',
+  level: 'error',
+  timestamp: '2022-06-08T13:28:42.572Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_4544-3',
+  level: 'error',
+  timestamp: '2022-06-08T13:28:42.850Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2324-2',
+  level: 'error',
+  timestamp: '2022-06-08T13:28:43.093Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2345-7',
+  level: 'error',
+  timestamp: '2022-06-08T13:28:43.335Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_789-8',
+  level: 'error',
+  timestamp: '2022-06-08T13:28:43.581Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_777-3',
+  level: 'error',
+  timestamp: '2022-06-08T13:28:43.866Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_1742-6',
+  level: 'error',
+  timestamp: '2022-06-08T13:28:44.120Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8462-4',
+  level: 'error',
+  timestamp: '2022-06-08T13:28:44.375Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8480-6',
+  level: 'error',
+  timestamp: '2022-06-08T13:28:44.617Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8867-4',
+  level: 'error',
+  timestamp: '2022-06-08T13:28:44.903Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8867-4',
+  level: 'error',
+  timestamp: '2022-06-08T13:28:44.905Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_10230-1',
+  level: 'error',
+  timestamp: '2022-06-08T13:28:45.169Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_29430-6',
+  level: 'error',
+  timestamp: '2022-06-08T13:28:45.420Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-06-08T13:28:45.697Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-06-08T13:28:45.699Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_30954-2',
+  level: 'error',
+  timestamp: '2022-06-10T08:19:03.537Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_789-8',
+  level: 'error',
+  timestamp: '2022-06-10T08:19:03.859Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2345-7',
+  level: 'error',
+  timestamp: '2022-06-10T08:19:04.114Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_777-3',
+  level: 'error',
+  timestamp: '2022-06-10T08:19:04.363Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2160-0',
+  level: 'error',
+  timestamp: '2022-06-10T08:19:04.613Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2324-2',
+  level: 'error',
+  timestamp: '2022-06-10T08:19:04.964Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_718-7',
+  level: 'error',
+  timestamp: '2022-06-10T08:19:05.274Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_1742-6',
+  level: 'error',
+  timestamp: '2022-06-10T08:19:05.531Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_4544-3',
+  level: 'error',
+  timestamp: '2022-06-10T08:19:05.819Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8480-6',
+  level: 'error',
+  timestamp: '2022-06-10T08:19:06.091Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8867-4',
+  level: 'error',
+  timestamp: '2022-06-10T08:19:06.454Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8462-4',
+  level: 'error',
+  timestamp: '2022-06-10T08:19:06.786Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd9_8952',
+  level: 'error',
+  timestamp: '2022-06-10T08:19:07.057Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8867-4',
+  level: 'error',
+  timestamp: '2022-06-10T08:19:07.060Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd9_8952',
+  level: 'error',
+  timestamp: '2022-06-10T08:19:07.063Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd9_8873',
+  level: 'error',
+  timestamp: '2022-06-10T08:19:07.331Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_29430-6',
+  level: 'error',
+  timestamp: '2022-06-10T08:19:07.583Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_10230-1',
+  level: 'error',
+  timestamp: '2022-06-10T08:19:07.886Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-06-10T08:19:08.138Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd9_4011',
+  level: 'error',
+  timestamp: '2022-06-10T08:19:08.472Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-06-10T08:19:08.475Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd9_2720',
+  level: 'error',
+  timestamp: '2022-06-10T08:19:08.768Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_18776-5',
+  level: 'error',
+  timestamp: '2022-06-19T10:21:06.429Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_1742-6',
+  level: 'error',
+  timestamp: '2022-06-19T10:21:06.693Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2324-2',
+  level: 'error',
+  timestamp: '2022-06-19T10:21:08.111Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2160-0',
+  level: 'error',
+  timestamp: '2022-06-19T10:21:08.368Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8462-4',
+  level: 'error',
+  timestamp: '2022-06-19T10:21:09.225Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_29545-1',
+  level: 'error',
+  timestamp: '2022-06-19T10:21:10.060Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_29299-5',
+  level: 'error',
+  timestamp: '2022-06-19T10:21:10.330Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd9_8952',
+  level: 'error',
+  timestamp: '2022-06-19T10:21:10.584Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd9_8952',
+  level: 'error',
+  timestamp: '2022-06-19T10:21:10.587Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd9_8873',
+  level: 'error',
+  timestamp: '2022-06-19T10:21:10.858Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_29430-6',
+  level: 'error',
+  timestamp: '2022-06-19T10:21:11.111Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_10230-1',
+  level: 'error',
+  timestamp: '2022-06-19T10:21:11.367Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_18776-5',
+  level: 'error',
+  timestamp: '2022-06-19T10:24:28.845Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_1742-6',
+  level: 'error',
+  timestamp: '2022-06-19T10:24:28.853Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2324-2',
+  level: 'error',
+  timestamp: '2022-06-19T10:24:28.936Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2160-0',
+  level: 'error',
+  timestamp: '2022-06-19T10:24:28.942Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8462-4',
+  level: 'error',
+  timestamp: '2022-06-19T10:24:28.980Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_29545-1',
+  level: 'error',
+  timestamp: '2022-06-19T10:24:29.016Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_29299-5',
+  level: 'error',
+  timestamp: '2022-06-19T10:24:29.026Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd9_8952',
+  level: 'error',
+  timestamp: '2022-06-19T10:24:29.038Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd9_8952',
+  level: 'error',
+  timestamp: '2022-06-19T10:24:29.054Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd9_8873',
+  level: 'error',
+  timestamp: '2022-06-19T10:24:29.086Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_29430-6',
+  level: 'error',
+  timestamp: '2022-06-19T10:24:29.098Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_10230-1',
+  level: 'error',
+  timestamp: '2022-06-19T10:24:29.109Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_18776-5',
+  level: 'error',
+  timestamp: '2022-06-20T11:52:39.110Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2160-0',
+  level: 'error',
+  timestamp: '2022-06-20T11:52:39.390Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2324-2',
+  level: 'error',
+  timestamp: '2022-06-20T11:52:41.082Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_1742-6',
+  level: 'error',
+  timestamp: '2022-06-20T11:52:41.739Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_29545-1',
+  level: 'error',
+  timestamp: '2022-06-20T11:52:43.281Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8462-4',
+  level: 'error',
+  timestamp: '2022-06-20T11:52:44.152Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_29299-5',
+  level: 'error',
+  timestamp: '2022-06-20T11:52:44.442Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd9_8952',
+  level: 'error',
+  timestamp: '2022-06-20T11:52:44.704Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd9_8952',
+  level: 'error',
+  timestamp: '2022-06-20T11:52:44.708Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd9_8873',
+  level: 'error',
+  timestamp: '2022-06-20T11:52:45.016Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_29430-6',
+  level: 'error',
+  timestamp: '2022-06-20T11:52:45.327Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_10230-1',
+  level: 'error',
+  timestamp: '2022-06-20T11:52:45.590Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd9_8872',
+  level: 'error',
+  timestamp: '2022-06-20T11:52:45.878Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd9_8872',
+  level: 'error',
+  timestamp: '2022-06-20T12:50:33.332Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd9_8872',
+  level: 'error',
+  timestamp: '2022-06-20T12:50:33.341Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_29430-6',
+  level: 'error',
+  timestamp: '2022-06-20T12:50:33.588Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_10230-1',
+  level: 'error',
+  timestamp: '2022-06-20T12:50:33.887Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_1742-6',
+  level: 'error',
+  timestamp: '2022-06-20T12:50:34.166Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2160-0',
+  level: 'error',
+  timestamp: '2022-06-20T12:50:36.335Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2324-2',
+  level: 'error',
+  timestamp: '2022-06-20T12:50:36.594Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd9_8952',
+  level: 'error',
+  timestamp: '2022-06-20T12:50:37.252Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd9_8952',
+  level: 'error',
+  timestamp: '2022-06-20T12:50:37.630Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-06-20T12:50:37.926Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd9_2720',
+  level: 'error',
+  timestamp: '2022-06-20T12:50:38.240Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-06-20T12:50:38.243Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd9_4011',
+  level: 'error',
+  timestamp: '2022-06-20T12:50:38.496Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd9_8872',
+  level: 'error',
+  timestamp: '2022-06-20T12:53:57.663Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd9_8872',
+  level: 'error',
+  timestamp: '2022-06-20T12:53:57.693Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_29430-6',
+  level: 'error',
+  timestamp: '2022-06-20T12:53:57.709Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_10230-1',
+  level: 'error',
+  timestamp: '2022-06-20T12:53:57.735Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_1742-6',
+  level: 'error',
+  timestamp: '2022-06-20T12:53:57.749Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2160-0',
+  level: 'error',
+  timestamp: '2022-06-20T12:53:57.923Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2324-2',
+  level: 'error',
+  timestamp: '2022-06-20T12:53:57.930Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd9_8952',
+  level: 'error',
+  timestamp: '2022-06-20T12:53:57.981Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd9_8952',
+  level: 'error',
+  timestamp: '2022-06-20T12:53:58.002Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-06-20T12:53:58.037Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd9_2720',
+  level: 'error',
+  timestamp: '2022-06-20T12:53:58.043Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-06-20T12:53:58.050Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd9_4011',
+  level: 'error',
+  timestamp: '2022-06-20T12:53:58.071Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd9_8872',
+  level: 'error',
+  timestamp: '2022-06-20T12:57:10.374Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd9_8872',
+  level: 'error',
+  timestamp: '2022-06-20T12:57:10.380Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_29430-6',
+  level: 'error',
+  timestamp: '2022-06-20T12:57:10.680Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_10230-1',
+  level: 'error',
+  timestamp: '2022-06-20T12:57:10.945Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_1742-6',
+  level: 'error',
+  timestamp: '2022-06-20T12:57:11.202Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_30954-2',
+  level: 'error',
+  timestamp: '2022-06-20T12:57:11.461Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_718-7',
+  level: 'error',
+  timestamp: '2022-06-20T12:57:11.736Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2345-7',
+  level: 'error',
+  timestamp: '2022-06-20T12:57:12.032Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_777-3',
+  level: 'error',
+  timestamp: '2022-06-20T12:57:12.383Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_4544-3',
+  level: 'error',
+  timestamp: '2022-06-20T12:57:12.712Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2160-0',
+  level: 'error',
+  timestamp: '2022-06-20T12:57:12.977Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2324-2',
+  level: 'error',
+  timestamp: '2022-06-20T12:57:13.201Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_789-8',
+  level: 'error',
+  timestamp: '2022-06-20T12:57:13.429Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd9_8952',
+  level: 'error',
+  timestamp: '2022-06-20T12:57:13.679Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8867-4',
+  level: 'error',
+  timestamp: '2022-06-20T12:57:13.933Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd9_8952',
+  level: 'error',
+  timestamp: '2022-06-20T12:57:13.935Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-06-20T12:57:14.161Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd9_2720',
+  level: 'error',
+  timestamp: '2022-06-20T12:57:14.380Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-06-20T12:57:14.383Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd9_4011',
+  level: 'error',
+  timestamp: '2022-06-20T12:57:14.639Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2324-2',
+  level: 'error',
+  timestamp: '2022-06-22T12:51:47.060Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_1742-6',
+  level: 'error',
+  timestamp: '2022-06-22T12:51:47.947Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2160-0',
+  level: 'error',
+  timestamp: '2022-06-22T12:51:48.581Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8462-4',
+  level: 'error',
+  timestamp: '2022-06-22T12:51:49.170Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_29545-1',
+  level: 'error',
+  timestamp: '2022-06-22T12:51:49.734Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd9_8872',
+  level: 'error',
+  timestamp: '2022-06-22T12:51:50.012Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_10230-1',
+  level: 'error',
+  timestamp: '2022-06-22T12:51:50.317Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd9_8872',
+  level: 'error',
+  timestamp: '2022-06-22T12:51:50.323Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_29430-6',
+  level: 'error',
+  timestamp: '2022-06-22T12:51:50.583Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-06-22T12:51:50.839Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-06-22T12:51:50.842Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_11329-0',
+  level: 'error',
+  timestamp: '2022-06-22T12:51:51.138Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_55110-1',
+  level: 'error',
+  timestamp: '2022-06-22T12:51:51.419Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2324-2',
+  level: 'error',
+  timestamp: '2022-06-22T13:09:00.945Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_1742-6',
+  level: 'error',
+  timestamp: '2022-06-22T13:09:00.997Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2160-0',
+  level: 'error',
+  timestamp: '2022-06-22T13:09:01.030Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8462-4',
+  level: 'error',
+  timestamp: '2022-06-22T13:09:01.075Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_29545-1',
+  level: 'error',
+  timestamp: '2022-06-22T13:09:01.102Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd9_8872',
+  level: 'error',
+  timestamp: '2022-06-22T13:09:01.130Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_10230-1',
+  level: 'error',
+  timestamp: '2022-06-22T13:09:01.148Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd9_8872',
+  level: 'error',
+  timestamp: '2022-06-22T13:09:01.155Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_29430-6',
+  level: 'error',
+  timestamp: '2022-06-22T13:09:01.171Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-06-22T13:09:01.194Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-06-22T13:09:01.217Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_11329-0',
+  level: 'error',
+  timestamp: '2022-06-22T13:09:01.258Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_55110-1',
+  level: 'error',
+  timestamp: '2022-06-22T13:09:01.279Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2160-0',
+  level: 'error',
+  timestamp: '2022-06-23T08:45:48.777Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_1742-6',
+  level: 'error',
+  timestamp: '2022-06-23T08:45:49.590Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2324-2',
+  level: 'error',
+  timestamp: '2022-06-23T08:45:50.162Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:atc_substance)',
+  level: 'error',
+  timestamp: '2022-06-23T08:45:50.694Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2160-0',
+  level: 'error',
+  timestamp: '2022-06-23T08:49:59.261Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_1742-6',
+  level: 'error',
+  timestamp: '2022-06-23T08:49:59.294Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2324-2',
+  level: 'error',
+  timestamp: '2022-06-23T08:49:59.304Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:atc_substance)',
+  level: 'error',
+  timestamp: '2022-06-23T08:49:59.313Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2160-0',
+  level: 'error',
+  timestamp: '2022-06-23T09:00:21.311Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_1742-6',
+  level: 'error',
+  timestamp: '2022-06-23T09:00:21.342Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2324-2',
+  level: 'error',
+  timestamp: '2022-06-23T09:00:21.355Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:atc_atc_c09ca06',
+  level: 'error',
+  timestamp: '2022-06-23T09:00:21.670Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2160-0',
+  level: 'error',
+  timestamp: '2022-06-23T09:03:02.659Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_1742-6',
+  level: 'error',
+  timestamp: '2022-06-23T09:03:02.691Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2324-2',
+  level: 'error',
+  timestamp: '2022-06-23T09:03:02.700Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:atc_atc_c09ca06',
+  level: 'error',
+  timestamp: '2022-06-23T09:03:02.718Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2160-0',
+  level: 'error',
+  timestamp: '2022-06-23T09:03:45.219Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_1742-6',
+  level: 'error',
+  timestamp: '2022-06-23T09:03:45.243Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2324-2',
+  level: 'error',
+  timestamp: '2022-06-23T09:03:45.263Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:atc_atc_c09ca06',
+  level: 'error',
+  timestamp: '2022-06-23T09:03:45.279Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2160-0',
+  level: 'error',
+  timestamp: '2022-06-23T09:07:10.660Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_1742-6',
+  level: 'error',
+  timestamp: '2022-06-23T09:07:10.709Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2324-2',
+  level: 'error',
+  timestamp: '2022-06-23T09:07:10.738Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2160-0',
+  level: 'error',
+  timestamp: '2022-06-23T09:11:50.140Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_1742-6',
+  level: 'error',
+  timestamp: '2022-06-23T09:11:50.173Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2324-2',
+  level: 'error',
+  timestamp: '2022-06-23T09:11:50.182Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2160-0',
+  level: 'error',
+  timestamp: '2022-06-23T09:13:05.868Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_1742-6',
+  level: 'error',
+  timestamp: '2022-06-23T09:13:05.904Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2324-2',
+  level: 'error',
+  timestamp: '2022-06-23T09:13:05.934Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2160-0',
+  level: 'error',
+  timestamp: '2022-06-23T09:14:13.470Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_1742-6',
+  level: 'error',
+  timestamp: '2022-06-23T09:14:13.499Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2324-2',
+  level: 'error',
+  timestamp: '2022-06-23T09:14:13.514Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2160-0',
+  level: 'error',
+  timestamp: '2022-06-23T09:16:21.811Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_1742-6',
+  level: 'error',
+  timestamp: '2022-06-23T09:16:21.826Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2324-2',
+  level: 'error',
+  timestamp: '2022-06-23T09:16:21.833Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2160-0',
+  level: 'error',
+  timestamp: '2022-06-23T09:16:51.131Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_1742-6',
+  level: 'error',
+  timestamp: '2022-06-23T09:16:51.162Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2324-2',
+  level: 'error',
+  timestamp: '2022-06-23T09:16:51.170Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2160-0',
+  level: 'error',
+  timestamp: '2022-06-23T09:17:52.187Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_1742-6',
+  level: 'error',
+  timestamp: '2022-06-23T09:17:52.216Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2324-2',
+  level: 'error',
+  timestamp: '2022-06-23T09:17:52.238Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2160-0',
+  level: 'error',
+  timestamp: '2022-06-23T09:19:56.154Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_1742-6',
+  level: 'error',
+  timestamp: '2022-06-23T09:19:56.195Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2324-2',
+  level: 'error',
+  timestamp: '2022-06-23T09:19:56.203Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2160-0',
+  level: 'error',
+  timestamp: '2022-06-23T09:22:42.203Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_1742-6',
+  level: 'error',
+  timestamp: '2022-06-23T09:22:42.227Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2324-2',
+  level: 'error',
+  timestamp: '2022-06-23T09:22:42.242Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_1742-6',
+  level: 'error',
+  timestamp: '2022-06-23T14:06:18.605Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2160-0',
+  level: 'error',
+  timestamp: '2022-06-23T14:06:19.044Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2324-2',
+  level: 'error',
+  timestamp: '2022-06-23T14:06:20.702Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8462-4',
+  level: 'error',
+  timestamp: '2022-06-23T14:06:21.509Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_29545-1',
+  level: 'error',
+  timestamp: '2022-06-23T14:06:21.740Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd9_8872',
+  level: 'error',
+  timestamp: '2022-06-23T14:06:21.999Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd9_8872',
+  level: 'error',
+  timestamp: '2022-06-23T14:06:22.003Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_10230-1',
+  level: 'error',
+  timestamp: '2022-06-23T14:06:22.262Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_29430-6',
+  level: 'error',
+  timestamp: '2022-06-23T14:06:22.519Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-06-23T14:06:22.998Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-06-23T14:06:23.001Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_11329-0',
+  level: 'error',
+  timestamp: '2022-06-23T14:06:23.253Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_55110-1',
+  level: 'error',
+  timestamp: '2022-06-23T14:06:23.490Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_18776-5',
+  level: 'error',
+  timestamp: '2022-06-23T15:04:13.351Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_29299-5',
+  level: 'error',
+  timestamp: '2022-06-23T15:04:13.556Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2160-0',
+  level: 'error',
+  timestamp: '2022-06-23T15:04:14.671Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2324-2',
+  level: 'error',
+  timestamp: '2022-06-23T15:04:14.869Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_1742-6',
+  level: 'error',
+  timestamp: '2022-06-23T15:04:15.069Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8462-4',
+  level: 'error',
+  timestamp: '2022-06-23T15:04:16.175Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_29545-1',
+  level: 'error',
+  timestamp: '2022-06-23T15:04:16.372Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd9_8952',
+  level: 'error',
+  timestamp: '2022-06-23T15:04:16.575Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd9_8952',
+  level: 'error',
+  timestamp: '2022-06-23T15:04:16.577Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd9_8872',
+  level: 'error',
+  timestamp: '2022-06-23T15:04:16.804Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd9_8872',
+  level: 'error',
+  timestamp: '2022-06-23T15:04:16.806Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_29430-6',
+  level: 'error',
+  timestamp: '2022-06-23T15:04:17.076Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_10230-1',
+  level: 'error',
+  timestamp: '2022-06-23T15:04:17.274Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_55110-1',
+  level: 'error',
+  timestamp: '2022-06-23T15:04:17.475Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-06-23T15:04:17.681Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd9_4011',
+  level: 'error',
+  timestamp: '2022-06-23T15:04:17.880Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-06-23T15:04:17.884Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd9_2720',
+  level: 'error',
+  timestamp: '2022-06-23T15:04:18.101Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-06-23T15:04:18.103Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_11329-0',
+  level: 'error',
+  timestamp: '2022-06-23T15:04:18.326Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2324-2',
+  level: 'error',
+  timestamp: '2022-06-23T15:58:52.430Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_1742-6',
+  level: 'error',
+  timestamp: '2022-06-23T15:58:53.432Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2160-0',
+  level: 'error',
+  timestamp: '2022-06-23T15:58:53.894Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8462-4',
+  level: 'error',
+  timestamp: '2022-06-23T15:58:54.368Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_29545-1',
+  level: 'error',
+  timestamp: '2022-06-23T15:58:55.070Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd9_8872',
+  level: 'error',
+  timestamp: '2022-06-23T15:58:55.317Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd9_8872',
+  level: 'error',
+  timestamp: '2022-06-23T15:58:55.319Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_10230-1',
+  level: 'error',
+  timestamp: '2022-06-23T15:58:55.550Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_29430-6',
+  level: 'error',
+  timestamp: '2022-06-23T15:58:55.765Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-06-23T15:58:56.226Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-06-23T15:58:56.229Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_11329-0',
+  level: 'error',
+  timestamp: '2022-06-23T15:58:56.467Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_55110-1',
+  level: 'error',
+  timestamp: '2022-06-23T15:58:56.676Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2160-0',
+  level: 'error',
+  timestamp: '2022-06-23T16:20:46.475Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2324-2',
+  level: 'error',
+  timestamp: '2022-06-23T16:20:46.993Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_1742-6',
+  level: 'error',
+  timestamp: '2022-06-23T16:20:47.456Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_55110-1',
+  level: 'error',
+  timestamp: '2022-06-23T16:20:48.731Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_18776-5',
+  level: 'error',
+  timestamp: '2022-06-23T18:38:47.191Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_1742-6',
+  level: 'error',
+  timestamp: '2022-06-23T18:38:47.995Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2324-2',
+  level: 'error',
+  timestamp: '2022-06-23T18:38:48.772Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2160-0',
+  level: 'error',
+  timestamp: '2022-06-23T18:38:49.267Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8462-4',
+  level: 'error',
+  timestamp: '2022-06-23T18:38:49.787Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_29545-1',
+  level: 'error',
+  timestamp: '2022-06-23T18:38:50.563Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_29299-5',
+  level: 'error',
+  timestamp: '2022-06-23T18:38:50.814Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd9_8872',
+  level: 'error',
+  timestamp: '2022-06-23T18:38:51.097Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd9_8872',
+  level: 'error',
+  timestamp: '2022-06-23T18:38:51.099Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_29430-6',
+  level: 'error',
+  timestamp: '2022-06-23T18:38:51.376Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_10230-1',
+  level: 'error',
+  timestamp: '2022-06-23T18:38:51.611Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-06-23T18:38:51.852Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-06-23T18:38:51.854Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_11329-0',
+  level: 'error',
+  timestamp: '2022-06-23T18:38:52.154Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_55110-1',
+  level: 'error',
+  timestamp: '2022-06-23T18:38:52.387Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_18776-5',
+  level: 'error',
+  timestamp: '2022-06-23T19:00:11.332Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2324-2',
+  level: 'error',
+  timestamp: '2022-06-23T19:00:11.569Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2160-0',
+  level: 'error',
+  timestamp: '2022-06-23T19:00:13.570Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_1742-6',
+  level: 'error',
+  timestamp: '2022-06-23T19:00:14.062Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8462-4',
+  level: 'error',
+  timestamp: '2022-06-23T19:00:14.788Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_29545-1',
+  level: 'error',
+  timestamp: '2022-06-23T19:00:14.998Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_29299-5',
+  level: 'error',
+  timestamp: '2022-06-23T19:00:15.207Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd9_8872',
+  level: 'error',
+  timestamp: '2022-06-23T19:00:15.496Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_10230-1',
+  level: 'error',
+  timestamp: '2022-06-23T19:00:15.897Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd9_8872',
+  level: 'error',
+  timestamp: '2022-06-23T19:00:15.900Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_29430-6',
+  level: 'error',
+  timestamp: '2022-06-23T19:00:16.221Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-06-23T19:00:16.427Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-06-23T19:00:16.429Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_11329-0',
+  level: 'error',
+  timestamp: '2022-06-23T19:00:16.702Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_55110-1',
+  level: 'error',
+  timestamp: '2022-06-23T19:00:16.921Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_18776-5',
+  level: 'error',
+  timestamp: '2022-06-24T08:15:19.279Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2324-2',
+  level: 'error',
+  timestamp: '2022-06-24T08:15:19.566Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2160-0',
+  level: 'error',
+  timestamp: '2022-06-24T08:15:20.168Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_1742-6',
+  level: 'error',
+  timestamp: '2022-06-24T08:15:20.511Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8462-4',
+  level: 'error',
+  timestamp: '2022-06-24T08:15:22.233Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_29545-1',
+  level: 'error',
+  timestamp: '2022-06-24T08:15:23.072Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_29299-5',
+  level: 'error',
+  timestamp: '2022-06-24T08:15:23.343Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd9_8872',
+  level: 'error',
+  timestamp: '2022-06-24T08:15:23.646Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_29430-6',
+  level: 'error',
+  timestamp: '2022-06-24T08:15:23.908Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd9_8872',
+  level: 'error',
+  timestamp: '2022-06-24T08:15:23.910Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_10230-1',
+  level: 'error',
+  timestamp: '2022-06-24T08:15:24.226Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-06-24T08:15:24.785Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-06-24T08:15:24.788Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_11329-0',
+  level: 'error',
+  timestamp: '2022-06-24T08:15:25.115Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_55110-1',
+  level: 'error',
+  timestamp: '2022-06-24T08:15:25.446Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_18776-5',
+  level: 'error',
+  timestamp: '2022-06-24T08:27:53.541Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_1742-6',
+  level: 'error',
+  timestamp: '2022-06-24T08:27:54.499Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2160-0',
+  level: 'error',
+  timestamp: '2022-06-24T08:27:55.302Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2324-2',
+  level: 'error',
+  timestamp: '2022-06-24T08:27:55.779Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8462-4',
+  level: 'error',
+  timestamp: '2022-06-24T08:27:56.563Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_29545-1',
+  level: 'error',
+  timestamp: '2022-06-24T08:27:57.045Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_29299-5',
+  level: 'error',
+  timestamp: '2022-06-24T08:27:57.300Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd9_8872',
+  level: 'error',
+  timestamp: '2022-06-24T08:27:57.551Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd9_8872',
+  level: 'error',
+  timestamp: '2022-06-24T08:27:57.553Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_10230-1',
+  level: 'error',
+  timestamp: '2022-06-24T08:27:57.805Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_29430-6',
+  level: 'error',
+  timestamp: '2022-06-24T08:27:58.042Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-06-24T08:27:58.562Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-06-24T08:27:58.564Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_11329-0',
+  level: 'error',
+  timestamp: '2022-06-24T08:27:58.819Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_55110-1',
+  level: 'error',
+  timestamp: '2022-06-24T08:27:59.047Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd9_8952',
+  level: 'error',
+  timestamp: '2022-06-28T20:25:39.846Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2160-0',
+  level: 'error',
+  timestamp: '2022-07-01T06:49:40.817Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_1742-6',
+  level: 'error',
+  timestamp: '2022-07-01T06:49:41.610Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2324-2',
+  level: 'error',
+  timestamp: '2022-07-01T06:49:42.419Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd9_8952',
+  level: 'error',
+  timestamp: '2022-07-01T06:49:43.225Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd9_8872',
+  level: 'error',
+  timestamp: '2022-07-01T06:49:43.731Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_29430-6',
+  level: 'error',
+  timestamp: '2022-07-01T06:49:43.973Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd9_8872',
+  level: 'error',
+  timestamp: '2022-07-01T06:49:43.979Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_10230-1',
+  level: 'error',
+  timestamp: '2022-07-01T06:49:44.220Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-07-01T06:49:44.450Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd10_e78.00',
+  level: 'error',
+  timestamp: '2022-07-01T06:49:44.693Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-07-01T06:49:44.699Z'
+}
+{
+  message: 'Machine translation error : Not Found: Model not found.',
+  level: 'error',
+  timestamp: '2022-07-01T06:49:47.342Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2160-0',
+  level: 'error',
+  timestamp: '2022-07-01T06:51:47.328Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_1742-6',
+  level: 'error',
+  timestamp: '2022-07-01T06:51:47.369Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2324-2',
+  level: 'error',
+  timestamp: '2022-07-01T06:51:47.448Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd9_8952',
+  level: 'error',
+  timestamp: '2022-07-01T06:51:47.478Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd9_8872',
+  level: 'error',
+  timestamp: '2022-07-01T06:51:47.505Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_29430-6',
+  level: 'error',
+  timestamp: '2022-07-01T06:51:47.513Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd9_8872',
+  level: 'error',
+  timestamp: '2022-07-01T06:51:47.520Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_10230-1',
+  level: 'error',
+  timestamp: '2022-07-01T06:51:47.526Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-07-01T06:51:47.535Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd10_e78.00',
+  level: 'error',
+  timestamp: '2022-07-01T06:51:47.543Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-07-01T06:51:47.557Z'
+}
+{
+  message: 'Machine translation error : Not Found: Model not found.',
+  level: 'error',
+  timestamp: '2022-07-01T06:51:48.982Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2160-0',
+  level: 'error',
+  timestamp: '2022-07-01T06:53:15.975Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_1742-6',
+  level: 'error',
+  timestamp: '2022-07-01T06:53:16.038Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2324-2',
+  level: 'error',
+  timestamp: '2022-07-01T06:53:16.106Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd9_8952',
+  level: 'error',
+  timestamp: '2022-07-01T06:53:16.143Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd9_8872',
+  level: 'error',
+  timestamp: '2022-07-01T06:53:16.166Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_29430-6',
+  level: 'error',
+  timestamp: '2022-07-01T06:53:16.171Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd9_8872',
+  level: 'error',
+  timestamp: '2022-07-01T06:53:16.181Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_10230-1',
+  level: 'error',
+  timestamp: '2022-07-01T06:53:16.188Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-07-01T06:53:16.205Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd10_e78.00',
+  level: 'error',
+  timestamp: '2022-07-01T06:53:16.220Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-07-01T06:53:16.286Z'
+}
+{
+  message: 'Machine translation error : Not Found: Model not found.',
+  level: 'error',
+  timestamp: '2022-07-01T06:53:16.922Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2160-0',
+  level: 'error',
+  timestamp: '2022-07-01T06:54:03.293Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_1742-6',
+  level: 'error',
+  timestamp: '2022-07-01T06:54:03.358Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2324-2',
+  level: 'error',
+  timestamp: '2022-07-01T06:54:03.401Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd9_8952',
+  level: 'error',
+  timestamp: '2022-07-01T06:54:03.468Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd9_8872',
+  level: 'error',
+  timestamp: '2022-07-01T06:54:03.496Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_29430-6',
+  level: 'error',
+  timestamp: '2022-07-01T06:54:03.510Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd9_8872',
+  level: 'error',
+  timestamp: '2022-07-01T06:54:03.516Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_10230-1',
+  level: 'error',
+  timestamp: '2022-07-01T06:54:03.534Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-07-01T06:54:03.548Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd10_e78.00',
+  level: 'error',
+  timestamp: '2022-07-01T06:54:03.563Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-07-01T06:54:03.586Z'
+}
+{
+  message: 'Machine translation error : Not Found: Model not found.',
+  level: 'error',
+  timestamp: '2022-07-01T06:54:04.196Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2160-0',
+  level: 'error',
+  timestamp: '2022-07-01T06:58:51.898Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_1742-6',
+  level: 'error',
+  timestamp: '2022-07-01T06:58:51.949Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2324-2',
+  level: 'error',
+  timestamp: '2022-07-01T06:58:51.998Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd9_8952',
+  level: 'error',
+  timestamp: '2022-07-01T06:58:52.046Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd9_8872',
+  level: 'error',
+  timestamp: '2022-07-01T06:58:52.063Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_29430-6',
+  level: 'error',
+  timestamp: '2022-07-01T06:58:52.072Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd9_8872',
+  level: 'error',
+  timestamp: '2022-07-01T06:58:52.079Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_10230-1',
+  level: 'error',
+  timestamp: '2022-07-01T06:58:52.088Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-07-01T06:58:52.097Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd10_e78.00',
+  level: 'error',
+  timestamp: '2022-07-01T06:58:52.103Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-07-01T06:58:52.108Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd9_8952',
+  level: 'error',
+  timestamp: '2022-07-01T06:59:07.309Z'
+}
+{
+  message: 'MT error - TypeError: Converting circular structure to JSON\n' +
+    "    --> starting at object with constructor 'ClientRequest'\n" +
+    "    |     property 'socket' -> object with constructor 'Socket'\n" +
+    "    --- property '_httpMessage' closes the circle",
+  level: 'error',
+  timestamp: '2022-07-04T09:02:26.297Z'
+}
+{
+  message: 'MT error - TypeError: Converting circular structure to JSON\n' +
+    "    --> starting at object with constructor 'ClientRequest'\n" +
+    "    |     property 'socket' -> object with constructor 'Socket'\n" +
+    "    --- property '_httpMessage' closes the circle",
+  level: 'error',
+  timestamp: '2022-07-04T09:02:26.766Z'
+}
+{
+  message: 'MT error - Error: connect ECONNREFUSED 127.0.0.1:3000',
+  level: 'error',
+  timestamp: '2022-07-04T16:29:03.655Z'
+}
+{
+  message: 'MT error - Error: connect ECONNREFUSED 127.0.0.1:3000',
+  level: 'error',
+  timestamp: '2022-07-04T17:50:42.927Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_30954-2',
+  level: 'error',
+  timestamp: '2022-07-04T17:55:55.599Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-07-04T17:56:00.150Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-07-04T17:56:00.456Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_18776-5',
+  level: 'error',
+  timestamp: '2022-07-05T11:16:22.789Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_30954-2',
+  level: 'error',
+  timestamp: '2022-07-05T11:16:23.552Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_29299-5',
+  level: 'error',
+  timestamp: '2022-07-05T11:16:29.544Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd9_8873',
+  level: 'error',
+  timestamp: '2022-07-05T11:16:30.270Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-07-05T11:16:31.251Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd9_4011',
+  level: 'error',
+  timestamp: '2022-07-05T11:16:31.531Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-07-05T11:16:31.535Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_11329-0',
+  level: 'error',
+  timestamp: '2022-07-05T11:16:32.228Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_55110-1',
+  level: 'error',
+  timestamp: '2022-07-05T11:16:32.499Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_18776-5',
+  level: 'error',
+  timestamp: '2022-07-06T12:52:42.097Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_30954-2',
+  level: 'error',
+  timestamp: '2022-07-06T12:52:42.703Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_29299-5',
+  level: 'error',
+  timestamp: '2022-07-06T12:52:47.695Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd9_8873',
+  level: 'error',
+  timestamp: '2022-07-06T12:52:48.397Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-07-06T12:52:49.294Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd9_4011',
+  level: 'error',
+  timestamp: '2022-07-06T12:52:49.559Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-07-06T12:52:49.563Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_11329-0',
+  level: 'error',
+  timestamp: '2022-07-06T12:52:50.238Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_18776-5',
+  level: 'error',
+  timestamp: '2022-07-06T12:58:27.508Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_30954-2',
+  level: 'error',
+  timestamp: '2022-07-06T12:58:28.365Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_29299-5',
+  level: 'error',
+  timestamp: '2022-07-06T12:58:33.184Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd9_8873',
+  level: 'error',
+  timestamp: '2022-07-06T12:58:34.414Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-07-06T12:58:35.439Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd9_4011',
+  level: 'error',
+  timestamp: '2022-07-06T12:58:35.749Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-07-06T12:58:35.756Z'
+}
+{
+  message: 'Machine translation error : No translation for [SOME TEXT] for language [en]',
+  level: 'error',
+  timestamp: '2022-07-14T16:04:13.834Z'
+}
+{
+  message: 'Machine translation error : No translation for [SOME TEXT] for language [en]',
+  level: 'error',
+  timestamp: '2022-07-14T16:04:13.849Z'
+}
+{
+  message: 'Machine translation error : No translation for [SOME TEXT] for language [en]',
+  level: 'error',
+  timestamp: '2022-07-15T08:03:51.970Z'
+}
+{
+  message: 'Machine translation error : No translation for [SOME TEXT] for language [en]',
+  level: 'error',
+  timestamp: '2022-07-15T08:03:51.981Z'
+}
+{
+  message: 'Machine translation error : No translation for [SOME TEXT] for language [en]',
+  level: 'error',
+  timestamp: '2022-07-15T08:34:33.599Z'
+}
+{
+  message: 'Machine translation error : No translation for [SOME TEXT] for language [en]',
+  level: 'error',
+  timestamp: '2022-07-15T08:34:33.627Z'
+}
+{
+  message: 'Machine translation error : No translation for [SOME TEXT] for language [en]',
+  level: 'error',
+  timestamp: '2022-07-15T08:35:21.755Z'
+}
+{
+  message: 'Machine translation error : No translation for [SOME TEXT] for language [en]',
+  level: 'error',
+  timestamp: '2022-07-15T08:35:21.768Z'
+}
+{
+  message: 'Machine translation error : No translation for [SOME TEXT] for language [en]',
+  level: 'error',
+  timestamp: '2022-07-15T08:38:00.347Z'
+}
+{
+  message: 'Machine translation error : No translation for [SOME TEXT] for language [en]',
+  level: 'error',
+  timestamp: '2022-07-15T08:38:00.372Z'
+}
+{
+  message: 'Machine translation error : No translation for [SOME TEXT] for language [en]',
+  level: 'error',
+  timestamp: '2022-07-15T08:38:23.956Z'
+}
+{
+  message: 'Machine translation error : No translation for [SOME TEXT] for language [en]',
+  level: 'error',
+  timestamp: '2022-07-15T08:38:23.980Z'
+}
+{
+  message: 'Machine translation error : No translation for [SOME TEXT] for language [en]',
+  level: 'error',
+  timestamp: '2022-07-15T08:52:25.920Z'
+}
+{
+  message: 'Machine translation error : No translation for [SOME TEXT] for language [en]',
+  level: 'error',
+  timestamp: '2022-07-15T08:52:25.939Z'
+}
+{
+  message: 'Machine translation error : No translation for [SOME TEXT] for language [en]',
+  level: 'error',
+  timestamp: '2022-07-15T08:54:06.500Z'
+}
+{
+  message: 'Machine translation error : No translation for [SOME TEXT] for language [en]',
+  level: 'error',
+  timestamp: '2022-07-15T08:54:06.528Z'
+}
+{
+  message: 'Machine translation error : No translation for [SOME TEXT] for language [en]',
+  level: 'error',
+  timestamp: '2022-07-15T09:09:50.148Z'
+}
+{
+  message: 'Machine translation error : No translation for [SOME TEXT] for language [en]',
+  level: 'error',
+  timestamp: '2022-07-15T09:09:50.171Z'
+}
+{
+  message: 'Machine translation error : No translation for [SOME TEXT] for language [en]',
+  level: 'error',
+  timestamp: '2022-07-15T09:13:40.607Z'
+}
+{
+  message: 'Machine translation error : No translation for [SOME TEXT] for language [en]',
+  level: 'error',
+  timestamp: '2022-07-15T09:13:40.640Z'
+}
+{
+  message: 'Machine translation error : No translation for [SOME TEXT] for language [en]',
+  level: 'error',
+  timestamp: '2022-07-15T09:23:07.426Z'
+}
+{
+  message: 'Machine translation error : No translation for [SOME TEXT] for language [en]',
+  level: 'error',
+  timestamp: '2022-07-15T09:23:07.435Z'
+}
+{
+  message: 'Machine translation error : No translation for [SOME TEXT] for language [en]',
+  level: 'error',
+  timestamp: '2022-07-15T09:26:48.163Z'
+}
+{
+  message: 'Machine translation error : No translation for [SOME TEXT] for language [en]',
+  level: 'error',
+  timestamp: '2022-07-15T09:26:48.170Z'
+}
+{
+  message: 'Machine translation error : No translation for [SOME TEXT] for language [en]',
+  level: 'error',
+  timestamp: '2022-07-15T09:47:21.086Z'
+}
+{
+  message: 'Machine translation error : No translation for [SOME TEXT] for language [en]',
+  level: 'error',
+  timestamp: '2022-07-15T09:47:21.102Z'
+}
+{
+  message: 'Machine translation error : No translation for [SOME TEXT] for language [en]',
+  level: 'error',
+  timestamp: '2022-07-15T10:03:45.066Z'
+}
+{
+  message: 'Machine translation error : No translation for [SOME TEXT] for language [en]',
+  level: 'error',
+  timestamp: '2022-07-15T10:03:45.072Z'
+}
+{
+  message: 'Machine translation error : No translation for [SOME TEXT] for language [en]',
+  level: 'error',
+  timestamp: '2022-07-15T12:57:23.831Z'
+}
+{
+  message: 'Machine translation error : No translation for [SOME TEXT] for language [en]',
+  level: 'error',
+  timestamp: '2022-07-15T12:57:23.853Z'
+}
+{
+  message: 'Machine translation error : No translation for [SOME TEXT] for language [en]',
+  level: 'error',
+  timestamp: '2022-07-15T14:33:56.888Z'
+}
+{
+  message: 'Machine translation error : No translation for [SOME TEXT] for language [en]',
+  level: 'error',
+  timestamp: '2022-07-15T14:33:56.905Z'
+}
+{
+  message: 'Machine translation error : No translation for [SOME TEXT] for language [en]',
+  level: 'error',
+  timestamp: '2022-07-15T14:42:50.803Z'
+}
+{
+  message: 'Machine translation error : No translation for [SOME TEXT] for language [en]',
+  level: 'error',
+  timestamp: '2022-07-15T14:42:50.808Z'
+}
+{
+  message: 'Machine translation error : No translation for [SOME TEXT] for language [en]',
+  level: 'error',
+  timestamp: '2022-07-18T14:48:30.968Z'
+}
+{
+  message: 'Machine translation error : No translation for [SOME TEXT] for language [en]',
+  level: 'error',
+  timestamp: '2022-07-18T14:48:30.984Z'
+}
+{
+  message: 'Machine translation error : No translation for [SOME TEXT] for language [en]',
+  level: 'error',
+  timestamp: '2022-07-18T14:50:38.389Z'
+}
+{
+  message: 'Machine translation error : No translation for [SOME TEXT] for language [en]',
+  level: 'error',
+  timestamp: '2022-07-18T14:50:38.394Z'
+}
+{
+  message: 'Machine translation error : No translation for [SOME TEXT] for language [en]',
+  level: 'error',
+  timestamp: '2022-07-18T16:21:37.263Z'
+}
+{
+  message: 'Machine translation error : No translation for [SOME TEXT] for language [en]',
+  level: 'error',
+  timestamp: '2022-07-18T16:21:37.278Z'
+}
+{
+  message: 'Machine translation error : No translation for [SOME TEXT] for language [en]',
+  level: 'error',
+  timestamp: '2022-07-18T16:22:07.993Z'
+}
+{
+  message: 'Machine translation error : No translation for [SOME TEXT] for language [en]',
+  level: 'error',
+  timestamp: '2022-07-18T16:22:08.031Z'
+}
+{
+  message: 'Machine translation error : No translation for [SOME TEXT] for language [en]',
+  level: 'error',
+  timestamp: '2022-07-18T16:22:57.405Z'
+}
+{
+  message: 'Machine translation error : No translation for [SOME TEXT] for language [en]',
+  level: 'error',
+  timestamp: '2022-07-18T16:22:57.442Z'
+}
+{
+  message: 'Machine translation error : No translation for [SOME TEXT] for language [en]',
+  level: 'error',
+  timestamp: '2022-07-18T16:26:49.514Z'
+}
+{
+  message: 'Machine translation error : No translation for [SOME TEXT] for language [en]',
+  level: 'error',
+  timestamp: '2022-07-18T16:26:49.550Z'
+}
+{
+  message: 'Machine translation error : No translation for [SOME TEXT] for language [en]',
+  level: 'error',
+  timestamp: '2022-07-18T16:27:35.618Z'
+}
+{
+  message: 'Machine translation error : No translation for [SOME TEXT] for language [en]',
+  level: 'error',
+  timestamp: '2022-07-18T16:27:35.644Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-07-25T15:53:14.764Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-07-25T15:53:14.768Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-07-25T15:53:14.772Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-07-25T15:53:14.778Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-07-25T15:53:14.783Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-07-25T15:53:14.786Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-07-25T15:53:14.792Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-07-25T15:53:14.796Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-07-25T16:04:39.868Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-07-25T16:04:39.886Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-07-25T16:04:39.891Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-07-25T16:04:39.899Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-07-25T16:04:39.910Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-07-25T16:04:39.918Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-07-25T16:04:39.935Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-07-25T16:04:39.956Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-07-25T16:05:36.613Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-07-25T16:05:36.675Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-07-25T16:05:36.683Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-07-25T16:05:36.715Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-07-25T16:05:36.742Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-07-25T16:05:36.747Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-07-25T16:05:36.755Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-07-25T16:05:36.777Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-07-25T16:06:14.566Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-07-25T16:06:14.578Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-07-25T16:06:14.586Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-07-25T16:06:14.596Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-07-25T16:06:14.622Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-07-25T16:06:14.650Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-07-25T16:06:14.656Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-07-25T16:06:14.663Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-07-25T16:07:21.206Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-07-25T16:07:21.237Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-07-25T16:07:21.256Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-07-25T16:07:21.269Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-07-25T16:07:21.282Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-07-25T16:07:21.300Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-07-25T16:07:21.306Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-07-25T16:07:21.317Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-07-25T16:11:34.982Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-07-25T16:11:34.999Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-07-25T16:11:35.017Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-07-25T16:11:35.035Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-07-25T16:11:35.047Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-07-25T16:11:35.060Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-07-25T16:11:35.108Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-07-25T16:11:35.131Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-07-25T16:13:54.249Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-07-25T16:13:54.271Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-07-25T16:13:54.280Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-07-25T16:13:54.285Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-07-25T16:13:54.301Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-07-25T16:13:54.307Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-07-25T16:13:54.316Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-07-25T16:13:54.330Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-07-26T13:21:52.227Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-07-26T13:21:52.232Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-07-26T13:21:52.254Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-07-26T13:21:52.259Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-07-26T13:21:52.295Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-07-26T13:21:52.301Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-07-26T13:21:52.309Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-07-26T13:21:52.336Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-07-26T13:22:53.283Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-07-26T13:22:53.751Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-07-26T13:22:53.759Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-07-26T13:22:54.183Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-07-26T13:22:54.527Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-07-26T13:22:54.859Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-07-26T13:22:54.863Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-07-26T13:22:55.205Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd9_8872',
+  level: 'error',
+  timestamp: '2022-07-26T13:48:33.494Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_29463-7',
+  level: 'error',
+  timestamp: '2022-07-26T13:48:34.165Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8302-2',
+  level: 'error',
+  timestamp: '2022-07-26T13:48:34.395Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd9_8952',
+  level: 'error',
+  timestamp: '2022-07-26T13:48:34.865Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_11329-0',
+  level: 'error',
+  timestamp: '2022-07-26T13:48:35.091Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_55110-1',
+  level: 'error',
+  timestamp: '2022-07-26T13:48:35.322Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd9_8952',
+  level: 'error',
+  timestamp: '2022-07-26T16:42:45.478Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd10_4a02x4z',
+  level: 'error',
+  timestamp: '2022-07-26T16:42:45.816Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd9_8952',
+  level: 'error',
+  timestamp: '2022-07-26T16:44:01.264Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd10_4a02x4z',
+  level: 'error',
+  timestamp: '2022-07-26T16:44:01.276Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd9_8952',
+  level: 'error',
+  timestamp: '2022-07-26T16:44:25.688Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd10_4a02x4z',
+  level: 'error',
+  timestamp: '2022-07-26T16:44:25.713Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd9_8952',
+  level: 'error',
+  timestamp: '2022-07-26T16:44:28.017Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd10_4a02x4z',
+  level: 'error',
+  timestamp: '2022-07-26T16:44:28.031Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd9_8952',
+  level: 'error',
+  timestamp: '2022-07-26T16:46:29.244Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd10_4a02x4z',
+  level: 'error',
+  timestamp: '2022-07-26T16:46:29.253Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd9_8952',
+  level: 'error',
+  timestamp: '2022-07-26T16:47:53.983Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd10_4a02x4z',
+  level: 'error',
+  timestamp: '2022-07-26T16:47:53.991Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd9_8952',
+  level: 'error',
+  timestamp: '2022-07-26T16:48:18.090Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd10_4a02x4z',
+  level: 'error',
+  timestamp: '2022-07-26T16:48:18.107Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd9_8952',
+  level: 'error',
+  timestamp: '2022-07-26T16:50:10.264Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd10_4a02x4z',
+  level: 'error',
+  timestamp: '2022-07-26T16:50:10.278Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd9_8952',
+  level: 'error',
+  timestamp: '2022-07-26T16:50:33.234Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd10_4a02x4z',
+  level: 'error',
+  timestamp: '2022-07-26T16:50:33.251Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd9_8872',
+  level: 'error',
+  timestamp: '2022-07-27T07:06:05.956Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_10230-1',
+  level: 'error',
+  timestamp: '2022-07-27T07:06:06.256Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_29430-6',
+  level: 'error',
+  timestamp: '2022-07-27T07:06:06.569Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd9_8872',
+  level: 'error',
+  timestamp: '2022-07-27T07:06:06.575Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd9_8952',
+  level: 'error',
+  timestamp: '2022-07-27T07:06:07.386Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd10_4a02x4z',
+  level: 'error',
+  timestamp: '2022-07-27T07:06:07.710Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd9_8872',
+  level: 'error',
+  timestamp: '2022-07-27T07:08:05.506Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_10230-1',
+  level: 'error',
+  timestamp: '2022-07-27T07:08:05.536Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_29430-6',
+  level: 'error',
+  timestamp: '2022-07-27T07:08:05.554Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd9_8872',
+  level: 'error',
+  timestamp: '2022-07-27T07:08:05.564Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd9_8952',
+  level: 'error',
+  timestamp: '2022-07-27T07:08:05.600Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd10_4a02x4z',
+  level: 'error',
+  timestamp: '2022-07-27T07:08:05.609Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd9_8872',
+  level: 'error',
+  timestamp: '2022-07-27T07:10:02.831Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_10230-1',
+  level: 'error',
+  timestamp: '2022-07-27T07:10:02.866Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_29430-6',
+  level: 'error',
+  timestamp: '2022-07-27T07:10:02.888Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd9_8872',
+  level: 'error',
+  timestamp: '2022-07-27T07:10:02.921Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd9_8952',
+  level: 'error',
+  timestamp: '2022-07-27T07:10:02.959Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd10_4a02x4z',
+  level: 'error',
+  timestamp: '2022-07-27T07:10:02.970Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd9_8872',
+  level: 'error',
+  timestamp: '2022-07-27T07:13:10.526Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_10230-1',
+  level: 'error',
+  timestamp: '2022-07-27T07:13:10.556Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_29430-6',
+  level: 'error',
+  timestamp: '2022-07-27T07:13:10.577Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd9_8872',
+  level: 'error',
+  timestamp: '2022-07-27T07:13:10.584Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd9_8952',
+  level: 'error',
+  timestamp: '2022-07-27T07:13:10.599Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd10_4a02x4z',
+  level: 'error',
+  timestamp: '2022-07-27T07:13:10.607Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd9_8872',
+  level: 'error',
+  timestamp: '2022-07-27T07:15:57.501Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_10230-1',
+  level: 'error',
+  timestamp: '2022-07-27T07:15:57.512Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_29430-6',
+  level: 'error',
+  timestamp: '2022-07-27T07:15:57.523Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd9_8872',
+  level: 'error',
+  timestamp: '2022-07-27T07:15:57.552Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd9_8952',
+  level: 'error',
+  timestamp: '2022-07-27T07:15:57.575Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd10_4a02x4z',
+  level: 'error',
+  timestamp: '2022-07-27T07:15:57.591Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd9_8872',
+  level: 'error',
+  timestamp: '2022-07-27T07:21:54.552Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_10230-1',
+  level: 'error',
+  timestamp: '2022-07-27T07:21:54.822Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_29430-6',
+  level: 'error',
+  timestamp: '2022-07-27T07:21:55.210Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd9_8872',
+  level: 'error',
+  timestamp: '2022-07-27T07:21:55.216Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd9_8952',
+  level: 'error',
+  timestamp: '2022-07-27T07:21:55.777Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd10_4a02x4z',
+  level: 'error',
+  timestamp: '2022-07-27T07:21:56.026Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd9_8872',
+  level: 'error',
+  timestamp: '2022-07-28T09:15:29.698Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_29463-7',
+  level: 'error',
+  timestamp: '2022-07-28T09:15:30.411Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_8302-2',
+  level: 'error',
+  timestamp: '2022-07-28T09:15:30.701Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd9_8952',
+  level: 'error',
+  timestamp: '2022-07-28T09:15:31.355Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_11329-0',
+  level: 'error',
+  timestamp: '2022-07-28T09:15:31.659Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_55110-1',
+  level: 'error',
+  timestamp: '2022-07-28T09:15:31.973Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd9_8872',
+  level: 'error',
+  timestamp: '2022-08-02T09:47:50.425Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_10230-1',
+  level: 'error',
+  timestamp: '2022-08-02T09:47:50.691Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_29430-6',
+  level: 'error',
+  timestamp: '2022-08-02T09:47:50.947Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd9_8872',
+  level: 'error',
+  timestamp: '2022-08-02T09:47:50.952Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd9_8952',
+  level: 'error',
+  timestamp: '2022-08-02T09:47:51.791Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd10_4a02x4z',
+  level: 'error',
+  timestamp: '2022-08-02T09:47:52.041Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2324-2',
+  level: 'error',
+  timestamp: '2022-08-11T07:41:05.879Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2160-0',
+  level: 'error',
+  timestamp: '2022-08-11T07:41:06.715Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_1742-6',
+  level: 'error',
+  timestamp: '2022-08-11T07:41:06.959Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:sct_261665006',
+  level: 'error',
+  timestamp: '2022-08-11T07:41:08.056Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2160-0',
+  level: 'error',
+  timestamp: '2022-08-26T09:14:38.370Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2324-2',
+  level: 'error',
+  timestamp: '2022-08-26T09:14:39.156Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_1742-6',
+  level: 'error',
+  timestamp: '2022-08-26T09:14:39.396Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2324-2',
+  level: 'error',
+  timestamp: '2022-08-26T09:20:51.020Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_1742-6',
+  level: 'error',
+  timestamp: '2022-08-26T09:20:51.467Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_2160-0',
+  level: 'error',
+  timestamp: '2022-08-26T09:20:52.169Z'
+}

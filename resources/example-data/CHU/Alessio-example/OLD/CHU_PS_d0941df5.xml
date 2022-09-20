@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kmehrmessage xmlns="http://www.ehealth.fgov.be/standards/kmehr/schema/v1">
+  <header>
+    <standard>
+      <cd S="CD-STANDARD" SV="1.0">20161201</cd>
+    </standard>
+    <id S="ID-KMEHR" SV="1.0">e983d2d396fbb58b61fee25c826ecd8fbbb450ef614f092be284fbb9652d6988</id>
+    <date>2022-06-23</date>
+    <time>10:26:50</time>
+    <sender>
+      <hcparty>
+        <id S="ID-HCPARTY" SV="1.0">16808516734</id>
+        <id S="INSS" SV="1.0">83102121201</id>
+        <cd S="CD-HCPARTY" SV="1.6">persphysician</cd>
+        <firstname>Arnaud</firstname>
+        <familyname>Ancion</familyname>
+        <address>
+          <cd S="CD-ADDRESS" SV="1.0">work</cd>
+          <country>
+            <cd S="CD-FED-COUNTRY" SV="1.0">be</cd>
+          </country>
+          <zip>4000</zip>
+          <city>Liège</city>
+          <street>Avenue de l'hôpital</street>
+          <housenumber>1</housenumber>
+          <postboxnumber></postboxnumber>
+        </address>
+        <telecom>
+          <cd S="CD-ADDRESS" SV="1.0">work</cd>
+          <cd S="CD-TELECOM" SV="1.0">phone</cd>
+          <telecomnumber>003242844313</telecomnumber>
+        </telecom>
+        <telecom>
+          <cd S="CD-ADDRESS" SV="1.0">work</cd>
+          <cd S="CD-TELECOM" SV="1.0">email</cd>
+          <telecomnumber>A.Ancion@chuliege.be</telecomnumber>
+        </telecom>
+      </hcparty>
+      <hcparty>
+        <id S="LOCAL" SV="4.7">OmniPro</id>
+        <cd S="CD-HCPARTY" SV="1.0">application</cd>
+        <name>OmniPro</name>
+      </hcparty>
+    </sender>
+    <recipient>
+      <hcparty>
+        <cd S="CD-HCPARTY" SV="1.0">orgpublichealth</cd>
+        <name>default</name>
+      </hcparty>
+    </recipient>
+  </header>
+  <folder>
+    <id S="ID-KMEHR" SV="1.0">1</id>
+    <patient>
+      <id S="ID-PATIENT" SV="1.2">49051643453</id>
+      <id S="LOCAL" SV="1.0">0921094Z</id>
+      <firstname>Iryna</firstname>
+      <familyname>PAWLUK</familyname>
+      <birthdate>
+        <date>1949-05-16</date>
+      </birthdate>
+      <sex>
+        <cd S="CD-SEX" SV="1.0">female</cd>
+      </sex>
+      <address>
+        <cd S="CD-ADDRESS" SV="1.0">home</cd>
+        <country>
+          <cd S="CD-FED-COUNTRY" SV="1.0">be</cd>
+        </country>
+        <zip>4000</zip>
+        <city>LIEGE</city>
+        <street>RUE VICTOR-CROISIER</street>
+        <housenumber>8</housenumber>
+        <postboxnumber></postboxnumber>
+      </address>
+      <telecom>
+        <cd S="CD-ADDRESS" SV="1.0">home</cd>
+        <cd S="CD-TELECOM" SV="1.0">phone</cd>
+        <telecomnumber>BIP388FEDYNIAK</telecomnumber>
+      </telecom>
+      <telecom>
+        <cd S="CD-ADDRESS" SV="1.0">home</cd>
+        <cd S="CD-TELECOM" SV="1.0">mobile</cd>
+        <telecomnumber>04/224.23.12</telecomnumber>
+      </telecom>
+      <usuallanguage>fr-BE</usuallanguage>
+    </patient>
+    <transaction>
+      <id S="ID-KMEHR" SV="1.0">1</id>
+      <id S="LOCAL" SV="1.0">e983d2d396fbb58b61fee25c826ecd8fbbb450ef614f092be284fbb9652d6988</id>
+      <cd S="CD-TRANSACTION" SV="1.5">sumehr</cd>
+      <date>2022-06-23</date>
+      <time>10:26:50</time>
+      <author>
+        <hcparty>
+          <id S="ID-HCPARTY" SV="1.0">71070712</id>
+          <id S="INSS" SV="1.0">83102121201</id>
+          <cd S="CD-HCPARTY" SV="1.6">persphysician</cd>
+          <firstname>Arnaud</firstname>
+          <familyname>Ancion</familyname>
+          <address>
+            <cd S="CD-ADDRESS" SV="1.0">work</cd>
+            <country>
+              <cd S="CD-FED-COUNTRY" SV="1.0">be</cd>
+            </country>
+            <zip>4000</zip>
+            <city>Liège</city>
+            <street>Avenue de l'hôpital</street>
+            <housenumber>1</housenumber>
+            <postboxnumber></postboxnumber>
+          </address>
+          <telecom>
+            <cd S="CD-ADDRESS" SV="1.0">work</cd>
+            <cd S="CD-TELECOM" SV="1.0">phone</cd>
+            <telecomnumber>003242844313</telecomnumber>
+          </telecom>
+          <telecom>
+            <cd S="CD-ADDRESS" SV="1.0">work</cd>
+            <cd S="CD-TELECOM" SV="1.0">email</cd>
+            <telecomnumber>A.Ancion@chuliege.be</telecomnumber>
+          </telecom>
+        </hcparty>
+      </author>
+      <iscomplete>true</iscomplete>
+      <isvalidated>true</isvalidated>
+      <item>
+        <id S="ID-KMEHR" SV="1.0">2</id>
+        <cd S="CD-ITEM" SV="1.6">medication</cd>
+        <content>
+          <text L="fr">Candesartan EG compr. (séc.) 98x 16mg</text>
+        </content>
+        <content>
+          <medicinalproduct>
+            <intendedcd S="CD-DRUG-CNK" SV="20100701">0</intendedcd>
+            <intendedname>Candesartan EG compr. (séc.) 98x 16mg</intendedname>
+          </medicinalproduct>
+        </content>
+        <content>
+          <cd S="CD-ATC" SV="2021">C09CA06</cd>
+        </content>
+        <beginmoment>
+          <date>2020-06-30</date>
+        </beginmoment>
+        <lifecycle>
+          <cd S="CD-LIFECYCLE" SV="1.6">active</cd>
+        </lifecycle>
+        <isrelevant>true</isrelevant>
+        <posology>
+          <text L="fr">1 comp. 1 x par j. (Matin)</text>
+        </posology>
+      </item>
+      <item>
+        <id S="ID-KMEHR" SV="1.0">3</id>
+        <cd S="CD-ITEM" SV="1.6">medication</cd>
+        <content>
+          <text L="fr">Bisoprolol EG compr. (séc.) 100x 5mg</text>
+        </content>
+        <content>
+          <medicinalproduct>
+            <intendedcd S="CD-DRUG-CNK" SV="20100701">1720598</intendedcd>
+            <intendedname>Bisoprolol EG compr. (séc.) 100x 5mg</intendedname>
+          </medicinalproduct>
+        </content>
+        <content>
+          <cd S="CD-ATC" SV="2021">C07AB07</cd>
+        </content>
+        <beginmoment>
+          <date>2020-06-30</date>
+        </beginmoment>
+        <lifecycle>
+          <cd S="CD-LIFECYCLE" SV="1.6">active</cd>
+        </lifecycle>
+        <isrelevant>true</isrelevant>
+        <posology>
+          <text L="fr">1 comp. 1 x par jour (Matin)
+</text>
+        </posology>
+      </item>
+      <item>
+        <id S="ID-KMEHR" SV="1.0">4</id>
+        <cd S="CD-ITEM" SV="1.6">medication</cd>
+        <content>
+          <text L="fr">Totalip compr. pellic. 100x 20mg</text>
+        </content>
+        <content>
+          <medicinalproduct>
+            <intendedcd S="CD-DRUG-CNK" SV="20100701">2893626</intendedcd>
+            <intendedname>Totalip compr. pellic. 100x 20mg</intendedname>
+          </medicinalproduct>
+        </content>
+        <content>
+          <cd S="CD-ATC" SV="2021">C10AA05</cd>
+        </content>
+        <beginmoment>
+          <date>2020-06-30</date>
+        </beginmoment>
+        <lifecycle>
+          <cd S="CD-LIFECYCLE" SV="1.6">active</cd>
+        </lifecycle>
+        <isrelevant>true</isrelevant>
+        <posology>
+          <text L="fr">1 comp. 1 x par jour (Soir)
+</text>
+        </posology>
+      </item>
+      <item>
+        <id S="ID-KMEHR" SV="1.0">5</id>
+        <cd S="CD-ITEM" SV="1.6">medication</cd>
+        <content>
+          <text L="fr">Zanidip compr. pellic. (séc.) 98x 10mg</text>
+        </content>
+        <content>
+          <medicinalproduct>
+            <intendedcd S="CD-DRUG-CNK" SV="20100701">1383637</intendedcd>
+            <intendedname>Zanidip compr. pellic. (séc.) 98x 10mg</intendedname>
+          </medicinalproduct>
+        </content>
+        <content>
+          <cd S="CD-ATC" SV="2021">C08CA13</cd>
+        </content>
+        <beginmoment>
+          <date>2021-02-25</date>
+        </beginmoment>
+        <lifecycle>
+          <cd S="CD-LIFECYCLE" SV="1.6">active</cd>
+        </lifecycle>
+        <isrelevant>true</isrelevant>
+        <posology>
+          <text L="fr">1 comp. 1 x par j. (Matin)</text>
+        </posology>
+      </item>
+      <item>
+        <id S="ID-KMEHR" SV="1.0">6</id>
+        <cd S="CD-ITEM" SV="1.6">medication</cd>
+        <content>
+          <text L="fr">Exforge 10/160 compr. pellic. 98x</text>
+        </content>
+        <content>
+          <medicinalproduct>
+            <intendedcd S="CD-DRUG-CNK" SV="20100701">2388544</intendedcd>
+            <intendedname>Exforge 10/160 compr. pellic. 98x</intendedname>
+          </medicinalproduct>
+        </content>
+        <content>
+          <cd S="CD-ATC" SV="2021">C09DB01</cd>
+        </content>
+        <beginmoment>
+          <date>2021-02-25</date>
+        </beginmoment>
+        <lifecycle>
+          <cd S="CD-LIFECYCLE" SV="1.6">active</cd>
+        </lifecycle>
+        <isrelevant>true</isrelevant>
+        <posology>
+          <text L="fr">1 comp. 1 x par j. (Matin)</text>
+        </posology>
+      </item>
+      <item>
+        <id S="ID-KMEHR" SV="1.0">7</id>
+        <cd S="CD-ITEM" SV="1.6">medication</cd>
+        <content>
+          <text L="fr">ELIQUIS COMP  56 X  5 MG</text>
+        </content>
+        <content>
+          <medicinalproduct>
+            <intendedcd S="CD-DRUG-CNK" SV="20100701">3018199</intendedcd>
+            <intendedname>ELIQUIS COMP  56 X  5 MG</intendedname>
+          </medicinalproduct>
+        </content>
+        <content>
+          <cd S="CD-ATC" SV="2021">B01AF02</cd>
+        </content>
+        <beginmoment>
+          <date>2021-02-25</date>
+        </beginmoment>
+        <lifecycle>
+          <cd S="CD-LIFECYCLE" SV="1.6">active</cd>
+        </lifecycle>
+        <isrelevant>true</isrelevant>
+        <posology>
+          <text L="fr">1 comp. 1 x par j. (Matin)</text>
+        </posology>
+      </item>
+      <text L="fr">Ce SumEHR est uniquement valable dans le contexte du projet InteropEHRate</text>
+    </transaction>
+  </folder>
+</kmehrmessage>

@@ -61,6 +61,9 @@ TO BE COMPLETED
 
 To run the IHS component, you have to download and upload all the required docker images (and dump.sql file) in the deployment machine.
 
+
+It is important to check that the docker image names within the docker-compose.yml file correspond to the names given to the images uploaded on the deplyoment machine.
+
 Then run the following command in the same folder where the docker-compose.yml file is stored.
 
 #docker-compose up

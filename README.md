@@ -22,8 +22,6 @@ The docker image required by this container can be requested to Univeristy of Tr
 
 This container requires a dump.sql file for the database initialization. Also the dump.sql file can be request to Univeristy of Trento contacting the same reference persons.
 
-### nlptool
-
 ### sweb
 
 This container installs and set up the knowledge and data integration platform used by the IHS component. 
@@ -36,4 +34,34 @@ This container installs and set up the knowledge management tool exploited by th
 
 The docker image required by this container can be requested to Univeristy of Trento contacting simone.bocca@unitn.it or gabor.bella@unitn.it
 
+### karmalinker
+
+This container installs and set up the data mapping tool exploited by the IHS.
+
+The docker image required by this container is available in "docker-images/karmalinker-2-5-KL2-2-4-r1.targ.gz"
+
+### converter
+
+This container installs and set up an IHS sub component, required for data conversion.
+
+The docker image required by this container is available in "docker-images/converter-iehr.tar.gz"
+
+### ihs
+
+This container installs and set up the main IHS application.
+
+The docker image required by this container is available in "docker-images/ihs-2-9.tar.gz"
+
+### nlptool
+
+TO BE COMPLETED
+
+### -------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+To run the IHS component, you have to download and upload all the required docker images (and dump.sql file) in the deployment machine.
+
+Then run the following command in the same folder where the docker-compose.yml file is stored.
+
+#docker-compose up
 

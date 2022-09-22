@@ -52,6 +52,13 @@ This container installs and set up the main IHS application.
 
 The docker image required by this container is available in "docker-images/ihs-2-9.tar.gz"
 
+The "environment" section of this container within the docker-compose.yml file, allows to specify the main parameters for the IHS configuration, like 
+
+APP_LANGUAGE: idicated as 2-char language code, it set up the IHS main language.
+
+APP_PORT: execution port for the IHS
+
+
 ### nlptool
 
 TO BE COMPLETED

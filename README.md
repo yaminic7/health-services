@@ -61,7 +61,10 @@ APP_PORT: execution port for the IHS
 
 ### nlptool
 
-TO BE COMPLETED
+This container installs and set up the information extraction IHS sub component.
+
+DOCKER IMAGE INFO HERE
+
 
 ### -------------------------------------------------------------------------------------------------------------------------------------------------
 

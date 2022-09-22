@@ -75,3 +75,7 @@ Then run the following command in the same folder where the docker-compose.yml f
 
 #docker-compose up
 
+
+
+To receive more support for download and installation of this component, contact simone.bocca@unitn.it, gabor.bella@unitn.it
+

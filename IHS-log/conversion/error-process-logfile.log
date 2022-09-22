@@ -1,0 +1,402 @@
+{
+  message: 'Data Mapper error - INFO [2022-02-10 19:31:03,799] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/./resources/models/DiagnsticReport-LabResult.ttl\n' +
+    'INFO [2022-02-10 19:31:06,048] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/./resources/models/DiagnsticReport-LabResult.ttl\n',
+  level: 'error',
+  timestamp: '2022-02-10T18:31:06.674Z'
+}
+{
+  message: 'KOS error - Error: socket hang up',
+  level: 'error',
+  timestamp: '2022-02-10T18:33:06.725Z'
+}
+{
+  message: 'Data Mapper error - INFO [2022-02-11 11:18:49,354] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/./resources/models/Encounter.ttl\n' +
+    'INFO [2022-02-11 11:18:52,538] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/./resources/models/Encounter.ttl\n',
+  level: 'error',
+  timestamp: '2022-02-11T10:18:56.888Z'
+}
+{
+  message: 'Data Mapper error - ERROR [2022-02-11 11:19:35,668] (OfflineRdfGenerator->main->165): Error occured while generating RDF!\n' +
+    'java.io.IOException: File not found: /home/simone/UniTn/IEHR/IEHR-server/IHS/./resources/models/DiagnsticReport-LabResult.ttl\n' +
+    '\tat edu.isi.karma.rdf.OfflineRdfGenerator.createModelURL(OfflineRdfGenerator.java:392)\n' +
+    '\tat edu.isi.karma.rdf.OfflineRdfGenerator.generate(OfflineRdfGenerator.java:171)\n' +
+    '\tat edu.isi.karma.rdf.OfflineRdfGenerator.main(OfflineRdfGenerator.java:159)\n',
+  level: 'error',
+  timestamp: '2022-02-11T10:19:35.681Z'
+}
+{
+  message: 'KOS error - Error: socket hang up',
+  level: 'error',
+  timestamp: '2022-02-11T10:21:35.783Z'
+}
+{
+  message: 'Data Mapper error - INFO [2022-02-11 11:28:52,138] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/./resources/models/DiagnsticReport-LabResult.ttl\n' +
+    'INFO [2022-02-11 11:28:54,866] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/./resources/models/DiagnsticReport-LabResult.ttl\n',
+  level: 'error',
+  timestamp: '2022-02-11T10:28:56.166Z'
+}
+{
+  message: 'Data Mapper error - INFO [2022-02-24 16:27:32,291] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/./resources/models/Encounter.ttl\n' +
+    'INFO [2022-02-24 16:27:43,432] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/./resources/models/Encounter.ttl\n',
+  level: 'error',
+  timestamp: '2022-02-24T15:27:44.679Z'
+}
+{
+  message: 'KOS error - Error: Request failed with status code 401',
+  level: 'error',
+  timestamp: '2022-02-24T15:27:44.865Z'
+}
+{
+  message: 'Data Mapper error - INFO [2022-02-24 16:28:43,430] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/./resources/models/Encounter.ttl\n' +
+    'INFO [2022-02-24 16:28:46,907] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/./resources/models/Encounter.ttl\n',
+  level: 'error',
+  timestamp: '2022-02-24T15:28:48.221Z'
+}
+{
+  message: 'Data Mapper error - INFO [2022-02-24 16:32:01,876] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/./resources/models/Encounter.ttl\n' +
+    'INFO [2022-02-24 16:32:07,377] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/./resources/models/Encounter.ttl\n',
+  level: 'error',
+  timestamp: '2022-02-24T15:32:10.378Z'
+}
+{
+  message: 'KOS error - Error: socket hang up',
+  level: 'error',
+  timestamp: '2022-02-24T15:34:10.474Z'
+}
+{
+  message: 'Data Mapper error - INFO [2022-02-24 17:00:35,431] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/./resources/models/Encounter.ttl\n' +
+    'INFO [2022-02-24 17:00:39,362] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/./resources/models/Encounter.ttl\n',
+  level: 'error',
+  timestamp: '2022-02-24T16:00:42.722Z'
+}
+{
+  message: 'Data Mapper error - INFO [2022-02-24 17:02:45,014] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/./resources/models/Encounter.ttl\n' +
+    'INFO [2022-02-24 17:02:49,024] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/./resources/models/Encounter.ttl\n',
+  level: 'error',
+  timestamp: '2022-02-24T16:02:49.961Z'
+}
+{
+  message: 'Data Mapper error - INFO [2022-02-24 17:04:26,493] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/./resources/models/Encounter.ttl\n' +
+    'INFO [2022-02-24 17:04:29,227] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/./resources/models/Encounter.ttl\n',
+  level: 'error',
+  timestamp: '2022-02-24T16:04:30.298Z'
+}
+{
+  message: 'KOS error - Error: socket hang up',
+  level: 'error',
+  timestamp: '2022-02-24T16:06:30.371Z'
+}
+{
+  message: 'Data Mapper error - INFO [2022-02-24 17:09:58,777] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/./resources/models/Encounter.ttl\n' +
+    'INFO [2022-02-24 17:10:01,375] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/./resources/models/Encounter.ttl\n',
+  level: 'error',
+  timestamp: '2022-02-24T16:10:02.275Z'
+}
+{
+  message: 'Data Mapper error - INFO [2022-02-24 17:11:29,229] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/./resources/models/Encounter.ttl\n' +
+    'INFO [2022-02-24 17:11:31,923] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/./resources/models/Encounter.ttl\n',
+  level: 'error',
+  timestamp: '2022-02-24T16:11:32.918Z'
+}
+{
+  message: 'Data Mapper error - INFO [2022-02-24 17:13:45,157] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/./resources/models/Encounter.ttl\n' +
+    'INFO [2022-02-24 17:13:47,882] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/./resources/models/Encounter.ttl\n',
+  level: 'error',
+  timestamp: '2022-02-24T16:13:49.017Z'
+}
+{
+  message: 'Data Mapper error - INFO [2022-02-24 17:43:21,754] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/./resources/models/Encounter.ttl\n' +
+    'INFO [2022-02-24 17:43:30,675] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/./resources/models/Encounter.ttl\n',
+  level: 'error',
+  timestamp: '2022-02-24T16:43:34.102Z'
+}
+{
+  message: 'KOS error - Error: socket hang up',
+  level: 'error',
+  timestamp: '2022-02-24T16:45:34.307Z'
+}
+{
+  message: 'Data Mapper error - INFO [2022-02-24 17:52:45,824] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/./resources/models/Encounter.ttl\n' +
+    'INFO [2022-02-24 17:52:48,915] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/./resources/models/Encounter.ttl\n',
+  level: 'error',
+  timestamp: '2022-02-24T16:52:50.229Z'
+}
+{
+  message: 'Data Mapper error - INFO [2022-02-24 17:54:24,698] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/./resources/models/Encounter.ttl\n' +
+    'INFO [2022-02-24 17:54:28,541] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/./resources/models/Encounter.ttl\n',
+  level: 'error',
+  timestamp: '2022-02-24T16:54:29.707Z'
+}
+{
+  message: 'Data Mapper error - INFO [2022-02-24 17:55:09,417] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/./resources/models/Encounter.ttl\n' +
+    'INFO [2022-02-24 17:55:12,594] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/./resources/models/Encounter.ttl\n',
+  level: 'error',
+  timestamp: '2022-02-24T16:55:13.694Z'
+}
+{
+  message: 'KOS error - Error: socket hang up',
+  level: 'error',
+  timestamp: '2022-02-24T16:57:13.756Z'
+}
+{
+  message: 'Data Mapper error - INFO [2022-02-24 18:02:18,960] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/./resources/models/Encounter.ttl\n' +
+    'INFO [2022-02-24 18:02:25,972] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/./resources/models/Encounter.ttl\n',
+  level: 'error',
+  timestamp: '2022-02-24T17:02:28.803Z'
+}
+{
+  message: 'Data Mapper error - INFO [2022-02-24 18:03:13,713] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/./resources/models/Encounter.ttl\n' +
+    'INFO [2022-02-24 18:03:16,904] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/./resources/models/Encounter.ttl\n',
+  level: 'error',
+  timestamp: '2022-02-24T17:03:18.171Z'
+}
+{
+  message: 'Data Mapper error - INFO [2022-02-24 18:04:07,931] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/./resources/models/Encounter.ttl\n' +
+    'INFO [2022-02-24 18:04:11,005] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/./resources/models/Encounter.ttl\n',
+  level: 'error',
+  timestamp: '2022-02-24T17:04:12.178Z'
+}
+{
+  message: 'Data Mapper error - INFO [2022-02-24 18:18:32,772] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/./resources/models/Encounter.ttl\n' +
+    'INFO [2022-02-24 18:18:35,360] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/./resources/models/Encounter.ttl\n',
+  level: 'error',
+  timestamp: '2022-02-24T17:18:36.481Z'
+}
+{
+  message: 'Data Mapper error - INFO [2022-02-24 18:20:23,043] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/./resources/models/Encounter.ttl\n' +
+    'INFO [2022-02-24 18:20:26,057] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/./resources/models/Encounter.ttl\n',
+  level: 'error',
+  timestamp: '2022-02-24T17:20:26.999Z'
+}
+{
+  message: 'Data Mapper error - INFO [2022-02-24 18:21:43,134] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/./resources/models/Encounter.ttl\n' +
+    'INFO [2022-02-24 18:21:45,765] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/./resources/models/Encounter.ttl\n',
+  level: 'error',
+  timestamp: '2022-02-24T17:21:46.736Z'
+}
+{
+  message: 'Data Mapper error - INFO [2022-02-24 18:29:52,395] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/./resources/models/Encounter.ttl\n' +
+    'INFO [2022-02-24 18:29:55,268] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/./resources/models/Encounter.ttl\n',
+  level: 'error',
+  timestamp: '2022-02-24T17:29:56.386Z'
+}
+{
+  message: 'Data Mapper error - INFO [2022-02-24 18:33:03,952] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/./resources/models/Encounter.ttl\n' +
+    'INFO [2022-02-24 18:33:06,708] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/./resources/models/Encounter.ttl\n',
+  level: 'error',
+  timestamp: '2022-02-24T17:33:07.687Z'
+}
+{
+  message: 'Data Mapper error - INFO [2022-02-24 18:34:05,650] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/./resources/models/Encounter.ttl\n' +
+    'INFO [2022-02-24 18:34:08,434] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/./resources/models/Encounter.ttl\n',
+  level: 'error',
+  timestamp: '2022-02-24T17:34:09.725Z'
+}
+{
+  message: 'Data Mapper error - INFO [2022-02-24 18:35:05,675] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/./resources/models/Encounter.ttl\n' +
+    'INFO [2022-02-24 18:35:08,530] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/./resources/models/Encounter.ttl\n',
+  level: 'error',
+  timestamp: '2022-02-24T17:35:09.503Z'
+}
+{
+  message: 'Data Mapper error - INFO [2022-02-24 18:37:46,281] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/./resources/models/DiagnsticReport-LabResult.ttl\n' +
+    'INFO [2022-02-24 18:37:49,114] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/./resources/models/DiagnsticReport-LabResult.ttl\n',
+  level: 'error',
+  timestamp: '2022-02-24T17:38:01.639Z'
+}
+{
+  message: 'Data Mapper error - INFO [2022-02-24 18:46:48,720] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/./resources/models/Encounter.ttl\n' +
+    'INFO [2022-02-24 18:46:51,279] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/./resources/models/Encounter.ttl\n',
+  level: 'error',
+  timestamp: '2022-02-24T17:46:52.109Z'
+}
+{
+  message: 'KOS error - Error: Request failed with status code 500',
+  level: 'error',
+  timestamp: '2022-02-24T17:46:52.207Z'
+}
+{
+  message: 'Data Mapper error - INFO [2022-02-24 18:52:12,770] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/./resources/models/Encounter.ttl\n' +
+    'INFO [2022-02-24 18:52:15,466] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/./resources/models/Encounter.ttl\n',
+  level: 'error',
+  timestamp: '2022-02-24T17:52:16.345Z'
+}
+{
+  message: 'KOS error - Error: Request failed with status code 500',
+  level: 'error',
+  timestamp: '2022-02-24T17:52:16.365Z'
+}
+{
+  message: 'KOS error - TypeError [ERR_HTTP_INVALID_HEADER_VALUE]: Invalid value "undefined" for header "x-api-key"',
+  level: 'error',
+  timestamp: '2022-02-24T18:04:52.433Z'
+}
+{
+  message: 'KOS error - Error: Request failed with status code 500',
+  level: 'error',
+  timestamp: '2022-02-24T18:06:05.354Z'
+}
+{
+  message: 'Data Mapper error - INFO [2022-02-24 19:09:13,442] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/./resources/models/Encounter.ttl\n' +
+    'INFO [2022-02-24 19:09:16,156] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/./resources/models/Encounter.ttl\n',
+  level: 'error',
+  timestamp: '2022-02-24T18:09:17.188Z'
+}
+{
+  message: 'KOS error - Error: Request failed with status code 500',
+  level: 'error',
+  timestamp: '2022-02-24T18:09:17.256Z'
+}
+{
+  message: 'Data Mapper error - INFO [2022-02-24 19:19:13,878] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/./resources/models/Encounter.ttl\n' +
+    'INFO [2022-02-24 19:19:16,462] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/./resources/models/Encounter.ttl\n',
+  level: 'error',
+  timestamp: '2022-02-24T18:19:22.803Z'
+}
+{
+  message: 'KOS error - Error: Request failed with status code 500',
+  level: 'error',
+  timestamp: '2022-02-24T18:19:24.843Z'
+}
+{
+  message: 'Data Mapper error - INFO [2022-02-24 19:20:37,869] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/./resources/models/Encounter.ttl\n' +
+    'INFO [2022-02-24 19:20:40,535] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/./resources/models/Encounter.ttl\n',
+  level: 'error',
+  timestamp: '2022-02-24T18:20:41.480Z'
+}
+{
+  message: 'KOS error - Error: Request failed with status code 500',
+  level: 'error',
+  timestamp: '2022-02-24T18:20:41.530Z'
+}
+{
+  message: 'Data Mapper error - INFO [2022-02-24 19:24:20,388] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/./resources/models/Encounter.ttl\n' +
+    'INFO [2022-02-24 19:24:22,979] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/./resources/models/Encounter.ttl\n',
+  level: 'error',
+  timestamp: '2022-02-24T18:24:23.982Z'
+}
+{
+  message: 'KOS error - Error: Request failed with status code 500',
+  level: 'error',
+  timestamp: '2022-02-24T18:24:24.042Z'
+}
+{
+  message: 'Data Mapper error - INFO [2022-02-24 19:43:48,902] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/./resources/models/Encounter.ttl\n' +
+    'INFO [2022-02-24 19:43:51,532] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/./resources/models/Encounter.ttl\n',
+  level: 'error',
+  timestamp: '2022-02-24T18:43:52.498Z'
+}
+{
+  message: 'KOS error - Error: Request failed with status code 500',
+  level: 'error',
+  timestamp: '2022-02-24T18:43:52.560Z'
+}
+{
+  message: 'Data Mapper error - INFO [2022-02-25 09:41:25,646] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/./resources/models/Encounter.ttl\n' +
+    'INFO [2022-02-25 09:41:28,546] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/./resources/models/Encounter.ttl\n',
+  level: 'error',
+  timestamp: '2022-02-25T08:41:34.631Z'
+}
+{
+  message: 'KOS error - Error: Request failed with status code 500',
+  level: 'error',
+  timestamp: '2022-02-25T08:41:36.249Z'
+}
+{
+  message: 'Data Mapper error - INFO [2022-02-25 09:44:55,343] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/./resources/models/Encounter.ttl\n' +
+    'INFO [2022-02-25 09:44:58,026] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/./resources/models/Encounter.ttl\n',
+  level: 'error',
+  timestamp: '2022-02-25T08:45:04.703Z'
+}
+{
+  message: 'KOS error - Error: Request failed with status code 401',
+  level: 'error',
+  timestamp: '2022-02-25T08:45:06.121Z'
+}
+{
+  message: 'Data Mapper error - INFO [2022-02-25 09:46:22,745] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/./resources/models/Encounter.ttl\n' +
+    'INFO [2022-02-25 09:46:26,314] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/./resources/models/Encounter.ttl\n',
+  level: 'error',
+  timestamp: '2022-02-25T08:46:27.529Z'
+}
+{
+  message: 'Data Mapper error - INFO [2022-02-25 09:58:54,305] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/./resources/models/Encounter.ttl\n' +
+    'INFO [2022-02-25 09:58:56,951] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/./resources/models/Encounter.ttl\n',
+  level: 'error',
+  timestamp: '2022-02-25T08:59:02.220Z'
+}
+{
+  message: 'KOS error - Error: Request failed with status code 500',
+  level: 'error',
+  timestamp: '2022-02-25T08:59:03.552Z'
+}
+{
+  message: 'Data Mapper error - INFO [2022-02-25 10:04:26,106] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/./resources/models/Encounter.ttl\n' +
+    'INFO [2022-02-25 10:04:28,817] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/./resources/models/Encounter.ttl\n',
+  level: 'error',
+  timestamp: '2022-02-25T09:04:35.097Z'
+}
+{
+  message: 'KOS error - Error: Request failed with status code 500',
+  level: 'error',
+  timestamp: '2022-02-25T09:04:37.122Z'
+}
+{
+  message: 'Data Mapper error - INFO [2022-02-25 10:44:39,616] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/./resources/models/Encounter.ttl\n' +
+    'INFO [2022-02-25 10:44:42,421] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/./resources/models/Encounter.ttl\n',
+  level: 'error',
+  timestamp: '2022-02-25T09:44:48.958Z'
+}
+{
+  message: 'KOS error - Error: Request failed with status code 401',
+  level: 'error',
+  timestamp: '2022-02-25T09:44:50.456Z'
+}
+{
+  message: 'Data Mapper error - INFO [2022-02-25 10:45:41,296] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/./resources/models/Encounter.ttl\n' +
+    'INFO [2022-02-25 10:45:44,067] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/home/simone/UniTn/IEHR/IEHR-server/IHS/./resources/models/Encounter.ttl\n',
+  level: 'error',
+  timestamp: '2022-02-25T09:45:44.983Z'
+}
+{
+  message: 'Data Mapper error - INFO [2022-02-25 14:19:06,850] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/./resources/models/Encounter.ttl\n' +
+    'INFO [2022-02-25 14:19:09,043] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/./resources/models/Encounter.ttl\n',
+  level: 'error',
+  timestamp: '2022-02-25T14:19:15.370Z'
+}
+{
+  message: 'Data Mapper error - INFO [2022-02-25 14:28:07,959] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/./resources/models/Encounter.ttl\n' +
+    'INFO [2022-02-25 14:28:10,114] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/./resources/models/Encounter.ttl\n',
+  level: 'error',
+  timestamp: '2022-02-25T14:28:13.477Z'
+}
+{
+  message: 'Data Mapper error - INFO [2022-02-25 14:29:05,950] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/./resources/models/DiagnsticReport-LabResult.ttl\n' +
+    'INFO [2022-02-25 14:29:08,137] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/./resources/models/DiagnsticReport-LabResult.ttl\n',
+  level: 'error',
+  timestamp: '2022-02-25T14:29:20.438Z'
+}
+{
+  message: 'Data Mapper error - INFO [2022-02-25 14:47:53,892] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/./resources/models/Encounter.ttl\n' +
+    'INFO [2022-02-25 14:47:56,077] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/./resources/models/Encounter.ttl\n',
+  level: 'error',
+  timestamp: '2022-02-25T14:48:03.205Z'
+}
+{
+  message: 'Data Mapper error - INFO [2022-02-25 14:48:27,822] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/./resources/models/DiagnsticReport-LabResult.ttl\n' +
+    'INFO [2022-02-25 14:48:30,027] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/./resources/models/DiagnsticReport-LabResult.ttl\n',
+  level: 'error',
+  timestamp: '2022-02-25T14:48:42.741Z'
+}
+{
+  message: 'Data Mapper error - INFO [2022-03-09 09:26:27,460] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/./resources/models/Condition.ttl\n' +
+    'INFO [2022-03-09 09:26:30,069] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/./resources/models/Condition.ttl\n',
+  level: 'error',
+  timestamp: '2022-03-09T09:26:39.904Z'
+}
+{
+  message: 'Data Mapper error - INFO [2022-03-09 10:05:38,624] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/./resources/models/Condition.ttl\n' +
+    'INFO [2022-03-09 10:05:40,903] (WorksheetR2RMLJenaModelParser->loadSourceModelIntoJenaModel->219): Load model:file:/./resources/models/Condition.ttl\n',
+  level: 'error',
+  timestamp: '2022-03-09T10:05:48.741Z'
+}

@@ -1,0 +1,60 @@
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd9_425.4',
+  level: 'error',
+  timestamp: '2022-02-09T15:12:02.874Z'
+}
+{
+  message: 'Machine translation error : No translation for [sdfwr4rf] for language [en]',
+  level: 'error',
+  timestamp: '2022-02-11T08:26:25.783Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd9_425.4',
+  level: 'error',
+  timestamp: '2022-02-25T11:01:03.907Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd9_491.22',
+  level: 'error',
+  timestamp: '2022-03-02T15:43:28.929Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd9_425.4',
+  level: 'error',
+  timestamp: '2022-03-02T15:43:36.822Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd9_491.22',
+  level: 'error',
+  timestamp: '2022-03-02T15:45:59.868Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:icd9_425.4',
+  level: 'error',
+  timestamp: '2022-03-02T15:45:59.892Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-03-09T09:29:54.896Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-03-09T09:29:54.899Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-03-09T10:07:16.795Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-03-09T10:07:16.798Z'
+}
+{
+  message: 'Error there are no concepts, or senses, for the prefix:loinc_69867-0',
+  level: 'error',
+  timestamp: '2022-03-09T10:07:16.801Z'
+}

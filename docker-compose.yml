@@ -1,7 +1,6 @@
 version: '2.2'
 
 services:
-
     mongodb:
         image: mongo:3.4
         expose:
@@ -10,9 +9,8 @@ services:
             - ./mongodb-data:/data/db
         restart: unless-stopped
 
-
     db:
-        image: knowhub.disi.unitn.it:4443/iehr/db:2
+        image: db:1.0
         volumes:
             - ./dump.sql.gz:/docker-entrypoint-initdb.d/z2-dump.sql.gz
             - ./postgresql-data:/var/lib/postgresql
@@ -28,13 +26,8 @@ services:
             - postgres
         restart: unless-stopped
 
-    nlptool:
-        image: knowhub.disi.unitn.it:4443/iehr/ehr_nlp_tool:4.0.2
-        expose:
-            - 8000
-
     sweb:
-        image: knowhub.disi.unitn.it:4443/iehr/sweb:5.2.8
+        image: sweb:5.2.7
         volumes:
             - ./override.properties:/conf/override.properties #Inject the configurations
         links:
@@ -46,7 +39,7 @@ services:
         command: /bin/wait-for db:5432 -t 600 -- /usr/bin/java ${JAVAOPTS} -jar /sweb-webapi-runtime.jar
 
     kos:
-        image: knowhub.disi.unitn.it:4443/kos_test:1.1.0-sprint
+        image: kos:1.0
         depends_on:
             - sweb
             - mongodb
@@ -56,14 +49,14 @@ services:
             - './etype_lattice_cache.json:/kos/kos-core/etype_lattice.json'
         ports:
             - "5001:5000"
+        expose:
+            - "5001"
         restart: unless-stopped
-
-        # refere to kos-apps folder in the platform folder
         command: /bin/wait-for -t 60 mongodb:27017 -- /bin/wait-for -t 780 sweb:8080 -- /bin/sh -c "cd /kos/kos-core && node index.js"
 
 
     karmalinker:
-        image: knowhub.disi.unitn.it:4443/karmalinker:2.5-KL2.2.4-r1
+        image: karmalinker:2.4-r1
         volumes:
             - './karma-pyAddons:/root/karma/python'
         environment:
@@ -74,7 +67,7 @@ services:
             - "7000:7000"
 
     converter:
-        image: knowhub.disi.unitn.it:4443/rdf2eml:0.0.1-beta6
+        image: rdf2eml:1.0
         restart: unless-stopped
         ports:
             - "6000:6000"
@@ -85,17 +78,28 @@ services:
             - "--sweb.url=http://sweb:8080/"
             - "--server.port=6000"
 
-    mt:
-        image: translate:latest
+    ihs:
+        image: ihs:1.9
+        environment:
+            - APP_LANGUAGE=en
+            - APP_PORT=4000
+            - SWEB_HOST=sweb
+            - SWEB_PORT=8080
+            - KOS_HOST=kos
+            - KOS_PORT=5000
+            - KOS_AUTH_TOKEN=0397d5a90613feea401a3a298de551fb
+            - CONVERTER_HOST=converter
+            - CONVERTER_PORT=6000
+        restart: unless-stopped
         ports:
-            - "3000:3000"
+            - "4000:4000"
+        volumes:
+            - './IHS-log:/util/logger/logs'
+            - './IHS-resources:/resources'
+            - './karma-pyAddons:/root/karma/python'
+        command: npm run start-ihs
 
-#    importer:
-#        image: java:8u92-jre-alpine
-#        links:
-#            - db
-#        volumes:
-#            - '../appassembler-1:/appassembler'
-#            - '../datasets:/datasets'
-#        restart: 'no'
-#        command: /appassembler/bin/updateuk -i /datasets/empty1.xls -r --min-uk-id 200000 --max-uk-id 80000000
+    nlptool:
+        image: nlp:4.0.1
+        expose:
+            - 8000

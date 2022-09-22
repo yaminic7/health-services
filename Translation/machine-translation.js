@@ -195,8 +195,11 @@ module.exports.translateText = async (resource, translationModel, bundleResource
 					}
 					if(existingLang) continue
 
-					//let translation = await translate(attribute, translationModel)
-					let translation = await MTInternalTranslate(attribute, translationModel)
+					//WATSON EXTERNAL TRANSLATOR
+					let translation = await translate(attribute, translationModel)
+
+					// TO BE USED WITH THE mt DOCKER IMAGE
+					//let translation = await MTInternalTranslate(attribute, translationModel)
 
 					console.log("MT out:"+translation)
 

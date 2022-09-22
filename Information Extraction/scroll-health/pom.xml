@@ -1,0 +1,222 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>it.unitn.disi.sweb</groupId>
+        <artifactId>scroll</artifactId>
+        <version>4.0.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>scroll-health</artifactId>
+    <packaging>jar</packaging>
+    <!-- No version specified, inherits version from parent-->
+    <name>scroll-health</name>
+
+    <properties>
+        <java.version>1.7</java.version>
+        <apache.commons.version>1.3.2</apache.commons.version>
+        <aspectj.version>1.6.10</aspectj.version>
+        <c3p0.version>0.9.1.2</c3p0.version>
+        <flexjson.version>3.1</flexjson.version>
+        <jsonic.version>1.3.0</jsonic.version>
+        <language.detector.version>1.1-20120112</language.detector.version>
+        <log4j.version>1.2.14</log4j.version>
+        <lucene.core.version>3.0.2</lucene.core.version>
+        <lucene.snowball.version>3.0.2</lucene.snowball.version>
+        <maxent.version>3.0.3</maxent.version>
+        <opennlp.version>1.5.3</opennlp.version>
+        <scroll.core.version>3.0.1-SNAPSHOT</scroll.core.version>
+        <scroll.data.common.version>3.0.1-SNAPSHOT</scroll.data.common.version>
+        <scroll.model.version>3.0.1-SNAPSHOT</scroll.model.version>
+        <slf4j.version>1.6.0</slf4j.version>
+        <spring.version>3.2.8.RELEASE</spring.version>
+        <maven.compiler.version>2.5.1</maven.compiler.version>
+    </properties>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>${maven.compiler.version}</version>
+                <configuration>
+                    <source>${java.version}</source>
+                    <target>${java.version}</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+    <dependencies>
+        <!-- Dependencies to external libraries -->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>${junit.version}</version>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
+            <version>${log4j.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-orm</artifactId>
+            <version>${spring.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-test</artifactId>
+            <version>${spring.version}</version>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-aop</artifactId>
+            <version>${spring.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+            <version>${spring.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>xml-apis</groupId>
+            <artifactId>xml-apis</artifactId>
+            <version>1.4.01</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-io</artifactId>
+            <version>${apache.commons.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>net.sf.flexjson</groupId>
+            <artifactId>flexjson</artifactId>
+            <version>${flexjson.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.aspectj</groupId>
+            <artifactId>aspectjrt</artifactId>
+            <version>${aspectj.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.aspectj</groupId>
+            <artifactId>aspectjweaver</artifactId>
+            <version>${aspectj.version}</version>
+        </dependency>
+
+        <!-- for heuristic parsing of multilingual dates/times -->
+        <dependency>
+            <groupId>org.pojava</groupId>
+            <artifactId>pojava</artifactId>
+            <version>3.0.0</version>
+        </dependency>
+
+        <!-- c3p0 connection pool -->
+        <dependency>
+            <groupId>c3p0</groupId>
+            <artifactId>c3p0</artifactId>
+            <version>${c3p0.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>javax.xml.bind</groupId>
+            <artifactId>jaxb-api</artifactId>
+            <version>2.3.1</version>
+        </dependency>
+
+        <!-- the following dependency is required for the snowball stemmer -->
+        <dependency>
+            <groupId>org.apache.lucene</groupId>
+            <artifactId>lucene-snowball</artifactId>
+            <version>${lucene.snowball.version}</version>
+            <exclusions>
+                <exclusion>  <!-- declare the exclusion here -->
+                    <groupId>org.apache.lucene</groupId>
+                    <artifactId>lucene-core</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
+        <dependency>
+            <groupId>com.cybozu.labs</groupId>
+            <artifactId>langdetect</artifactId>
+            <version>${language.detector.version}</version>
+        </dependency>
+
+        <!-- The following is needed for the language detection library -->
+        <dependency>
+            <groupId>net.arnx</groupId>
+            <artifactId>jsonic</artifactId>
+            <version>${jsonic.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-log4j12</artifactId>
+            <!-- There is a dependency which needs 1.5.8, which leads to a conflict -->
+            <version>${slf4j.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-beans</artifactId>
+            <version>4.0.7.RELEASE</version>
+        </dependency>
+        <dependency>
+            <groupId>it.unitn.disi.sweb</groupId>
+            <artifactId>scroll-model</artifactId>
+            <version>4.0.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>it.unitn.disi.sweb</groupId>
+            <artifactId>scroll-core</artifactId>
+            <version>4.0.0-SNAPSHOT</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.json/json -->
+        <dependency>
+            <groupId>org.json</groupId>
+            <artifactId>json</artifactId>
+            <version>20210307</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.jsoup/jsoup -->
+        <dependency>
+            <groupId>org.jsoup</groupId>
+            <artifactId>jsoup</artifactId>
+            <version>1.14.1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+            <scope>compile</scope>
+        </dependency>
+
+    </dependencies>
+    <developers>
+        <developer>
+            <id>yamini</id>
+            <name>Yamini Chandrashekar</name>
+            <email>yamini.chandrashekar@unitn.it</email>
+            <organization>DISI</organization>
+        </developer>
+
+        <developer>
+            <id>gabor.bella</id>
+            <name>Gabor Bella</name>
+            <email>gabor.bella@unitn.it</email>
+            <organization>DISI</organization>
+        </developer>
+
+    </developers>
+</project>

@@ -1,0 +1,101 @@
+version: '2.2'
+
+services:
+
+    mongodb:
+        image: mongo:3.4
+        expose:
+            - 27017
+        volumes:
+            - ./mongodb-data:/data/db
+        restart: unless-stopped
+
+
+    db:
+        image: knowhub.disi.unitn.it:4443/iehr/db:2
+        volumes:
+            - ./dump.sql.gz:/docker-entrypoint-initdb.d/z2-dump.sql.gz
+            - ./postgresql-data:/var/lib/postgresql
+        environment:
+            - "POSTGRES_PASSWORD=1111"
+            - "POSTGRES_USER=sweb"
+            - "POSTGRES_DB=swebcore"
+        expose:
+            - "5432"
+        entrypoint:
+            - /docker-entrypoint.sh
+        command:
+            - postgres
+        restart: unless-stopped
+
+    nlptool:
+        image: knowhub.disi.unitn.it:4443/iehr/ehr_nlp_tool:4.0.2
+        expose:
+            - 8000
+
+    sweb:
+        image: knowhub.disi.unitn.it:4443/iehr/sweb:5.2.8
+        volumes:
+            - ./override.properties:/conf/override.properties #Inject the configurations
+        links:
+            - db
+            - nlptool
+        restart: unless-stopped
+        ports:
+            - "0.0.0.0:8081:8080"
+        command: /bin/wait-for db:5432 -t 600 -- /usr/bin/java ${JAVAOPTS} -jar /sweb-webapi-runtime.jar
+
+    kos:
+        image: knowhub.disi.unitn.it:4443/kos_test:1.1.0-sprint
+        depends_on:
+            - sweb
+            - mongodb
+        volumes:
+            - './kos-apps:/kos/apps'
+            - './config.js:/kos/kos-core/config.js'
+            - './etype_lattice_cache.json:/kos/kos-core/etype_lattice.json'
+        ports:
+            - "5001:5000"
+        restart: unless-stopped
+
+        # refere to kos-apps folder in the platform folder
+        command: /bin/wait-for -t 60 mongodb:27017 -- /bin/wait-for -t 780 sweb:8080 -- /bin/sh -c "cd /kos/kos-core && node index.js"
+
+
+    karmalinker:
+        image: knowhub.disi.unitn.it:4443/karmalinker:2.5-KL2.2.4-r1
+        volumes:
+            - './karma-pyAddons:/root/karma/python'
+        environment:
+            - SCROLL_SERVICE_URL=http://sweb:8080
+            - KOS_SERVICE_URL=http://localhost:5001/
+        restart: unless-stopped
+        ports:
+            - "7000:7000"
+
+    converter:
+        image: knowhub.disi.unitn.it:4443/rdf2eml:0.0.1-beta6
+        restart: unless-stopped
+        ports:
+            - "6000:6000"
+        command:
+            - "/bin/java"
+            - "-jar"
+            - "app.jar"
+            - "--sweb.url=http://sweb:8080/"
+            - "--server.port=6000"
+
+    mt:
+        image: translate:latest
+        ports:
+            - "3000:3000"
+
+#    importer:
+#        image: java:8u92-jre-alpine
+#        links:
+#            - db
+#        volumes:
+#            - '../appassembler-1:/appassembler'
+#            - '../datasets:/datasets'
+#        restart: 'no'
+#        command: /appassembler/bin/updateuk -i /datasets/empty1.xls -r --min-uk-id 200000 --max-uk-id 80000000

@@ -1,0 +1,2400 @@
+{
+  message: 'The attribute http://hl7.org/fhir/uv/ips/StructureDefinition/composition-uv-ips is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T11:01:12.142Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T11:01:12.142Z'
+}
+{
+  message: 'The attribute [object Object],[object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T11:01:13.930Z'
+}
+{
+  message: 'The attribute [object Object],[object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T11:01:13.930Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T11:01:15.414Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T11:01:15.415Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T11:01:15.415Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T11:01:15.416Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T11:01:15.416Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T11:01:15.417Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T11:01:15.417Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T11:01:15.417Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T11:01:15.418Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T11:01:15.418Z'
+}
+{
+  message: 'The attribute http://hl7.org/fhir/uv/ips/StructureDefinition/allergyintolerance-uv-ips is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T11:01:15.418Z'
+}
+{
+  message: 'The attribute medication is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T11:01:15.418Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T11:01:15.418Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T11:01:15.418Z'
+}
+{
+  message: 'The attribute http://hl7.org/fhir/uv/ips/StructureDefinition/condition-uv-ips is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T11:01:15.419Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T11:01:15.419Z'
+}
+{
+  message: 'The attribute http://hl7.org/fhir/uv/ips/StructureDefinition/condition-uv-ips is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T11:01:15.419Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T11:01:15.419Z'
+}
+{
+  message: 'The attribute http://hl7.org/fhir/uv/ips/StructureDefinition/medicationstatement-uv-ips is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T11:01:15.419Z'
+}
+{
+  message: 'The attribute http://hl7.org/fhir/uv/ips/StructureDefinition/medicationstatement-uv-ips is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T11:01:15.724Z'
+}
+{
+  message: 'The attribute http://hl7.org/fhir/uv/ips/StructureDefinition/medicationstatement-uv-ips is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T11:01:16.020Z'
+}
+{
+  message: 'The attribute http://hl7.org/fhir/uv/ips/StructureDefinition/medicationstatement-uv-ips is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T11:01:16.292Z'
+}
+{
+  message: 'The attribute http://hl7.org/fhir/uv/ips/StructureDefinition/medicationstatement-uv-ips is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T11:01:16.593Z'
+}
+{
+  message: 'The attribute http://hl7.org/fhir/uv/ips/StructureDefinition/medicationstatement-uv-ips is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T11:01:16.862Z'
+}
+{
+  message: 'The attribute http://hl7.org/fhir/uv/ips/StructureDefinition/observation-laboratory-uv-ips is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T11:01:17.143Z'
+}
+{
+  message: 'The attribute [object Object],[object Object],[object Object],[object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T11:01:17.144Z'
+}
+{
+  message: 'The attribute [object Object],[object Object],[object Object],[object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T11:01:17.144Z'
+}
+{
+  message: 'The attribute [object Object],[object Object],[object Object],[object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T11:01:17.145Z'
+}
+{
+  message: 'The attribute [object Object],[object Object],[object Object],[object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T11:01:17.145Z'
+}
+{
+  message: 'The attribute http://hl7.org/fhir/uv/ips/StructureDefinition/observation-laboratory-uv-ips is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T11:01:17.145Z'
+}
+{
+  message: 'The attribute [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T11:01:17.146Z'
+}
+{
+  message: 'The attribute [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T11:01:17.146Z'
+}
+{
+  message: 'The attribute [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T11:01:17.146Z'
+}
+{
+  message: 'The attribute [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T11:01:17.146Z'
+}
+{
+  message: 'The attribute [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T11:01:17.147Z'
+}
+{
+  message: 'The attribute [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T11:01:17.147Z'
+}
+{
+  message: 'The attribute [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T11:01:17.147Z'
+}
+{
+  message: 'The attribute [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T11:01:17.147Z'
+}
+{
+  message: 'The attribute [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T11:01:17.147Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T11:01:17.147Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T11:01:17.148Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T11:01:17.148Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T11:01:17.148Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T11:01:17.148Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T11:01:17.148Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T11:01:17.148Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T11:01:17.148Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T11:01:17.148Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T11:01:17.148Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T11:01:17.148Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T11:01:17.148Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T11:01:17.148Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T11:01:17.148Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T11:01:17.148Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T11:01:17.149Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T11:01:17.149Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T11:01:17.150Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T11:01:17.150Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T11:01:17.150Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T11:01:17.150Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T11:01:17.150Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T11:01:17.150Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T11:01:17.150Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T11:01:17.150Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T11:01:17.150Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T11:01:17.150Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T11:01:17.150Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T11:01:17.150Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T11:01:17.150Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T11:01:17.150Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T11:01:17.151Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T11:01:17.151Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T11:01:17.151Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T11:01:17.151Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T11:01:17.151Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T11:01:17.151Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T11:01:17.151Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T11:01:17.151Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T11:01:17.151Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T11:01:17.151Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T11:01:17.151Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T11:01:17.151Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T11:01:17.151Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T11:01:17.151Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T11:01:17.152Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T11:01:17.152Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T11:01:17.152Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T11:01:17.152Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T11:01:17.152Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T11:01:17.152Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T11:01:17.152Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T11:01:17.152Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T11:01:17.152Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T11:01:17.152Z'
+}
+{
+  message: 'The attribute http://interopehrate.eu/fhir/StructureDefinition/Encounter-IEHR is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T14:31:44.478Z'
+}
+{
+  message: 'The attribute http://interopehrate.eu/fhir/StructureDefinition/Encounter-IEHR is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T14:31:44.478Z'
+}
+{
+  message: 'The attribute http://interopehrate.eu/fhir/StructureDefinition/Encounter-IEHR is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T14:35:24.409Z'
+}
+{
+  message: 'The attribute  http://interopehrate.eu/fhir/StructureDefinition/DiagnosticReport-LaboratoryReport-IEHR is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T14:35:24.409Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T14:35:24.409Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T14:35:24.409Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T14:35:24.409Z'
+}
+{
+  message: 'The attribute [object Object],[object Object],[object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T14:35:24.410Z'
+}
+{
+  message: 'The attribute [object Object],[object Object],[object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T14:35:24.410Z'
+}
+{
+  message: 'The attribute [object Object],[object Object],[object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T14:35:24.410Z'
+}
+{
+  message: 'The attribute http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-uv-ips is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T14:35:24.410Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T14:35:24.410Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T14:35:24.410Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T14:35:24.410Z'
+}
+{
+  message: 'The attribute http://hl7.org/fhir/uv/ips/StructureDefinition/Patient-uv-ips is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T14:35:24.410Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T14:35:24.410Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T14:35:24.411Z'
+}
+{
+  message: 'The attribute http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-uv-ips is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T14:35:24.411Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T14:35:24.411Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T14:35:24.411Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T14:35:24.411Z'
+}
+{
+  message: 'The attribute http://hl7.org/fhir/uv/ips/StructureDefinition/Practitioner-uv-ips is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T14:35:24.411Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T14:35:24.411Z'
+}
+{
+  message: 'The attribute http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-uv-ips is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T14:35:24.411Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T14:35:24.411Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T14:35:24.412Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T14:35:24.412Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T14:35:24.412Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T14:35:24.412Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T14:35:24.412Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T14:35:24.412Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T14:35:24.412Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T14:35:24.412Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T14:35:24.412Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T14:35:24.412Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T14:35:24.412Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T14:35:24.412Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T14:35:24.413Z'
+}
+{
+  message: 'The attribute http://interopehrate.eu/fhir/StructureDefinition/Encounter-IEHR is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T14:50:08.243Z'
+}
+{
+  message: 'The attribute http://interopehrate.eu/fhir/StructureDefinition/Encounter-IEHR is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T14:50:08.244Z'
+}
+{
+  message: 'The attribute http://interopehrate.eu/fhir/StructureDefinition/Encounter-IEHR is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T14:51:55.137Z'
+}
+{
+  message: 'The attribute  http://interopehrate.eu/fhir/StructureDefinition/DiagnosticReport-LaboratoryReport-IEHR is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T14:51:55.138Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T14:51:55.138Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T14:51:55.139Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T14:51:55.139Z'
+}
+{
+  message: 'The attribute [object Object],[object Object],[object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T14:51:55.139Z'
+}
+{
+  message: 'The attribute [object Object],[object Object],[object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T14:51:55.139Z'
+}
+{
+  message: 'The attribute [object Object],[object Object],[object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T14:51:55.139Z'
+}
+{
+  message: 'The attribute http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-uv-ips is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T14:51:55.139Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T14:51:55.139Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T14:51:55.139Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T14:51:55.139Z'
+}
+{
+  message: 'The attribute http://hl7.org/fhir/uv/ips/StructureDefinition/Patient-uv-ips is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T14:51:55.139Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T14:51:55.140Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T14:51:55.140Z'
+}
+{
+  message: 'The attribute http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-uv-ips is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T14:51:55.140Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T14:51:55.140Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T14:51:55.140Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T14:51:55.140Z'
+}
+{
+  message: 'The attribute http://hl7.org/fhir/uv/ips/StructureDefinition/Practitioner-uv-ips is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T14:51:55.140Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T14:51:55.140Z'
+}
+{
+  message: 'The attribute http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-uv-ips is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T14:51:55.140Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T14:51:55.140Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T14:51:55.140Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T14:51:55.140Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T14:51:55.140Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T14:51:55.140Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T14:51:55.140Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T14:51:55.140Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T14:51:55.141Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T14:51:55.141Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T14:51:55.141Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T14:51:55.141Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T14:51:55.141Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T14:51:55.141Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-02-25T14:51:55.141Z'
+}
+{
+  message: 'The attribute http://hl7.org/fhir/uv/ips/StructureDefinition/Composition-uv-ips is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:35.110Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:35.111Z'
+}
+{
+  message: 'The attribute [object Object],[object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:36.181Z'
+}
+{
+  message: 'The attribute [object Object],[object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:36.182Z'
+}
+{
+  message: 'The attribute http://hl7.org/fhir/uv/ips/StructureDefinition/Practitioner-uv-ips is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:38.242Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:38.243Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:38.243Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:38.243Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:38.244Z'
+}
+{
+  message: 'The attribute http://hl7.org/fhir/uv/ips/StructureDefinition/Patient-uv-ips is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:38.244Z'
+}
+{
+  message: 'The attribute [object Object],[object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:38.244Z'
+}
+{
+  message: 'The attribute [object Object],[object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:38.245Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:38.245Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:38.245Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:38.246Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:38.246Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:38.248Z'
+}
+{
+  message: 'The attribute http://hl7.org/fhir/uv/ips/StructureDefinition/AllergyIntolerance-uv-ips is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:38.248Z'
+}
+{
+  message: 'The attribute medication is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:38.249Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:38.249Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:38.249Z'
+}
+{
+  message: 'The attribute http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:38.249Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:38.250Z'
+}
+{
+  message: 'The attribute http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:38.250Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:38.251Z'
+}
+{
+  message: 'The attribute http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:38.251Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:38.251Z'
+}
+{
+  message: 'The attribute http://hl7.org/fhir/uv/ips/StructureDefinition/MedicationStatement-uv-ips is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:38.252Z'
+}
+{
+  message: 'The attribute http://hl7.org/fhir/uv/ips/StructureDefinition/MedicationStatement-uv-ips is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:38.506Z'
+}
+{
+  message: 'The attribute http://hl7.org/fhir/uv/ips/StructureDefinition/MedicationStatement-uv-ips is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:38.759Z'
+}
+{
+  message: 'The attribute http://hl7.org/fhir/uv/ips/StructureDefinition/MedicationStatement-uv-ips is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.036Z'
+}
+{
+  message: 'The attribute http://hl7.org/fhir/uv/ips/StructureDefinition/MedicationStatement-uv-ips is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.311Z'
+}
+{
+  message: 'The attribute http://hl7.org/fhir/uv/ips/StructureDefinition/MedicationStatement-uv-ips is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.568Z'
+}
+{
+  message: 'The attribute http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-results-laboratory-uv-ips is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.836Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.836Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.837Z'
+}
+{
+  message: 'The attribute [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.837Z'
+}
+{
+  message: 'The attribute [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.837Z'
+}
+{
+  message: 'The attribute [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.837Z'
+}
+{
+  message: 'The attribute [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.838Z'
+}
+{
+  message: 'The attribute [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.838Z'
+}
+{
+  message: 'The attribute [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.838Z'
+}
+{
+  message: 'The attribute [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.838Z'
+}
+{
+  message: 'The attribute [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.838Z'
+}
+{
+  message: 'The attribute [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.839Z'
+}
+{
+  message: 'The attribute http://hl7.org/fhir/StructureDefinition/vitalsigns is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.839Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.839Z'
+}
+{
+  message: 'The attribute http://hl7.org/fhir/StructureDefinition/vitalsigns is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.840Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.840Z'
+}
+{
+  message: 'The attribute http://hl7.org/fhir/StructureDefinition/vitalsigns is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.840Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.840Z'
+}
+{
+  message: 'The attribute http://hl7.org/fhir/StructureDefinition/vitalsigns is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.841Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.841Z'
+}
+{
+  message: 'The attribute http://hl7.org/fhir/uv/ips/StructureDefinition/Organization-uv-ips is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.841Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.841Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.842Z'
+}
+{
+  message: 'The attribute http://hl7.org/fhir/uv/ips/StructureDefinition/Medication-uv-ips is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.842Z'
+}
+{
+  message: 'The attribute http://hl7.org/fhir/uv/ips/StructureDefinition/Medication-uv-ips is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.842Z'
+}
+{
+  message: 'The attribute http://hl7.org/fhir/uv/ips/StructureDefinition/Medication-uv-ips is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.843Z'
+}
+{
+  message: 'The attribute http://hl7.org/fhir/uv/ips/StructureDefinition/Medication-uv-ips is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.843Z'
+}
+{
+  message: 'The attribute http://hl7.org/fhir/uv/ips/StructureDefinition/Medication-uv-ips is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.843Z'
+}
+{
+  message: 'The attribute http://hl7.org/fhir/uv/ips/StructureDefinition/Medication-uv-ips is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.843Z'
+}
+{
+  message: 'The attribute http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-results-laboratory-uv-ips is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.844Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.844Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.844Z'
+}
+{
+  message: 'The attribute http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-results-laboratory-uv-ips is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.845Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.845Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.845Z'
+}
+{
+  message: 'The attribute http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-results-laboratory-uv-ips is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.845Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.845Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.846Z'
+}
+{
+  message: 'The attribute http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-results-laboratory-uv-ips is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.846Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.846Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.846Z'
+}
+{
+  message: 'The attribute http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-results-laboratory-uv-ips is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.847Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.847Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.847Z'
+}
+{
+  message: 'The attribute http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-results-laboratory-uv-ips is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.847Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.847Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.848Z'
+}
+{
+  message: 'The attribute http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-results-laboratory-uv-ips is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.848Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.848Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.848Z'
+}
+{
+  message: 'The attribute http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-results-laboratory-uv-ips is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.849Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.849Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.849Z'
+}
+{
+  message: 'The attribute http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-results-laboratory-uv-ips is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.849Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.849Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.850Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.850Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.850Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.851Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.852Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.852Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.852Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.852Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.852Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.853Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.853Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.853Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.853Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.854Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.854Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.854Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.854Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.854Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.855Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.855Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.855Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.855Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.856Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.856Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.856Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.856Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.857Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.857Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.857Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.857Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.858Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.858Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.858Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.858Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.858Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.859Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.859Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.859Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.859Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.860Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.860Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.860Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.861Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.861Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.862Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.862Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.862Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.862Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.863Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.863Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.863Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.863Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.864Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.864Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.864Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.864Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.864Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.865Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.865Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.865Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.865Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.865Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.865Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.866Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.866Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:44:39.866Z'
+}
+{
+  message: 'The attribute http://hl7.org/fhir/uv/ips/StructureDefinition/Composition-uv-ips is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:00.113Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:00.114Z'
+}
+{
+  message: 'The attribute [object Object],[object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:00.396Z'
+}
+{
+  message: 'The attribute [object Object],[object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:00.396Z'
+}
+{
+  message: 'The attribute http://hl7.org/fhir/uv/ips/StructureDefinition/Practitioner-uv-ips is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:02.717Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:02.717Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:02.717Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:02.717Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:02.717Z'
+}
+{
+  message: 'The attribute http://hl7.org/fhir/uv/ips/StructureDefinition/Patient-uv-ips is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:02.717Z'
+}
+{
+  message: 'The attribute [object Object],[object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:02.718Z'
+}
+{
+  message: 'The attribute [object Object],[object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:02.718Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:02.718Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:02.718Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:02.718Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:02.718Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:02.718Z'
+}
+{
+  message: 'The attribute http://hl7.org/fhir/uv/ips/StructureDefinition/AllergyIntolerance-uv-ips is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:02.718Z'
+}
+{
+  message: 'The attribute medication is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:02.718Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:02.718Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:02.718Z'
+}
+{
+  message: 'The attribute http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:02.718Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:02.718Z'
+}
+{
+  message: 'The attribute http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:02.719Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:02.719Z'
+}
+{
+  message: 'The attribute http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:02.719Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:02.719Z'
+}
+{
+  message: 'The attribute http://hl7.org/fhir/uv/ips/StructureDefinition/MedicationStatement-uv-ips is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:02.719Z'
+}
+{
+  message: 'The attribute http://hl7.org/fhir/uv/ips/StructureDefinition/MedicationStatement-uv-ips is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:02.999Z'
+}
+{
+  message: 'The attribute http://hl7.org/fhir/uv/ips/StructureDefinition/MedicationStatement-uv-ips is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:03.253Z'
+}
+{
+  message: 'The attribute http://hl7.org/fhir/uv/ips/StructureDefinition/MedicationStatement-uv-ips is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:03.509Z'
+}
+{
+  message: 'The attribute http://hl7.org/fhir/uv/ips/StructureDefinition/MedicationStatement-uv-ips is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:03.763Z'
+}
+{
+  message: 'The attribute http://hl7.org/fhir/uv/ips/StructureDefinition/MedicationStatement-uv-ips is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:04.030Z'
+}
+{
+  message: 'The attribute http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-results-laboratory-uv-ips is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:04.315Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:04.316Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:04.316Z'
+}
+{
+  message: 'The attribute [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:04.316Z'
+}
+{
+  message: 'The attribute [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:04.317Z'
+}
+{
+  message: 'The attribute [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:04.317Z'
+}
+{
+  message: 'The attribute [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:04.317Z'
+}
+{
+  message: 'The attribute [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:04.318Z'
+}
+{
+  message: 'The attribute [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:04.318Z'
+}
+{
+  message: 'The attribute [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:04.319Z'
+}
+{
+  message: 'The attribute [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:04.319Z'
+}
+{
+  message: 'The attribute [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:04.319Z'
+}
+{
+  message: 'The attribute http://hl7.org/fhir/StructureDefinition/vitalsigns is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:04.323Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:04.323Z'
+}
+{
+  message: 'The attribute http://hl7.org/fhir/StructureDefinition/vitalsigns is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:04.324Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:04.324Z'
+}
+{
+  message: 'The attribute http://hl7.org/fhir/StructureDefinition/vitalsigns is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:04.325Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:04.325Z'
+}
+{
+  message: 'The attribute http://hl7.org/fhir/StructureDefinition/vitalsigns is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:04.326Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:04.326Z'
+}
+{
+  message: 'The attribute http://hl7.org/fhir/uv/ips/StructureDefinition/Organization-uv-ips is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:04.327Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:04.327Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:04.327Z'
+}
+{
+  message: 'The attribute http://hl7.org/fhir/uv/ips/StructureDefinition/Medication-uv-ips is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:04.328Z'
+}
+{
+  message: 'The attribute http://hl7.org/fhir/uv/ips/StructureDefinition/Medication-uv-ips is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:04.328Z'
+}
+{
+  message: 'The attribute http://hl7.org/fhir/uv/ips/StructureDefinition/Medication-uv-ips is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:04.329Z'
+}
+{
+  message: 'The attribute http://hl7.org/fhir/uv/ips/StructureDefinition/Medication-uv-ips is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:04.329Z'
+}
+{
+  message: 'The attribute http://hl7.org/fhir/uv/ips/StructureDefinition/Medication-uv-ips is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:04.329Z'
+}
+{
+  message: 'The attribute http://hl7.org/fhir/uv/ips/StructureDefinition/Medication-uv-ips is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:04.330Z'
+}
+{
+  message: 'The attribute http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-results-laboratory-uv-ips is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:04.330Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:04.330Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:04.330Z'
+}
+{
+  message: 'The attribute http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-results-laboratory-uv-ips is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:04.331Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:04.331Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:04.331Z'
+}
+{
+  message: 'The attribute http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-results-laboratory-uv-ips is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:04.331Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:04.332Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:04.332Z'
+}
+{
+  message: 'The attribute http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-results-laboratory-uv-ips is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:04.334Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:04.334Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:04.340Z'
+}
+{
+  message: 'The attribute http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-results-laboratory-uv-ips is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:04.341Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:04.341Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:04.341Z'
+}
+{
+  message: 'The attribute http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-results-laboratory-uv-ips is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:04.342Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:04.342Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:04.342Z'
+}
+{
+  message: 'The attribute http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-results-laboratory-uv-ips is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:04.343Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:04.343Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:04.343Z'
+}
+{
+  message: 'The attribute http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-results-laboratory-uv-ips is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:04.344Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:04.344Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:04.344Z'
+}
+{
+  message: 'The attribute http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-results-laboratory-uv-ips is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:04.344Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:04.345Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:04.345Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:04.345Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:04.345Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:04.345Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:04.346Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:04.346Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:04.346Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:04.347Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:04.347Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:04.347Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:04.347Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:04.347Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:04.348Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:04.348Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:04.348Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:04.348Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:04.348Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:04.349Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:04.349Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:04.349Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:04.349Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:04.349Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:04.349Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:04.349Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:04.350Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:04.350Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:04.350Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:04.350Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:04.350Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:04.350Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:04.350Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:04.350Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:04.351Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:04.351Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:04.351Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:04.351Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:04.351Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:04.351Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:04.351Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:04.351Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:04.352Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:04.352Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:04.352Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:04.352Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:04.352Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:04.352Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:04.352Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:04.352Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:04.353Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:04.353Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:04.353Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:04.353Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:04.353Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-02T15:46:04.353Z'
+}
+{
+  message: 'The attribute http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-09T09:29:54.900Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-09T09:29:54.900Z'
+}
+{
+  message: 'The attribute http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-09T09:29:54.900Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-09T09:29:54.901Z'
+}
+{
+  message: 'The attribute http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-09T10:07:16.802Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-09T10:07:16.802Z'
+}
+{
+  message: 'The attribute http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-09T10:07:16.803Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-09T10:07:16.803Z'
+}
+{
+  message: 'The attribute http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-09T10:07:16.803Z'
+}
+{
+  message: 'The attribute [object Object] is not considered for machine translation',
+  level: 'info',
+  timestamp: '2022-03-09T10:07:16.803Z'
+}

@@ -1,0 +1,5 @@
+_:etype_Fhir_practitioner_GID-6416781_83cdc8436074d07558bee08b8e3033a9ba4a920f_N39_aba33f0204192c0dc511da54f7c028e1b2a7deea_N32_2bd143d089017fd809fa063f0895759a35263a14_N30 <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1> "FSTPLG59A26F839C" .
+_:etype_Fhir_practitioner_GID-6416781_83cdc8436074d07558bee08b8e3033a9ba4a920f_N39_aba33f0204192c0dc511da54f7c028e1b2a7deea_N32_2bd143d089017fd809fa063f0895759a35263a14_N30 <http://knowdive.disi.unitn.it/etype#has_fhir_practitioner.name.family_GID-641665_Type-641678> "FESTA" .
+_:etype_Fhir_practitioner_GID-6416781_83cdc8436074d07558bee08b8e3033a9ba4a920f_N39_aba33f0204192c0dc511da54f7c028e1b2a7deea_N32_2bd143d089017fd809fa063f0895759a35263a14_N30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Fhir_practitioner_GID-641678> .
+_:etype_Fhir_practitioner_GID-6416781_83cdc8436074d07558bee08b8e3033a9ba4a920f_N39_aba33f0204192c0dc511da54f7c028e1b2a7deea_N32_2bd143d089017fd809fa063f0895759a35263a14_N30 <http://knowdive.disi.unitn.it/etype#has_fhir_practitioner.name.given_GID-641664_Type-641678> "PIERLUIGI" .
+

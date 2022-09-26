@@ -1,0 +1,82 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>it.unitn.disi.sweb</groupId>
+    <version>2.0.0-SNAPSHOT</version>
+    <artifactId>scroll-health-lang-ita</artifactId>
+    <packaging>jar</packaging>
+    <name>scroll-health-lang-ita</name>
+
+    <properties>
+        <maven.build.timestamp.format>yyyy-MM-dd</maven.build.timestamp.format>
+        <java.version>1.7</java.version>
+        <maven.compiler.version>2.5.1</maven.compiler.version>
+        <maven.jar.version>2.4</maven.jar.version>
+        <maven.javadoc.version>2.9</maven.javadoc.version>
+        <maven.surfire.version>2.12.4</maven.surfire.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <sonar.version>2.0</sonar.version>
+        <tracmaven.version>1.4.2</tracmaven.version>
+        <wagon.maven.version>1.0-beta-4</wagon.maven.version>
+        <wagon.ssh.version>1.0-beta-7</wagon.ssh.version>
+        <scroll.version>4.0.0-SNAPSHOT</scroll.version>
+    </properties>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-release-plugin</artifactId>
+                <version>2.5.2</version>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>${maven.compiler.version}</version>
+                <configuration>
+                    <source>${java.version}</source>
+                    <target>${java.version}</target>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>${maven.surfire.version}</version>
+                <configuration>
+                    <argLine>-Xmx1G</argLine>
+                    <useSystemClassLoader>true</useSystemClassLoader>
+                    <useManifestOnlyJar>false</useManifestOnlyJar>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>sonar-maven-plugin</artifactId>
+                <version>${sonar.version}</version>
+            </plugin>
+        </plugins>
+        <extensions>
+            <!-- Allows uploading browsable javadocs to remote server -->
+            <extension>
+                <groupId>org.apache.maven.wagon</groupId>
+                <artifactId>wagon-ssh</artifactId>
+                <version>${wagon.ssh.version}</version>
+            </extension>
+        </extensions>
+    </build>
+
+    <dependencies>
+            <dependency>
+                <groupId>it.unitn.disi.sweb</groupId>
+                <artifactId>scroll-health</artifactId>
+                <version>4.0.0-SNAPSHOT</version>
+            </dependency>
+    </dependencies>
+    <developers>
+        <developer>
+            <id>yamini.chandrashekar</id>
+            <name>Yamini Chandrashekar</name>
+            <email>yamini.chandrashekar@unitn.it</email>
+            <organization>DISI</organization>
+        </developer>
+    </developers>
+
+</project>

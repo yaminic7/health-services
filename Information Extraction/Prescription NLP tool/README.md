@@ -6,7 +6,6 @@ This repository includes code for NER and RE methods on EHR records. These metho
 - [Named Entity Recognition](#named-entity-recognition-ner)
     - [NER Data Preprocessing](#ner-data-preprocessing)
     - [BioBERT for NER](#biobert-for-ner)
-    - [NER Results](#ner-results)
 - [Front-end and API deployment](#front-end-and-api-deployment)
     - [FastAPI](#fastapi)
     - [Front-End website](#front-end-website)

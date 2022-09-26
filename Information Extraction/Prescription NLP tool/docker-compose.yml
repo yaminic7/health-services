@@ -1,0 +1,8 @@
+version: '2.2'
+
+services:
+    nlptool:
+        image: knowhub.disi.unitn.it:4443/iehr/ehr_nlp_tool:4.0.3
+        build: .
+        ports: 
+              - "8000:8000"

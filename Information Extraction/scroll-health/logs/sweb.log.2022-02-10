@@ -1,0 +1,19 @@
+2022-02-10 16:04:11,325 INFO [it.unitn.disi.sweb.core.nlp.components.informationextraction.InformationExtraction] - In the Information Extraction class
+2022-02-10 16:04:30,665 INFO [it.unitn.disi.sweb.core.nlp.components.informationextraction.InformationExtraction] - In the Information Extraction class
+2022-02-10 16:06:03,738 INFO [it.unitn.disi.sweb.core.nlp.components.informationextraction.InformationExtraction] - In the Information Extraction class
+2022-02-10 16:06:07,328 INFO [it.unitn.disi.sweb.core.nlp.components.informationextraction.PrescriptionIE] - ---- In the PrescriptionIE class ----
+2022-02-10 16:19:54,421 INFO [it.unitn.disi.sweb.core.nlp.components.informationextraction.InformationExtraction] - In the Information Extraction class
+2022-02-10 16:20:35,359 INFO [it.unitn.disi.sweb.core.nlp.components.informationextraction.InformationExtraction] - In the Information Extraction class
+2022-02-10 16:21:09,218 INFO [it.unitn.disi.sweb.core.nlp.components.informationextraction.InformationExtraction] - In the Information Extraction class
+2022-02-10 16:21:50,691 INFO [it.unitn.disi.sweb.core.nlp.components.informationextraction.InformationExtraction] - In the Information Extraction class
+2022-02-10 17:58:42,687 INFO [it.unitn.disi.sweb.core.nlp.components.informationextraction.InformationExtraction] - In the Information Extraction class
+2022-02-10 17:59:02,625 INFO [it.unitn.disi.sweb.core.nlp.components.informationextraction.InformationExtraction] - In the Information Extraction class
+2022-02-10 17:59:04,607 INFO [it.unitn.disi.sweb.core.nlp.components.informationextraction.PrescriptionIE] - ---- In the PrescriptionIE class ----
+2022-02-10 18:15:34,445 INFO [it.unitn.disi.sweb.core.nlp.components.informationextraction.InformationExtraction] - In the Information Extraction class
+2022-02-10 18:15:36,213 INFO [it.unitn.disi.sweb.core.nlp.components.informationextraction.PrescriptionIE] - ---- In the PrescriptionIE class ----
+2022-02-10 18:16:01,200 INFO [it.unitn.disi.sweb.core.nlp.components.informationextraction.InformationExtraction] - In the Information Extraction class
+2022-02-10 18:16:02,956 INFO [it.unitn.disi.sweb.core.nlp.components.informationextraction.PrescriptionIE] - ---- In the PrescriptionIE class ----
+2022-02-10 18:25:30,250 INFO [it.unitn.disi.sweb.core.nlp.components.informationextraction.InformationExtraction] - In the Information Extraction class
+2022-02-10 18:25:31,990 INFO [it.unitn.disi.sweb.core.nlp.components.informationextraction.PrescriptionIE] - ---- In the PrescriptionIE class ----
+2022-02-10 18:26:30,580 INFO [it.unitn.disi.sweb.core.nlp.components.informationextraction.InformationExtraction] - In the Information Extraction class
+2022-02-10 18:26:32,384 INFO [it.unitn.disi.sweb.core.nlp.components.informationextraction.PrescriptionIE] - ---- In the PrescriptionIE class ----

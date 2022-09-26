@@ -1,0 +1,4 @@
+2022-04-07 07:48:55,472 INFO [it.unitn.disi.sweb.core.nlp.components.informationextraction.InformationExtraction] - In the Information Extraction class
+2022-04-07 07:48:55,515 INFO [it.unitn.disi.sweb.core.nlp.components.informationextraction.IETool] - In the IETool class
+2022-04-07 07:49:12,494 INFO [it.unitn.disi.sweb.core.nlp.components.informationextraction.PrescriptionIE] - In the PrescriptionIE class
+2022-04-07 07:49:12,501 INFO [it.unitn.disi.sweb.core.nlp.components.informationextraction.InformationExtraction] - In the Information Extraction class NL process

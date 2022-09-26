@@ -1,0 +1,20 @@
+2022-02-25 11:30:58,180 INFO [it.unitn.disi.sweb.core.nlp.components.informationextraction.InformationExtraction] - In the Information Extraction class
+2022-02-25 11:31:39,629 INFO [it.unitn.disi.sweb.core.nlp.components.informationextraction.InformationExtraction] - In the Information Extraction class
+2022-02-25 11:32:28,666 INFO [it.unitn.disi.sweb.core.nlp.components.informationextraction.PrescriptionIE] - In the PrescriptionIE class
+2022-02-25 11:32:28,667 INFO [it.unitn.disi.sweb.core.nlp.components.informationextraction.InformationExtraction] - In the set annotations method
+2022-02-25 11:32:28,673 INFO [it.unitn.disi.sweb.core.nlp.components.informationextraction.InformationExtraction] - In the Information Extraction class NL process
+2022-02-25 11:39:33,597 INFO [it.unitn.disi.sweb.core.nlp.components.informationextraction.InformationExtraction] - In the Information Extraction class
+2022-02-25 11:40:48,520 INFO [it.unitn.disi.sweb.core.nlp.components.informationextraction.PrescriptionIE] - In the PrescriptionIE class
+2022-02-25 11:40:48,522 INFO [it.unitn.disi.sweb.core.nlp.components.informationextraction.InformationExtraction] - In the set annotations method
+2022-02-25 11:40:48,528 INFO [it.unitn.disi.sweb.core.nlp.components.informationextraction.InformationExtraction] - In the Information Extraction class NL process
+2022-02-25 11:43:41,047 INFO [it.unitn.disi.sweb.core.nlp.components.informationextraction.InformationExtraction] - In the Information Extraction class
+2022-02-25 11:46:19,018 INFO [it.unitn.disi.sweb.core.nlp.components.informationextraction.InformationExtraction] - In the Information Extraction class
+2022-02-25 11:53:49,055 INFO [it.unitn.disi.sweb.core.nlp.components.informationextraction.InformationExtraction] - In the Information Extraction class
+2022-02-25 11:54:14,444 INFO [it.unitn.disi.sweb.core.nlp.components.informationextraction.PrescriptionIE] - In the PrescriptionIE class
+2022-02-25 11:54:14,445 INFO [it.unitn.disi.sweb.core.nlp.components.informationextraction.InformationExtraction] - In the set annotations method
+2022-02-25 11:54:14,450 INFO [it.unitn.disi.sweb.core.nlp.components.informationextraction.InformationExtraction] - In the Information Extraction class NL process
+2022-02-25 11:55:57,401 INFO [it.unitn.disi.sweb.core.nlp.components.informationextraction.InformationExtraction] - In the Information Extraction class
+2022-02-25 11:56:22,152 INFO [it.unitn.disi.sweb.core.nlp.components.informationextraction.PrescriptionIE] - In the PrescriptionIE class
+2022-02-25 11:56:22,153 INFO [it.unitn.disi.sweb.core.nlp.components.informationextraction.InformationExtraction] - In the set annotations method
+2022-02-25 11:56:22,157 INFO [it.unitn.disi.sweb.core.nlp.components.informationextraction.InformationExtraction] - In the Information Extraction class NL process
+2022-02-25 14:43:11,183 INFO [it.unitn.disi.sweb.core.nlp.components.informationextraction.InformationExtraction] - In the Information Extraction class

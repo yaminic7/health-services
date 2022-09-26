@@ -1,0 +1,36 @@
+2022-03-31 11:44:44,355 INFO [it.unitn.disi.sweb.core.nlp.components.informationextraction.InformationExtraction] - In the Information Extraction class
+2022-03-31 11:44:44,364 INFO [it.unitn.disi.sweb.core.nlp.components.informationextraction.IETool] - In the IETool class
+2022-03-31 11:45:00,066 INFO [it.unitn.disi.sweb.core.nlp.components.informationextraction.InformationExtraction] - In the Information Extraction class
+2022-03-31 11:45:00,072 INFO [it.unitn.disi.sweb.core.nlp.components.informationextraction.IETool] - In the IETool class
+2022-03-31 11:45:13,690 INFO [it.unitn.disi.sweb.core.nlp.components.informationextraction.PrescriptionIE] - In the PrescriptionIE class
+2022-03-31 11:45:13,693 INFO [it.unitn.disi.sweb.core.nlp.components.informationextraction.InformationExtraction] - In the Information Extraction class NL process
+2022-03-31 11:46:57,731 INFO [it.unitn.disi.sweb.core.nlp.components.informationextraction.InformationExtraction] - In the Information Extraction class
+2022-03-31 11:46:57,736 INFO [it.unitn.disi.sweb.core.nlp.components.informationextraction.IETool] - In the IETool class
+2022-03-31 11:47:08,813 INFO [it.unitn.disi.sweb.core.nlp.components.informationextraction.PrescriptionIE] - In the PrescriptionIE class
+2022-03-31 11:47:08,818 INFO [it.unitn.disi.sweb.core.nlp.components.informationextraction.InformationExtraction] - In the Information Extraction class NL process
+2022-03-31 11:53:01,134 INFO [it.unitn.disi.sweb.core.nlp.components.informationextraction.InformationExtraction] - In the Information Extraction class
+2022-03-31 11:53:01,141 INFO [it.unitn.disi.sweb.core.nlp.components.informationextraction.IETool] - In the IETool class
+2022-03-31 11:53:11,849 INFO [it.unitn.disi.sweb.core.nlp.components.informationextraction.PrescriptionIE] - In the PrescriptionIE class
+2022-03-31 11:53:11,853 INFO [it.unitn.disi.sweb.core.nlp.components.informationextraction.InformationExtraction] - In the Information Extraction class NL process
+2022-03-31 11:53:52,690 INFO [it.unitn.disi.sweb.core.nlp.components.informationextraction.InformationExtraction] - In the Information Extraction class
+2022-03-31 11:53:52,697 INFO [it.unitn.disi.sweb.core.nlp.components.informationextraction.IETool] - In the IETool class
+2022-03-31 11:54:06,315 INFO [it.unitn.disi.sweb.core.nlp.components.informationextraction.PrescriptionIE] - In the PrescriptionIE class
+2022-03-31 11:54:06,319 INFO [it.unitn.disi.sweb.core.nlp.components.informationextraction.InformationExtraction] - In the Information Extraction class NL process
+2022-03-31 15:18:10,629 INFO [it.unitn.disi.sweb.core.nlp.components.informationextraction.InformationExtraction] - In the Information Extraction class
+2022-03-31 15:18:10,632 INFO [it.unitn.disi.sweb.core.nlp.components.informationextraction.IETool] - In the IETool class
+2022-03-31 15:18:19,785 INFO [it.unitn.disi.sweb.core.nlp.components.informationextraction.InformationExtraction] - In the Information Extraction class
+2022-03-31 15:18:19,788 INFO [it.unitn.disi.sweb.core.nlp.components.informationextraction.IETool] - In the IETool class
+2022-03-31 15:18:29,085 INFO [it.unitn.disi.sweb.core.nlp.components.informationextraction.PrescriptionIE] - In the PrescriptionIE class
+2022-03-31 15:18:29,087 INFO [it.unitn.disi.sweb.core.nlp.components.informationextraction.InformationExtraction] - In the Information Extraction class NL process
+2022-03-31 15:22:08,021 INFO [it.unitn.disi.sweb.core.nlp.components.informationextraction.InformationExtraction] - In the Information Extraction class
+2022-03-31 15:22:08,024 INFO [it.unitn.disi.sweb.core.nlp.components.informationextraction.IETool] - In the IETool class
+2022-03-31 15:22:17,543 INFO [it.unitn.disi.sweb.core.nlp.components.informationextraction.PrescriptionIE] - In the PrescriptionIE class
+2022-03-31 15:22:17,546 INFO [it.unitn.disi.sweb.core.nlp.components.informationextraction.InformationExtraction] - In the Information Extraction class NL process
+2022-03-31 19:35:54,549 INFO [it.unitn.disi.sweb.core.nlp.components.informationextraction.InformationExtraction] - In the Information Extraction class
+2022-03-31 19:35:54,554 INFO [it.unitn.disi.sweb.core.nlp.components.informationextraction.IETool] - In the IETool class
+2022-03-31 19:36:06,119 INFO [it.unitn.disi.sweb.core.nlp.components.informationextraction.PrescriptionIE] - In the PrescriptionIE class
+2022-03-31 19:36:06,125 INFO [it.unitn.disi.sweb.core.nlp.components.informationextraction.InformationExtraction] - In the Information Extraction class NL process
+2022-03-31 19:38:25,021 INFO [it.unitn.disi.sweb.core.nlp.components.informationextraction.InformationExtraction] - In the Information Extraction class
+2022-03-31 19:38:25,027 INFO [it.unitn.disi.sweb.core.nlp.components.informationextraction.IETool] - In the IETool class
+2022-03-31 19:38:35,827 INFO [it.unitn.disi.sweb.core.nlp.components.informationextraction.PrescriptionIE] - In the PrescriptionIE class
+2022-03-31 19:38:35,832 INFO [it.unitn.disi.sweb.core.nlp.components.informationextraction.InformationExtraction] - In the Information Extraction class NL process
